@@ -13,8 +13,12 @@ namespace Fungus {
                       "The block will execute when player interacts with the NPC/Object.")]
     [AddComponentMenu("")]
     public class Interact : EventHandler {
-        public void InteractWith() { // Can't name it same as class (Interact) so InteractWith will have to do
-            ExecuteBlock();
+        /// <summary>
+        /// Starts a block from fungus flowchart
+        /// </summary>
+        /// <returns> True if a block is activated, False otherwise </returns>
+        public bool InteractWith() {
+            return ExecuteBlock();
         }
     }
 }

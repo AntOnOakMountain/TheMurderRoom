@@ -20,6 +20,8 @@ public class Player : MonoBehaviour {
     private Camera FPCamera;
     private CharacterController characterController;
 
+    private bool isInDialougue = false;
+
 	void Start () {
         if(player == null) {
             player = this;
@@ -33,15 +35,23 @@ public class Player : MonoBehaviour {
     }
 
     void Update() {
-        // Interact with NPC/Objects
-        if(lookingAt != null && Input.GetButtonDown("Interact")) {
-            lookingAt.InteractWith();
+        if (!isInDialougue) {
+            // Interact with NPC/Objects
+            if (lookingAt != null && Input.GetButtonDown("Interact")) {
+                if (lookingAt.InteractWith()) {
+                    isInDialougue = true;
+                }
+            }
         }
+
+        
     }
 
     void FixedUpdate () {
-        Movement();
-        ScanForInteractables();
+        if (!isInDialougue) {
+            Movement();
+            ScanForInteractables();
+        }
     }
 
     private void Movement() {
@@ -68,6 +78,8 @@ public class Player : MonoBehaviour {
         characterController.Move(movement);
     }
 
+   
+
     private void ScanForInteractables() {
         // Raycast (what do you look at)
         
@@ -81,5 +93,10 @@ public class Player : MonoBehaviour {
         else {
             lookingAt = null;
         }
+    }
+
+
+    public void EndDialogue() {
+        isInDialougue = false;
     }
 }
