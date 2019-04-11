@@ -21,21 +21,32 @@ public class CameraControls : MonoBehaviour {
     public float maxRightwardsAngle = 360F;
 
     void Update() {
+        if (Player.GetPlayer().IsInState(Player.State.Play)) {
+            BasicCameraControls();
+        }
+    }
+
+    private void BasicCameraControls() {
         // Calculate new rotation values
         float rotationX = transform.localEulerAngles.x - Input.GetAxis("Mouse Y") * sensitivityX * Time.deltaTime;
         float rotationY = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityY * Time.deltaTime;
 
-        // XAxis rotation clamping
-        rotationX %= 360; // modulus to not go over 360
-        if(rotationX < 0) {
-            rotationX = 360 + rotationX; // loop around if negative
+        // Xaxis rotation clamping
+        // modulus to not go over 360
+        rotationX %= 360; 
+        if (rotationX < 0) {
+            // The inspector displays the xAxis value as negative but it is stored as a positive. So need to translate a negative xRotation to the positive value with the same angle
+            rotationX = rotationX + 360;
         }
-        if (Math2.IsInRange(rotationX, 180, 360)) { // Looks upwards (negatives can be used as input for Xaxis but it will always store it as a positive)
+        // Looks upwards 
+        if (Math2.IsInRange(rotationX, 180, 360)) {
             rotationX = Mathf.Clamp(rotationX, 360 - maxUpwardsAngle, 360);
         }
-        else { // looks downwards
+        // looks downwards
+        else {
             rotationX = Mathf.Clamp(rotationX, 0, maxDownwardsAngle);
         }
+
         // YAxis rotation clamping
         rotationY = Mathf.Clamp(rotationY, -maxLeftwardsAngle, maxRightwardsAngle); // y axis support values beetween -360 to 360
 
