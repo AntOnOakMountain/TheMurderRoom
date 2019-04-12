@@ -13,9 +13,10 @@ public class Player : MonoBehaviour {
 
     [Header("Movement Settings")]
     public float maxSpeed = 10f;
-    private float speed = 0;
-    public float acceleration = 1f;
-    public float deceleration = 1f;
+    [HideInInspector]
+    public float speed = 0;
+    public float acceleration = 20f;
+    public float deceleration = 20f;
     public float gravity = 9.81f;
     private float previousForward = 0;
     private float previousSideways = 0;
@@ -84,20 +85,20 @@ public class Player : MonoBehaviour {
         Vector3 right = new Vector3(cameraFixture.transform.right.x, 0, cameraFixture.transform.right.z).normalized;
 
         // No input, decelerate
-        if (moveForward == 0 && moveSideways == 0) {
-            if(speed < deceleration) {
+        if (Mathf.Abs(moveForward) < Mathf.Epsilon && Mathf.Abs(moveSideways) < Mathf.Epsilon) {
+            if(speed < deceleration * Time.fixedDeltaTime) {
                 speed = 0;
             }
             else {
-                speed -= deceleration;
+                speed -= deceleration * Time.fixedDeltaTime;
             }
-            // If you have speed you still need a direction to move in when decelerating, so set it as the previous direction
+            // If you still have speed you need a direction to move in when decelerating, so set it as the previous direction
             moveForward = previousForward;
             moveSideways = previousSideways;
         }
         // Input, accelerate
         else {
-            speed += acceleration;
+            speed += acceleration * Time.fixedDeltaTime;
             if(speed > maxSpeed) {
                 speed = maxSpeed;
             }

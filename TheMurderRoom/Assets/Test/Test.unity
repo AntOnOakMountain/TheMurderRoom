@@ -146,6 +146,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &184026903 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1976737905963122, guid: 714cfcd9e6d694641b43b1ceb6bc83ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 967144704}
+--- !u!114 &184026909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 184026903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22740ac0c1b08074dbaac0d5732a6d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 0.1
+  bobbingSpeed: 2
+  bobbingReturnSpeed: 0.2
 --- !u!1 &398870493
 GameObject:
   m_ObjectHideFlags: 1
@@ -329,10 +348,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114868663068688392, guid: 714cfcd9e6d694641b43b1ceb6bc83ef,
+    - target: {fileID: 114705742688314764, guid: 714cfcd9e6d694641b43b1ceb6bc83ef,
         type: 2}
-      propertyPath: deceleration
-      value: 1
+      propertyPath: bobbingReturnSpeed
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 714cfcd9e6d694641b43b1ceb6bc83ef, type: 2}

@@ -202,6 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2544927472ee0da49b8cebc14511079f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  intensity: 0.1
+  bobbingSpeed: 2
+  bobbingReturnSpeed: 0.4
 --- !u!114 &114868663068688392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,7 +216,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af35385f16def2b47842702a7cd10fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  maxSpeed: 2
+  speed: 0
+  acceleration: 10
+  deceleration: 10
   gravity: 9.81
 --- !u!114 &114936191053986842
 MonoBehaviour:
