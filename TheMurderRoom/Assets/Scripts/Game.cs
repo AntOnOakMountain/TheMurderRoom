@@ -19,11 +19,12 @@ public class Game : MonoBehaviour {
             Debug.Log("Only one game instance should exist per scene", this);
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    void Update() {
+        if (Input.GetKey("escape")) {
+            Application.Quit();
+        }
+    }
 
     public void EndDialogue() {
         Player.Instance.EndDialogue();
