@@ -7,8 +7,8 @@ public class Player : MonoBehaviour {
 
     // Player singleton(ich) for easy access for other scripts
     private static Player player;
-    public static Player GetPlayer() {
-        return player;
+    public static Player Instance{
+        get { return player; }
     }
 
     [Header("Movement Settings")]
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour {
     private Interact lookingAt = null;
 
     /// <summary> Used for the basic camera controls </summary>
-    private CameraControls cameraFixture;
+    private FPCamera cameraFixture;
     /// <summary> Used for camera effects and can be rotated, displaced etc. however you want with no issues since when an effect end just pan all tranform settings back to 0 (reverts to cameraFixtures values) </summary>
     private CameraEffectManager cameraEffects;
 
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour {
             Debug.Log("Only one player instance should exist per scene", this);
         }
         
-        cameraFixture = transform.Find("CameraFixture").GetComponent<CameraControls>();
+        cameraFixture = transform.Find("CameraFixture").GetComponent<FPCamera>();
         cameraEffects = cameraFixture.transform.Find("Camera").GetComponent<CameraEffectManager>();
 
         characterController = GetComponent<CharacterController>();
