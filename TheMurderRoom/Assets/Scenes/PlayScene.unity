@@ -194,7 +194,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 188902, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488904, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 2}
@@ -641,8 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 114894424315567490, guid: 9ff2165ae73ca034e833ed6eaaef7b7c,
-    type: 2}
+  selectedFlowchart: {fileID: 1534851247}
 --- !u!4 &1410672312
 Transform:
   m_ObjectHideFlags: 1
@@ -834,6 +837,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4177e230d87b534da62ae7dcd9fb8d4, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1534851247 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114015250262162592, guid: f4177e230d87b534da62ae7dcd9fb8d4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1527244438}
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!1001 &1683606340
 Prefab:
   m_ObjectHideFlags: 0
