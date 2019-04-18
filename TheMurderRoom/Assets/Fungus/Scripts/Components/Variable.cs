@@ -3,6 +3,7 @@
 
 using UnityEngine;
 using System;
+using System.Collections;
 
 namespace Fungus
 {
@@ -116,6 +117,8 @@ namespace Fungus
         /// </summary>
         public abstract void OnReset();
 
+        
+
         #endregion
     }
 
@@ -125,9 +128,10 @@ namespace Fungus
     public abstract class VariableBase<T> : Variable
     {
         [SerializeField] protected T value;
-        public virtual T Value { get { return this.value; } set { this.value = value; } }
+        public virtual T Value { get { return this.value; } set { if (remember == VariableRemember.Keep) rememberValues[this.name + Key] = value; this.value = value; } }
         
         protected T startValue;
+        protected static Hashtable rememberValues = new Hashtable();
 
         public override void OnReset()
         {
@@ -143,6 +147,13 @@ namespace Fungus
         {
             // Remember the initial value so we can reset later on
             startValue = Value;
+            if (rememberValues.ContainsKey(this.name + Key))
+                Value = (T) rememberValues[this.name + Key];
+            if (remember == VariableRemember.Keep) {
+                rememberValues[this.name + Key] = Value;
+            } else if (rememberValues.ContainsKey(this.name + Key)) {
+                rememberValues.Remove(this.name + Key);
+            }
         }
     }
 }
