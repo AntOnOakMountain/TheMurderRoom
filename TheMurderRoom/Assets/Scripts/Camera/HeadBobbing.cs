@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeadBobbing : CameraEffect {
-
+public class HeadBobbing : MonoBehaviour {
 
     [Header("HeadBobbing")]
     public float intensity = 0.1f;
@@ -33,6 +32,6 @@ public class HeadBobbing : CameraEffect {
 
         bobOscillate = Mathf.Sin(timer * (2 * Mathf.PI));
 
-        positionOffset = new Vector3(0, bobOscillate * intensity, 0);
+        transform.localPosition = new Vector3(0, bobOscillate * intensity, 0);
     }
 }

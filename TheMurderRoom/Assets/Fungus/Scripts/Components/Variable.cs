@@ -37,6 +37,15 @@ namespace Fungus
     }
 
     /// <summary>
+    /// Determines if a variable is reseted on time reset or not    /// </summary>
+    public enum VariableRemember {
+        /// <summary> Will be kept intact on time reset </summary>
+        Keep,
+        /// <summary> Will not be kept intact on time reset. </summary>
+        Discard
+    }
+
+    /// <summary>
     /// Attribute class for variables.
     /// </summary>
     public class VariableInfoAttribute : Attribute
@@ -81,6 +90,7 @@ namespace Fungus
     public abstract class Variable : MonoBehaviour
     {
         [SerializeField] protected VariableScope scope;
+        [SerializeField] protected VariableRemember remember;
 
         [SerializeField] protected string key = "";
 
@@ -90,6 +100,11 @@ namespace Fungus
         /// Visibility scope for the variable.
         /// </summary>
         public virtual VariableScope Scope { get { return scope; } }
+
+        /// <summary>
+        /// Remember on time reset
+        /// </summary>
+        public virtual VariableRemember Remember { get { return remember; } }
 
         /// <summary>
         /// String identifier for the variable.

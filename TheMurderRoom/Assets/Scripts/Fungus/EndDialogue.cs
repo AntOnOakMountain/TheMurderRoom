@@ -7,7 +7,7 @@ namespace Fungus {
     /// <summary>
     /// Signals the game that the dialogue ends. 
     /// </summary>
-    [CommandInfo("Scripting",
+    [CommandInfo("TheMurderRoom",
                  "End Dialogue",
                  "Signals the game that the dialogue ended.")]
     [AddComponentMenu("")]

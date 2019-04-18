@@ -14,7 +14,7 @@ namespace Fungus.EditorUtils
 {
     public class VariableListAdaptor : IReorderableListAdaptor {
 
-        public static readonly int DefaultWidth = 80 + 100 + 140 + 60;
+        public static readonly int DefaultWidth = 80 + 100 + 140 + 60 + 80;
         public static readonly int ScrollSpacer = 8;
         public static readonly int ReorderListSkirts = 70;
 
@@ -117,10 +117,11 @@ namespace Fungus.EditorUtils
             float[] widths = { (80.0f/ totalRatio) * width,
                 (100.0f / totalRatio) * width,
                 (140.0f/ totalRatio) * width,
-                (60.0f/ totalRatio) * width };
-            Rect[] rects = new Rect[4];
+                (60.0f/ totalRatio) * width,
+                (80.0f/ totalRatio) * width};
+            Rect[] rects = new Rect[5];
 
-            for (int i = 0; i < 4; ++i)
+            for (int i = 0; i < 5; ++i)
             {
                 rects[i] = position;
                 rects[i].width = widths[i] - 5;
@@ -177,6 +178,7 @@ namespace Fungus.EditorUtils
 
             string key = variable.Key;
             VariableScope scope = variable.Scope;
+            VariableRemember remember = variable.Remember;
 
             // To access properties in a monobehavior, you have to new a SerializedObject
             // http://answers.unity3d.com/questions/629803/findrelativeproperty-never-worked-for-me-how-does.html
@@ -196,6 +198,10 @@ namespace Fungus.EditorUtils
             SerializedProperty scopeProp = variableObject.FindProperty("scope");
             scope = (VariableScope)EditorGUI.EnumPopup(rects[3], variable.Scope);
             scopeProp.enumValueIndex = (int)scope;
+
+            SerializedProperty rememberProp = variableObject.FindProperty("remember");
+            remember = (VariableRemember)EditorGUI.EnumPopup(rects[4], variable.Remember);
+            rememberProp.enumValueIndex = (int)remember;
 
             variableObject.ApplyModifiedProperties();
 

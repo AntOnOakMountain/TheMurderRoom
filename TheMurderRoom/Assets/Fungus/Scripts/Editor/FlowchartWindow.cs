@@ -488,7 +488,7 @@ namespace Fungus.EditorUtils
             // Variables group
             GUILayout.BeginHorizontal();
             {
-                GUILayout.BeginVertical(GUILayout.Width(440));
+                GUILayout.BeginVertical(GUILayout.Width(520));
                 {
                     GUILayout.FlexibleSpace();
 

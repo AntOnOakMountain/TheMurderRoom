@@ -4,18 +4,18 @@ using UnityEngine;
 
 namespace Fungus {
     /// <summary>
-    /// The block will execute when player interacts with the Npc/Object.
+    /// The block will execute when the player opens the pad.
     /// </summary>
     [EventHandlerInfo("TheMurderRoom",
-                      "Interact",
-                      "The block will execute when player interacts with the NPC/Object.")]
+                      "Open Pad",
+                      "The block will execute when the player opens the pad.")]
     [AddComponentMenu("")]
-    public class Interact : EventHandler {
+    public class OpenPad : EventHandler {
         /// <summary>
         /// Starts a block from fungus flowchart
         /// </summary>
         /// <returns> True if a block is activated, False otherwise </returns>
-        public bool InteractWith() {
+        public bool Open() {
             return ExecuteBlock();
         }
     }

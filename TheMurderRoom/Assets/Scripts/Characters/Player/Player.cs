@@ -21,6 +21,7 @@ public class Player : MonoBehaviour {
     private float previousForward = 0;
     private float previousSideways = 0;
     private CharacterController characterController;
+    private OpenPad pad;
 
     // Variables for interacting with Npc/objects
     private LayerMask interactableMask;
@@ -28,8 +29,6 @@ public class Player : MonoBehaviour {
 
     /// <summary> Used for the basic camera controls </summary>
     private FPCamera cameraFixture;
-    /// <summary> Used for camera effects and can be rotated, displaced etc. however you want with no issues since when an effect end just pan all tranform settings back to 0 (reverts to cameraFixtures values) </summary>
-    private CameraEffectManager cameraEffects;
 
     // State variables
     public enum State {
@@ -47,7 +46,7 @@ public class Player : MonoBehaviour {
         }
         
         cameraFixture = transform.Find("CameraFixture").GetComponent<FPCamera>();
-        cameraEffects = cameraFixture.transform.Find("Camera").GetComponent<CameraEffectManager>();
+        pad = transform.Find("Pad").GetComponent<OpenPad>();
 
         characterController = GetComponent<CharacterController>();
 
@@ -64,7 +63,13 @@ public class Player : MonoBehaviour {
             if (lookingAt != null && Input.GetButtonDown("Interact")) {
                 if (lookingAt.InteractWith()) {
                     state = State.Dialogue;
+                    speed = 0;
                 }
+            }
+            else if(Input.GetButtonDown("OpenPad")){
+                pad.Open();
+                state = State.Dialogue;
+                speed = 0;
             }
         }
     }
