@@ -21,10 +21,6 @@ GameObject:
   - component: {fileID: 4272910994960790}
   - component: {fileID: 114894424315567490}
   - component: {fileID: 114793658454161406}
-  - component: {fileID: 114355272835971742}
-  - component: {fileID: 114639782565203044}
-  - component: {fileID: 114948833790227318}
-  - component: {fileID: 114501325884971710}
   - component: {fileID: 114276618331814676}
   - component: {fileID: 114397683567140608}
   - component: {fileID: 114221620116240230}
@@ -46,6 +42,13 @@ GameObject:
   - component: {fileID: 114175190915733712}
   - component: {fileID: 114642916136889152}
   - component: {fileID: 114895380668836542}
+  - component: {fileID: 114295848023117858}
+  - component: {fileID: 114971170306154218}
+  - component: {fileID: 114976626078654950}
+  - component: {fileID: 114064879592240316}
+  - component: {fileID: 114745892806569596}
+  - component: {fileID: 114928107163435602}
+  - component: {fileID: 114437191250686310}
   m_Layer: 0
   m_Name: Memories
   m_TagString: Untagged
@@ -90,6 +93,21 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114064879592240316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346291573011880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: philosopher_teachings
+  value: 0
 --- !u!114 &114116623475930968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -104,7 +122,7 @@ MonoBehaviour:
   itemId: 18
   indentLevel: 0
   compareOperator: 0
-  variable: {fileID: 114355272835971742}
+  variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -132,7 +150,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622
     y: 338
-    width: 146
+    width: 153.65851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -189,7 +207,7 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   compareOperator: 0
-  variable: {fileID: 114948833790227318}
+  variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -215,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  variable: {fileID: 114501325884971710}
+  variable: {fileID: 0}
   setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
@@ -242,7 +260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  variable: {fileID: 114501325884971710}
+  variable: {fileID: 0}
   setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
@@ -278,7 +296,7 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
-    booleanRef: {fileID: 114355272835971742}
+    booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114280858065054602
 MonoBehaviour:
@@ -302,8 +320,23 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
-    booleanRef: {fileID: 114948833790227318}
+    booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114295848023117858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346291573011880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: philosopher_wine
+  value: 0
 --- !u!114 &114347623994762220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -317,7 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  variable: {fileID: 114501325884971710}
+  variable: {fileID: 0}
   setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
@@ -331,21 +364,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: Memory3
---- !u!114 &114355272835971742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1346291573011880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 0
-  key: Memory1
-  value: 1
 --- !u!114 &114384697152130346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -385,7 +403,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 288
     y: 338
-    width: 146
+    width: 153.65851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -395,6 +413,21 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114221620116240230}
+--- !u!114 &114437191250686310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346291573011880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: professor_fake
+  value: 0
 --- !u!114 &114488746936975100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -408,36 +441,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
---- !u!114 &114501325884971710
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1346291573011880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 0
-  key: SelectedMemory
-  value: 
---- !u!114 &114639782565203044
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1346291573011880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 0
-  key: Memory2
-  value: 1
 --- !u!114 &114642916136889152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -451,6 +454,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
+--- !u!114 &114745892806569596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346291573011880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: philosopher_trade11
+  value: 0
 --- !u!114 &114764406629760610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -473,7 +491,7 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
-    booleanRef: {fileID: 114639782565203044}
+    booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114781069814224310
 MonoBehaviour:
@@ -514,7 +532,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450
     y: 436
-    width: 154
+    width: 162.1951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -541,7 +559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 452
     y: 338
-    width: 146
+    width: 153.65851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -563,25 +581,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 50, y: 2}
+  scrollPos: {x: 40.288208, y: -133.21489}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 114793658454161406}
+  selectedBlocks: []
   selectedCommands: []
   variables:
-  - {fileID: 114355272835971742}
-  - {fileID: 114639782565203044}
-  - {fileID: 114948833790227318}
-  - {fileID: 114501325884971710}
+  - {fileID: 114295848023117858}
+  - {fileID: 114971170306154218}
+  - {fileID: 114976626078654950}
+  - {fileID: 114064879592240316}
+  - {fileID: 114745892806569596}
+  - {fileID: 114928107163435602}
+  - {fileID: 114437191250686310}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -619,7 +639,7 @@ MonoBehaviour:
   itemId: 23
   indentLevel: 0
   compareOperator: 0
-  variable: {fileID: 114639782565203044}
+  variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -645,7 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  variable: {fileID: 114501325884971710}
+  variable: {fileID: 0}
   setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
@@ -674,7 +694,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65
     y: 223
-    width: 185
+    width: 195.12192
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -684,7 +704,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114251242060745872}
---- !u!114 &114948833790227318
+--- !u!114 &114928107163435602
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -697,5 +717,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   remember: 0
-  key: Memory3
+  key: professor_customer
+  value: 0
+--- !u!114 &114971170306154218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346291573011880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: host_professorfriendship1
+  value: 0
+--- !u!114 &114976626078654950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346291573011880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: philosopher_projectobjection
   value: 0
