@@ -14,7 +14,7 @@ public class HeadBobbing : MonoBehaviour {
 
     void Update() {
         // If standing still return to neutral position
-        if (Mathf.Abs(Player.instance.speed) < Mathf.Epsilon) {
+        if (Mathf.Abs(Player.Instance.speed) < Mathf.Epsilon) {
             float timeLeftUntilNeutral = timer % 0.5f;
             // if not back to neutral, go back to neutral
             if (!(timeLeftUntilNeutral < Mathf.Epsilon)) {
@@ -27,7 +27,7 @@ public class HeadBobbing : MonoBehaviour {
             }
         }
         else {
-            timer += Time.deltaTime * bobbingSpeed * (Player.instance.speed / Player.instance.maxSpeed);
+            timer += Time.deltaTime * bobbingSpeed * (Player.Instance.speed / Player.Instance.maxSpeed);
         }
 
         bobOscillate = Mathf.Sin(timer * (2 * Mathf.PI));

@@ -34,6 +34,6 @@ public class Game : MonoBehaviour {
     }
 
     public void EndDialogue() {
-        Player.instance.EndDialogue();
+        Player.Instance.EndDialogue();
     }
 }

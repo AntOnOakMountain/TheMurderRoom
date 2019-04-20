@@ -21,7 +21,7 @@ public class FPCamera : MonoBehaviour {
     public float maxRightwardsAngle = 360F;
 
     void Update() {
-        if (Player.instance.IsInState(Player.State.Play)) {
+        if (Player.Instance.IsInState(Player.State.Play)) {
             BasicCameraControls();
         }
     }

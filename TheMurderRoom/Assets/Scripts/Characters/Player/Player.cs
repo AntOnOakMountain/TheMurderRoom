@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 
     // Player singleton(ich) for easy access for other scripts
     private static Player player;
-    public static Player instance{
+    public static Player Instance{
         get { return player; }
     }
 
@@ -21,7 +21,10 @@ public class Player : MonoBehaviour {
     private float previousForward = 0;
     private float previousSideways = 0;
     private CharacterController characterController;
-    private OpenPad pad;
+
+    [Header("Fungus stuff")]
+    [Tooltip("Link to the pad Flowchart")]
+    public OpenPad pad;
 
     // Variables for interacting with Npc/objects
     private LayerMask interactableMask;
@@ -46,7 +49,6 @@ public class Player : MonoBehaviour {
         }
         
         cameraFixture = transform.Find("CameraFixture").GetComponent<FPCamera>();
-        pad = GameObject.Find("Pad").GetComponent<OpenPad>();
 
         characterController = GetComponent<CharacterController>();
 
