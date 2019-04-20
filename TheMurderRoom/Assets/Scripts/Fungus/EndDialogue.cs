@@ -16,7 +16,7 @@ namespace Fungus {
         [SerializeField] protected float delay;
 
         protected virtual void CallTheMethod() {
-            Game.Instance.EndDialogue();
+            Game.instance.EndDialogue();
         }
 
         public override void OnEnter() {

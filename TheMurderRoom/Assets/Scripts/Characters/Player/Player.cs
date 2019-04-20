@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 
     // Player singleton(ich) for easy access for other scripts
     private static Player player;
-    public static Player Instance{
+    public static Player instance{
         get { return player; }
     }
 
@@ -25,7 +25,7 @@ public class Player : MonoBehaviour {
 
     // Variables for interacting with Npc/objects
     private LayerMask interactableMask;
-    private Interact lookingAt = null;
+    private Npc lookingAt = null;
 
     /// <summary> Used for the basic camera controls </summary>
     private FPCamera cameraFixture;
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour {
         }
         
         cameraFixture = transform.Find("CameraFixture").GetComponent<FPCamera>();
-        pad = transform.Find("Pad").GetComponent<OpenPad>();
+        pad = GameObject.Find("Pad").GetComponent<OpenPad>();
 
         characterController = GetComponent<CharacterController>();
 
@@ -61,15 +61,13 @@ public class Player : MonoBehaviour {
             // Interact with NPC/Objects
             ScanForInteractables();
             if (lookingAt != null && Input.GetButtonDown("Interact")) {
-                if (lookingAt.InteractWith()) {
-                    state = State.Dialogue;
-                    speed = 0;
+                if (lookingAt.Interact()) {
+                    SetState(State.Dialogue);
                 }
             }
             else if(Input.GetButtonDown("OpenPad")){
                 pad.Open();
-                state = State.Dialogue;
-                speed = 0;
+                SetState(State.Dialogue);
             }
         }
     }
@@ -136,12 +134,21 @@ public class Player : MonoBehaviour {
         if (Physics.Raycast(cameraFixture.transform.position, cameraFixture.transform.forward, out hit, 5f, interactableMask)) {
             // If looking at a Npc or interactable, save it in lookingAt
             if (hit.transform.tag == "Npc" || hit.transform.tag == "Interactable") {
-                lookingAt = hit.transform.GetComponent<Interact>();
+                lookingAt = hit.transform.GetComponent<Npc>();
             }
         }
         else {
             // When no longer looking at a Npc/Interactable null lookingAt
             lookingAt = null;
+        }
+    }
+
+    public void SetState(State newState) {
+        state = newState;
+        switch (newState) {
+            case State.Dialogue:
+                speed = 0;
+                break;
         }
     }
 

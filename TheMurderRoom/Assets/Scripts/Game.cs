@@ -6,7 +6,7 @@ using UnityEngine;
 public class Game : MonoBehaviour {
 
     private static Game game;
-    public static Game Instance{
+    public static Game instance{
         get { return game; }
     }
 
@@ -34,6 +34,6 @@ public class Game : MonoBehaviour {
     }
 
     public void EndDialogue() {
-        Player.Instance.EndDialogue();
+        Player.instance.EndDialogue();
     }
 }
