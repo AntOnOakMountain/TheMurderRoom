@@ -82,6 +82,7 @@ namespace Fungus.EditorUtils
         protected SerializedProperty stopVoiceoverProp;
         protected SerializedProperty setSayDialogProp;
         protected SerializedProperty waitForVOProp;
+        protected SerializedProperty addToJournalProp;
 
         protected virtual void OnEnable()
         {
@@ -101,6 +102,7 @@ namespace Fungus.EditorUtils
             stopVoiceoverProp = serializedObject.FindProperty("stopVoiceover");
             setSayDialogProp = serializedObject.FindProperty("setSayDialog");
             waitForVOProp = serializedObject.FindProperty("waitForVO");
+            addToJournalProp = serializedObject.FindProperty("addToJournal");
 
             if (blackTex == null)
             {
@@ -180,7 +182,7 @@ namespace Fungus.EditorUtils
                                           new GUIContent("Voice Over Clip", "Voice over audio to play when the text is displayed"));
 
             EditorGUILayout.PropertyField(showAlwaysProp);
-            
+
             if (showAlwaysProp.boolValue == false)
             {
                 EditorGUILayout.PropertyField(showCountProp);
@@ -200,7 +202,8 @@ namespace Fungus.EditorUtils
             EditorGUILayout.PropertyField(stopVoiceoverProp);
             EditorGUILayout.PropertyField(setSayDialogProp);
             EditorGUILayout.PropertyField(waitForVOProp);
-            
+            EditorGUILayout.PropertyField(addToJournalProp);
+
             if (showPortraits && t.Portrait != null)
             {
                 Texture2D characterTexture = t.Portrait.texture;

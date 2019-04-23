@@ -51,6 +51,9 @@ namespace Fungus
         [Tooltip("Wait for the Voice Over to complete before continuing")]
         [SerializeField] protected bool waitForVO = false;
 
+        [Tooltip("Add message to journal")]
+        [SerializeField] protected bool addToJournal = true;
+
         //add wait for vo that overrides stopvo
 
         [Tooltip("Sets the active Say dialog with a reference to a Say Dialog object in the scene. All story text will now display using this Say Dialog.")]
@@ -126,6 +129,12 @@ namespace Fungus
             string subbedText = flowchart.SubstituteVariables(displayText);
 
             sayDialog.Say(subbedText, !extendPrevious, waitForClick, fadeWhenDone, stopVoiceover, waitForVO, voiceOverClip, delegate {
+                if (addToJournal) {
+                    if (Journal.journal == null)
+                        Debug.LogWarning("Missing journal");
+                    else
+                        Journal.journal.Add(new JournalEntry(character != null ? character.NameText : "No name", storyText));
+                }
                 Continue();
             });
         }

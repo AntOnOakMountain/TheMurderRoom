@@ -3,14 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "JournalEntry", menuName = "JournalEntry", order = 1)]
-public class JournalEntry : ScriptableObject {
+public class JournalEntry {
 
-    [HideInInspector]
-    public bool isVisible = false;
 
-    [SerializeField]
-    public string id;
-    [SerializeField]
-    public Text text;
+    private string character, text;
+
+    
+    public JournalEntry(string character, string text) {
+        this.Character = character;
+        this.Text = text;
+    }
+
+    public string Character
+    {
+        get
+        {
+            return character;
+        }
+
+        set
+        {
+            character = value;
+        }
+    }
+
+    public string Text
+    {
+        get
+        {
+            return text;
+        }
+
+        set
+        {
+            text = value;
+        }
+    }
 }
