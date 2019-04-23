@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 136239573994318866}
   - component: {fileID: 195802064712933726}
   - component: {fileID: 114046869486016100}
+  - component: {fileID: 114032069772463084}
   m_Layer: 9
   m_Name: Captain
   m_TagString: Npc
@@ -39,7 +40,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1732642831510586}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.7769961, y: 1, z: -1.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -184,6 +185,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114032069772463084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1732642831510586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98474e20b9be0ed49a7b1a607945e65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114046869486016100
 MonoBehaviour:
   m_ObjectHideFlags: 1
