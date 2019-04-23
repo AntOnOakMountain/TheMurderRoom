@@ -28,6 +28,8 @@ GameObject:
   - component: {fileID: 114385551018619110}
   - component: {fileID: 114683021873852726}
   - component: {fileID: 114942241743935048}
+  - component: {fileID: 114714448213120110}
+  - component: {fileID: 114905997192966622}
   m_Layer: 0
   m_Name: CaptainFungus
   m_TagString: Untagged
@@ -185,6 +187,36 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114714448213120110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd0c93fbe0e46f78685c33d82bcc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: Animator
+  value: {fileID: 0}
+--- !u!114 &114905997192966622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0d9dc5080b040bd8daff067b407916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: Audio
+  value: {fileID: 0}
 --- !u!114 &114924524276700878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,6 +245,8 @@ MonoBehaviour:
   selectedCommands: []
   variables:
   - {fileID: 114147512082380746}
+  - {fileID: 114714448213120110}
+  - {fileID: 114905997192966622}
   description: 
   stepPause: 0
   colorCommands: 1

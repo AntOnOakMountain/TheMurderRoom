@@ -92,6 +92,8 @@ GameObject:
   - component: {fileID: 114098388162890180}
   - component: {fileID: 114065215306652634}
   - component: {fileID: 114869961779691936}
+  - component: {fileID: 114167002485701996}
+  - component: {fileID: 114367875125261638}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -350,6 +352,21 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114167002485701996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd0c93fbe0e46f78685c33d82bcc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: Animator
+  value: {fileID: 0}
 --- !u!114 &114177712055408260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -631,6 +648,21 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114367875125261638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0d9dc5080b040bd8daff067b407916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: Audio
+  value: {fileID: 0}
 --- !u!114 &114370023733046362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1705,6 +1737,8 @@ MonoBehaviour:
   selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
+  - {fileID: 114167002485701996}
+  - {fileID: 114367875125261638}
   description: 
   stepPause: 0
   colorCommands: 1

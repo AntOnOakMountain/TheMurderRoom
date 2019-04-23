@@ -29,6 +29,8 @@ GameObject:
   - component: {fileID: 114579734055224300}
   - component: {fileID: 114386520219247898}
   - component: {fileID: 114152740352556982}
+  - component: {fileID: 114936288887505340}
+  - component: {fileID: 114793888858509972}
   m_Layer: 0
   m_Name: ProfessorFungus
   m_TagString: Untagged
@@ -131,6 +133,8 @@ MonoBehaviour:
   variables:
   - {fileID: 114851780057066950}
   - {fileID: 114152740352556982}
+  - {fileID: 114936288887505340}
+  - {fileID: 114793888858509972}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -231,6 +235,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &114793888858509972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0d9dc5080b040bd8daff067b407916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: Audio
+  value: {fileID: 0}
 --- !u!114 &114851780057066950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -246,6 +265,21 @@ MonoBehaviour:
   remember: 0
   key: Var
   value: 0
+--- !u!114 &114936288887505340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbd0c93fbe0e46f78685c33d82bcc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: Animator
+  value: {fileID: 0}
 --- !u!114 &114966475979992114
 MonoBehaviour:
   m_ObjectHideFlags: 1
