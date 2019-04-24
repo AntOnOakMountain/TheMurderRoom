@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 136021122153142228}
   - component: {fileID: 195150680521899394}
   - component: {fileID: 114290755996284074}
+  - component: {fileID: 114361371506006978}
   m_Layer: 9
   m_Name: NpcTemplate
   m_TagString: Npc
@@ -196,6 +197,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navTarget: {fileID: 0}
+  flowchart: {fileID: 0}
+--- !u!114 &114361371506006978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490186968702230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98474e20b9be0ed49a7b1a607945e65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136021122153142228
 CapsuleCollider:
   m_ObjectHideFlags: 1
