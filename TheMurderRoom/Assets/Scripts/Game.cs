@@ -5,12 +5,22 @@ using UnityEngine;
 
 public class Game : MonoBehaviour {
 
+    public enum State {
+        Play, Dialogue
+    }
+
     private static Game game;
     public static Game instance{
         get { return game; }
     }
 
     private Flowchart flowChart;
+
+
+    private State state;
+    public State getState() {
+        return state;
+    }    
 
     // Use this for initialization
     void Start () {
@@ -29,11 +39,33 @@ public class Game : MonoBehaviour {
         if (Input.GetKey("escape")) {
             Application.Quit();
         }
-        if (Input.GetButtonDown("RewindTime"))
-            flowChart.ExecuteBlock("Rewind time");
+
+        if(state == State.Play) {
+            if (Input.GetButtonDown("RewindTime")) {
+                SetState(State.Dialogue);
+                flowChart.ExecuteBlock("Rewind time");
+            }
+
+            if (flowChart.GetIntegerVariable("time_left") == 0) {
+                SetState(State.Dialogue);
+                flowChart.ExecuteBlock("Forced Rewind");
+            }
+        }        
     }
 
     public void EndDialogue() {
         Player.Instance.EndDialogue();
+    }
+
+    public void SetState(State newState) {
+        state = newState;
+        switch (newState) {
+            case State.Dialogue:
+                Player.Instance.SetState(Player.State.Dialogue);
+                break;
+            case State.Play:
+                Player.Instance.SetState(Player.State.Play);
+                break;
+        }
     }
 }

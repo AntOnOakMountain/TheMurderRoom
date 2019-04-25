@@ -65,12 +65,12 @@ public class Player : MonoBehaviour {
             ScanForInteractables();
             if (lookingAt != null && Input.GetButtonDown("Interact")) {
                 if (lookingAt.Interact()) {
-                    SetState(State.Dialogue);
+                    Game.instance.SetState(Game.State.Dialogue);
                 }
             }
             else if(Input.GetButtonDown("OpenPad")){
                 pad.Open();
-                SetState(State.Dialogue);
+                Game.instance.SetState(Game.State.Dialogue);
             }
         }
     }
@@ -152,7 +152,9 @@ public class Player : MonoBehaviour {
         switch (newState) {
             case State.Dialogue:
                 speed = 0;
-                fpCamera.SetFocusPoint(lookingAt.transform);
+                if(lookingAt != null) {
+                    fpCamera.SetFocusPoint(lookingAt.transform);
+                }
                 break;
         }
     }
@@ -161,7 +163,7 @@ public class Player : MonoBehaviour {
     /// Called to from fungus to signal when an conversation have ended
     /// </summary>
     public void EndDialogue() {
-        SetState(State.Play);
+        Game.instance.SetState(Game.State.Play);
     }
 
     public State GetState() {
