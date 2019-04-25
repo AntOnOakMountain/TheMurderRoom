@@ -19,12 +19,11 @@ namespace Fungus
         [SerializeField] protected bool autoSelectFirstButton = false;
 
         protected Button[] cachedButtons;
+        protected Button[] cachedMemoryButtons;
 
         protected Slider cachedSlider;
         private int nextOptionIndex;
-
-        private ButtonDesign normalButtonDesign;
-        private ButtonDesign memoryButtonDesign;
+        private int nextMemoryOptionIndex;
 
         #region Public members
 
@@ -38,6 +37,12 @@ namespace Fungus
         /// </summary>
         /// <value>The cached buttons.</value>
         public virtual Button[] CachedButtons { get { return cachedButtons; } }
+
+        /// <summary>
+        /// A cached list of memory button objects in the menu dialog.
+        /// </summary>
+        /// <value>The cached buttons.</value>
+        public virtual Button[] CachedMemoryButtons { get { return cachedMemoryButtons; } }
 
         /// <summary>
         /// A cached slider object used for the timer in the menu dialog.
@@ -88,8 +93,11 @@ namespace Fungus
 
         protected virtual void Awake()
         {
-            Button[] optionButtons = GetComponentsInChildren<Button>();
+            Button[] optionButtons = transform.Find("ButtonGroup").GetComponentsInChildren<Button>();
             cachedButtons = optionButtons;
+
+            Button[] optionMemoryButtons = transform.Find("MemoryButtonGroup").GetComponentsInChildren<Button>();
+            cachedMemoryButtons = optionMemoryButtons;
 
             Slider timeoutSlider = GetComponentInChildren<Slider>();
             cachedSlider = timeoutSlider;
@@ -101,21 +109,6 @@ namespace Fungus
             }
 
             CheckEventSystem();
-
-            // Init button design
-            Button normalButton = transform.Find("ButtonGroup/OptionButton0").GetComponent<Button>();
-            normalButtonDesign = new ButtonDesign();
-            normalButtonDesign.baseSprite = normalButton.GetComponent<Image>().sprite;
-            normalButtonDesign.highlightedSprite = normalButton.spriteState.highlightedSprite;
-            normalButtonDesign.pressedSprite = normalButton.spriteState.pressedSprite;
-            normalButtonDesign.disabledSprite = normalButton.spriteState.disabledSprite;
-
-            Button memoryButton = transform.Find("ButtonGroup/MemoryOptionButton0").GetComponent<Button>();
-            memoryButtonDesign = new ButtonDesign();
-            memoryButtonDesign.baseSprite = memoryButton.GetComponent<Image>().sprite;
-            memoryButtonDesign.highlightedSprite = memoryButton.spriteState.highlightedSprite;
-            memoryButtonDesign.pressedSprite = memoryButton.spriteState.pressedSprite;
-            memoryButtonDesign.disabledSprite = memoryButton.spriteState.disabledSprite;
         }
 
         // There must be an Event System in the scene for Say and Menu input to work.
@@ -195,6 +188,7 @@ namespace Fungus
             StopAllCoroutines();
 
             nextOptionIndex = 0;
+            nextMemoryOptionIndex = 0;
 
             var optionButtons = CachedButtons;
             for (int i = 0; i < optionButtons.Length; i++)
@@ -208,6 +202,20 @@ namespace Fungus
                 var button = optionButtons[i];
                 if (button != null)
                 {
+                    button.transform.SetSiblingIndex(i);
+                    button.gameObject.SetActive(false);
+                }
+            }
+
+            optionButtons = CachedMemoryButtons;
+            for (int i = 0; i < optionButtons.Length; i++) {
+                var button = optionButtons[i];
+                button.onClick.RemoveAllListeners();
+            }
+
+            for (int i = 0; i < optionButtons.Length; i++) {
+                var button = optionButtons[i];
+                if (button != null) {
                     button.transform.SetSiblingIndex(i);
                     button.gameObject.SetActive(false);
                 }
@@ -307,20 +315,32 @@ namespace Fungus
         /// <param name="action">Action attached to the button on the menu item</param>
         private bool AddOption(string text, bool interactable, bool hideOption, UnityEngine.Events.UnityAction action, bool isAMemory)
         {
-            if (nextOptionIndex >= CachedButtons.Length)
-                return false;
 
-            var button = cachedButtons[nextOptionIndex];
+            Button button;
 
-            if (isAMemory) {
-                memoryButtonDesign.Apply(button);
+            Button[] normalOrMemory;
+
+            if (!isAMemory) {
+                if (nextOptionIndex >= CachedButtons.Length)
+                    return false;
+
+                button = cachedButtons[nextOptionIndex];
+                normalOrMemory = cachedButtons;
+
+                //move forward for next call
+                nextOptionIndex++;
             }
             else {
-                normalButtonDesign.Apply(button);
-            }
+                if (nextMemoryOptionIndex >= CachedMemoryButtons.Length)
+                    return false;
 
-            //move forward for next call
-            nextOptionIndex++;
+                button = cachedMemoryButtons[nextMemoryOptionIndex];
+                normalOrMemory = cachedMemoryButtons;
+
+                //move forward for next call
+                nextMemoryOptionIndex++;
+            }
+            
 
             //don't need to set anything on it
             if (hideOption)
@@ -328,7 +348,7 @@ namespace Fungus
 
             button.gameObject.SetActive(true);
             button.interactable = interactable;
-            if (interactable && autoSelectFirstButton && !cachedButtons.Select(x => x.gameObject).Contains(EventSystem.current.currentSelectedGameObject))
+            if (interactable && autoSelectFirstButton && !normalOrMemory.Select(x => x.gameObject).Contains(EventSystem.current.currentSelectedGameObject))
             {
                 EventSystem.current.SetSelectedGameObject(button.gameObject);
             }
@@ -435,7 +455,11 @@ namespace Fungus
 			{
 				CachedButtons[i].transform.SetSiblingIndex(r.Next(CachedButtons.Length));
 			}
-		}
+
+            for (int i = 0; i < CachedMemoryButtons.Length; i++) {
+                CachedMemoryButtons[i].transform.SetSiblingIndex(r.Next(CachedMemoryButtons.Length));
+            }
+        }
 
         #endregion
     }    
