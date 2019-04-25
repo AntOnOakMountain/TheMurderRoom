@@ -23,6 +23,9 @@ namespace Fungus
         protected Slider cachedSlider;
         private int nextOptionIndex;
 
+        private ButtonDesign normalButtonDesign;
+        private ButtonDesign memoryButtonDesign;
+
         #region Public members
 
         /// <summary>
@@ -98,6 +101,21 @@ namespace Fungus
             }
 
             CheckEventSystem();
+
+            // Init button design
+            Button normalButton = transform.Find("ButtonGroup/OptionButton0").GetComponent<Button>();
+            normalButtonDesign = new ButtonDesign();
+            normalButtonDesign.baseSprite = normalButton.GetComponent<Image>().sprite;
+            normalButtonDesign.highlightedSprite = normalButton.spriteState.highlightedSprite;
+            normalButtonDesign.pressedSprite = normalButton.spriteState.pressedSprite;
+            normalButtonDesign.disabledSprite = normalButton.spriteState.disabledSprite;
+
+            Button memoryButton = transform.Find("ButtonGroup/MemoryOptionButton0").GetComponent<Button>();
+            memoryButtonDesign = new ButtonDesign();
+            memoryButtonDesign.baseSprite = memoryButton.GetComponent<Image>().sprite;
+            memoryButtonDesign.highlightedSprite = memoryButton.spriteState.highlightedSprite;
+            memoryButtonDesign.pressedSprite = memoryButton.spriteState.pressedSprite;
+            memoryButtonDesign.disabledSprite = memoryButton.spriteState.disabledSprite;
         }
 
         // There must be an Event System in the scene for Say and Menu input to work.
@@ -292,13 +310,14 @@ namespace Fungus
             if (nextOptionIndex >= CachedButtons.Length)
                 return false;
 
-            // If a memory pick a memory designed button
-            int next = nextOptionIndex;
-            if (isAMemory) {
-                next += cachedButtons.Length / 2;
-            }
+            var button = cachedButtons[nextOptionIndex];
 
-            var button = cachedButtons[next];
+            if (isAMemory) {
+                memoryButtonDesign.Apply(button);
+            }
+            else {
+                normalButtonDesign.Apply(button);
+            }
 
             //move forward for next call
             nextOptionIndex++;
