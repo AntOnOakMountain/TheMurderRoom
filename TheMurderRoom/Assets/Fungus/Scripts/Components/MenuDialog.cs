@@ -223,7 +223,7 @@ namespace Fungus
         /// <param name="interactable">If false, the option is displayed but is not selectable.</param>
         /// <param name="hideOption">If true, the option is not displayed but the menu knows that option can or did exist</param>
         /// <param name="targetBlock">Block to execute when the option is selected.</param>
-        public virtual bool AddOption(string text, bool interactable, bool hideOption, Block targetBlock)
+        public virtual bool AddOption(string text, bool interactable, bool hideOption, Block targetBlock, bool isAMemory)
         {
             var block = targetBlock;
             UnityEngine.Events.UnityAction action = delegate
@@ -247,7 +247,7 @@ namespace Fungus
                 }
             };
 
-            return AddOption(text, interactable, hideOption, action);
+            return AddOption(text, interactable, hideOption, action, isAMemory);
         }
 
         /// <summary>
@@ -255,7 +255,7 @@ namespace Fungus
         /// Will cause the Menu dialog to become visible if it is not already visible.
         /// </summary>
         /// <returns><c>true</c>, if the option was added successfully.</returns>
-        public virtual bool AddOption(string text, bool interactable, LuaEnvironment luaEnv, Closure callBack)
+        public virtual bool AddOption(string text, bool interactable, LuaEnvironment luaEnv, Closure callBack, bool isAMemory)
         {
             if (!gameObject.activeSelf)
             {
@@ -275,7 +275,7 @@ namespace Fungus
                 StartCoroutine(CallLuaClosure(env, call));
             };
 
-            return AddOption(text, interactable, false, action);
+            return AddOption(text, interactable, false, action, isAMemory);
         }
 
         /// <summary>
@@ -287,12 +287,18 @@ namespace Fungus
         /// <param name="interactable">If false, the option is displayed but is not selectable.</param>
         /// <param name="hideOption">If true, the option is not displayed but the menu knows that option can or did exist</param>
         /// <param name="action">Action attached to the button on the menu item</param>
-        private bool AddOption(string text, bool interactable, bool hideOption, UnityEngine.Events.UnityAction action)
+        private bool AddOption(string text, bool interactable, bool hideOption, UnityEngine.Events.UnityAction action, bool isAMemory)
         {
             if (nextOptionIndex >= CachedButtons.Length)
                 return false;
 
-            var button = cachedButtons[nextOptionIndex];
+            // If a memory pick a memory designed button
+            int next = nextOptionIndex;
+            if (isAMemory) {
+                next += cachedButtons.Length / 2;
+            }
+
+            var button = cachedButtons[next];
 
             //move forward for next call
             nextOptionIndex++;

@@ -20,9 +20,30 @@ public class FPCamera : MonoBehaviour {
     [Range(0, 360)]
     public float maxRightwardsAngle = 360F;
 
+    private Transform focusPoint;
+
+    [Tooltip("Focus Speed when set to focus on a point")]
+    public float focusSpeed = 1f;
+
+
     void Update() {
         if (Player.Instance.IsInState(Player.State.Play)) {
             BasicCameraControls();
+        }
+        FocusOnPoint();
+    }
+
+
+    private void FocusOnPoint() {
+        if (focusPoint != null) {
+            //find the vector pointing from our position to the target
+            Vector3 direction = (focusPoint.position - transform.position).normalized;
+
+            //create the rotation we need to be in to look at the target
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+
+            //rotate us over time according to speed until we are in the required rotation
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * focusSpeed);
         }
     }
 
@@ -52,5 +73,13 @@ public class FPCamera : MonoBehaviour {
 
         // Apply new rotation
         transform.localEulerAngles = new Vector3(rotationX, rotationY, 0);
+    }
+
+    public void SetFocusPoint(Transform point) {
+        focusPoint = point;
+    }
+
+    public void NullFocusPoint() {
+        focusPoint = null;
     }
 }

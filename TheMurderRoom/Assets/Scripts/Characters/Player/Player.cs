@@ -21,6 +21,7 @@ public class Player : MonoBehaviour {
     private float previousForward = 0;
     private float previousSideways = 0;
     private CharacterController characterController;
+   
 
     [Header("Fungus stuff")]
     [Tooltip("Link to the pad Flowchart")]
@@ -31,10 +32,10 @@ public class Player : MonoBehaviour {
     private Npc lookingAt = null;
 
     /// <summary> Used for the basic camera controls </summary>
-    private FPCamera cameraFixture;
+    private FPCamera fpCamera;
 
-    // State variables
-    public enum State {
+   // State variables
+   public enum State {
         Play, Dialogue
     }
     private State state = State.Play;
@@ -48,7 +49,7 @@ public class Player : MonoBehaviour {
             Debug.Log("Only one player instance should exist per scene", this);
         }
         
-        cameraFixture = transform.Find("CameraFixture").GetComponent<FPCamera>();
+        fpCamera = transform.Find("CameraFixture").GetComponent<FPCamera>();
 
         characterController = GetComponent<CharacterController>();
 
@@ -86,8 +87,8 @@ public class Player : MonoBehaviour {
         float moveSideways = Input.GetAxis("Horizontal");
 
         // Get forward and right direction vectors. No direction in Y since you can't move up
-        Vector3 forward = new Vector3(cameraFixture.transform.forward.x, 0, cameraFixture.transform.forward.z).normalized;
-        Vector3 right = new Vector3(cameraFixture.transform.right.x, 0, cameraFixture.transform.right.z).normalized;
+        Vector3 forward = new Vector3(fpCamera.transform.forward.x, 0, fpCamera.transform.forward.z).normalized;
+        Vector3 right = new Vector3(fpCamera.transform.right.x, 0, fpCamera.transform.right.z).normalized;
 
         // No input, decelerate
         if (Mathf.Abs(moveForward) < Mathf.Epsilon && Mathf.Abs(moveSideways) < Mathf.Epsilon) {
@@ -132,8 +133,8 @@ public class Player : MonoBehaviour {
     private RaycastHit hit;
     private void ScanForInteractables() {
         // Raycast (what do you look at)
-        Physics.Raycast(cameraFixture.transform.position, cameraFixture.transform.forward, out hit, 5f, interactableMask);
-        if (Physics.Raycast(cameraFixture.transform.position, cameraFixture.transform.forward, out hit, 5f, interactableMask)) {
+        Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, 5f, interactableMask);
+        if (Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, 5f, interactableMask)) {
             // If looking at a Npc or interactable, save it in lookingAt
             if (hit.transform.tag == "Npc" || hit.transform.tag == "Interactable") {
                 lookingAt = hit.transform.GetComponent<Npc>();
@@ -147,9 +148,11 @@ public class Player : MonoBehaviour {
 
     public void SetState(State newState) {
         state = newState;
+        fpCamera.NullFocusPoint();
         switch (newState) {
             case State.Dialogue:
                 speed = 0;
+                fpCamera.SetFocusPoint(lookingAt.transform);
                 break;
         }
     }
@@ -158,7 +161,7 @@ public class Player : MonoBehaviour {
     /// Called to from fungus to signal when an conversation have ended
     /// </summary>
     public void EndDialogue() {
-        state = State.Play;
+        SetState(State.Play);
     }
 
     public State GetState() {

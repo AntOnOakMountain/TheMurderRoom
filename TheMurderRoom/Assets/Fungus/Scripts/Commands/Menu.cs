@@ -38,6 +38,9 @@ namespace Fungus
         [Tooltip("If true, this option will be passed to the Menu Dialogue but marked as hidden, this can be used to hide options while maintaining a Menu Shuffle.")]
         [SerializeField] protected BooleanData hideThisOption = new BooleanData(false);
 
+        [Tooltip("If true, this option will be displayed using the memory graphic style.")]
+        [SerializeField] protected BooleanData isAMemory = new BooleanData(false);
+
         #region Public members
 
         public MenuDialog SetMenuDialog  { get { return setMenuDialog; } set { setMenuDialog = value; } }
@@ -60,7 +63,7 @@ namespace Fungus
                     var flowchart = GetFlowchart();
                     string displayText = flowchart.SubstituteVariables(text);
 
-                    menuDialog.AddOption(displayText, interactable, hideOption, targetBlock);
+                    menuDialog.AddOption(displayText, interactable, hideOption, targetBlock, isAMemory);
                 }
             
             Continue();
