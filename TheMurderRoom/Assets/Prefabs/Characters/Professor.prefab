@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 195721792247956388}
   - component: {fileID: 114383909010132840}
   - component: {fileID: 114142127481437942}
+  - component: {fileID: 114409670833806752}
   m_Layer: 9
   m_Name: Professor
   m_TagString: Npc
@@ -238,6 +239,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navTarget: {fileID: 0}
   flowchart: {fileID: 0}
+--- !u!114 &114409670833806752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189354570129052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Professor
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!136 &136939840471118688
 CapsuleCollider:
   m_ObjectHideFlags: 1
