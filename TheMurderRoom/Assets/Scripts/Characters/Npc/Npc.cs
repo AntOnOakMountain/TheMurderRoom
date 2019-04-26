@@ -14,6 +14,11 @@ public class Npc : MonoBehaviour {
     public Flowchart flowchart;
     private Interact flowchartInteract;
 
+    private Transform head;
+    public Transform GetHead() {
+        return head;
+    }
+
 	void Start () {
         // Testing NavMesh Pathfinding
         if(navTarget != null) {
@@ -27,6 +32,8 @@ public class Npc : MonoBehaviour {
         else {
             flowchartInteract = flowchart.GetComponent<Interact>();
         }
+
+        head = transform.Find("Head");
 	}
 
     public bool Interact() {

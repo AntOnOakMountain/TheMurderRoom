@@ -153,7 +153,7 @@ public class Player : MonoBehaviour {
             case State.Dialogue:
                 speed = 0;
                 if(lookingAt != null) {
-                    fpCamera.SetFocusPoint(lookingAt.transform);
+                    fpCamera.SetFocusPoint(lookingAt.GetHead());
                 }
                 break;
         }
