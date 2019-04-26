@@ -23,13 +23,10 @@ GameObject:
   - component: {fileID: 114237647716097482}
   - component: {fileID: 114663019165031082}
   - component: {fileID: 114308323944049778}
-  - component: {fileID: 114671429711665862}
   - component: {fileID: 114147512082380746}
-  - component: {fileID: 114385551018619110}
-  - component: {fileID: 114683021873852726}
-  - component: {fileID: 114942241743935048}
   - component: {fileID: 114714448213120110}
   - component: {fileID: 114905997192966622}
+  - component: {fileID: 114819445915094962}
   m_Layer: 0
   m_Name: CaptainFungus
   m_TagString: Untagged
@@ -78,22 +75,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 397.9947
-    y: 230.85857
+    x: 396.9947
+    y: 226.85857
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: New Block
+  blockName: Start Block
   description: 
   eventHandler: {fileID: 114663019165031082}
   commandList:
   - {fileID: 114308323944049778}
-  - {fileID: 114683021873852726}
-  - {fileID: 114942241743935048}
-  - {fileID: 114671429711665862}
-  - {fileID: 114385551018619110}
+  - {fileID: 114819445915094962}
 --- !u!114 &114308323944049778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -119,21 +113,8 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
+  addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114385551018619110
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c784b19efbe8424fa879e0d6d883281, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  loadingImage: {fileID: 0}
 --- !u!114 &114663019165031082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,47 +127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 114237647716097482}
---- !u!114 &114671429711665862
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  delay: 0
---- !u!114 &114683021873852726
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  variable: {fileID: 114147512082380746}
-  setOperator: 2
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 2
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114714448213120110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -202,6 +142,20 @@ MonoBehaviour:
   remember: 1
   key: Animator
   value: {fileID: 0}
+--- !u!114 &114819445915094962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114905997192966622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -257,29 +211,3 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &114942241743935048
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  storyText: How nice of you to talk to me.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}

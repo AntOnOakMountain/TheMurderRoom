@@ -24,18 +24,7 @@ GameObject:
   - component: {fileID: 114232791642817048}
   - component: {fileID: 114372268640630322}
   - component: {fileID: 114252796017311026}
-  - component: {fileID: 114826621670306678}
   - component: {fileID: 114021658469332758}
-  - component: {fileID: 114619346860865342}
-  - component: {fileID: 114385525740076084}
-  - component: {fileID: 114932132765025774}
-  - component: {fileID: 114527463057408378}
-  - component: {fileID: 114642870843471410}
-  - component: {fileID: 114368750834755670}
-  - component: {fileID: 114605072195448416}
-  - component: {fileID: 114839492096972860}
-  - component: {fileID: 114837462543813800}
-  - component: {fileID: 114650965013571852}
   - component: {fileID: 114989470889755134}
   - component: {fileID: 114089982731156750}
   - component: {fileID: 114771985721207394}
@@ -131,21 +120,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114391267055280492}
-  selectedCommands:
-  - {fileID: 114903223398936864}
+  - {fileID: 114252796017311026}
+  selectedCommands: []
   variables:
-  - {fileID: 114605072195448416}
-  - {fileID: 114650965013571852}
-  - {fileID: 114837462543813800}
-  - {fileID: 114839492096972860}
-  - {fileID: 114826621670306678}
-  - {fileID: 114368750834755670}
-  - {fileID: 114642870843471410}
-  - {fileID: 114527463057408378}
-  - {fileID: 114932132765025774}
-  - {fileID: 114385525740076084}
-  - {fileID: 114619346860865342}
   - {fileID: 114021658469332758}
   description: 
   stepPause: 0
@@ -215,8 +192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 375
-    y: 297
+    x: 280
+    y: 257
     width: 133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -241,8 +218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 134
-    y: 385
+    x: 100
+    y: 380
     width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -285,8 +262,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 623
-    y: 262
+    x: 624
+    y: 261
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -297,21 +274,6 @@ MonoBehaviour:
   eventHandler: {fileID: 114372268640630322}
   commandList:
   - {fileID: 114232791642817048}
---- !u!114 &114368750834755670
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: professor_met
-  value: 0
 --- !u!114 &114372268640630322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -353,21 +315,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114385525740076084
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: duke_confirmed
-  value: 0
 --- !u!114 &114391267055280492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -381,7 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 196
+    x: 110
     y: 250
     width: 120
     height: 40
@@ -438,36 +385,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114527463057408378
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: professor_1
-  value: 0
---- !u!114 &114605072195448416
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: philosopher_met
-  value: 0
 --- !u!114 &114617352106203408
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -495,51 +412,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114619346860865342
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: philosopher_debate
-  value: 0
---- !u!114 &114642870843471410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: professor_introduction
-  value: 0
---- !u!114 &114650965013571852
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: philosopher_1
-  value: 0
 --- !u!114 &114730019161628822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -553,8 +425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 383
-    y: 405
+    x: 289
+    y: 381
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -583,7 +455,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &114756710578353242
 MonoBehaviour:
@@ -627,51 +499,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114826621670306678
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: philosopher_4
-  value: 0
---- !u!114 &114837462543813800
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: philosopher_2
-  value: 0
---- !u!114 &114839492096972860
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: philosopher_3
-  value: 0
 --- !u!114 &114903223398936864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -729,21 +556,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114932132765025774
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 1
-  key: professor_2
-  value: 0
 --- !u!114 &114989470889755134
 MonoBehaviour:
   m_ObjectHideFlags: 1

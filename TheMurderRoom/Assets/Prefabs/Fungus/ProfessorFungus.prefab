@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 114966475979992114}
   - component: {fileID: 114256206307517002}
   - component: {fileID: 114632573527828786}
-  - component: {fileID: 114851780057066950}
   - component: {fileID: 114624657376616178}
   - component: {fileID: 114620833738817336}
   - component: {fileID: 114386520219247898}
@@ -400,6 +399,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114076319346471622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -564,6 +566,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114163689470170308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -613,6 +618,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114182248149327352
@@ -760,6 +768,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114256206307517002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -812,7 +823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 777.02167
+    x: 778.158
     y: 87.78796
     width: 157.95453
     height: 40
@@ -863,6 +874,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114310610230401764
@@ -916,6 +930,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114331146517357154
@@ -1133,6 +1150,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114380691587232224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1263,6 +1283,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114441027742824586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1334,7 +1357,7 @@ MonoBehaviour:
   version: 1
   scrollPos: {x: 46.798515, y: 146.89987}
   variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 0
+  variablesExpanded: 1
   blockViewHeight: 400
   zoom: 0.88000005
   scrollViewRect:
@@ -1344,10 +1367,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114843169489877080}
+  - {fileID: 114966475979992114}
   selectedCommands: []
   variables:
-  - {fileID: 114851780057066950}
   - {fileID: 114152740352556982}
   - {fileID: 114022477760343734}
   - {fileID: 114061145356414926}
@@ -1521,6 +1543,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114485386852156376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1673,6 +1698,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 1
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114544985945666348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1723,6 +1751,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114566778768051868
@@ -1802,6 +1833,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114599761726899620
@@ -1908,6 +1942,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114628780148804502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1930,6 +1967,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114632573527828786
@@ -2082,6 +2122,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114656170685167798
@@ -2417,7 +2460,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
   useCustomTint: 1
-  itemId: 117
+  itemId: 132
   blockName: P_Politik_2
   description: 
   eventHandler: {fileID: 0}
@@ -2531,6 +2574,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114821446138369630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2591,26 +2637,11 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
   useCustomTint: 1
-  itemId: 128
+  itemId: 133
   blockName: P_Politik_Fel
   description: 
   eventHandler: {fileID: 0}
   commandList: []
---- !u!114 &114851780057066950
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  remember: 0
-  key: Var
-  value: 0
 --- !u!114 &114851800295363250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2855,6 +2886,9 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &114950441288626796
