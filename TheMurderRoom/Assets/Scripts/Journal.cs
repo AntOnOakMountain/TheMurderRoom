@@ -20,8 +20,12 @@ public class Journal : MonoBehaviour{
 
     void Update() {
         if (Input.GetButtonDown("OpenJournal")) {
-            journalUI.transform.parent.parent.gameObject.SetActive(!journalUI.transform.parent.parent.gameObject.activeSelf);
+            ToggleJournal();
         }
+    }
+
+    public void ToggleJournal() {
+        journalUI.transform.parent.parent.gameObject.SetActive(!journalUI.transform.parent.parent.gameObject.activeSelf);
     }
 
     public void Add(JournalEntry entry) {

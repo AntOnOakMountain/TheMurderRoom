@@ -30,6 +30,8 @@ public class Player : MonoBehaviour {
     // Variables for interacting with Npc/objects
     private LayerMask interactableMask;
     private Npc lookingAt = null;
+    [Tooltip("Max distance which you can interact with an npc from.")]
+    public float interactDistance = 2f;
 
     /// <summary> Used for the basic camera controls </summary>
     private FPCamera fpCamera;
@@ -133,16 +135,18 @@ public class Player : MonoBehaviour {
     private RaycastHit hit;
     private void ScanForInteractables() {
         // Raycast (what do you look at)
-        Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, 5f, interactableMask);
-        if (Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, 5f, interactableMask)) {
+        Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, interactDistance, interactableMask);
+        if (Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, interactDistance, interactableMask)) {
             // If looking at a Npc or interactable, save it in lookingAt
             if (hit.transform.tag == "Npc" || hit.transform.tag == "Interactable") {
                 lookingAt = hit.transform.GetComponent<Npc>();
+                UIManager.Instance.interactPrompt.gameObject.SetActive(true);
             }
         }
         else {
             // When no longer looking at a Npc/Interactable null lookingAt
             lookingAt = null;
+            UIManager.Instance.interactPrompt.gameObject.SetActive(false);
         }
     }
 
@@ -151,6 +155,7 @@ public class Player : MonoBehaviour {
         fpCamera.NullFocusPoint();
         switch (newState) {
             case State.Dialogue:
+                UIManager.Instance.interactPrompt.gameObject.SetActive(false);
                 speed = 0;
                 if(lookingAt != null) {
                     fpCamera.SetFocusPoint(lookingAt.GetHead());

@@ -17,7 +17,7 @@ public class Game : MonoBehaviour {
     private Flowchart flowChart;
 
 
-    private State state;
+    private State state = State.Play;
     public State getState() {
         return state;
     }    
@@ -33,6 +33,7 @@ public class Game : MonoBehaviour {
         }
 
         flowChart = GameObject.Find("GlobalFungus").GetComponent<Flowchart>();
+        state = State.Play;
     }
 
     void Update() {
@@ -42,8 +43,7 @@ public class Game : MonoBehaviour {
 
         if(state == State.Play) {
             if (Input.GetButtonDown("RewindTime")) {
-                SetState(State.Dialogue);
-                flowChart.ExecuteBlock("Rewind time");
+                RewindTime();
             }
 
             if (flowChart.GetIntegerVariable("time_left") == 0) {
@@ -51,6 +51,13 @@ public class Game : MonoBehaviour {
                 flowChart.ExecuteBlock("Forced Rewind");
             }
         }        
+    }
+
+    public void RewindTime() {
+        if (state == State.Play) {
+            SetState(State.Dialogue);
+            flowChart.ExecuteBlock("Rewind time");
+        }
     }
 
     public void EndDialogue() {
@@ -62,9 +69,11 @@ public class Game : MonoBehaviour {
         switch (newState) {
             case State.Dialogue:
                 Player.Instance.SetState(Player.State.Dialogue);
+                UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 break;
             case State.Play:
                 Player.Instance.SetState(Player.State.Play);
+                UIManager.Instance.timeLockButton.gameObject.SetActive(true);
                 break;
         }
     }

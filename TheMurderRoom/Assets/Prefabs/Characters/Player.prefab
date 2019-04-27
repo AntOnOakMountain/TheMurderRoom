@@ -102,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1137809607272000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8949, y: 52.229, z: 4.8425}
+  m_LocalPosition: {x: -1.4, y: 52.301, z: 3.9808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4501635293203248}
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22740ac0c1b08074dbaac0d5732a6d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intensity: 0.1
+  intensity: 0.05
   bobbingSpeed: 2
   bobbingReturnSpeed: 0.2
 --- !u!114 &114868663068688392
@@ -224,6 +224,7 @@ MonoBehaviour:
   deceleration: 10
   gravity: 9.81
   pad: {fileID: 0}
+  interactDistance: 2
 --- !u!114 &114936191053986842
 MonoBehaviour:
   m_ObjectHideFlags: 1
