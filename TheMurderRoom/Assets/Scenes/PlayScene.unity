@@ -776,7 +776,7 @@ Prefab:
     - target: {fileID: 224672848801860212, guid: 2bb7d0f90498f8a4ea970b63a9db296b,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 224615321963858376, guid: 2bb7d0f90498f8a4ea970b63a9db296b,
         type: 2}
@@ -991,7 +991,7 @@ Prefab:
     - target: {fileID: 224729609573129652, guid: 2bb7d0f90498f8a4ea970b63a9db296b,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 380
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bb7d0f90498f8a4ea970b63a9db296b, type: 2}
@@ -1400,7 +1400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1527244440}
+  selectedFlowchart: {fileID: 114876306428364444, guid: 2f89873def68ec4408894872622889a2,
+    type: 2}
 --- !u!4 &1410672312
 Transform:
   m_ObjectHideFlags: 1
