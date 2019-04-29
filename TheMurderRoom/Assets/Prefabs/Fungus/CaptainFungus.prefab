@@ -50,7 +50,6 @@ GameObject:
   - component: {fileID: 114689330005929558}
   - component: {fileID: 114875689920785466}
   - component: {fileID: 114607459946174066}
-  - component: {fileID: 114998113258795136}
   - component: {fileID: 114645955265610678}
   - component: {fileID: 114469407947348994}
   - component: {fileID: 114259741454188940}
@@ -106,7 +105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1240.4016
     y: 243.6908
-    width: 165.90907
+    width: 149.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -185,7 +184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.13824
     y: 257.9768
-    width: 153.40909
+    width: 139.06245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -396,7 +395,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 792.0496
     y: 260.1744
-    width: 165.90907
+    width: 149.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -491,7 +490,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 931.60895
     y: 356.87747
-    width: 187.49998
+    width: 168.74994
     height: 40
   tint: {r: 1, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -503,7 +502,6 @@ MonoBehaviour:
   - {fileID: 114689330005929558}
   - {fileID: 114875689920785466}
   - {fileID: 114607459946174066}
-  - {fileID: 114998113258795136}
   - {fileID: 114645955265610678}
 --- !u!114 &114441104911882338
 MonoBehaviour:
@@ -812,7 +810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1011.8297
     y: 256.87738
-    width: 165.90907
+    width: 149.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -840,7 +838,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.1369
     y: 145.88861
-    width: 153.40909
+    width: 139.06245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -958,11 +956,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -392.7593, y: -15.345969}
+  scrollPos: {x: -718.81726, y: -15.969975}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -970,8 +968,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114237647716097482}
-  selectedCommands: []
+  - {fileID: 114435014176019532}
+  selectedCommands:
+  - {fileID: 114645955265610678}
   variables:
   - {fileID: 114147512082380746}
   - {fileID: 114714448213120110}
@@ -987,30 +986,3 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &114998113258795136
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  storyText: 'Please be a dear and dont talk to me again. '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
