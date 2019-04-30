@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
@@ -181,6 +181,7 @@ public class Player : MonoBehaviour {
     /// </summary>
     public void EndDialogue() {
         Game.instance.SetState(Game.State.Play);
+        Journal.journal.ToggleJournal(false);
     }
 
     public State GetState() {

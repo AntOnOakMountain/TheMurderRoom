@@ -37,6 +37,8 @@ public class Npc : MonoBehaviour {
 	}
 
     public bool Interact() {
+        Journal.journal.Clear();
+        Journal.journal.ToggleJournal(true);
         return flowchartInteract.InteractWith();
     }
 	

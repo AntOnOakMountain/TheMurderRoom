@@ -259,6 +259,7 @@ namespace Fungus
                 // Stop timeout
                 Clear();
                 HideSayDialog();
+                Journal.journal.Add(new JournalEntry("You", text));
                 if (block != null)
                 {
                     var flowchart = block.GetFlowchart();
