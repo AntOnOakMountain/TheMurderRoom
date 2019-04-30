@@ -161,6 +161,39 @@ GameObject:
   - component: {fileID: 114334064352587276}
   - component: {fileID: 114590270450941698}
   - component: {fileID: 114839695513099886}
+  - component: {fileID: 114072796375906064}
+  - component: {fileID: 114932921835117344}
+  - component: {fileID: 114264231077444228}
+  - component: {fileID: 114286369585548600}
+  - component: {fileID: 114091723467384084}
+  - component: {fileID: 114484024432128462}
+  - component: {fileID: 114189707670897554}
+  - component: {fileID: 114759119408103248}
+  - component: {fileID: 114928320427348932}
+  - component: {fileID: 114962060270952978}
+  - component: {fileID: 114907446432696696}
+  - component: {fileID: 114237353318616610}
+  - component: {fileID: 114205258065762330}
+  - component: {fileID: 114096736303887160}
+  - component: {fileID: 114982162618578268}
+  - component: {fileID: 114871002557599900}
+  - component: {fileID: 114288328257551134}
+  - component: {fileID: 114637254143955704}
+  - component: {fileID: 114410729502747594}
+  - component: {fileID: 114784307420040514}
+  - component: {fileID: 114372186172165418}
+  - component: {fileID: 114833783670102816}
+  - component: {fileID: 114656459737103242}
+  - component: {fileID: 114189380656722210}
+  - component: {fileID: 114918614792934274}
+  - component: {fileID: 114598948522597876}
+  - component: {fileID: 114265807528742870}
+  - component: {fileID: 114454337627721606}
+  - component: {fileID: 114589401331932332}
+  - component: {fileID: 114166010598377750}
+  - component: {fileID: 114859436888066390}
+  - component: {fileID: 114362669194424684}
+  - component: {fileID: 114749845348824404}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -276,8 +309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -593.29535
-    y: 46.617264
+    x: -581.29535
+    y: 2.6172638
     width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -440,8 +473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -553.9356
-    y: 205.52481
+    x: -541.9356
+    y: 161.52481
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -497,6 +530,34 @@ MonoBehaviour:
   - {fileID: 114892898712423904}
   - {fileID: 114822131166487936}
   - {fileID: 114910620016137176}
+--- !u!114 &114072796375906064
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 0
+  storyText: "\u201DShe didn\u2019t tell you?\u201D he asks. \u201CAnd here one was,
+    thinking she wouldn\u2019t let that stand. Her name is Gyrid.\u201D"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114077161866075818
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -538,8 +599,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -924.48914
-    y: 656.54767
+    x: -920.11725
+    y: 652.54755
     width: 190
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
@@ -580,6 +641,61 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114091723467384084
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -302.90805
+    y: 766.9318
+    width: 214
+    height: 40
+  tint: {r: 1, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 234
+  blockName: Philosopher Professor 1.3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114372186172165418}
+  - {fileID: 114833783670102816}
+  - {fileID: 114656459737103242}
+--- !u!114 &114096736303887160
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 243
+  indentLevel: 0
+  storyText: "\u201CHow very trite and boring a person you are\u201D, he says. \u201CYou\u2019re
+    not wrong though.\u201D\r\n\r\n//The Philosopher liked that//"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114112041992261692
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -593,8 +709,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -297.8441
-    y: 293.52148
+    x: -285.8441
+    y: 249.52148
     width: 210
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -771,6 +887,33 @@ MonoBehaviour:
   text: "\u201CAnd you must be Bahar, philosopher in the Teachings of Wafa Adil.\u201D"
   description: 
   targetBlock: {fileID: 114889897438154784}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &114166010598377750
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
+  text: "\u201CYou said the professor got expelled?\u201D"
+  description: 
+  targetBlock: {fileID: 114189380656722210}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -1020,8 +1163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -892.53467
-    y: 8.79409
+    x: -884.53467
+    y: 0.7940903
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1044,6 +1187,7 @@ MonoBehaviour:
   - {fileID: 114242057103317982}
   - {fileID: 114571554991546144}
   - {fileID: 114837029311524078}
+  - {fileID: 114749845348824404}
 --- !u!114 &114183702425266512
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1058,6 +1202,60 @@ MonoBehaviour:
   itemId: 216
   indentLevel: 0
   delay: 0
+--- !u!114 &114189380656722210
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 2.1430416
+    y: 735.66254
+    width: 270
+    height: 40
+  tint: {r: 0.525, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 254
+  blockName: Philosopher Professor 1.3Expelled
+  description: Hostess
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114598948522597876}
+  - {fileID: 114265807528742870}
+  - {fileID: 114454337627721606}
+--- !u!114 &114189707670897554
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 236
+  indentLevel: 0
+  text: "\u201CI think tests on humans are worse.\u201D"
+  description: 
+  targetBlock: {fileID: 114962060270952978}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114191800475631192
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1084,6 +1282,38 @@ MonoBehaviour:
   commandList:
   - {fileID: 114427240590363648}
   - {fileID: 114180906290613704}
+--- !u!114 &114205258065762330
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 0
+  storyText: "\u201CWorse than fueling time magic with stars, making them disappear?
+    And don\u2019t get me started on how the affects distortion have on us \u2013
+    \u201C He seems to collect himself. \u201CNot that I \u2013 support human testing,
+    of course. The Professor could probably tell you more about that, I hear she just
+    got out of the courtroom for murder.\u201D \r\n\r\n//The Philosopher really disliked
+    that//"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114205379781168602
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1239,6 +1469,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114237353318616610
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 3.7244873
+    y: 556.771
+    width: 330
+    height: 40
+  tint: {r: 1, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 241
+  blockName: Philosopher Professor 1.2ChronosTreatyCon
+  description: 'Relationship ---- (4 minus) '
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114637254143955704}
+  - {fileID: 114410729502747594}
+  - {fileID: 114784307420040514}
 --- !u!114 &114239088893536050
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1334,8 +1591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -38.38498
-    y: 49.495743
+    x: -26.38498
+    y: 5.495743
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1363,6 +1620,60 @@ MonoBehaviour:
   remember: 1
   key: Animator
   value: {fileID: 0}
+--- !u!114 &114264231077444228
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 232
+  indentLevel: 0
+  text: "\u201CDo you know her well?\u201D"
+  description: 
+  targetBlock: {fileID: 114091723467384084}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &114265807528742870
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 257
+  indentLevel: 0
+  text: Take your leave.
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114270173047321218
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1390,6 +1701,48 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114286369585548600
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -315.79617
+    y: 584.2251
+    width: 214
+    height: 40
+  tint: {r: 1, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 233
+  blockName: Philosopher Professor 1.2
+  description: MINNE
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114484024432128462}
+  - {fileID: 114189707670897554}
+  - {fileID: 114759119408103248}
+  - {fileID: 114928320427348932}
+--- !u!114 &114288328257551134
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 247
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114305150330240316
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1615,8 +1968,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -207.40735
-    y: 49.180084
+    x: -195.40735
+    y: 5.180084
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1629,6 +1982,33 @@ MonoBehaviour:
   - {fileID: 114455779881005308}
   - {fileID: 114442003667637660}
   - {fileID: 114756142477319250}
+--- !u!114 &114362669194424684
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 262
+  indentLevel: 0
+  text: "\u201CDo you know her well?\u201D"
+  description: 
+  targetBlock: {fileID: 114091723467384084}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114363688192664424
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1727,6 +2107,35 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114372186172165418
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 251
+  indentLevel: 0
+  storyText: "\u201CI don\u2019t think anyone truly {i}knows{/i} her\u201D, the philosopher
+    says. \u201CThen again, I did meet her at the University. Before she got expelled,
+    of course. Do you know her well?\u201D"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114394786323831222
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1740,8 +2149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 153.70013
-    y: 49.11104
+    x: 165.70013
+    y: 5.111038
     width: 120
     height: 40
   tint: {r: 1, g: 0.609, b: 1, a: 1}
@@ -1793,8 +2202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1169.4242
-    y: 133.86935
+    x: -1021.4242
+    y: 129.86935
     width: 126
     height: 40
   tint: {r: 0.6911765, g: 0.17279412, b: 0.17279412, a: 1}
@@ -1818,6 +2227,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 215
+  indentLevel: 0
+  text: Take your leave.
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &114410729502747594
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 249
   indentLevel: 0
   text: Take your leave.
   description: 
@@ -1904,8 +2340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -410.1206
-    y: 44.445396
+    x: -398.1206
+    y: 0.44539642
     width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1987,6 +2423,20 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114454337627721606
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 258
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114455779881005308
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2096,6 +2546,37 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114484024432128462
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 235
+  indentLevel: 0
+  storyText: "He shifts his weight.\r\n\r\n\u201CHer ideas?\u201D he says. \u201CWhich
+    ones?\r\n\r\n\u201CThere are rumors, of course, that she \u2013 that her experiments
+    have a tendency to be a bit macabre. That she likes to do tests on humans \u2013
+    especially if time distortion is involved. What do you think of that? Time distortion?\u201D\r\n\r\n//New
+    Memory Added//"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114494101882366612
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2277,6 +2758,35 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114589401331932332
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 259
+  indentLevel: 0
+  storyText: "\u201CBut you have heard of her, I hope?\u201D the philosopher asks.
+    \u201CAfter all, you did play a role in confiscating her gear. Would be quite
+    the scandal to think that a party member didn\u2019t know of their own legislations.\u201D"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114590270450941698
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2290,8 +2800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -656.48914
-    y: 612.54767
+    x: -603.29846
+    y: 588.42865
     width: 202
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
@@ -2300,7 +2810,41 @@ MonoBehaviour:
   blockName: Philosopher Professor 1
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 114072796375906064}
+  - {fileID: 114932921835117344}
+  - {fileID: 114264231077444228}
+--- !u!114 &114598948522597876
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 256
+  indentLevel: 0
+  storyText: "The philosopher glances at the professor, standing in the middle of
+    a group laughing at something she just said. \r\n\r\n\u201CYes. One could ask
+    if the acceptance of the many is enough to confirm one\u2019s brilliance.\u201D
+    He says. \u201CThere\u2019s no \u2013 official declaration for her so-called education.
+    Unlike others present tonight\u201D, he adds, standing a little taller."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114607949139972918
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2466,8 +3010,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1166.8677
-    y: 73.95459
+    x: -1018.8677
+    y: 69.95459
     width: 120
     height: 40
   tint: {r: 0.6544118, g: 0.15397924, b: 0.15397924, a: 1}
@@ -2480,6 +3024,36 @@ MonoBehaviour:
   - {fileID: 114006752690881616}
   - {fileID: 114356845335956804}
   - {fileID: 114477113696830248}
+--- !u!114 &114637254143955704
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 248
+  indentLevel: 0
+  storyText: "\u201CYou sound like the Captain\u201D, he snorts. \u201CMaybe she\u2019s
+    someone you\u2019d want to talk to. Not that one would find \u2013 coherent conversation
+    from the Navy.\u201D\r\n\r\n//The Philosopher is agahst by your blatant disregard
+    for global safety//\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114640275396777238
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2575,8 +3149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -206.99487
-    y: 137.27673
+    x: -194.99487
+    y: 93.27673
     width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2589,6 +3163,33 @@ MonoBehaviour:
   - {fileID: 114831225355234610}
   - {fileID: 114774111241359078}
   - {fileID: 114364805853571240}
+--- !u!114 &114656459737103242
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 253
+  indentLevel: 0
+  text: "\u201CI haven't met her before tonight.\u201D"
+  description: 
+  targetBlock: {fileID: 114918614792934274}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114679443206909456
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2725,8 +3326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -411.75134
-    y: 115.1649
+    x: -399.75134
+    y: 71.1649
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2739,6 +3340,19 @@ MonoBehaviour:
   - {fileID: 114171615651548266}
   - {fileID: 114628392317250964}
   - {fileID: 114033685893348386}
+--- !u!114 &114749845348824404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 263
+  indentLevel: 0
 --- !u!114 &114750519732976758
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2819,6 +3433,33 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114237293384651550}
+--- !u!114 &114759119408103248
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 237
+  indentLevel: 0
+  text: "\u201CI\u2019m pro the Chronomatic Non-Proliferation Treaty.\u201D"
+  description: 
+  targetBlock: {fileID: 114907446432696696}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114761839163473166
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2872,6 +3513,20 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114784307420040514
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 250
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114790860086658448
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2995,6 +3650,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114833783670102816
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 252
+  indentLevel: 0
+  text: "\u201CShe got expelled? But she\u2019s called Professor!\u201D"
+  description: 
+  targetBlock: {fileID: 114189380656722210}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114834653164213238
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3093,8 +3775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -668.48914
-    y: 692.54767
+    x: -616.95764
+    y: 769.615
     width: 202
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
@@ -3103,7 +3785,9 @@ MonoBehaviour:
   blockName: Philosopher Professor 2
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 114859436888066390}
+  - {fileID: 114362669194424684}
 --- !u!114 &114844316753462816
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3175,6 +3859,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114859436888066390
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  storyText: "\u201CI see.\u201D"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114869432304371292
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3228,6 +3939,33 @@ MonoBehaviour:
   commandList:
   - {fileID: 114957213356519340}
   - {fileID: 114364313361965890}
+--- !u!114 &114871002557599900
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 246
+  indentLevel: 0
+  text: 'Take your leave. '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114871646307361014
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3267,8 +4005,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -38.23593
-    y: 116.8295
+    x: -26.235931
+    y: 72.8295
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3293,7 +4031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1564.4893, y: 50.369354}
+  scrollPos: {x: 1403.222, y: 170.02435}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 406
@@ -3304,8 +4042,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 114182347636300464}
+  selectedCommands:
+  - {fileID: 114571554991546144}
   variables:
   - {fileID: 114499384361674900}
   - {fileID: 114260736186146498}
@@ -3363,8 +4103,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1169.1132
-    y: 197.5056
+    x: -1021.11316
+    y: 193.50562
     width: 126
     height: 40
   tint: {r: 0.6911765, g: 0.17279412, b: 0.17279412, a: 1}
@@ -3459,6 +4199,32 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114907446432696696
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 0.31913757
+    y: 640.0766
+    width: 326
+    height: 40
+  tint: {r: 1, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 240
+  blockName: Philosopher Professor 1.2ChronosTreatyPro
+  description: Relation +
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114096736303887160}
+  - {fileID: 114982162618578268}
 --- !u!114 &114910620016137176
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3486,6 +4252,32 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114918614792934274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1.0024023
+    y: 825.6096
+    width: 258
+    height: 40
+  tint: {r: 1, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 255
+  blockName: Philosopher Professor 1.3NotMet
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114589401331932332}
+  - {fileID: 114166010598377750}
 --- !u!114 &114926395318404444
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3499,8 +4291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 159.4585
-    y: 114.78259
+    x: 171.4585
+    y: 70.78259
     width: 120
     height: 40
   tint: {r: 0.037305348, g: 0.8455882, b: 0.07632597, a: 1}
@@ -3512,6 +4304,33 @@ MonoBehaviour:
   commandList:
   - {fileID: 114166542871450980}
   - {fileID: 114364251618425820}
+--- !u!114 &114928320427348932
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 238
+  indentLevel: 0
+  text: "\u201CI\u2019m against the Cronomatic Non-Proliferation Treaty.\u201D"
+  description: 
+  targetBlock: {fileID: 114237353318616610}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114930584609595734
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3528,6 +4347,33 @@ MonoBehaviour:
   text: "\u201CWhy not?\u201D"
   description: 
   targetBlock: {fileID: 114432428059168498}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &114932921835117344
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 231
+  indentLevel: 0
+  text: "\u201CWhat do you think of her ideas?\u201D"
+  description: 
+  targetBlock: {fileID: 114286369585548600}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3696,8 +4542,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -296.1013
-    y: 230.07944
+    x: -284.1013
+    y: 186.07944
     width: 198
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3763,6 +4609,33 @@ MonoBehaviour:
   - {fileID: 114205379781168602}
   - {fileID: 114118008471790294}
   - {fileID: 114494630178527178}
+--- !u!114 &114962060270952978
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1.6741161
+    y: 472.05286
+    width: 290
+    height: 40
+  tint: {r: 1, g: 0.234, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 239
+  blockName: Philosopher Professor1.2HumanTests
+  description: Relationship -- (2 minus)
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114205258065762330}
+  - {fileID: 114871002557599900}
+  - {fileID: 114288328257551134}
 --- !u!114 &114976290554904372
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3794,6 +4667,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114982162618578268
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 245
+  indentLevel: 0
+  text: "\u201CDo you know her well?\u201D"
+  description: 
+  targetBlock: {fileID: 114091723467384084}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114983889702069234
 MonoBehaviour:
   m_ObjectHideFlags: 2
