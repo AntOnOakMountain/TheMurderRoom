@@ -223,6 +223,7 @@ MonoBehaviour:
   acceleration: 10
   deceleration: 10
   gravity: 9.81
+  m_StepInterval: 0
   pad: {fileID: 0}
   interactDistance: 2
 --- !u!114 &114936191053986842
@@ -242,7 +243,8 @@ MonoBehaviour:
   maxDownwardsAngle: 60
   maxLeftwardsAngle: 360
   maxRightwardsAngle: 360
-  focusSpeed: 1
+  focusSpeed: 2
+  npcLookAtOffset: 0.92
 --- !u!114 &114975197176056584
 MonoBehaviour:
   m_ObjectHideFlags: 1

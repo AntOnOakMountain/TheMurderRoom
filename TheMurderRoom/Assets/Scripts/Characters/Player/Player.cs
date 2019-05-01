@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 
     // Player singleton(ich) for easy access for other scripts
     private static Player player;
-    public static Player Instance{
+    public static Player instance{
         get { return player; }
     }
 
@@ -170,7 +170,7 @@ public class Player : MonoBehaviour {
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);
                 speed = 0;
                 if(lookingAt != null) {
-                    fpCamera.SetFocusPoint(lookingAt.GetHead());
+                    fpCamera.SetDialogueFocusPoint(lookingAt.GetHead());
                 }
                 break;
         }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Game : MonoBehaviour {
 
     public enum State {
-        Play, Dialogue
+        Play, Dialogue, Menu
     }
 
     private static Game game;
@@ -38,7 +38,8 @@ public class Game : MonoBehaviour {
 
     void Update() {
         if (Input.GetKey("escape")) {
-            Application.Quit();
+            ExitMenu.instance.gameObject.SetActive(true);
+            SetState(State.Menu);
         }
 
         if(state == State.Play) {
@@ -56,25 +57,33 @@ public class Game : MonoBehaviour {
     public void RewindTime() {
         if (state == State.Play) {
             SetState(State.Dialogue);
+            Debug.Log("hey");
             flowChart.ExecuteBlock("Rewind time");
         }
     }
 
     public void EndDialogue() {
-        Player.Instance.EndDialogue();
+        Player.instance.EndDialogue();
     }
 
     public void SetState(State newState) {
         state = newState;
         switch (newState) {
             case State.Dialogue:
-                Player.Instance.SetState(Player.State.Dialogue);
+                Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 break;
             case State.Play:
-                Player.Instance.SetState(Player.State.Play);
+                Player.instance.SetState(Player.State.Play);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(true);
                 break;
+            case State.Menu:
+                Player.instance.SetState(Player.State.Dialogue);
+                break;
         }
+    }
+
+    public void ExitGame() {
+        Application.Quit();
     }
 }
