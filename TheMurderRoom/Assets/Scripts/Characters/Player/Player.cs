@@ -26,10 +26,10 @@ public class Player : MonoBehaviour {
     private float m_StepCycle;
     private float m_NextStep;
 
-    [FMODUnity.EventRef]
+    /*[FMODUnity.EventRef]
     public string playerFootstepEvent;
     FMOD.Studio.EventInstance player_Footstep;
-
+    */
 
     [Header("Fungus stuff")]
     [Tooltip("Link to the pad Flowchart")]
@@ -210,7 +210,8 @@ public class Player : MonoBehaviour {
     }
 
     private void PlayFootstep() {
-        player_Footstep = FMODUnity.RuntimeManager.CreateInstance(playerFootstepEvent);
+        /*player_Footstep = FMODUnity.RuntimeManager.CreateInstance(playerFootstepEvent);
         player_Footstep.start();
+        */
     }
 }
