@@ -96,7 +96,7 @@ namespace Fungus
             Button[] optionButtons = transform.Find("ButtonGroup").GetComponentsInChildren<Button>();
             cachedButtons = optionButtons;
 
-            Button[] optionMemoryButtons = transform.Find("MemoryButtonGroup").GetComponentsInChildren<Button>();
+            Button[] optionMemoryButtons = GameObject.Find("MemoryButtonGroup").GetComponentsInChildren<Button>();
             cachedMemoryButtons = optionMemoryButtons;
 
             Slider timeoutSlider = GetComponentInChildren<Slider>();

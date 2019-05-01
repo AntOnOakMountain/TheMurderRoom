@@ -57,7 +57,8 @@ public class Game : MonoBehaviour {
     public void RewindTime() {
         if (state == State.Play) {
             SetState(State.Dialogue);
-            Debug.Log("hey");
+            Journal.journal.Clear();
+            Journal.journal.ToggleJournal(true);
             flowChart.ExecuteBlock("Rewind time");
         }
     }
