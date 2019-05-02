@@ -1373,6 +1373,31 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 137215679471610510, guid: 5cb25c3a9c95b924caef39e4b2de80bc,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76a4f12f99b21e04082f78dfa49b5369, type: 2}
+    - target: {fileID: 137215679471610510, guid: 5cb25c3a9c95b924caef39e4b2de80bc,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137215679471610510, guid: 5cb25c3a9c95b924caef39e4b2de80bc,
+        type: 2}
+      propertyPath: m_Quality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137215679471610510, guid: 5cb25c3a9c95b924caef39e4b2de80bc,
+        type: 2}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137215679471610510, guid: 5cb25c3a9c95b924caef39e4b2de80bc,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cb25c3a9c95b924caef39e4b2de80bc, type: 2}
   m_IsPrefabParent: 0
