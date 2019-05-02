@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114666702153394074}
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   EditorEvents:
   - {fileID: 114791059229518462}
   - {fileID: 114827843836233338}
@@ -28,9 +28,9 @@ MonoBehaviour:
   - {fileID: 114001493699524978}
   - {fileID: 114210630521560296}
   - {fileID: 114757055587832984}
-  MasterBankRef: {fileID: 114735374009278048}
+  MasterBankRef: {fileID: 114849373514600902}
   StringsBankRef: {fileID: 114666702153394074}
-  stringsBankWriteTime: 636923910766057230
+  stringsBankWriteTime: 636923920491438454
   cacheVersion: 2
 --- !u!114 &114001493699524978
 MonoBehaviour:
@@ -46,7 +46,7 @@ MonoBehaviour:
   Path: event:/Events/Event_Creepy_trigger
   guid: b932be2cecd23c438a5e030bff595251
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
   Path: event:/Musik/Gramophone
   guid: bdd3803a84b9834da933c8896c24c342
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   Path: event:/Events/Rewind
   guid: aa7e006617fcbe4e908adb0aaab5e3ca
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -128,6 +128,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6000
+--- !u!114 &114502528305174754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Conversation
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114508797690125528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +157,7 @@ MonoBehaviour:
   Path: event:/2D/UI_journal
   guid: 949d5c77760916408d9e17c721423d36
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -161,8 +176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: D:\FMOD Studio 1.10.04\Murder Room FMOD\Build\Desktop\Murder Room.strings.bank
-  lastModified: 636923910766057230
+  Path: Murder Room FMOD\Build\Desktop\Murder Room.strings.bank
+  lastModified: 636923920491438454
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -200,7 +215,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Fireplace_high
   guid: e797de4c3831bd4791105984b781c698
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -222,7 +237,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Rain
   guid: 01a37d02a7ceec40b8ddf5f8e7b3dfa4
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -244,7 +259,7 @@ MonoBehaviour:
   Path: event:/2D/UI_Clue
   guid: 0ab12e6c0528e047818228a6cf1cdba5
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -266,7 +281,7 @@ MonoBehaviour:
   Path: event:/Events/death
   guid: 9321d0cae48d054bac606f6baec0d972
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -274,6 +289,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1017
+--- !u!114 &114849373514600902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\The murder room\TMR clone\TheMurderRoom\TheMurderRoom\Murder Room FMOD\Build\Desktop\Murder
+    Room.bank
+  lastModified: 636923920490969695
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 7696224
+  Exists: 1
 --- !u!114 &114855231479863184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,7 +322,7 @@ MonoBehaviour:
   Path: event:/2D/UI_Clue_v2
   guid: 8cdfd27f28c444408795ecf13ac45bab
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -310,12 +344,12 @@ MonoBehaviour:
   Path: event:/Musik/Room logic
   guid: 6b63e2afb529c348a769e2490a0e19b6
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 114117632751609056}
+  - {fileID: 114502528305174754}
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
@@ -333,7 +367,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Fireplace_Low
   guid: 23be6fe105799b42915fda078e9a3f93
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -355,7 +389,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Partypeople
   guid: 748a5126f9402f448a3f800dbaff5344
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -377,7 +411,7 @@ MonoBehaviour:
   Path: event:/2D/Player_Footstep_v2
   guid: a944a4e6f06b42439f6300bcb1962a8c
   Banks:
-  - {fileID: 114735374009278048}
+  - {fileID: 114849373514600902}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
