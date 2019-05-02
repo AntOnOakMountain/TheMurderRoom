@@ -17,6 +17,11 @@ namespace Fungus {
 
         protected virtual void CallTheMethod() {
             Game.instance.EndDialogue();
+
+            Npc npc = GetComponent<Npc>();
+            if(npc != null) {
+                npc.EndDialougue();
+            }
         }
 
         public override void OnEnter() {
