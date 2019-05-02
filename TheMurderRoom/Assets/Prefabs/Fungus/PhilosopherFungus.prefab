@@ -194,6 +194,8 @@ GameObject:
   - component: {fileID: 114859436888066390}
   - component: {fileID: 114362669194424684}
   - component: {fileID: 114749845348824404}
+  - component: {fileID: 114934056390826354}
+  - component: {fileID: 114780880049968696}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -311,7 +313,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -581.29535
     y: 2.6172638
-    width: 126
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -448,7 +450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 731.1206
     y: 28.860756
-    width: 202
+    width: 172.58064
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -514,9 +516,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 735.12006
-    y: 128.98248
-    width: 202
+    x: 795.98895
+    y: 396.374
+    width: 172.58064
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -543,8 +545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 230
   indentLevel: 0
-  storyText: "\u201DShe didn\u2019t tell you?\u201D he asks. \u201CAnd here one was,
-    thinking she wouldn\u2019t let that stand. Her name is Gyrid.\u201D"
+  storyText: "\u201DShe didn\u2019t tell you? And here one was, thinking she wouldn\u2019t
+    let that stand. Her name is Gyrid.\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -599,9 +601,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -920.11725
-    y: 652.54755
-    width: 190
+    x: -909.30646
+    y: 655.25024
+    width: 162.90323
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -656,7 +658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -302.90805
     y: 766.9318
-    width: 214
+    width: 182.25806
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -681,7 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 243
   indentLevel: 0
-  storyText: "\u201CHow very trite and boring a person you are\u201D, he says. \u201CYou\u2019re
+  storyText: "\u201CHow very trite and boring a person you are, Minister.\n\u201CYou\u2019re
     not wrong though.\u201D\r\n\r\n//The Philosopher liked that//"
   description: 
   character: {fileID: 0}
@@ -711,7 +713,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -285.8441
     y: 249.52148
-    width: 210
+    width: 179.03226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -736,9 +738,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1103.1292
-    y: 310.82962
-    width: 242
+    x: 1083.1292
+    y: 318.32962
+    width: 204.83871
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -968,10 +970,9 @@ MonoBehaviour:
   itemId: 166
   indentLevel: 0
   storyText: "You see the philosopher grip his wine-glass harder, clearly agitated.\r\n\r\n\u201CI
-    see\u201D, he says. \u201COld, but well-tested. The Teachings have been the foundation
-    of government in our countries for a few hundred years now \u2013 and you would
-    throw that away because it\u2019s {i}old?{/i}\u201D\n\n{i}The Philosopher really
-    disliked that.{/i}"
+    see. Old, but well-tested. The Teachings have been the foundation of government
+    in our countries for a few hundred years now \u2013 and you would throw that away
+    because it\u2019s {i}old?{/i}\u201D\n\n{i}The Philosopher really disliked that.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1025,8 +1026,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  storyText: "\u201CYes, of course\u201D, he says. He sounds bored but doesn\u2019t
-    break eye-contact. \u201CYou must be very \u2013 busy.\u201D"
+  storyText: "\u201CYes, of course.\u201D He sounds bored but doesn\u2019t break eye-contact.
+    \u201CYou must be very \u2013 busy.\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1055,7 +1056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1154.2433
     y: 86.830284
-    width: 174
+    width: 150
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -1107,9 +1108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: "He blinks.\r\n\r\n\u201CI am\u201D, he says. \u201CI\u2019m surprised.
-    I didn\u2019t think you\u2019d recognise someone in my standing. Do you agree
-    with the Principles?\u201D\r\n"
+  storyText: "He blinks.\r\n\r\n\u201CI am. I\u2019m surprised. I didn\u2019t think
+    you\u2019d recognise someone in my standing. Do you agree with the Principles?\u201D\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -884.53467
+    x: -881.832
     y: 0.7940903
     width: 120
     height: 40
@@ -1188,6 +1188,8 @@ MonoBehaviour:
   - {fileID: 114571554991546144}
   - {fileID: 114837029311524078}
   - {fileID: 114749845348824404}
+  - {fileID: 114934056390826354}
+  - {fileID: 114780880049968696}
 --- !u!114 &114183702425266512
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1217,7 +1219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2.1430416
     y: 735.66254
-    width: 270
+    width: 227.41936
     height: 40
   tint: {r: 0.525, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -1269,9 +1271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 781.22363
-    y: 227.99948
-    width: 234
+    x: 1074.211
+    y: 442.09503
+    width: 198.3871
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -1327,10 +1329,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: "He glares at you.\r\n\r\n\u201CAgreed\u201D, he said. \u201CLike the
-    fact that the Professor over there is declaring loudly about her research that
-    should be - illegal. \r\n\r\nOne would think that someone in your position would
-    call the constables.\u201D \r\n\r\n{i}The Philosopher really disliked that{/i}"
+  storyText: "He glares at you.\r\n\r\n\u201CAgreed. Like the fact that the Professor
+    over there is declaring loudly about her research that should be - illegal. \r\n\r\nOne
+    would think that someone in your position would call the constables.\u201D \r\n\r\n{i}The
+    Philosopher really disliked that{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1357,10 +1359,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  storyText: "\u201CI am Bahad.\u201D He says. \u201CPhilosopher in the teaching of
-    Wafa Adil. I studied at the University in the City of Krona. At your service\u201D,
-    he adds and raises his wine glass slightly to you. \u201CBut I understand an MP
-    these days wouldn\u2019t recognise someone in my standing.\u201D"
+  storyText: "\u201CI am Bahad\n\n\u201CPhilosopher in the teaching of Wafa Adil.
+    I studied at the University in the City of Krona. At your service\u201D, he raises
+    his wine glass slightly to you. \u201CBut I understand an MP these days wouldn\u2019t
+    recognise someone in my standing.\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1484,7 +1486,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3.7244873
     y: 556.771
-    width: 330
+    width: 275.80646
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -1716,7 +1718,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -315.79617
     y: 584.2251
-    width: 214
+    width: 182.25806
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -1940,8 +1942,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 140
   indentLevel: 0
-  storyText: "\u201CThe duke? She\u2019s not very interesting\u201D, he says. \u201CBut
-    she has her moments, I guess.\u201D\r\n\r\n"
+  storyText: "\u201CThe duke? She\u2019s not very interesting\n\n\u201CBut she has
+    her moments, I guess.\u201D\r\n\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2120,9 +2122,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 251
   indentLevel: 0
-  storyText: "\u201CI don\u2019t think anyone truly {i}knows{/i} her\u201D, the philosopher
-    says. \u201CThen again, I did meet her at the University. Before she got expelled,
-    of course. Do you know her well?\u201D"
+  storyText: "\u201CI don\u2019t think anyone truly {i}knows{/i} her.\n\u201CThen
+    again, I did meet her at the University. Before she got expelled, of course. Do
+    you know her well?\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2149,7 +2151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 165.70013
+    x: 168.64131
     y: 5.111038
     width: 120
     height: 40
@@ -2204,7 +2206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1021.4242
     y: 129.86935
-    width: 126
+    width: 120
     height: 40
   tint: {r: 0.6911765, g: 0.17279412, b: 0.17279412, a: 1}
   useCustomTint: 1
@@ -2282,9 +2284,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 797.1669
-    y: 350.0114
-    width: 222
+    x: 1579.3546
+    y: 453.02716
+    width: 188.70967
     height: 40
   tint: {r: 1, g: 0.041, b: 0, a: 1}
   useCustomTint: 1
@@ -2342,7 +2344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -398.1206
     y: 0.44539642
-    width: 134
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2392,7 +2394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   remember: 0
   key: Philosopher_met
   value: 1
@@ -2451,7 +2453,7 @@ MonoBehaviour:
   itemId: 109
   indentLevel: 0
   storyText: "He lets your statement hang in the air for a moment. Then he nods slowly.\r\n\n\u201CI
-    see\u201D, he says. \u201COne could certainly \u2013 debate that.\u201D \r\n"
+    see.\n\n\u201COne could certainly \u2013 debate that.\u201D \r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2744,7 +2746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: " \u201CYou tell me\u201D, he says. "
+  storyText: " \u201CYou tell me.\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2771,9 +2773,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 259
   indentLevel: 0
-  storyText: "\u201CBut you have heard of her, I hope?\u201D the philosopher asks.
-    \u201CAfter all, you did play a role in confiscating her gear. Would be quite
-    the scandal to think that a party member didn\u2019t know of their own legislations.\u201D"
+  storyText: "\u201CBut you have heard of her, I hope? After all, you did play a role
+    in confiscating her gear. Would be quite the scandal to think that a party member
+    didn\u2019t know of their own legislations.\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2802,7 +2804,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -603.29846
     y: 588.42865
-    width: 202
+    width: 172.58064
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -2939,9 +2941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: "\u201CAs long as it serves you?\u201D he says. \u201CWhat about the
-    tension between our countries, hm? Seems like something you should be worried
-    about.\u201D\r"
+  storyText: "\u201CAs long as it serves you?\n\u201CWhat about the tension between
+    our countries, hm? Seems like something you should be worried about.\u201D\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2970,7 +2971,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 941.37964
     y: 68.34362
-    width: 162
+    width: 140.32257
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -2993,7 +2994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   remember: 0
   key: Philosopher_Teachings
   value: 0
@@ -3069,7 +3070,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1349.0701
     y: 349.32904
-    width: 258
+    width: 217.74193
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -3121,8 +3122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  storyText: "\u201COnly the \u2013 \u201C he hums. \u201CI see. Well, we should certainly
-    get you another one then.\u201D\r\n \r"
+  storyText: "\u201COnly the \u2013 \n\n\u201CI see. Well, we should certainly get
+    you another one then.\u201D\r\n \r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3151,7 +3152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -194.99487
     y: 93.27673
-    width: 122
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3342,7 +3343,7 @@ MonoBehaviour:
   - {fileID: 114033685893348386}
 --- !u!114 &114749845348824404
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004049383744126}
@@ -3423,7 +3424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1348.6228
     y: 154.2897
-    width: 178
+    width: 153.2258
     height: 40
   tint: {r: 0.19700003, g: 0.9335448, b: 1, a: 1}
   useCustomTint: 1
@@ -3473,9 +3474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 785.67993
-    y: 286.8362
-    width: 242
+    x: 1328.7372
+    y: 451.9134
+    width: 204.83871
     height: 40
   tint: {r: 1, g: 0.041, b: 0, a: 1}
   useCustomTint: 1
@@ -3502,6 +3503,33 @@ MonoBehaviour:
   text: "\u201CJust tell me, and make is short.\u201D"
   description: 
   targetBlock: {fileID: 114949208310211594}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &114780880049968696
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 265
+  indentLevel: 1
+  text: "\u201CI hear the new Trade Agreement between our two countries is going well.\u201D"
+  description: 
+  targetBlock: {fileID: 0}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3691,7 +3719,7 @@ MonoBehaviour:
   itemId: 143
   indentLevel: 0
   storyText: "\u201CI think she left early. Nasty cold. Easy to come by this time
-    of year.\u201D He says."
+    of year.\u201D "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3746,9 +3774,9 @@ MonoBehaviour:
   itemId: 193
   indentLevel: 0
   storyText: "The philosopher makes a sound somewhere between a laugh and scoff.\r\n\r\n\u201CI
-    must admit, I\u2019m surprised!\u201D he says. \u201CLet\u2019s have a toast to
-    that!\u201D \r\n\r\nHe raises his glass to you.\r\n\r\n\u201CBut \u2013 you\u2019re
-    empty-handed\u201D, he says. \r\n\r\n{i}The Philosopher really liked that.{/i}"
+    must admit, I\u2019m surprised! Let\u2019s have a toast to that!\u201D \r\n\r\nHe
+    raises his glass to you.\r\n\r\n\u201CBut \u2013 you\u2019re empty-handed\u201D,
+    he says. \r\n\r\n{i}The Philosopher really liked that.{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3777,7 +3805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -616.95764
     y: 769.615
-    width: 202
+    width: 172.58064
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -3801,8 +3829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: "\u201CI would\", he says. \u201CSince the Teachings have been the foundation
-    of government in our countries for a few hundred years now. Would you disagree?\u201D"
+  storyText: "\u201CI would, since the Teachings have been the foundation of government
+    in our countries for a few hundred years now. Would you disagree?\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3928,7 +3956,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1148.7307
     y: 143.58704
-    width: 174
+    width: 150
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -3981,7 +4009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 936.6227
     y: 1.4249306
-    width: 254
+    width: 214.51613
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -4005,7 +4033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -26.235931
+    x: -29.177109
     y: 72.8295
     width: 120
     height: 40
@@ -4031,11 +4059,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1403.222, y: 170.02435}
+  scrollPos: {x: 1420.0441, y: -161.85945}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 406
-  zoom: 0.25
+  zoom: 0.31
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -4043,9 +4071,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114182347636300464}
-  selectedCommands:
-  - {fileID: 114571554991546144}
+  - {fileID: 114880022079948676}
+  selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
   - {fileID: 114260736186146498}
@@ -4103,9 +4130,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1021.11316
+    x: -1015.70776
     y: 193.50562
-    width: 126
+    width: 120
     height: 40
   tint: {r: 0.6911765, g: 0.17279412, b: 0.17279412, a: 1}
   useCustomTint: 1
@@ -4132,7 +4159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1345.8115
     y: 86.83015
-    width: 186
+    width: 159.67743
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -4160,7 +4187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 522.3566
     y: 74.58481
-    width: 194
+    width: 166.12903
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -4214,7 +4241,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0.31913757
     y: 640.0766
-    width: 326
+    width: 272.58063
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -4267,7 +4294,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1.0024023
     y: 825.6096
-    width: 258
+    width: 217.74193
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -4292,7 +4319,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 171.4585
-    y: 70.78259
+    y: 73.4853
     width: 120
     height: 40
   tint: {r: 0.037305348, g: 0.8455882, b: 0.07632597, a: 1}
@@ -4385,6 +4412,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114934056390826354
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 264
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114936399634798980
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4431,9 +4485,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 225
   indentLevel: 0
-  storyText: "He doesn\u2019t answer right away.\r\n\r\n\u201CI have\u201D, he says.
-    \u201CHard not to. She has a certain \u2013 gravity, doesn\u2019t she? One might
-    have a hard time staying away. Do you find her interesting?\u201D"
+  storyText: "He doesn\u2019t answer right away.\r\n\r\n\u201CI have. Hard not to.
+    She has a certain \u2013 gravity, doesn\u2019t she? One might have a hard time
+    staying away. Do you find her interesting?\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4544,7 +4598,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -284.1013
     y: 186.07944
-    width: 198
+    width: 169.35483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4595,9 +4649,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1353.7397
+    x: 1359.2239
     y: 281.4711
-    width: 242
+    width: 204.83871
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -4624,7 +4678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1.6741161
     y: 472.05286
-    width: 290
+    width: 243.54839
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -4719,7 +4773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   remember: 0
   key: Hostess_Wine
   value: 0
