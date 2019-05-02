@@ -27,7 +27,6 @@ GameObject:
   - component: {fileID: 114021658469332758}
   - component: {fileID: 114989470889755134}
   - component: {fileID: 114089982731156750}
-  - component: {fileID: 114771985721207394}
   - component: {fileID: 114929098638778670}
   - component: {fileID: 114031800622351644}
   - component: {fileID: 114756710578353242}
@@ -40,7 +39,6 @@ GameObject:
   - component: {fileID: 114730019161628822}
   - component: {fileID: 114395530874560776}
   - component: {fileID: 114150793203051060}
-  - component: {fileID: 114903223398936864}
   m_Layer: 0
   m_Name: GlobalFungus
   m_TagString: Untagged
@@ -120,8 +118,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114252796017311026}
-  selectedCommands: []
+  - {fileID: 114391267055280492}
+  selectedCommands:
+  - {fileID: 114989470889755134}
   variables:
   - {fileID: 114021658469332758}
   description: 
@@ -147,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  text: (Reset to the moment you were poisoned.)
+  text: (Reset time)
   description: 
   targetBlock: {fileID: 114730019161628822}
   hideIfVisited: 0
@@ -262,8 +261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 624
-    y: 261
+    x: 580.3818
+    y: 258.8723
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -340,8 +339,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114929098638778670}
-  - {fileID: 114903223398936864}
-  - {fileID: 114771985721207394}
   - {fileID: 114089982731156750}
   - {fileID: 114989470889755134}
 --- !u!114 &114395530874560776
@@ -471,63 +468,6 @@ MonoBehaviour:
   itemId: 16
   indentLevel: 0
   loadingImage: {fileID: 0}
---- !u!114 &114771985721207394
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 0
-  storyText: (This device is highly illegal, you know this. It is with great dread,
-    and unwavering purpose, you know you have to use it anyway.)
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
---- !u!114 &114903223398936864
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 22
-  indentLevel: 0
-  storyText: "(As time slowly drains the glowing crystal at its center occasionaly
-    a gear jutting out of its uneven form will start to spin, for no apparent reason.
-    \r)"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114929098638778670
 MonoBehaviour:
   m_ObjectHideFlags: 1
