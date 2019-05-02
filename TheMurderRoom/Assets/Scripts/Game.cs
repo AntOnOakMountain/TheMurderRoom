@@ -33,16 +33,18 @@ public class Game : MonoBehaviour {
         }
 
         flowChart = GameObject.Find("GlobalFungus").GetComponent<Flowchart>();
-        state = State.Play;
+        SetState(State.Play);
     }
 
     void Update() {
-        if (Input.GetKey("escape")) {
-            ExitMenu.instance.gameObject.SetActive(true);
-            SetState(State.Menu);
-        }
+        #if (!UNITY_EDITOR)
+            if (Input.GetKey("escape")) {
+                ExitMenu.instance.gameObject.SetActive(true);
+                SetState(State.Menu);
+            }
+        #endif
 
-        if(state == State.Play) {
+        if (state == State.Play) {
             if (Input.GetButtonDown("RewindTime")) {
                 RewindTime();
             }
@@ -69,6 +71,14 @@ public class Game : MonoBehaviour {
 
     public void SetState(State newState) {
         state = newState;
+
+        if(newState == State.Play) {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else {
+            Cursor.lockState = CursorLockMode.None;
+        }
+
         switch (newState) {
             case State.Dialogue:
                 Player.instance.SetState(Player.State.Dialogue);
