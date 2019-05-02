@@ -14,7 +14,7 @@ public class Journal : MonoBehaviour{
     public GameObject sayDialog;
 
     public Sprite partnerImage, selfImage;
-
+    public static float bubblePadding = 0.62f;
 
     void Start() {
         journal = this;
@@ -72,14 +72,19 @@ public class Journal : MonoBehaviour{
 
     private IEnumerator AfterAppend(LayoutElement layout, RectTransform transform) {
         yield return null;
-        layout.preferredHeight = transform.rect.height * 0.59f;
+        layout.preferredHeight = transform.rect.height * bubblePadding;
+        yield return null;
+        if (menuDialog.transform.GetChild(0).gameObject.activeSelf)
+            menuDialog.GetComponent<LayoutElement>().preferredHeight = Fungus.MenuDialog.ActiveMenuDialog.DisplayedOptionsCount * 55 * bubblePadding;
+        else
+            menuDialog.GetComponent<LayoutElement>().preferredHeight = 0;
+        yield return null;
         journalUI.transform.parent.parent.GetComponent<ScrollRect>().normalizedPosition = new Vector2(0, 0);
     }
 
     public void Clear() {
         for (int i = 0; i < journalUI.transform.childCount - 2; i++) {
             Destroy(journalUI.transform.GetChild(i).gameObject);
-            //journalUI.transform.GetChild(i).gameObject.SetActive(false);
         }
         entries.Clear();
     }

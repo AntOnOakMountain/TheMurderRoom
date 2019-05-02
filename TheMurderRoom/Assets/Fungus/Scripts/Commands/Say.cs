@@ -2,6 +2,7 @@
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Fungus
 {
@@ -135,6 +136,7 @@ namespace Fungus
                     else
                         Journal.journal.Add(new JournalEntry(character != null ? character.NameText : "No name", storyText));
                 }
+                SayDialog.ActiveSayDialog.GetComponentInParent<LayoutElement>().preferredHeight = 0;
                 Continue();
             });
         }
