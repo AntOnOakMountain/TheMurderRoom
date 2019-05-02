@@ -3567,75 +3567,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1be51deac96f11459aae44a88f57692, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &991123426
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1320229037}
-    m_Modifications:
-    - target: {fileID: 4055866483457158, guid: f4177e230d87b534da62ae7dcd9fb8d4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.5873
-      objectReference: {fileID: 0}
-    - target: {fileID: 224575240111530404, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224575240111530404, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 224575240111530404, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -25
-      objectReference: {fileID: 0}
-    - target: {fileID: 224575240111530404, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224575240111530404, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -80
-      objectReference: {fileID: 0}
-    - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 50
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d1be51deac96f11459aae44a88f57692, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &979431843
 GameObject:
   m_ObjectHideFlags: 0
@@ -5518,12 +5449,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4053136577056312, guid: 9747fa111be32aa4a95c0116dae4d503,
     type: 2}
   m_PrefabInternal: {fileID: 1418099242}
---- !u!114 &1418099244 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114924524276700878, guid: 9747fa111be32aa4a95c0116dae4d503,
-    type: 2}
-  m_PrefabInternal: {fileID: 1418099242}
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!1 &1432294703
 GameObject:
   m_ObjectHideFlags: 0
@@ -5794,20 +5719,6 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4112996422680302, guid: 69849a103fc69694e95c4c2e2b0a7719, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114046869486016100, guid: 69849a103fc69694e95c4c2e2b0a7719,
-        type: 2}
-      propertyPath: flowchart
-      value: 
-      objectReference: {fileID: 1418099244}
-    - target: {fileID: 33641615603699122, guid: 69849a103fc69694e95c4c2e2b0a7719,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4286537410878810, guid: 69849a103fc69694e95c4c2e2b0a7719, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
