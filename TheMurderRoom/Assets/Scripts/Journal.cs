@@ -53,7 +53,7 @@ public class Journal : MonoBehaviour{
             transform.pivot = new Vector2(1, 1);
             transform.anchorMin = new Vector2(1, 1);
             transform.anchorMax = new Vector2(1, 1);
-            transform.localPosition = new Vector3(640,0,0);
+            transform.localPosition = new Vector3(590,0,0);
             textComponent.alignment = TextAnchor.UpperRight;
             textObject.GetComponentInChildren<Image>().sprite = selfImage;
             textObject.GetComponentInChildren<HorizontalLayoutGroup>().padding = new RectOffset(0, 50, 0,0);
