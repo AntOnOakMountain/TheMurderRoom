@@ -75,7 +75,7 @@ public class Journal : MonoBehaviour{
         layout.preferredHeight = transform.rect.height * bubblePadding;
         yield return null;
         if (menuDialog.transform.GetChild(0).gameObject.activeSelf)
-            menuDialog.GetComponent<LayoutElement>().preferredHeight = Fungus.MenuDialog.ActiveMenuDialog.DisplayedOptionsCount * 55 * bubblePadding;
+            menuDialog.GetComponent<LayoutElement>().preferredHeight = Fungus.MenuDialog.ActiveMenuDialog.DisplayedOptionsCount * 55 * bubblePadding + 8;
         else
             menuDialog.GetComponent<LayoutElement>().preferredHeight = 0;
         yield return null;

@@ -580,7 +580,7 @@ namespace Fungus
         protected virtual void PartitionString(bool wholeWords, string inputString, int i)
         {
             if (i == 1) {
-                SayDialog.ActiveSayDialog.GetComponentInParent<LayoutElement>().preferredHeight = textUI.preferredHeight * Journal.bubblePadding;
+                SayDialog.ActiveSayDialog.GetComponentInParent<LayoutElement>().preferredHeight = textUI.preferredHeight * Journal.bubblePadding + 18;
                 SayDialog.ActiveSayDialog.GetComponentInParent<ScrollRect>().normalizedPosition = new Vector2(0, 0);
             }
             leftString.Length = 0;
