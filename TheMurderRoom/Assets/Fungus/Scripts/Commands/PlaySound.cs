@@ -15,7 +15,8 @@ namespace Fungus
     public class PlaySound : Command
     {
         [Tooltip("Sound effect clip to play")]
-        [SerializeField] protected AudioClip soundClip;
+        [FMODUnity.EventRef]
+        [SerializeField] protected string soundClip;
 
         [Range(0,1)]
         [Tooltip("Volume level of the sound effect")]
@@ -23,6 +24,8 @@ namespace Fungus
 
         [Tooltip("Wait until the sound has finished playing before continuing execution.")]
         [SerializeField] protected bool waitUntilFinished;
+
+        FMOD.Studio.EventInstance soundEventInstance;
 
         protected virtual void DoWait()
         {
@@ -39,13 +42,14 @@ namespace Fungus
                 return;
             }
 
-            var musicManager = FungusManager.Instance.MusicManager;
-
-            musicManager.PlaySound(soundClip, volume);
+            soundEventInstance = FMODUnity.RuntimeManager.CreateInstance(soundClip);
+            soundEventInstance.start();
 
             if (waitUntilFinished)
             {
-                Invoke("DoWait", soundClip.length);
+                int length;
+                FMOD.RESULT res = FMODUnity.RuntimeManager.GetEventDescription(soundClip).getLength(out length);
+                Invoke("DoWait", length / 1000);
             }
             else
             {
@@ -60,7 +64,7 @@ namespace Fungus
                 return "Error: No sound clip selected";
             }
 
-            return soundClip.name;
+            return soundClip;
         }
 
         public override Color GetButtonColor()
