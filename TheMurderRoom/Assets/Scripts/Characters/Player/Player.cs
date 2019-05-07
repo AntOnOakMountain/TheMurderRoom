@@ -29,6 +29,8 @@ public class Player : MonoBehaviour {
     [FMODUnity.EventRef]
     public string playerFootstepEvent;
     FMOD.Studio.EventInstance player_Footstep;
+
+    public FMODUnity.StudioEventEmitter roomEmitter;
     
 
     [Header("Fungus stuff")]
@@ -182,6 +184,7 @@ public class Player : MonoBehaviour {
     public void EndDialogue() {
         Game.instance.SetState(Game.State.Play);
         Journal.journal.ToggleJournal(false);
+        roomEmitter.SetParameter("Conversation", 0.0f);
     }
 
     public State GetState() {
