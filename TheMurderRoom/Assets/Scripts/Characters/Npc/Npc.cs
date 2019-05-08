@@ -39,7 +39,8 @@ public class Npc : MonoBehaviour {
     public bool Interact() {
         Journal.journal.Clear();
         Journal.journal.ToggleJournal(true);
-        Player.instance.roomEmitter.SetParameter("Conversation", 1.0f);
+        if(Player.instance.roomEmitter != null)
+            Player.instance.roomEmitter.SetParameter("Conversation", 1.0f);
         return flowchartInteract.InteractWith();
     }
 	
