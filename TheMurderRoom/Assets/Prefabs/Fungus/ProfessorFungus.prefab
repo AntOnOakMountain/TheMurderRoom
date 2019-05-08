@@ -28,7 +28,6 @@ GameObject:
   - component: {fileID: 114152740352556982}
   - component: {fileID: 114061145356414926}
   - component: {fileID: 114022477760343734}
-  - component: {fileID: 114361977712595536}
   - component: {fileID: 114375658498099470}
   - component: {fileID: 114569428329741496}
   - component: {fileID: 114879751020430626}
@@ -37,7 +36,6 @@ GameObject:
   - component: {fileID: 114441027742824586}
   - component: {fileID: 114408951683200366}
   - component: {fileID: 114871242980067774}
-  - component: {fileID: 114506676381167136}
   - component: {fileID: 114331146517357154}
   - component: {fileID: 114937986985203306}
   - component: {fileID: 114346605423087374}
@@ -49,7 +47,6 @@ GameObject:
   - component: {fileID: 114173057497672604}
   - component: {fileID: 114628780148804502}
   - component: {fileID: 114639358560005732}
-  - component: {fileID: 114278670690047626}
   - component: {fileID: 114534477358239094}
   - component: {fileID: 114662730502533404}
   - component: {fileID: 114382039286468536}
@@ -93,7 +90,6 @@ GameObject:
   - component: {fileID: 114999691667388778}
   - component: {fileID: 114658794167782860}
   - component: {fileID: 114556340004931946}
-  - component: {fileID: 114949926999702704}
   - component: {fileID: 114214271648481198}
   - component: {fileID: 114261719397457942}
   - component: {fileID: 114851800295363250}
@@ -112,7 +108,6 @@ GameObject:
   - component: {fileID: 114931138478874332}
   - component: {fileID: 114686731762439862}
   - component: {fileID: 114712727576130926}
-  - component: {fileID: 114523955417272700}
   - component: {fileID: 114059507965792266}
   - component: {fileID: 114092266893811918}
   - component: {fileID: 114712516362489004}
@@ -130,7 +125,6 @@ GameObject:
   - component: {fileID: 114158071125870730}
   - component: {fileID: 114303359542638992}
   - component: {fileID: 114062815467990872}
-  - component: {fileID: 114044855814842000}
   - component: {fileID: 114542333117776714}
   - component: {fileID: 114128868745595612}
   - component: {fileID: 114504452864627536}
@@ -167,7 +161,6 @@ GameObject:
   - component: {fileID: 114584364203633482}
   - component: {fileID: 114104076041656986}
   - component: {fileID: 114046746523871940}
-  - component: {fileID: 114727420597850762}
   - component: {fileID: 114079761386271212}
   - component: {fileID: 114073711390312292}
   - component: {fileID: 114125135279166994}
@@ -194,7 +187,6 @@ GameObject:
   - component: {fileID: 114541518579516608}
   - component: {fileID: 114521748023150218}
   - component: {fileID: 114847431531057994}
-  - component: {fileID: 114886927410950012}
   - component: {fileID: 114297764247058152}
   - component: {fileID: 114219571506208670}
   - component: {fileID: 114448695984365286}
@@ -435,6 +427,23 @@ GameObject:
   - component: {fileID: 114445905083762200}
   - component: {fileID: 114124380013930134}
   - component: {fileID: 114850062016918516}
+  - component: {fileID: 114915868435801468}
+  - component: {fileID: 114381807431935948}
+  - component: {fileID: 114420147505805372}
+  - component: {fileID: 114928333728096476}
+  - component: {fileID: 114501222563686290}
+  - component: {fileID: 114022861138844278}
+  - component: {fileID: 114529344639986866}
+  - component: {fileID: 114495844862628358}
+  - component: {fileID: 114829948392430810}
+  - component: {fileID: 114126544336321916}
+  - component: {fileID: 114916222757125900}
+  - component: {fileID: 114942701453907916}
+  - component: {fileID: 114435004879487038}
+  - component: {fileID: 114945422072874470}
+  - component: {fileID: 114927912894140218}
+  - component: {fileID: 114356845676108370}
+  - component: {fileID: 114174471469450020}
   m_Layer: 0
   m_Name: ProfessorFungus
   m_TagString: Untagged
@@ -730,6 +739,33 @@ MonoBehaviour:
   remember: 1
   key: Animator
   value: {fileID: 0}
+--- !u!114 &114022861138844278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 507
+  indentLevel: 1
+  text: "\"Tack f\xF6r din tid.\""
+  description: 
+  targetBlock: {fileID: 114331146517357154}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114023403033891124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -908,7 +944,7 @@ MonoBehaviour:
   itemId: 164
   indentLevel: 0
   compareOperator: 0
-  variable: {fileID: 114044855814842000}
+  variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -948,21 +984,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114044855814842000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  remember: 0
-  key: P_Gyrid
-  value: 0
 --- !u!114 &114045157972029902
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1466,8 +1487,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -449.98553
-    y: 142.40613
+    x: -451.25134
+    y: 104.43143
     width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
@@ -1624,7 +1645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1202.0656
     y: 337.232
-    width: 151.72412
+    width: 154.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -1678,7 +1699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 720.09924
     y: 195.22018
-    width: 131.03448
+    width: 134.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -1938,7 +1959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1439.8728
     y: 228.4238
-    width: 131.03448
+    width: 134.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -2090,7 +2111,7 @@ MonoBehaviour:
   - {fileID: 114321080637654352}
   - {fileID: 114541518579516608}
   - {fileID: 114847431531057994}
-  - {fileID: 114886927410950012}
+  - {fileID: 114942701453907916}
 --- !u!114 &114118133467324862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2106,7 +2127,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 282.17404
     y: 485.09515
-    width: 148.27585
+    width: 151.42857
     height: 40
   tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
   useCustomTint: 1
@@ -2118,7 +2139,7 @@ MonoBehaviour:
   - {fileID: 114075345323397250}
   - {fileID: 114256059624259076}
   - {fileID: 114214271648481198}
-  - {fileID: 114949926999702704}
+  - {fileID: 114022861138844278}
   - {fileID: 114556340004931946}
 --- !u!114 &114122233237803562
 MonoBehaviour:
@@ -2194,6 +2215,20 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114126544336321916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 500
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114128317417604864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2235,7 +2270,7 @@ MonoBehaviour:
   itemId: 157
   indentLevel: 0
   compareOperator: 0
-  variable: {fileID: 114044855814842000}
+  variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2304,7 +2339,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -174.19919
     y: -870.379
-    width: 141.3793
+    width: 144.2857
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
@@ -2635,9 +2670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1108.7692
-    y: -51.562664
-    width: 146.55173
+    x: 1110.035
+    y: -28.777843
+    width: 148.57144
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -2713,6 +2748,33 @@ MonoBehaviour:
   description: 
   targetBlock: {fileID: 114163689470170308}
   hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &114174471469450020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 493
+  indentLevel: 0
+  text: "\"Tack f\xF6r din tid.\""
+  description: 
+  targetBlock: {fileID: 114331146517357154}
+  hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3211,7 +3273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1200.2697
     y: 115.79365
-    width: 153.44827
+    width: 157.14285
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -3624,7 +3686,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 979.589
     y: 133.86583
-    width: 139.65517
+    width: 142.85715
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -3693,7 +3755,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 924.9095
     y: -79.69285
-    width: 146.55173
+    width: 148.57144
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -3705,7 +3767,7 @@ MonoBehaviour:
   - {fileID: 114628780148804502}
   - {fileID: 114173057497672604}
   - {fileID: 114534477358239094}
-  - {fileID: 114278670690047626}
+  - {fileID: 114381807431935948}
   - {fileID: 114658794167782860}
 --- !u!114 &114269266849199310
 MonoBehaviour:
@@ -3720,33 +3782,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 1
---- !u!114 &114278670690047626
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  indentLevel: 1
-  text: "\"Tack f\xF6r din tid.\""
-  description: 
-  targetBlock: {fileID: 114331146517357154}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114282120674849290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3762,7 +3797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -220.0191
     y: -283.37628
-    width: 160.34482
+    width: 165.7143
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
@@ -4021,7 +4056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 720.2476
     y: -36.01965
-    width: 146.55173
+    width: 148.57144
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -4151,7 +4186,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.31805
     y: 558.754
-    width: 148.27585
+    width: 151.42857
     height: 40
   tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
   useCustomTint: 1
@@ -4313,8 +4348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 189.81606
-    y: 157.65941
+    x: 163.23424
+    y: 175.38098
     width: 120
     height: 40
   tint: {r: 0.86764705, g: 0.14035465, b: 0.14035465, a: 1}
@@ -4324,8 +4359,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114506676381167136}
-  - {fileID: 114361977712595536}
+  - {fileID: 114928333728096476}
+  - {fileID: 114420147505805372}
 --- !u!114 &114331730232448574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4369,7 +4404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1617.2914
     y: 283.87885
-    width: 131.03448
+    width: 134.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -4552,6 +4587,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 313
   indentLevel: 0
+--- !u!114 &114356845676108370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -664.4834
+    y: 435.90222
+    width: 120
+    height: 40
+  tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
+  useCustomTint: 1
+  itemId: 494
+  blockName: P_Filosof_5
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114945422072874470}
 --- !u!114 &114356898115072698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4606,7 +4666,7 @@ MonoBehaviour:
   - {fileID: 114343655761266760}
   - {fileID: 114571582570589780}
   - {fileID: 114096382029474328}
-  - {fileID: 114727420597850762}
+  - {fileID: 114174471469450020}
 --- !u!114 &114360294377136184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4647,20 +4707,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 403
   indentLevel: 1
---- !u!114 &114361977712595536
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 39
-  indentLevel: 0
-  delay: 0
 --- !u!114 &114362139795269424
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4701,8 +4747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -331.44717
-    y: 209.72054
+    x: -454.2317
+    y: 186.93571
     width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
@@ -4856,7 +4902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.19135
     y: 375.51462
-    width: 148.27585
+    width: 151.42857
     height: 40
   tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
   useCustomTint: 1
@@ -4870,6 +4916,33 @@ MonoBehaviour:
   - {fileID: 114372275753418754}
   - {fileID: 114448695984365286}
   - {fileID: 114048965350002088}
+--- !u!114 &114381807431935948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 508
+  indentLevel: 1
+  text: "\"Tack f\xF6r din tid.\""
+  description: 
+  targetBlock: {fileID: 114331146517357154}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114382039286468536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5300,6 +5373,20 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114420147505805372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 504
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114425147955073732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5342,7 +5429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -140.97118
     y: -508.41534
-    width: 127.586205
+    width: 130
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
@@ -5410,6 +5497,20 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114435004879487038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 497
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114437263385014402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5589,11 +5690,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 581.41595, y: 592.4887}
+  scrollPos: {x: 809.70996, y: 645.5394}
   variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
+  variablesExpanded: 0
   blockViewHeight: 400
-  zoom: 0.58000004
+  zoom: 0.7
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -5601,7 +5702,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114563246648661210}
+  - {fileID: 114529344639986866}
   selectedCommands: []
   variables:
   - {fileID: 114152740352556982}
@@ -5610,7 +5711,6 @@ MonoBehaviour:
   - {fileID: 114064432894931722}
   - {fileID: 114371981413295946}
   - {fileID: 114092266893811918}
-  - {fileID: 114044855814842000}
   - {fileID: 114508875624932690}
   - {fileID: 114504452864627536}
   - {fileID: 114140042967043574}
@@ -5620,6 +5720,7 @@ MonoBehaviour:
   - {fileID: 114525813515614810}
   - {fileID: 114202044397518868}
   - {fileID: 114495537243230758}
+  - {fileID: 114915868435801468}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -5929,9 +6030,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 947.09595
-    y: 255.65971
-    width: 137.93103
+    x: 967.349
+    y: 222.7483
+    width: 140
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -5961,7 +6062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 731.85614
     y: 535.4768
-    width: 125.86206
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
   useCustomTint: 1
@@ -6101,6 +6202,34 @@ MonoBehaviour:
   remember: 0
   key: FakePro
   value: 0
+--- !u!114 &114495844862628358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 502
+  indentLevel: 0
+  delay: 0
+--- !u!114 &114501222563686290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 505
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114502121591181258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6158,33 +6287,6 @@ MonoBehaviour:
   remember: 0
   key: TalkedPro
   value: 0
---- !u!114 &114506676381167136
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
-  indentLevel: 0
-  storyText: "Adj\xF6."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114508875624932690
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6325,8 +6427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -22.96494
-    y: 506.18005
+    x: -90.05356
+    y: 518.8382
     width: 120
     height: 40
   tint: {r: 0.74179775, g: 0.36672792, b: 0.875, a: 1}
@@ -6339,26 +6441,6 @@ MonoBehaviour:
   - {fileID: 114455768771100846}
   - {fileID: 114001094621200280}
   - {fileID: 114346540643434182}
---- !u!114 &114523955417272700
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 123
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 114706991906050328}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &114524797787617128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6428,6 +6510,31 @@ MonoBehaviour:
   remember: 0
   key: P_Forskning
   value: 0
+--- !u!114 &114529344639986866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -676.4348
+    y: 556.18115
+    width: 148.57144
+    height: 40
+  tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
+  useCustomTint: 1
+  itemId: 489
+  blockName: P_Introduktion_7
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114501222563686290}
 --- !u!114 &114529816747327020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6551,7 +6658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 386.27734
     y: -13.128912
-    width: 132.7586
+    width: 134.2857
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -6608,7 +6715,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1617.256
     y: 185.14696
-    width: 131.03448
+    width: 134.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -6795,7 +6902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 721.2188
     y: -109.869354
-    width: 146.55173
+    width: 148.57144
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -7127,7 +7234,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220.4552
     y: -97.123764
-    width: 146.55173
+    width: 151.42857
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
@@ -7323,7 +7430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1201.3634
     y: 227.48729
-    width: 131.03448
+    width: 134.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -7410,7 +7517,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 536.0605
     y: -60.475494
-    width: 146.55173
+    width: 148.57144
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -7439,7 +7546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.66106
     y: -204.70837
-    width: 160.34482
+    width: 165.7143
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
@@ -8129,7 +8236,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.70898
     y: 289.15558
-    width: 134.48276
+    width: 137.14285
     height: 40
   tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
   useCustomTint: 1
@@ -8227,7 +8334,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 409.03046
     y: 557.69446
-    width: 148.27585
+    width: 151.42857
     height: 40
   tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
   useCustomTint: 1
@@ -8429,33 +8536,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &114727420597850762
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 198
-  indentLevel: 0
-  text: "\u201CTack f\xF6r din tid.\""
-  description: 
-  targetBlock: {fileID: 114331146517357154}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114733393115345384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8731,7 +8811,8 @@ MonoBehaviour:
   - {fileID: 114441318411376316}
   - {fileID: 114237699198491000}
   - {fileID: 114059507965792266}
-  - {fileID: 114523955417272700}
+  - {fileID: 114829948392430810}
+  - {fileID: 114495844862628358}
 --- !u!114 &114768791041496990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8982,8 +9063,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -391.8613
-    y: 49.29821
+    x: -394.3929
+    y: 22.71592
     width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
@@ -9077,6 +9158,33 @@ MonoBehaviour:
   itemId: 392
   indentLevel: 0
   delay: 0
+--- !u!114 &114829948392430810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 501
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114830541685490088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9241,7 +9349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 846.3764
     y: 457.30133
-    width: 120.68965
+    width: 122.85715
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
   useCustomTint: 1
@@ -9533,7 +9641,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 722.3946
     y: 102.257675
-    width: 131.03448
+    width: 134.2857
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -9640,9 +9748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1112.569
-    y: -108.23488
-    width: 146.55173
+    x: 1115.1006
+    y: -137.34882
+    width: 148.57144
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -9657,33 +9765,6 @@ MonoBehaviour:
   - {fileID: 114012924000851892}
   - {fileID: 114771809818529926}
   - {fileID: 114662730502533404}
---- !u!114 &114886927410950012
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 224
-  indentLevel: 0
-  text: "\u201CTack f\xF6r din tid.\u201D"
-  description: 
-  targetBlock: {fileID: 114331146517357154}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114889412930224248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9934,6 +10015,46 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114915868435801468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  remember: 0
+  key: P_Kund
+  value: 0
+--- !u!114 &114916222757125900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -684.1941
+    y: 474.50995
+    width: 151.42857
+    height: 40
+  tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
+  useCustomTint: 1
+  itemId: 499
+  blockName: P_Restriktioner_4
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114126544336321916}
 --- !u!114 &114922560008618842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9975,6 +10096,58 @@ MonoBehaviour:
   itemId: 294
   indentLevel: 0
   delay: 0
+--- !u!114 &114927912894140218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -661.8794
+    y: 512.5387
+    width: 120
+    height: 40
+  tint: {r: 0.74179775, g: 0.36672792, b: 0.875, a: 1}
+  useCustomTint: 1
+  itemId: 495
+  blockName: P_Kapten_5
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114435004879487038}
+--- !u!114 &114928333728096476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 503
+  indentLevel: 0
+  storyText: "Adj\xF6."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114931138478874332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10126,6 +10299,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114942701453907916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 506
+  indentLevel: 0
+  text: "\"Tack f\xF6r din tid.\""
+  description: 
+  targetBlock: {fileID: 114331146517357154}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114943196148508000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10141,7 +10341,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -19.614029
     y: -932.9327
-    width: 141.3793
+    width: 144.2857
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
@@ -10189,6 +10389,20 @@ MonoBehaviour:
   - {fileID: 114768791041496990}
   - {fileID: 114201781866037904}
   - {fileID: 114559669061563204}
+--- !u!114 &114945422072874470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 496
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114946785978117708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10238,33 +10452,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114949926999702704
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 99
-  indentLevel: 1
-  text: "\"Tack f\xF6r din tid.\""
-  description: 
-  targetBlock: {fileID: 114331146517357154}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114950441288626796
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10458,7 +10645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.215137
     y: -319.74796
-    width: 160.34482
+    width: 165.7143
     height: 40
   tint: {r: 0.75, g: 0.41911763, b: 0.41911763, a: 1}
   useCustomTint: 1
