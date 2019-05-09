@@ -184,7 +184,8 @@ public class Player : MonoBehaviour {
     public void EndDialogue() {
         Game.instance.SetState(Game.State.Play);
         Journal.journal.ToggleJournal(false);
-        roomEmitter.SetParameter("Conversation", 0.0f);
+        if(roomEmitter != null)
+            roomEmitter.SetParameter("Conversation", 0.0f);
     }
 
     public State GetState() {
