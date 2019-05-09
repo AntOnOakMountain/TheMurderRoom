@@ -193,7 +193,6 @@ GameObject:
   - component: {fileID: 114924337996224954}
   - component: {fileID: 114233985473148712}
   - component: {fileID: 114035356201823896}
-  - component: {fileID: 114680027556006884}
   - component: {fileID: 114112514051035764}
   - component: {fileID: 114937561435775424}
   - component: {fileID: 114263553766632966}
@@ -237,16 +236,6 @@ GameObject:
   - component: {fileID: 114204370784923872}
   - component: {fileID: 114242140440617414}
   - component: {fileID: 114957182134834292}
-  - component: {fileID: 114823039304844562}
-  - component: {fileID: 114751140292467098}
-  - component: {fileID: 114643249775204594}
-  - component: {fileID: 114254705817794882}
-  - component: {fileID: 114733396574538816}
-  - component: {fileID: 114893571105590828}
-  - component: {fileID: 114663418825755984}
-  - component: {fileID: 114356098361195518}
-  - component: {fileID: 114905911786379638}
-  - component: {fileID: 114869750775517840}
   - component: {fileID: 114925077509566322}
   - component: {fileID: 114805611637989338}
   - component: {fileID: 114336986797391904}
@@ -267,7 +256,35 @@ GameObject:
   - component: {fileID: 114002425759908852}
   - component: {fileID: 114790376242823446}
   - component: {fileID: 114094327708784044}
-  - component: {fileID: 114390866558602336}
+  - component: {fileID: 114301813492325522}
+  - component: {fileID: 114025928659784266}
+  - component: {fileID: 114314070877714670}
+  - component: {fileID: 114825992679182736}
+  - component: {fileID: 114843413807658608}
+  - component: {fileID: 114795206743445034}
+  - component: {fileID: 114894136982866256}
+  - component: {fileID: 114922993736001508}
+  - component: {fileID: 114325913875195720}
+  - component: {fileID: 114389842678604936}
+  - component: {fileID: 114337508590629952}
+  - component: {fileID: 114347710852328608}
+  - component: {fileID: 114571791154602676}
+  - component: {fileID: 114564471646490168}
+  - component: {fileID: 114115176727738618}
+  - component: {fileID: 114171839694371950}
+  - component: {fileID: 114770291419248704}
+  - component: {fileID: 114673860459277396}
+  - component: {fileID: 114770849535164744}
+  - component: {fileID: 114478464675979170}
+  - component: {fileID: 114317643719093188}
+  - component: {fileID: 114846235954067336}
+  - component: {fileID: 114272110893436932}
+  - component: {fileID: 114749212658209532}
+  - component: {fileID: 114058782695886920}
+  - component: {fileID: 114940067711344654}
+  - component: {fileID: 114852556904591602}
+  - component: {fileID: 114646660897644540}
+  - component: {fileID: 114840642578863856}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -428,6 +445,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114025928659784266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 386
+  indentLevel: 1
+  variable: {fileID: 114840642578863856}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114032885022002418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -657,6 +701,19 @@ MonoBehaviour:
   - {fileID: 114305150330240316}
   - {fileID: 114941438363867544}
   - {fileID: 114845594794266282}
+--- !u!114 &114058782695886920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 362
+  indentLevel: 0
 --- !u!114 &114070259974426040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1070,6 +1127,33 @@ MonoBehaviour:
   - {fileID: 114630062554151244}
   - {fileID: 114474827196057164}
   - {fileID: 114683827900593966}
+--- !u!114 &114115176727738618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 372
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 114952882855449086}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114118008471790294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1388,6 +1472,26 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114171839694371950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 371
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114646660897644540}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &114174619652566776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1902,8 +2006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1516.1116
-    y: -30.386368
+    x: -1507.3206
+    y: -22.694056
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1913,9 +2017,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 114035356201823896}
   commandList:
-  - {fileID: 114680027556006884}
-  - {fileID: 114390866558602336}
-  - {fileID: 114751140292467098}
+  - {fileID: 114115176727738618}
+  - {fileID: 114564471646490168}
+  - {fileID: 114389842678604936}
+  - {fileID: 114325913875195720}
+  - {fileID: 114922993736001508}
 --- !u!114 &114237293384651550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2177,33 +2283,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114254705817794882
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 312
-  indentLevel: 0
-  text: "\u201DOch vem \xE4r du?\u201D"
-  description: 
-  targetBlock: {fileID: 114112514051035764}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114259699362235906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2354,6 +2433,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114272110893436932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 364
+  indentLevel: 1
+  text: "Fr\xE5ga om handelsavtalet med Dekari"
+  description: 
+  targetBlock: {fileID: 114569161759134850}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114286369585548600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2450,6 +2556,33 @@ MonoBehaviour:
   commandList:
   - {fileID: 114167321225481606}
   - {fileID: 114805736634501642}
+--- !u!114 &114301813492325522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 387
+  indentLevel: 1
+  variable: {fileID: 114840642578863856}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114305150330240316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2524,6 +2657,60 @@ MonoBehaviour:
   remember: 0
   key: F_Lie
   value: 0
+--- !u!114 &114314070877714670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 385
+  indentLevel: 1
+  storyText: "Ah, var det n\xE5got mer du ville prata om?"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &114317643719093188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 366
+  indentLevel: 0
+  text: "\u201DOch vem \xE4r du?\u201D"
+  description: 
+  targetBlock: {fileID: 114112514051035764}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114320835955027820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2539,6 +2726,26 @@ MonoBehaviour:
   remember: 1
   key: Audio
   value: {fileID: 0}
+--- !u!114 &114325913875195720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 378
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114925077509566322}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &114332448574268658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2608,6 +2815,20 @@ MonoBehaviour:
   itemId: 356
   indentLevel: 0
   delay: 0
+--- !u!114 &114337508590629952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 376
+  indentLevel: 0
+  delay: 0
 --- !u!114 &114337888814887524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2663,7 +2884,7 @@ MonoBehaviour:
   description: "Beh\xF6ver skrivas."
   eventHandler: {fileID: 0}
   commandList: []
---- !u!114 &114356098361195518
+--- !u!114 &114347710852328608
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2671,11 +2892,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004049383744126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 308
+  itemId: 375
   indentLevel: 0
+  storyText: Han vill inte prata med dig igen.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114359748776281066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2926,7 +3161,7 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &114390866558602336
+--- !u!114 &114389842678604936
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2934,25 +3169,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004049383744126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 338
+  itemId: 377
   indentLevel: 0
-  storyText: '...'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114394786323831222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3324,6 +3545,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114478464675979170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 367
+  indentLevel: 0
+  text: "\u201DHur visste du vem jag var?\u201D"
+  description: 
+  targetBlock: {fileID: 114957182134834292}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114484024432128462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3520,6 +3768,26 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114564471646490168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 373
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114571791154602676}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &114569161759134850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3575,6 +3843,32 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114571791154602676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1737.6848
+    y: -22.877764
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 374
+  blockName: "F_L\xE5st"
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114347710852328608}
+  - {fileID: 114337508590629952}
 --- !u!114 &114573015639270368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3998,33 +4292,6 @@ MonoBehaviour:
   - {fileID: 114750519732976758}
   - {fileID: 114127994728727806}
   - {fileID: 114503808453299712}
---- !u!114 &114643249775204594
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 313
-  indentLevel: 0
-  text: "Adj\xF6."
-  description: 
-  targetBlock: {fileID: 114297673658224238}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114643278122167336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4052,6 +4319,39 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114646660897644540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1509.113
+    y: 185.91354
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 359
+  blockName: F_Meny_2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114852556904591602}
+  - {fileID: 114940067711344654}
+  - {fileID: 114058782695886920}
+  - {fileID: 114749212658209532}
+  - {fileID: 114272110893436932}
+  - {fileID: 114846235954067336}
+  - {fileID: 114317643719093188}
+  - {fileID: 114478464675979170}
+  - {fileID: 114770849535164744}
 --- !u!114 &114646983328830446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4189,7 +4489,7 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114663418825755984
+--- !u!114 &114673860459277396
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -4197,25 +4497,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004049383744126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 309
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
+  itemId: 369
+  indentLevel: 1
+  storyText: "\xC5, var h\xE4lsad. Du m\xE5ste vara ministern."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114675060728959154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4271,33 +4571,6 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &114680027556006884
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 272
-  indentLevel: 0
-  storyText: "\xC5, var h\xE4lsad. Du m\xE5ste vara ministern."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114681041988199494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4463,19 +4736,6 @@ MonoBehaviour:
   - {fileID: 114171615651548266}
   - {fileID: 114628392317250964}
   - {fileID: 114033685893348386}
---- !u!114 &114733396574538816
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 311
-  indentLevel: 0
 --- !u!114 &114733952144231236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4503,6 +4763,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114749212658209532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 363
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114749329814134064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4558,26 +4845,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114751140292467098
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 314
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 114925077509566322}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &114756142477319250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4683,6 +4950,60 @@ MonoBehaviour:
   commandList:
   - {fileID: 114976290554904372}
   - {fileID: 114024882626376246}
+--- !u!114 &114770291419248704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 370
+  indentLevel: 1
+  storyText: (harklar sig)
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &114770849535164744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 368
+  indentLevel: 0
+  text: "Adj\xF6."
+  description: 
+  targetBlock: {fileID: 114297673658224238}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114774111241359078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4833,6 +5154,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114795206743445034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 382
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 114840642578863856}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114796187024915824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4997,33 +5345,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
---- !u!114 &114823039304844562
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 315
-  indentLevel: 0
-  text: "\u201DHur visste du vem jag var?\u201D"
-  description: 
-  targetBlock: {fileID: 114957182134834292}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114824778602908864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5079,6 +5400,19 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114825992679182736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 384
+  indentLevel: 0
 --- !u!114 &114831225355234610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5244,6 +5578,34 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114840642578863856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: F_Greet
+  value: 0
+--- !u!114 &114843413807658608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 383
+  indentLevel: 0
 --- !u!114 &114844316753462816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5286,6 +5648,19 @@ MonoBehaviour:
   itemId: 196
   indentLevel: 0
   delay: 0
+--- !u!114 &114846235954067336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 365
+  indentLevel: 0
 --- !u!114 &114847309164550218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5314,6 +5689,33 @@ MonoBehaviour:
   - {fileID: 114897227778830194}
   - {fileID: 114107464796966920}
   - {fileID: 114866215005601774}
+--- !u!114 &114852556904591602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 360
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114853305555876568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5464,33 +5866,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 114957213356519340}
   - {fileID: 114364313361965890}
---- !u!114 &114869750775517840
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 306
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114871002557599900
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5583,19 +5958,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1829.5992, y: 146.87318}
+  scrollPos: {x: 2009.1138, y: 120.68002}
   variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 0
+  variablesExpanded: 1
   blockViewHeight: 406
-  zoom: 0.6699998
+  zoom: 0.9099996
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 114002425759908852}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
@@ -5609,6 +5983,7 @@ MonoBehaviour:
   - {fileID: 114717813918307802}
   - {fileID: 114312519810379294}
   - {fileID: 114952882855449086}
+  - {fileID: 114840642578863856}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -5784,7 +6159,7 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &114893571105590828
+--- !u!114 &114894136982866256
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -5792,25 +6167,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004049383744126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 310
-  indentLevel: 1
-  text: "Fr\xE5ga om handelsavtalet med Dekari"
-  description: 
-  targetBlock: {fileID: 114569161759134850}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
+  itemId: 380
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 114840642578863856}
+  booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114895164304193518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5866,33 +6241,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114905911786379638
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 307
-  indentLevel: 1
-  text: "Fr\xE5ga om kaptenen"
-  description: 
-  targetBlock: {fileID: 114847309164550218}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  isAMemory:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &114907446432696696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5972,6 +6320,19 @@ MonoBehaviour:
   commandList:
   - {fileID: 114589401331932332}
   - {fileID: 114166010598377750}
+--- !u!114 &114922993736001508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 379
+  indentLevel: 0
 --- !u!114 &114924337996224954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6000,8 +6361,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1520.2953
-    y: 224.92722
+    x: -1509.307
+    y: 82.07
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6011,15 +6372,16 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114869750775517840}
-  - {fileID: 114905911786379638}
-  - {fileID: 114356098361195518}
-  - {fileID: 114663418825755984}
-  - {fileID: 114893571105590828}
-  - {fileID: 114733396574538816}
-  - {fileID: 114254705817794882}
-  - {fileID: 114823039304844562}
-  - {fileID: 114643249775204594}
+  - {fileID: 114894136982866256}
+  - {fileID: 114673860459277396}
+  - {fileID: 114301813492325522}
+  - {fileID: 114795206743445034}
+  - {fileID: 114314070877714670}
+  - {fileID: 114025928659784266}
+  - {fileID: 114825992679182736}
+  - {fileID: 114770291419248704}
+  - {fileID: 114843413807658608}
+  - {fileID: 114171839694371950}
 --- !u!114 &114926395318404444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6272,6 +6634,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114940067711344654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 361
+  indentLevel: 1
+  text: "Fr\xE5ga om kaptenen"
+  description: 
+  targetBlock: {fileID: 114847309164550218}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114941438363867544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6391,10 +6780,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114854870896308328}
   - {fileID: 114204370784923872}
   - {fileID: 114825823665387106}
   - {fileID: 114793644245573804}
-  - {fileID: 114854870896308328}
   - {fileID: 114242140440617414}
 --- !u!114 &114957213356519340
 MonoBehaviour:
