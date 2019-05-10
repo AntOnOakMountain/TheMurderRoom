@@ -51,6 +51,8 @@ public class Game : MonoBehaviour {
 
             if (flowChart.GetIntegerVariable("time_left") == 0) {
                 SetState(State.Dialogue);
+                Journal.journal.Clear();
+                Journal.journal.ToggleJournal(true);
                 flowChart.ExecuteBlock("Forced Rewind");
             }
         }        
