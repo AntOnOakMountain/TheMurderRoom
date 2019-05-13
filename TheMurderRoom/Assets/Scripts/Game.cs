@@ -83,13 +83,17 @@ public class Game : MonoBehaviour {
             case State.Dialogue:
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
+                UIManager.Instance.quitButton.gameObject.SetActive(false);
                 break;
             case State.Play:
                 Player.instance.SetState(Player.State.Play);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(true);
+                UIManager.Instance.quitButton.gameObject.SetActive(true);
                 break;
             case State.Menu:
                 Player.instance.SetState(Player.State.Dialogue);
+                UIManager.Instance.timeLockButton.gameObject.SetActive(false);
+                UIManager.Instance.quitButton.gameObject.SetActive(false);
                 break;
         }
     }

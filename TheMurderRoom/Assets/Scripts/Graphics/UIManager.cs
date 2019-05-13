@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour {
 
-    [HideInInspector]
-    public Transform interactPrompt;
-    public Transform logButton;
-    public Transform timeLockButton;
+
+    [HideInInspector] public Transform interactPrompt;
+    [HideInInspector] public Transform logButton;
+    [HideInInspector] public Transform timeLockButton;
+    [HideInInspector] public Transform quitButton;
 
     private static UIManager uiManager;
     public static UIManager Instance {
@@ -28,5 +29,6 @@ public class UIManager : MonoBehaviour {
 
         logButton = transform.Find("ButtonHud/Buttons/Log Button");
         timeLockButton = transform.Find("ButtonHud/Buttons/Time Lock Button");
+        quitButton = transform.Find("ButtonHud/Buttons/Quit Game");
     }
 }
