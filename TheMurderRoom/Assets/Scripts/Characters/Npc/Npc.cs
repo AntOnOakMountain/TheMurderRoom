@@ -14,10 +14,13 @@ public class Npc : MonoBehaviour {
     public Flowchart flowchart;
     private Interact flowchartInteract;
 
-    private Transform head;
-    public Transform GetHead() {
-        return head;
-    }
+    [Tooltip("Set the head of the model as this transform.")]
+    public Transform head;
+    [Tooltip("Set the root of the model as this transform.")]
+    public Transform body;
+
+    private Animator animator;
+    private AnimationPlayOnceManager apom;
 
 	void Start () {
         // Testing NavMesh Pathfinding
@@ -33,7 +36,8 @@ public class Npc : MonoBehaviour {
             flowchartInteract = flowchart.GetComponent<Interact>();
         }
 
-        head = transform.Find("Head");
+
+
 	}
 
     public bool Interact() {

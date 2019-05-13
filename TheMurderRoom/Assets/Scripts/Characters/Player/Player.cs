@@ -172,7 +172,7 @@ public class Player : MonoBehaviour {
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);
                 speed = 0;
                 if(lookingAt != null) {
-                    fpCamera.SetDialogueFocusPoint(lookingAt.GetHead());
+                    fpCamera.SetDialogueFocusPoint(lookingAt.head);
                 }
                 break;
         }

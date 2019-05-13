@@ -82,7 +82,9 @@ public class FPCamera : MonoBehaviour {
     }
 
     public void SetDialogueFocusPoint(Transform point) {
-        focusPoint = point;
+        if(point != null) {
+            focusPoint = point;
+        }
     }
 
     public void NullFocusPoint() {
