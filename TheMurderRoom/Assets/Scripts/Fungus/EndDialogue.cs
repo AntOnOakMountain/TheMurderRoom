@@ -20,7 +20,7 @@ namespace Fungus {
 
             Npc npc = GetComponent<Npc>();
             if(npc != null) {
-                npc.EndDialougue();
+                //npc.EndDialougue();
             }
         }
 
