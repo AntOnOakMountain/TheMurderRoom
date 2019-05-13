@@ -204,13 +204,9 @@ GameObject:
   - component: {fileID: 114882332194826164}
   - component: {fileID: 114295041879255262}
   - component: {fileID: 114240289185873538}
-  - component: {fileID: 114967489826653746}
-  - component: {fileID: 114080409026173688}
   - component: {fileID: 114502052733081220}
   - component: {fileID: 114554772058841992}
   - component: {fileID: 114661143112830108}
-  - component: {fileID: 114749329814134064}
-  - component: {fileID: 114615281391161902}
   - component: {fileID: 114628699759395562}
   - component: {fileID: 114897227778830194}
   - component: {fileID: 114537430244612714}
@@ -352,6 +348,34 @@ GameObject:
   - component: {fileID: 114776176357055718}
   - component: {fileID: 114835350534487524}
   - component: {fileID: 114899709555390798}
+  - component: {fileID: 114241978717757820}
+  - component: {fileID: 114562332135320054}
+  - component: {fileID: 114866933287018572}
+  - component: {fileID: 114365718797425714}
+  - component: {fileID: 114760233438737908}
+  - component: {fileID: 114085351611342210}
+  - component: {fileID: 114783880063604694}
+  - component: {fileID: 114397700306731334}
+  - component: {fileID: 114764280402983288}
+  - component: {fileID: 114325161537434888}
+  - component: {fileID: 114801683033137442}
+  - component: {fileID: 114015848982861660}
+  - component: {fileID: 114270457595418300}
+  - component: {fileID: 114583523650949916}
+  - component: {fileID: 114942359951302458}
+  - component: {fileID: 114400967509699668}
+  - component: {fileID: 114348402026002698}
+  - component: {fileID: 114250554977897438}
+  - component: {fileID: 114801142704798682}
+  - component: {fileID: 114855839289394754}
+  - component: {fileID: 114146090609536906}
+  - component: {fileID: 114450954830423002}
+  - component: {fileID: 114624879539872646}
+  - component: {fileID: 114937787901100716}
+  - component: {fileID: 114652863607550000}
+  - component: {fileID: 114677605834445622}
+  - component: {fileID: 114216194940188130}
+  - component: {fileID: 114767987202826532}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -414,7 +438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -720.8473
     y: 201.0512
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -519,7 +543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -543.7956
     y: -356.474
-    width: 122.94121
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -532,6 +556,35 @@ MonoBehaviour:
   - {fileID: 114216308787223600}
   - {fileID: 114930584609595734}
   - {fileID: 114232213981638680}
+--- !u!114 &114015848982861660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 506
+  indentLevel: 0
+  storyText: "Kapten Alfhilde \xE4r knappast k\xE4nd f\xF6r sina fredsbevarande insatser;
+    hon var p\xE5 egen hand n\xE4ra att g\xF6ra kriget mellan v\xE5ra l\xE4nder till
+    ett faktum."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114019626088651752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -804,7 +857,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1122.3477
     y: 272.62363
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -813,6 +866,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114216194940188130}
   - {fileID: 114188406636450790}
   - {fileID: 114987812187085380}
   - {fileID: 114733952144231236}
@@ -831,7 +885,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 731.1206
     y: 28.860756
-    width: 188.82358
+    width: 180
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -960,13 +1014,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1707.8639
     y: 753.29376
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 453
   blockName: F_Kapten_1
-  description: TopicRival = true
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114095510742516864}
@@ -990,7 +1044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 795.98895
     y: 396.374
-    width: 188.82358
+    width: 180
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -1075,7 +1129,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.088684
     y: 773.8546
-    width: 179.41182
+    width: 174
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -1087,33 +1141,6 @@ MonoBehaviour:
   - {fileID: 114937601217667130}
   - {fileID: 114878210326855978}
   - {fileID: 114334064352587276}
---- !u!114 &114080409026173688
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 296
-  indentLevel: 0
-  variable: {fileID: 114499384361674900}
-  setOperator: 2
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 1
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114082381643251262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1142,6 +1169,34 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114085351611342210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 512
+  indentLevel: 0
+  storyText: "Och det \xE4r att min familj \xF6verlever den h\xE4r nya ekonomiska
+    verkligheten. Vad som \xE4n kr\xE4vs."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114091723467384084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1157,7 +1212,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 678.4872
     y: 885.5362
-    width: 202.94124
+    width: 196
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -1293,7 +1348,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -248.34418
     y: -109.56959
-    width: 195.88242
+    width: 191
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1320,7 +1375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1310.2454
     y: 268.22772
-    width: 137.05887
+    width: 133
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -1349,7 +1404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1083.1292
     y: 318.32962
-    width: 225.29419
+    width: 218
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -1523,6 +1578,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114146090609536906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 496
+  indentLevel: 0
+  storyText: (dricker av vinet)
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114159133143603862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1781,7 +1863,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1154.2433
     y: 86.830284
-    width: 162.94122
+    width: 159
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -2027,7 +2109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 983.53815
     y: 854.2669
-    width: 253.5295
+    width: 244
     height: 40
   tint: {r: 0.525, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -2081,7 +2163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1074.211
     y: 442.09503
-    width: 217.05888
+    width: 211
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -2162,7 +2244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1514.6
     y: 652.25775
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2171,6 +2253,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114767987202826532}
   - {fileID: 114224653178508814}
   - {fileID: 114000785769700962}
   - {fileID: 114557605610209982}
@@ -2264,6 +2347,21 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114216194940188130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 518
+  indentLevel: 0
+  commenterName: 
+  commentText: idle
 --- !u!114 &114216308787223600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2474,7 +2572,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1868.4542
     y: 433.16672
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
   useCustomTint: 1
@@ -2613,7 +2711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 985.1196
     y: 675.37537
-    width: 314.706
+    width: 304
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -2681,7 +2779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2024.9498
     y: 235.23094
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -2690,8 +2788,10 @@ MonoBehaviour:
   description: glad
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114080409026173688}
+  - {fileID: 114241978717757820}
   - {fileID: 114502052733081220}
+  - {fileID: 114866933287018572}
+  - {fileID: 114562332135320054}
   - {fileID: 114554772058841992}
 --- !u!114 &114240659255673772
 MonoBehaviour:
@@ -2708,7 +2808,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -925.5754
     y: 274.1032
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -2719,8 +2819,36 @@ MonoBehaviour:
   commandList:
   - {fileID: 114796187024915824}
   - {fileID: 114365876041301922}
+  - {fileID: 114652863607550000}
   - {fileID: 114094327708784044}
   - {fileID: 114790376242823446}
+--- !u!114 &114241978717757820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 517
+  indentLevel: 0
+  variable: {fileID: 114952882855449086}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114242057103317982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2789,6 +2917,26 @@ MonoBehaviour:
   - {fileID: 114844316753462816}
   - {fileID: 114159133143603862}
   - {fileID: 114305711987346554}
+--- !u!114 &114250554977897438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 499
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114801142704798682}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &114255455314496714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2831,7 +2979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1530.8163
     y: 764.8138
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2965,6 +3113,34 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114270457595418300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -2369.521
+    y: 155.48825
+    width: 120
+    height: 40
+  tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
+  useCustomTint: 1
+  itemId: 505
+  blockName: F_Handel_5
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114783880063604694}
+  - {fileID: 114085351611342210}
+  - {fileID: 114760233438737908}
+  - {fileID: 114365718797425714}
 --- !u!114 &114283241912158672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3034,7 +3210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 665.59906
     y: 702.82947
-    width: 202.94124
+    width: 196
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -3076,7 +3252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1003.9662
     y: 78.001335
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -3105,19 +3281,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2023.5784
     y: 95.74808
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
   itemId: 293
   blockName: F_Handel_1
-  description: irriterad
+  description: neutral
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114967489826653746}
-  - {fileID: 114615281391161902}
   - {fileID: 114661143112830108}
-  - {fileID: 114749329814134064}
+  - {fileID: 114855839289394754}
+  - {fileID: 114250554977897438}
 --- !u!114 &114297673658224238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3341,6 +3516,34 @@ MonoBehaviour:
   remember: 1
   key: Audio
   value: {fileID: 0}
+--- !u!114 &114325161537434888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 508
+  indentLevel: 0
+  storyText: "Handelsavtalet har varit till stor hj\xE4lp f\xF6r hennes inbillade
+    fiendeskap med mitt land. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114325913875195720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3539,6 +3742,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114348402026002698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 500
+  indentLevel: 0
+  text: "\u201CVad menar du?\u201D"
+  description: 
+  targetBlock: {fileID: 114583523650949916}
+  hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114359617154948474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3719,6 +3949,26 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114365718797425714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 514
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114801142704798682}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &114365876041301922
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3789,9 +4039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 291
   indentLevel: 0
-  text: "Du \xE4r f\xF6r avtalet"
+  text: "\u201CJag visste inte att det var s\xE5 illa.\u201D (l\xF6gn)"
   description: 
-  targetBlock: {fileID: 114295041879255262}
+  targetBlock: {fileID: 114240289185873538}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3818,7 +4068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1339.4863
     y: 773.9541
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -3896,6 +4146,53 @@ MonoBehaviour:
   commandList:
   - {fileID: 114082381643251262}
   - {fileID: 114239088893536050}
+--- !u!114 &114397700306731334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 510
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 114801142704798682}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &114400967509699668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 501
+  indentLevel: 0
+  text: "\u201CHur ser du p\xE5 de framtida relationerna mellan v\xE5ra l\xE4nder?\u201D"
+  description: 
+  targetBlock: {fileID: 114270457595418300}
+  hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114404513312162250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4086,7 +4383,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1579.3546
     y: 453.02716
-    width: 208.8236
+    width: 200
     height: 40
   tint: {r: 1, g: 0.041, b: 0, a: 1}
   useCustomTint: 1
@@ -4171,7 +4468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -360.62076
     y: -358.64587
-    width: 131.17651
+    width: 127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4309,6 +4606,35 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hon sa n\xE5gonting i stil med att du \xE4r kv\xE4llens huvudperson,
     men jag har ingen aning om vad hon menade."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &114450954830423002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 495
+  indentLevel: 0
+  storyText: "Ska jag j\xE4mra mig \xF6ver hur mitt folk lider p\xE5 grund av era
+    sanktioner, beklaga mig \xF6ver hur kriget bara \xE4r ett gev\xE4rsskott bort?
+    \xC4r det vad ni vill?"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4518,7 +4844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1206.2385
     y: 74.59228
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -4559,7 +4885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 297
   indentLevel: 0
-  storyText: Han gillar dig.
+  storyText: Du visste inte? (skrattar kort)
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4737,6 +5063,34 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114562332135320054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 516
+  indentLevel: 0
+  storyText: "Jag hoppas bara att du \xE4r beredd att betala priset f\xF6r din of\xF6rm\xE5ga
+    att inse situationens allvar."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114562992508994706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4810,6 +5164,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 114537430244612714}
   - {fileID: 114895164304193518}
+  - {fileID: 114624879539872646}
+  - {fileID: 114450954830423002}
+  - {fileID: 114146090609536906}
   - {fileID: 114385588399693550}
   - {fileID: 114882332194826164}
 --- !u!114 &114571554991546144
@@ -4913,6 +5270,35 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114583523650949916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -2374.2266
+    y: 26.076447
+    width: 120
+    height: 40
+  tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
+  useCustomTint: 1
+  itemId: 504
+  blockName: F_Handel_4
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114801683033137442}
+  - {fileID: 114015848982861660}
+  - {fileID: 114325161537434888}
+  - {fileID: 114764280402983288}
+  - {fileID: 114397700306731334}
 --- !u!114 &114585036344318136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5011,7 +5397,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 378.0968
     y: 707.033
-    width: 191.17653
+    width: 185
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -5069,7 +5455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -525.55634
     y: 292.0928
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -5137,33 +5523,6 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &114615281391161902
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 301
-  indentLevel: 0
-  variable: {fileID: 114924337996224954}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114624620400017490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5191,6 +5550,33 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114624879539872646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 494
+  indentLevel: 0
+  storyText: "Jas\xE5? Och vad finns det att s\xE4ga om det?"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114627579474226218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5315,7 +5701,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 941.37964
     y: 68.34362
-    width: 151.17651
+    width: 148
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -5414,7 +5800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1349.0701
     y: 349.32904
-    width: 239.41183
+    width: 229
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -5591,6 +5977,21 @@ MonoBehaviour:
   - {fileID: 114831225355234610}
   - {fileID: 114774111241359078}
   - {fileID: 114364805853571240}
+--- !u!114 &114652863607550000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 520
+  indentLevel: 0
+  commenterName: 
+  commentText: idle
 --- !u!114 &114656459737103242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5631,8 +6032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 299
   indentLevel: 0
-  storyText: "Han gillar dig inte men ger dig n\xE5gon slags hint mot kaptenen. Du
-    kan nu prata om handelsavtalet med henne."
+  storyText: "Jas\xE5? Hm."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5723,6 +6123,21 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114677605834445622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 519
+  indentLevel: 0
+  commenterName: 
+  commentText: idle
 --- !u!114 &114679443206909456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5948,7 +6363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 480
   indentLevel: 0
-  storyText: "Vad skulle du s\xE4ga om ...?"
+  storyText: (harklar sig)
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6019,7 +6434,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1120.6708
     y: 365.00638
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -6127,20 +6542,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114749329814134064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641db638eb66e67489702d064d519bc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 300
-  indentLevel: 0
-  delay: 0
 --- !u!114 &114749534605178604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6265,7 +6666,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1348.6228
     y: 154.2897
-    width: 167.6471
+    width: 163
     height: 40
   tint: {r: 0.19700003, g: 0.9335448, b: 1, a: 1}
   useCustomTint: 1
@@ -6302,6 +6703,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114760233438737908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 513
+  indentLevel: 0
+  storyText: "Det \xE4r bara en tidsfr\xE5ga innan det blir v\xE4rre."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114761839163473166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6317,7 +6745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1328.7372
     y: 451.9134
-    width: 226.47066
+    width: 220
     height: 40
   tint: {r: 1, g: 0.041, b: 0, a: 1}
   useCustomTint: 1
@@ -6341,6 +6769,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 402
   indentLevel: 0
+--- !u!114 &114764280402983288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 509
+  indentLevel: 0
+  storyText: "Jag kan t\xE4nka mig att hon \xE4r mycket tacksam \xF6ver er politik."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &114767987202826532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 522
+  indentLevel: 0
+  commenterName: 
+  commentText: idle
 --- !u!114 &114769198684020334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6523,6 +6993,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114783880063604694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 511
+  indentLevel: 0
+  storyText: "Jag bryr mig bara om en sak i nul\xE4get."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114784307420040514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6742,6 +7239,60 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114801142704798682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -2204.8167
+    y: 97.84112
+    width: 120
+    height: 40
+  tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
+  useCustomTint: 1
+  itemId: 498
+  blockName: F_Handel_3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 114348402026002698}
+  - {fileID: 114400967509699668}
+  - {fileID: 114942359951302458}
+--- !u!114 &114801683033137442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 507
+  indentLevel: 0
+  variable: {fileID: 114924337996224954}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114803070415639700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7103,7 +7654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 364.43774
     y: 888.21936
-    width: 191.17653
+    width: 185
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -7255,9 +7806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -531.2381
+    x: -530.06165
     y: 360.2747
-    width: 160.58829
+    width: 154
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -7302,6 +7853,34 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114855839289394754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 497
+  indentLevel: 0
+  storyText: "Det \xE4r en liten tr\xF6st att veta att Aarmarks regering verkar ha
+    sitt f\xF6rnuft intakt, \xE4ven om er flotta inte har det."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114859436888066390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7316,6 +7895,33 @@ MonoBehaviour:
   itemId: 261
   indentLevel: 0
   storyText: "\u201CI see.\u201D"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &114866933287018572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 515
+  indentLevel: 0
+  storyText: "Men vem \xE4r v\xE4l jag att betvivla en ministers ord?"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7371,7 +7977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1148.7307
     y: 143.58704
-    width: 162.94122
+    width: 159
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -7424,7 +8030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 936.6227
     y: 1.4249306
-    width: 233.52948
+    width: 227
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -7474,11 +8080,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1618.9336, y: 205.68846}
+  scrollPos: {x: 1466.6312, y: 150.34253}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 406
-  zoom: 0.84999967
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -7486,7 +8092,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114852837549733542}
+  - {fileID: 114204066244334962}
   selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
@@ -7609,7 +8215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -722.7732
     y: 314.3856
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -7621,6 +8227,7 @@ MonoBehaviour:
   - {fileID: 114812564773969802}
   - {fileID: 114043259252184090}
   - {fileID: 114226729970721138}
+  - {fileID: 114937787901100716}
   - {fileID: 114220832219973910}
   - {fileID: 114983057929608808}
 --- !u!114 &114882332194826164
@@ -7636,9 +8243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 292
   indentLevel: 0
-  text: "Du \xE4r emot avtalet"
+  text: "\u201CSituationen \xE4r verkligen allvarlig.\u201D"
   description: 
-  targetBlock: {fileID: 114240289185873538}
+  targetBlock: {fileID: 114295041879255262}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7665,7 +8272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1345.8115
     y: 86.83015
-    width: 174.70593
+    width: 170
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -7707,7 +8314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 522.3566
     y: 74.58481
-    width: 180.58829
+    width: 173
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -7786,8 +8393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 290
   indentLevel: 0
-  storyText: "Han s\xE4ger n\xE5got om hur Aarmarks parlament har svikit sina gamla
-    allierade, fr\xE5gar \xE4ven vad du tycker om det."
+  storyText: "Jag skulle vilja fr\xE5ga dig om det nya handelsavtalet."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7841,7 +8447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 493
   indentLevel: 0
-  storyText: '...'
+  storyText: "Men kanske vid ett senare tillf\xE4lle. Du har s\xE4kert {i}viktigare{/i}
+    saker att g\xF6ra."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7870,7 +8477,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 983.8881
     y: 760.85486
-    width: 311.17657
+    width: 300
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -7923,7 +8530,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 982.3975
     y: 944.214
-    width: 246.47067
+    width: 235
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -8220,6 +8827,21 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114937787901100716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 521
+  indentLevel: 0
+  commenterName: 
+  commentText: idle
 --- !u!114 &114938025950901102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8336,6 +8958,33 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114942359951302458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 503
+  indentLevel: 0
+  text: "\"Tack f\xF6r din tid.\""
+  description: 
+  targetBlock: {fileID: 114297673658224238}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  isAMemory:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &114949208310211594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8351,7 +9000,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -246.60138
     y: -173.0117
-    width: 184.1177
+    width: 180
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8392,7 +9041,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1108.7317
     y: 169.23201
-    width: 152.35298
+    width: 147
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -8404,6 +9053,7 @@ MonoBehaviour:
   - {fileID: 114204370784923872}
   - {fileID: 114825823665387106}
   - {fileID: 114793644245573804}
+  - {fileID: 114677605834445622}
   - {fileID: 114224563032889906}
   - {fileID: 114627579474226218}
 --- !u!114 &114957213356519340
@@ -8462,7 +9112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1359.2239
     y: 281.4711
-    width: 224.11772
+    width: 217
     height: 40
   tint: {r: 0.075421706, g: 0.15514326, b: 0.6838235, a: 1}
   useCustomTint: 1
@@ -8489,7 +9139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 979.721
     y: 590.65735
-    width: 274.70596
+    width: 262
     height: 40
   tint: {r: 1, g: 0.234, b: 1, a: 1}
   useCustomTint: 1
@@ -8501,33 +9151,6 @@ MonoBehaviour:
   - {fileID: 114205258065762330}
   - {fileID: 114871002557599900}
   - {fileID: 114288328257551134}
---- !u!114 &114967489826653746
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 295
-  indentLevel: 0
-  variable: {fileID: 114499384361674900}
-  setOperator: 3
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 1
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114969174987527402
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -416,6 +416,17 @@ GameObject:
   - component: {fileID: 114856029129494584}
   - component: {fileID: 114489541805974096}
   - component: {fileID: 114870661084738586}
+  - component: {fileID: 114398956370557216}
+  - component: {fileID: 114801660931109934}
+  - component: {fileID: 114016645597352406}
+  - component: {fileID: 114047657156008660}
+  - component: {fileID: 114527697336645868}
+  - component: {fileID: 114727005521213836}
+  - component: {fileID: 114701195304893754}
+  - component: {fileID: 114971917974098810}
+  - component: {fileID: 114675978443913450}
+  - component: {fileID: 114330086248484486}
+  - component: {fileID: 114267938783862412}
   m_Layer: 0
   m_Name: ProfessorFungus
   m_TagString: Untagged
@@ -575,6 +586,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 318
   indentLevel: 1
+--- !u!114 &114016645597352406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 629
+  indentLevel: 0
+  storyText: "Om du tror att jag avsl\xF6jar mina planer f\xF6r vem som helst s\xE5
+    tror du fel, ministern."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114019829773045698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -835,7 +874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 545
   indentLevel: 0
-  text: "\"Jag antar att du \xE4r en av de som inte \xE4r n\xF6jda?\""
+  text: "\u201COch du \xE4r en av de som inte \xE4r n\xF6jda?\u201D"
   description: 
   targetBlock: {fileID: 114380691587232224}
   hideIfVisited: 0
@@ -944,6 +983,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114047657156008660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 626
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114054164533248814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1976,13 +2042,14 @@ MonoBehaviour:
     y: -44.22528
     width: 160.22733
     height: 40
-  tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
+  tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
   itemId: 77
   blockName: P_Restriktioner_1
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114398956370557216}
   - {fileID: 114547880823985518}
   - {fileID: 114426115891177660}
   - {fileID: 114740516310291748}
@@ -2544,7 +2611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 570
   indentLevel: 0
-  storyText: '...'
+  storyText: "Och er f\xF6r\xE4ndring ska s\xE5 klart begr\xE4nsa m\xE4nniskor med
+    regler ist\xE4llet f\xF6r att uppmuntra dem att f\xF6rverkliga sin potential."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2610,6 +2678,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114437263385014402}
+  - {fileID: 114527697336645868}
   - {fileID: 114976666890450442}
   - {fileID: 114855806516865140}
 --- !u!114 &114167299686840094
@@ -3485,6 +3554,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 300
   indentLevel: 1
+--- !u!114 &114267938783862412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 623
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114268986972525508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3883,14 +3979,16 @@ MonoBehaviour:
     y: -106.403946
     width: 160.22733
     height: 40
-  tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
+  tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
   itemId: 90
   blockName: P_Restriktioner_2
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114701195304893754}
   - {fileID: 114161184194111128}
+  - {fileID: 114727005521213836}
   - {fileID: 114225599293857184}
 --- !u!114 &114313997883403388
 MonoBehaviour:
@@ -4007,6 +4105,34 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114330086248484486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 620
+  indentLevel: 0
+  storyText: "Bara f\xF6r n\xE5gon dag sedan beslagtog ni flera viktiga f\xF6rs\xF6ksobjekt
+    precis n\xE4r jag b\xF6rjat se resultat. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114331146517357154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4617,14 +4743,18 @@ MonoBehaviour:
     y: -179.4754
     width: 160.22733
     height: 40
-  tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
+  tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
   itemId: 57
   blockName: P_Restriktioner_0
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114267938783862412}
   - {fileID: 114752143914002064}
+  - {fileID: 114330086248484486}
+  - {fileID: 114675978443913450}
+  - {fileID: 114971917974098810}
   - {fileID: 114691323758828720}
 --- !u!114 &114382713271557192
 MonoBehaviour:
@@ -4765,6 +4895,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114398956370557216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 625
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114408951683200366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4956,7 +5113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 572
   indentLevel: 0
-  storyText: '...'
+  storyText: "Du f\xE5r v\xE4nta tills min forskning kommer ut bland v\xE4rldsnyheterna
+    precis som alla andra."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5142,8 +5300,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: "Jag har inte f\xF6r vana att ber\xE4tta om mig sj\xE4lv bara f\xF6r
-    att n\xE5gon fr\xE5gar. Kanske om du \xE4r mer specifik."
+  storyText: "Om jag hade velat att folk skulle veta saker om mig hade jag skrivit
+    en sj\xE4lvbiografi."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5321,7 +5479,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114427353449664420}
+  - {fileID: 114380691587232224}
   selectedCommands: []
   variables:
   - {fileID: 114152740352556982}
@@ -6219,6 +6377,34 @@ MonoBehaviour:
   remember: 0
   key: P_Forskning
   value: 0
+--- !u!114 &114527697336645868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 628
+  indentLevel: 0
+  storyText: "Men jag antar att jag kan svara p\xE5 {i}en{/i} fr\xE5ga eftersom du
+    ber s\xE5 sn\xE4llt."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114529816747327020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6355,8 +6541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 567
   indentLevel: 0
-  storyText: "Jag \xE4r inte intresserad av att tala om min forskning med n\xE5gon
-    som inte \xE4r insatt"
+  storyText: "Jag har inte f\xF6r avsikt att tala om mitt arbete med n\xE5gon som
+    inte \xE4r insatt."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6708,7 +6894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 574
   indentLevel: 0
-  storyText: '...'
+  storyText: (skrattar)
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7606,6 +7792,34 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114675978443913450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 621
+  indentLevel: 0
+  storyText: "Ni skulle bara veta hur sv\xE5rt det \xE4r att f\xE5 tag p\xE5 f\xF6rs\xF6kspersoner
+    som \xE4r villiga att ge sitt liv f\xF6r forskningen!"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114683966519937666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7810,6 +8024,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
+--- !u!114 &114701195304893754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 624
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114701452303961870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7897,14 +8138,17 @@ MonoBehaviour:
     y: 22.923641
     width: 160.22733
     height: 40
-  tint: {r: 0.077205904, g: 0.875, b: 0.8419877, a: 1}
+  tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
   itemId: 91
   blockName: P_Restriktioner_3
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114047657156008660}
   - {fileID: 114580492943989602}
+  - {fileID: 114016645597352406}
+  - {fileID: 114801660931109934}
   - {fileID: 114752770331052858}
 --- !u!114 &114706991906050328
 MonoBehaviour:
@@ -8059,6 +8303,33 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114727005521213836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 627
+  indentLevel: 0
+  storyText: "Det \xE4r ett sl\xF6seri p\xE5 m\xF6jligheter, det \xE4r vad det \xE4r."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114733393115345384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8225,7 +8496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 568
   indentLevel: 0
-  storyText: '...'
+  storyText: "(fnyser) Lagar och regler kan alltid brytas men det som \xE4r helt oacceptabelt
+    \xE4r att ni l\xE4gger er i min forskning direkt."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8499,6 +8771,34 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114801660931109934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 630
+  indentLevel: 0
+  storyText: "Nyfiken, va? Tja, du f\xE5r ta den nyfikenheten med dig n\xE5gon annanstans
+    f\xF6r tillf\xE4llet. Ha en trevlig kv\xE4ll!"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114806536480632244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10106,6 +10406,33 @@ MonoBehaviour:
   remember: 0
   key: P_Intro
   value: 0
+--- !u!114 &114971917974098810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 622
+  indentLevel: 0
+  storyText: "Man kan fr\xE5ga sig vilken slags v\xE4rld det \xE4r vi lever i egentligen."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114973172357462462
 MonoBehaviour:
   m_ObjectHideFlags: 1
