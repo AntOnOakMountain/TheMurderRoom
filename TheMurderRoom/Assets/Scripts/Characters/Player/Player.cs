@@ -172,7 +172,7 @@ public class Player : MonoBehaviour {
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);
                 speed = 0;
                 if(lookingAt != null) {
-                    fpCamera.SetDialogueFocusPoint(lookingAt.head);
+                    fpCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
                 }
                 break;
         }
@@ -217,5 +217,9 @@ public class Player : MonoBehaviour {
         player_Footstep = FMODUnity.RuntimeManager.CreateInstance(playerFootstepEvent);
         player_Footstep.start();
         
+    }
+
+    public Vector3 GetCameraPosition() {
+        return fpCamera.transform.position;
     }
 }

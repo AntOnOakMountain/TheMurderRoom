@@ -14,13 +14,8 @@ public class Npc : MonoBehaviour {
     public Flowchart flowchart;
     private Interact flowchartInteract;
 
-    [Tooltip("Set the head of the model as this transform.")]
-    public Transform head;
-    [Tooltip("Set the root of the model as this transform.")]
-    public Transform body;
+    [HideInInspector] public IKController ikController;
 
-    private Animator animator;
-    private AnimationPlayOnceManager apom;
 
 	void Start () {
         // Testing NavMesh Pathfinding
@@ -36,9 +31,8 @@ public class Npc : MonoBehaviour {
             flowchartInteract = flowchart.GetComponent<Interact>();
         }
 
-
-
-	}
+        ikController = GetComponentInChildren<IKController>();
+    }
 
     public bool Interact() {
         Journal.journal.Clear();
@@ -49,6 +43,23 @@ public class Npc : MonoBehaviour {
     }
 	
 	void Update () {
-		
+        
+        if(ikController != null) {
+            Vector3 playerDistance = Player.instance.GetCameraPosition() - transform.position;
+            float lookAtDistance = 3f;
+            float lookAtMaxAngle = 60f;
+
+            Vector3 nForward = transform.forward.normalized;
+            Vector3 nDistance = playerDistance.normalized;
+
+            if (Vector3.Angle(nForward, nDistance) < lookAtMaxAngle && 
+                playerDistance.sqrMagnitude < Mathf.Pow(lookAtDistance, 2)) {
+                ikController.LookAtPlayer();
+            }
+            else {
+                ikController.StopLookingAtPlayer();
+            }
+        }
+       
 	}
 }
