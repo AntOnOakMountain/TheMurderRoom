@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23912178426501166}
   - component: {fileID: 136859922846181982}
   - component: {fileID: 143040642724287844}
-  - component: {fileID: 208038357960405928}
   - component: {fileID: 114868663068688392}
   - component: {fileID: 114975197176056584}
   m_Layer: 8
@@ -61,6 +60,7 @@ GameObject:
   - component: {fileID: 124352201317017264}
   - component: {fileID: 81275931727447916}
   - component: {fileID: 114183478393364526}
+  - component: {fileID: 114852959617217790}
   m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
@@ -75,7 +75,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1849527416145276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4598781038311830}
@@ -207,6 +207,18 @@ MonoBehaviour:
   intensity: 0.05
   bobbingSpeed: 2
   bobbingReturnSpeed: 0.2
+--- !u!114 &114852959617217790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976737905963122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!114 &114868663068688392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,7 +235,9 @@ MonoBehaviour:
   acceleration: 10
   deceleration: 10
   gravity: 9.81
-  m_StepInterval: 0
+  m_StepInterval: 1.5
+  playerFootstepEvent: event:/2D/Player_Footstep_v2
+  roomEmitter: {fileID: 0}
   pad: {fileID: 0}
   interactDistance: 2
 --- !u!114 &114936191053986842
@@ -300,18 +314,3 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!208 &208038357960405928
-NavMeshObstacle:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137809607272000}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 0.5, y: 1, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5

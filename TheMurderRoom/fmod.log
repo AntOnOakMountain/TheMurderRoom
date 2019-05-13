@@ -8,7 +8,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000000561A6118 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000000004B6B00D8 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -24,639 +24,9 @@
 [LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSound                     : setdata soundi = 000000003E94B488 : node = 000000005603C960
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000003E94B488
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603CA78
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000000004BBA8DF8 : node = 000000005603D140
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000000004BBA8FA8 : node = 000000005603C2D0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000565588E8 : node = 000000005603DD10
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 2
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000056558738 : node = 000000005603CD50
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 3
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000056557658 : node = 000000005603C420
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 4
-[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EA58
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_2', format=2, channels=2, frequency=48000, lengthbytes=10016, lengthpcm=44416, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.051544.
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EA58
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_3', format=2, channels=2, frequency=48000, lengthbytes=2560, lengthpcm=11104, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.040161.
-[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EA58
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_4', format=2, channels=2, frequency=48000, lengthbytes=9984, lengthpcm=44416, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.051544.
-[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EA58
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_5', format=2, channels=2, frequency=48000, lengthbytes=4832, lengthpcm=22208, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.049225.
-[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EA58
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_1', format=2, channels=2, frequency=48000, lengthbytes=9600, lengthpcm=43028, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.047485.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000003E94B488
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8DF8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603D258
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='base (octave)', format=2, channels=2, frequency=48000, lengthbytes=733440, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8DF8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8FA8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603C3E8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1', format=2, channels=2, frequency=48000, lengthbytes=784384, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8FA8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565588E8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603DE28
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565588E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558738
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603CE68
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558738
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557658
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603C538
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557658
-[LOG] SoundI::getSubSound                      : sound 000000003E94B488.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000000004BBA8DF8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000000004BBA8FA8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000565588E8.  Subsound index 0 / 1
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056558078 : node = 000000005603BEE0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558078
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603BFF8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SoundI::getSubSound                      :     sound 0000000056558738.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      :     sound 0000000056557658.  Subsound index 0 / 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558078
-[LOG] SoundI::getSubSound                      : sound 0000000056558078.  Subsound index 0 / 1
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558DF8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558DF8
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642DB78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f1', format=2, channels=2, frequency=48000, lengthbytes=28992, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.094025.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642DB78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f2', format=2, channels=2, frequency=48000, lengthbytes=29152, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.143036.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642DB78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f4', format=2, channels=2, frequency=48000, lengthbytes=28960, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.121124.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642DB78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f5', format=2, channels=2, frequency=48000, lengthbytes=29024, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062225.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000006069F5FC
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642DB78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f3', format=2, channels=2, frequency=48000, lengthbytes=29024, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.135773.
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558A98
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558A98
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557B68
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557B68
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558A98
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558A98
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557B68
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557B68
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056558588 : node = 0000000016B2B260
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558588
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000000016B2B378
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558588
-[LOG] SoundI::getSubSound                      : sound 0000000056558588.  Subsound index 0 / 1
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056557D18 : node = 0000000016B2B8F0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557D18
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000000016B2BA08
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557D18
-[LOG] SoundI::getSubSound                      : sound 0000000056557D18.  Subsound index 0 / 1
-[LOG] SoundI::release                          : AMB_rain and thunder (000000003E94B488)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056143B18)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056558FA8)
-[LOG] SoundI::release                          : AMB_Crowd (0000000056558078)
-[LOG] SoundI::release                          :     AMB_Crowd (000000005655F988)
-[LOG] SoundI::release                          :     AMB_Crowd (00000000565572F8)
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056557EC8 : node = 0000000016B2CCA0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557EC8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000000016B2CDB8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557EC8
-[LOG] SoundI::getSubSound                      : sound 0000000056557EC8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : variation1 (gramophone) (00000000565588E8)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056560348)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056558DF8)
-[LOG] SoundI::release                          : Fireplace_low (0000000056557658)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056562F28)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056557B68)
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056557658 : node = 000000005603DD10
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557658
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000565574A8 : node = 000000005603C420
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603DE28
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557658
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565574A8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603C538
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565574A8
-[LOG] SoundI::getSubSound                      : sound 0000000056557658.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000565574A8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Fireplace_high_edit (0000000056558738)
-[LOG] SoundI::release                          :     Fireplace_high_edit (000000005655F308)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056558A98)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558DF8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558DF8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557B68
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557B68
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000565572F8 : node = 000000005603CD50
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565572F8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603CE68
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565572F8
-[LOG] SoundI::getSubSound                      : sound 00000000565572F8.  Subsound index 0 / 1
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056558228 : node = 000000005603BEE0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558228
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603BFF8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558228
-[LOG] SoundI::getSubSound                      : sound 0000000056558228.  Subsound index 0 / 1
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000000056558738 : node = 000000005603C960
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558738
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000005603CA78
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000565588E8 : node = 00000000567B8790
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] SystemI::createSound                     :     setdata soundi = 000000004BBA8C48 : node = 00000000567B83A0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 000000003E94B488 : node = 00000000567B7920
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 2
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D67E8 : node = 00000000567B8B80
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 3
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D5DC8 : node = 00000000567B88E0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 4
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6488 : node = 00000000567B7BC0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 5
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558738
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565588E8
-[LOG] SoundI::getSubSound                      : sound 0000000056558738.  Subsound index 0 / 1
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B88A8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[WRN] MultiInstrumentStrategy::setEndTime      :     Too long between System updates, looping playback errors detected.
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='piano (octave)', format=2, channels=2, frequency=48000, lengthbytes=723232, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999481.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565588E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8C48
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B84B8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1', format=2, channels=2, frequency=48000, lengthbytes=784384, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8C48
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000003E94B488
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B7A38
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000003E94B488
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D67E8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8C98
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D67E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5DC8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B89F8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5DC8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6488
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B7CD8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6488
-[LOG] SoundI::getSubSound                      : sound 00000000565588E8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000000004BBA8C48.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000000003E94B488.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D67E8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D5DC8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6488.  Subsound index 0 / 1
-[LOG] SoundI::release                          : AMB_Crowd (0000000056558228)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056561EE8)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056558078)
-[LOG] SoundI::release                          : AMB_rain and thunder (00000000565572F8)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056560D08)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056558A98)
-[LOG] SoundI::release                          : Fireplace_low (00000000565574A8)
-[LOG] SoundI::release                          :     Fireplace_low (00000000565611E8)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056557B68)
-[LOG] SoundI::release                          : Fireplace_high_edit (0000000056557658)
-[LOG] SoundI::release                          :     Fireplace_high_edit (000000005655F988)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056558DF8)
-[LOG] SoundI::release                          : AMB_Crowd (0000000056557D18)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056561048)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056558C48)
-[LOG] SoundI::release                          : variation1 (gramophone) (0000000056557EC8)
-[LOG] SoundI::release                          :     variation1 (gramophone) (00000000565623C8)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056558FA8)
-[LOG] SoundI::release                          : variation1 (000000004BBA8FA8)
-[LOG] SoundI::release                          :     variation1 (00000000561425F8)
-[LOG] SoundI::release                          :     variation1 (00000000565579B8)
-[LOG] SoundI::release                          : base (octave) (000000004BBA8DF8)
-[LOG] SoundI::release                          :     base (octave) (00000000561422B8)
-[LOG] SoundI::release                          :     base (octave) (0000000056557808)
-[LOG] SoundI::release                          : AMB_rain and thunder (0000000056558588)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000565601A8)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000565583D8)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D7058
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D7058
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D73B8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D73B8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5F78
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5F78
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000567D6638 : node = 00000000567B7FB0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6638
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B80C8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D7208 : node = 00000000567B8E20
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6EA8 : node = 00000000567B8A30
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D7568 : node = 00000000567B7A70
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 2
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6128 : node = 00000000567B8100
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 3
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6638
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D7208
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D5A68 : node = 00000000567B9360
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 3
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8F38
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D5C18 : node = 00000000567B8F70
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 4
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SoundI::getSubSound                      :     sound 00000000567D6638.  Subsound index 0 / 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='base (octave)', format=2, channels=2, frequency=48000, lengthbytes=733440, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D7208
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6EA8
+[LOG] SystemI::createSound                     : setdata soundi = 000000004BBA8A98 : node = 00000000567B8A30
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000056142748.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8A98
 [LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
@@ -666,90 +36,134 @@
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000000004BBA8C48 : node = 00000000567B8B80
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000000056142748.  list count = 0
+[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000000004BBA8DF8 : node = 00000000567B9600
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000000056142748.  list count = 1
+[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000000004BBA8FA8 : node = 00000000567B84F0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000000056142748.  list count = 2
+[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000000004B722FA8 : node = 00000000567B90C0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000000056142748.  list count = 3
+[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000000562DDC48 : node = 00000000567B7E60
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000000056142748.  list count = 4
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EE98
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_2', format=2, channels=2, frequency=48000, lengthbytes=10016, lengthpcm=44416, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.051544.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EE98
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_3', format=2, channels=2, frequency=48000, lengthbytes=2560, lengthpcm=11104, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.040161.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EE98
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_4', format=2, channels=2, frequency=48000, lengthbytes=9984, lengthpcm=44416, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.051544.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EE98
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_5', format=2, channels=2, frequency=48000, lengthbytes=4832, lengthpcm=22208, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.049225.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000000005642EE98
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glas_1', format=2, channels=2, frequency=48000, lengthbytes=9600, lengthpcm=43028, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.047485.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8A98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8C48
+[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8C98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='piano (octave)', format=2, channels=2, frequency=48000, lengthbytes=723232, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999481.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8C48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8DF8
+[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B9718
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1', format=2, channels=2, frequency=48000, lengthbytes=784384, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6EA8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D7568
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B7B88
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D7568
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6128
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8218
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6128
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5A68
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B9478
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5A68
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5C18
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B9088
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5C18
-[LOG] SoundI::getSubSound                      : sound 00000000567D7208.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6EA8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D7568.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6128.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D5A68.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D5C18.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Fireplace_low (00000000567D6488)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056561528)
-[LOG] SoundI::release                          :     Fireplace_low (00000000567D5F78)
-[LOG] SoundI::release                          : Fireplace_high_edit (00000000567D5DC8)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056560EA8)
-[LOG] SoundI::release                          :     Fireplace_high_edit (00000000567D73B8)
-[LOG] SoundI::release                          : AMB_Crowd (00000000567D67E8)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056562088)
-[LOG] SoundI::release                          :     AMB_Crowd (00000000567D6B48)
-[LOG] SoundI::release                          : variation1 (gramophone) (000000003E94B488)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056561A08)
-[LOG] SoundI::release                          :     variation1 (gramophone) (00000000567D7058)
-[LOG] SoundI::release                          : variation1 (000000004BBA8C48)
-[LOG] SoundI::release                          :     variation1 (00000000565628A8)
-[LOG] SoundI::release                          :     variation1 (00000000567D6998)
-[LOG] SoundI::release                          : piano (octave) (00000000565588E8)
-[LOG] SoundI::release                          :     piano (octave) (000000005655F308)
-[LOG] SoundI::release                          :     piano (octave) (00000000567D7718)
-[LOG] SoundI::release                          : AMB_rain and thunder (0000000056558738)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056561388)
-[LOG] SoundI::release                          :     AMB_rain and thunder (000000004BBA8A98)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558C48
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558C48
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000565572F8 : node = 00000000567B84F0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565572F8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8DF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004BBA8FA8
 [LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
@@ -759,45 +173,9 @@
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000565579B8 : node = 00000000567B8250
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000565588E8 : node = 00000000567B90C0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000056557658 : node = 00000000567B83A0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 2
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000056557808 : node = 00000000567B88E0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 3
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000056557D18 : node = 00000000567B8B80
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 4
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000056557B68 : node = 00000000567B7E60
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 5
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565572F8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565579B8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8368
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='piano (octave)', format=2, channels=2, frequency=48000, lengthbytes=723232, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999481.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565579B8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565588E8
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004BBA8FA8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000004B722FA8
 [LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
@@ -807,45 +185,9 @@
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1', format=2, channels=2, frequency=48000, lengthbytes=784384, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565588E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557658
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B84B8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557658
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557808
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B89F8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557808
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557D18
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8C98
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557D18
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557B68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000004B722FA8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000562DDC48
 [LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
@@ -856,94 +198,16 @@
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557B68
-[LOG] SoundI::getSubSound                      : sound 00000000565572F8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000565579B8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000565588E8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 0000000056557658.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 0000000056557808.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 0000000056557D18.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 0000000056557B68.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Fireplace_low (00000000567D5C18)
-[LOG] SoundI::release                          :     Fireplace_low (000000005655F648)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056558FA8)
-[LOG] SoundI::release                          : Fireplace_high_edit (00000000567D5A68)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056561BA8)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056558A98)
-[LOG] SoundI::release                          : AMB_Crowd (00000000567D6128)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056562568)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056558DF8)
-[LOG] SoundI::release                          : variation1 (gramophone) (00000000567D7568)
-[LOG] SoundI::release                          :     variation1 (gramophone) (000000005655F988)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056558C48)
-[LOG] SoundI::release                          : variation1 (00000000567D6EA8)
-[LOG] SoundI::release                          :     variation1 (000000005655F4A8)
-[LOG] SoundI::release                          :     variation1 (0000000056558588)
-[LOG] SoundI::release                          : base (octave) (00000000567D7208)
-[LOG] SoundI::release                          :     base (octave) (00000000565616C8)
-[LOG] SoundI::release                          :     base (octave) (00000000567D62D8)
-[LOG] SoundI::release                          : AMB_rain and thunder (00000000567D6638)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056560348)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000567D6CF8)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056558078
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056558078
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565583D8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565583D8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6B48
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6B48
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6B48
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6B48
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565583D8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565583D8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000562DDC48
+[LOG] SoundI::getSubSound                      : sound 000000004BBA8A98.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000000004BBA8C48.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000000004BBA8DF8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000000004BBA8FA8.  Subsound index 0 / 1
 [LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000567D5A68 : node = 00000000567B7D10
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5A68
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6488 : node = 00000000567B8F70
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B7E28
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5A68
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6488
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B9088
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6488
-[LOG] SoundI::getSubSound                      : sound 00000000567D5A68.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6488.  Subsound index 0 / 1
-[LOG] SoundI::release                          : AMB_rain and thunder (00000000565572F8)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000565611E8)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000565574A8)
-[LOG] SoundI::release                          : AMB_Crowd (0000000056557808)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056562F28)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056558228)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6B48
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6B48
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000565583D8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000565583D8
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000567D6CF8 : node = 00000000567B9210
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6CF8
+[LOG] SystemI::createSound                     : setdata soundi = 00000000562DE158 : node = 00000000567B9210
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000056142748.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000562DE158
 [LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
@@ -951,238 +215,140 @@
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B9328
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SoundI::getSubSound                      :     sound 000000004B722FA8.  Subsound index 0 / 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6CF8
-[LOG] SoundI::getSubSound                      : sound 00000000567D6CF8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : variation1 (gramophone) (0000000056557658)
-[LOG] SoundI::release                          :     variation1 (gramophone) (000000005655FE68)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056558078)
-[LOG] SoundI::release                          : Fireplace_low (0000000056557B68)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056562A48)
-[LOG] SoundI::release                          :     Fireplace_low (00000000567D6B48)
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000567D7568 : node = 00000000567B8E20
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D7568
-[LOG] SystemI::createSound                     : setdata soundi = 00000000567D5DC8 : node = 00000000567B94B0
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8F38
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D7568
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5DC8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B95C8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5DC8
-[LOG] SoundI::getSubSound                      : sound 00000000567D7568.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D5DC8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Fireplace_high_edit (0000000056557D18)
-[LOG] SoundI::release                          :     Fireplace_high_edit (00000000565628A8)
-[LOG] SoundI::release                          :     Fireplace_high_edit (00000000565583D8)
-[LOG] SystemI::createSound                     : filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 00000000567D67E8 : node = 00000000567B7FB0
-[LOG] SystemI::createSound                     : add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D67E8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B80C8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6EA8 : node = 00000000567B7E60
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_rain and thunder', format=2, channels=2, frequency=48000, lengthbytes=533632, lengthpcm=2711744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063110.
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D73B8 : node = 00000000567B9360
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 1
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D5C18 : node = 00000000567B7BC0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 2
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6128 : node = 00000000567B8A30
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 3
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6998 : node = 00000000567B8100
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 4
-[LOG] SystemI::createSound                     :     filename = Package\Build\Desktop/Murder Room.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     :     setdata soundi = 00000000567D6B48 : node = 00000000567B83A0
-[LOG] SystemI::createSound                     :     add node to async list : head = 00000000561425A8.  list count = 5
-[WRN] MultiInstrumentStrategy::setEndTime      :     Too long between System updates, looping playback errors detected.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D67E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6EA8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B7F78
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='base (octave)', format=2, channels=2, frequency=48000, lengthbytes=733440, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6EA8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D73B8
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B9478
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1', format=2, channels=2, frequency=48000, lengthbytes=784384, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D73B8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D5C18
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B7CD8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='variation1 (gramophone)', format=2, channels=2, frequency=48000, lengthbytes=837056, lengthpcm=3225600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D5C18
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6128
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8B48
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SoundI::getSubSound                      :     sound 00000000562DDC48.  Subsound index 0 / 1
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB_Crowd', format=2, channels=2, frequency=48000, lengthbytes=737984, lengthpcm=3269666, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025543.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6128
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6998
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B8218
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_high_edit', format=2, channels=2, frequency=48000, lengthbytes=986272, lengthpcm=4182124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.116738.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6998
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000567D6B48
-[LOG] SystemI::createSoundInternal             :     Create name='Package\Build\Desktop/Murder Room.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 7658752
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 37472
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000567B84B8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Fireplace_low', format=2, channels=2, frequency=48000, lengthbytes=963616, lengthpcm=3478928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000567D6B48
-[LOG] SoundI::getSubSound                      : sound 00000000567D67E8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6EA8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D73B8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D5C18.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6128.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6998.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000000567D6B48.  Subsound index 0 / 1
-[LOG] SoundI::release                          : Fireplace_low (00000000567D5DC8)
-[LOG] SoundI::release                          :     Fireplace_low (000000005655F988)
-[LOG] SoundI::release                          :     Fireplace_low (00000000567D7058)
-[LOG] SoundI::release                          : Fireplace_high_edit (00000000567D7568)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056560348)
-[LOG] SoundI::release                          :     Fireplace_high_edit (00000000567D6638)
-[LOG] SoundI::release                          : AMB_Crowd (00000000567D6488)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056561868)
-[LOG] SoundI::release                          :     AMB_Crowd (00000000567D62D8)
-[LOG] SoundI::release                          : variation1 (gramophone) (00000000567D6CF8)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056562F28)
-[LOG] SoundI::release                          :     variation1 (gramophone) (00000000567D7208)
-[LOG] SoundI::release                          : variation1 (00000000565588E8)
-[LOG] SoundI::release                          :     variation1 (000000005655FCC8)
-[LOG] SoundI::release                          :     variation1 (0000000056557EC8)
-[LOG] SoundI::release                          : piano (octave) (00000000565579B8)
-[LOG] SoundI::release                          :     piano (octave) (00000000565623C8)
-[LOG] SoundI::release                          :     piano (octave) (0000000056558738)
-[LOG] SoundI::release                          : AMB_rain and thunder (00000000567D5A68)
-[LOG] SoundI::release                          :     AMB_rain and thunder (000000005655F4A8)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000567D7718)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000056557B68
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000056557B68
-[LOG] SoundI::release                          : AMB_Crowd (00000000567D6128)
-[LOG] SoundI::release                          :     AMB_Crowd (000000005655F648)
-[LOG] SoundI::release                          :     AMB_Crowd (0000000056558C48)
-[LOG] SoundI::release                          : variation1 (gramophone) (00000000567D5C18)
-[LOG] SoundI::release                          :     variation1 (gramophone) (000000005655F308)
-[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056557B68)
-[LOG] SoundI::release                          : variation1 (00000000567D73B8)
-[LOG] SoundI::release                          :     variation1 (0000000056560D08)
-[LOG] SoundI::release                          :     variation1 (0000000056557658)
-[LOG] SoundI::release                          : base (octave) (00000000567D6EA8)
-[LOG] SoundI::release                          :     base (octave) (000000005655FE68)
-[LOG] SoundI::release                          :     base (octave) (0000000056558078)
-[LOG] SoundI::release                          : Fireplace_low (00000000567D6B48)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056562088)
-[LOG] SoundI::release                          :     Fireplace_low (0000000056558228)
-[LOG] SoundI::release                          : Fireplace_high_edit (00000000567D6998)
-[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056561388)
-[LOG] SoundI::release                          :     Fireplace_high_edit (00000000565572F8)
-[LOG] SoundI::release                          : AMB_rain and thunder (00000000567D67E8)
-[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056560B68)
-[LOG] SoundI::release                          :     AMB_rain and thunder (00000000567D5F78)
-[LOG] SoundI::release                          :  (0000000055E1F1E8)
-[LOG] SoundI::release                          :     glas_1 (0000000056143978)
-[LOG] SoundI::release                          :  (0000000055E1E7D8)
-[LOG] SoundI::release                          :     glas_2 (0000000056143638)
-[LOG] SoundI::release                          :  (0000000055E1F7A8)
-[LOG] SoundI::release                          :     glas_3 (00000000561437D8)
-[LOG] SoundI::release                          :  (0000000055E1FA88)
-[LOG] SoundI::release                          :     glas_4 (0000000056143CB8)
-[LOG] SoundI::release                          :  (0000000055E1F918)
-[LOG] SoundI::release                          :     glas_5 (0000000056143E58)
-[LOG] SoundI::release                          :  (0000000055E1EAB8)
-[LOG] SoundI::release                          :     Fotsteg v2 f1 (000000005655FB28)
-[LOG] SoundI::release                          :  (0000000055E1DF38)
-[LOG] SoundI::release                          :     Fotsteg v2 f2 (0000000056560828)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000562DE158
+[LOG] SoundI::getSubSound                      : sound 00000000562DE158.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000562DD8E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000562DD8E8
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642BB98
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f1', format=2, channels=2, frequency=48000, lengthbytes=28992, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.094025.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642BB98
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f2', format=2, channels=2, frequency=48000, lengthbytes=29152, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.143036.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642BB98
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f4', format=2, channels=2, frequency=48000, lengthbytes=28960, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.121124.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642BB98
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f5', format=2, channels=2, frequency=48000, lengthbytes=29024, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062225.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 7658752
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 37472
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000761CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF9925DE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF9925DE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF9925DE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF9925DE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005642BB98
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Fotsteg v2 f3', format=2, channels=2, frequency=48000, lengthbytes=29024, lengthpcm=127695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.135773.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000562DE4B8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000562DE4B8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000000562DDFA8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000000562DDFA8
+[LOG] SoundI::release                          : AMB_Crowd (00000000562DE158)
+[LOG] SoundI::release                          :     AMB_Crowd (00000000565611E8)
+[LOG] SoundI::release                          :     AMB_Crowd (00000000562DE308)
+[LOG] SoundI::release                          : variation1 (gramophone) (000000004BBA8FA8)
+[LOG] SoundI::release                          :     variation1 (gramophone) (0000000056143B18)
+[LOG] SoundI::release                          :     variation1 (gramophone) (00000000562DD8E8)
+[LOG] SoundI::release                          : variation1 (000000004BBA8DF8)
+[LOG] SoundI::release                          :     variation1 (0000000056143978)
+[LOG] SoundI::release                          :     variation1 (00000000562DED28)
+[LOG] SoundI::release                          : piano (octave) (000000004BBA8C48)
+[LOG] SoundI::release                          :     piano (octave) (0000000056143638)
+[LOG] SoundI::release                          :     piano (octave) (00000000562DDDF8)
+[LOG] SoundI::release                          : Fireplace_low (00000000562DDC48)
+[LOG] SoundI::release                          :     Fireplace_low (0000000056561528)
+[LOG] SoundI::release                          :     Fireplace_low (00000000562DDFA8)
+[LOG] SoundI::release                          : Fireplace_high_edit (000000004B722FA8)
+[LOG] SoundI::release                          :     Fireplace_high_edit (0000000056562A48)
+[LOG] SoundI::release                          :     Fireplace_high_edit (00000000562DE4B8)
+[LOG] SoundI::release                          : AMB_rain and thunder (000000004BBA8A98)
+[LOG] SoundI::release                          :     AMB_rain and thunder (0000000056142E18)
+[LOG] SoundI::release                          :     AMB_rain and thunder (00000000562DE818)
 [LOG] SoundI::release                          :  (0000000055E1F078)
-[LOG] SoundI::release                          :     Fotsteg v2 f3 (00000000565609C8)
-[LOG] SoundI::release                          :  (0000000055E1F358)
-[LOG] SoundI::release                          :     Fotsteg v2 f4 (00000000565630C8)
+[LOG] SoundI::release                          :     glas_1 (00000000561432F8)
 [LOG] SoundI::release                          :  (0000000055E1F4C8)
-[LOG] SoundI::release                          :     Fotsteg v2 f5 (000000005655F7E8)
+[LOG] SoundI::release                          :     glas_2 (00000000561437D8)
+[LOG] SoundI::release                          :  (0000000055E1EF08)
+[LOG] SoundI::release                          :     glas_3 (0000000056142938)
+[LOG] SoundI::release                          :  (0000000055E1FD68)
+[LOG] SoundI::release                          :     glas_4 (0000000056142AD8)
+[LOG] SoundI::release                          :  (0000000055E1DF38)
+[LOG] SoundI::release                          :     glas_5 (0000000056142FB8)
+[LOG] SoundI::release                          :  (0000000055E1F638)
+[LOG] SoundI::release                          :     Fotsteg v2 f1 (0000000056561388)
+[LOG] SoundI::release                          :  (0000000055E1E218)
+[LOG] SoundI::release                          :     Fotsteg v2 f2 (00000000565630C8)
+[LOG] SoundI::release                          :  (0000000055E1ED98)
+[LOG] SoundI::release                          :     Fotsteg v2 f3 (000000005655F648)
+[LOG] SoundI::release                          :  (0000000055E1E4F8)
+[LOG] SoundI::release                          :     Fotsteg v2 f4 (000000005655F308)
+[LOG] SoundI::release                          :  (0000000055E1E7D8)
+[LOG] SoundI::release                          :     Fotsteg v2 f5 (000000005655F4A8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
