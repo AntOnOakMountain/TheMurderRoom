@@ -6390,8 +6390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   remember: 0
-  key: TopicRival
-  value: 0
+  key: F_Rival
+  value: 1
 --- !u!114 &114719643518386762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8079,6 +8079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npc: {fileID: 0}
   version: 1
   scrollPos: {x: 1466.6312, y: 150.34253}
   variablesScrollPos: {x: 0, y: 0}
@@ -8092,7 +8093,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114204066244334962}
+  - {fileID: 114112514051035764}
   selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
@@ -8568,7 +8569,7 @@ MonoBehaviour:
   scope: 1
   remember: 0
   key: F_Handel
-  value: 0
+  value: 1
 --- !u!114 &114925077509566322
 MonoBehaviour:
   m_ObjectHideFlags: 1
