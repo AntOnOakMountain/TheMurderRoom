@@ -8,7 +8,6 @@ public class IKController : MonoBehaviour {
     private AnimationPlayOnceManager apom;
 
     [HideInInspector] public Transform head;
-    [HideInInspector] public Transform chest;
 
     private bool lookAtPlayerActive = false;
     private float lookAmount = 0f;
@@ -20,7 +19,6 @@ public class IKController : MonoBehaviour {
         apom = GetComponent<AnimationPlayOnceManager>();
 
         head = animator.GetBoneTransform(HumanBodyBones.Head);
-        chest = animator.GetBoneTransform(HumanBodyBones.Chest);
     }
 
     void Update() {
@@ -46,3 +44,4 @@ public class IKController : MonoBehaviour {
         lookAtPlayerActive = false;
     }
 }
+

@@ -81,6 +81,9 @@ public class Player : MonoBehaviour {
             if (lookingAt != null && Input.GetButtonDown("Interact")) {
                 if (lookingAt.Interact()) {
                     Game.instance.SetState(Game.State.Dialogue);
+                    if (lookingAt.ikController != null) {
+                        fpCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
+                    }
                 }
             }
             else if(Input.GetButtonDown("OpenPad")){
@@ -171,9 +174,6 @@ public class Player : MonoBehaviour {
             case State.Dialogue:
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);
                 speed = 0;
-                if(lookingAt != null) {
-                    fpCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
-                }
                 break;
         }
     }
