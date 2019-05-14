@@ -81,6 +81,7 @@ public class Player : MonoBehaviour {
             if (lookingAt != null && Input.GetButtonDown("Interact")) {
                 if (lookingAt.Interact()) {
                     Game.instance.SetState(Game.State.Dialogue);
+                    lookingAt.SetState(Npc.State.Dialogue);
                     if (lookingAt.ikController != null) {
                         fpCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
                     }

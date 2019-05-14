@@ -986,6 +986,7 @@ GameObject:
   - component: {fileID: 4449053822570884}
   - component: {fileID: 95040723473997326}
   - component: {fileID: 114574054693870074}
+  - component: {fileID: 114826307995534348}
   m_Layer: 0
   m_Name: Hostess
   m_TagString: Untagged
@@ -1437,7 +1438,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1985136415407814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4689282913329630}
@@ -2054,7 +2055,11 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed by
+    Humanoid clips.\n\tTransform 'Hostess'\n\tFrom animation clip 'New Animation'\n\tFrom
+    animation clip 'HostessIdle2'\n\tFrom animation clip 'HostessTalk'\n\tFrom animation
+    clip 'HostessDrink'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114561057887292080
@@ -2068,10 +2073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4360a9312e88ea9448b82a3999917c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  navTarget: {fileID: 0}
+  rotateSpeed: 100
   flowchart: {fileID: 0}
-  head: {fileID: 4966920833247024}
-  body: {fileID: 4449053822570884}
+  ikController: {fileID: 0}
 --- !u!114 &114574054693870074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2101,6 +2105,19 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &114826307995534348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1985136415407814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136ac0ce348aa5e41ab2e25b8b393d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 0}
+  lookSpeed: 1
 --- !u!136 &136049870877183522
 CapsuleCollider:
   m_ObjectHideFlags: 1

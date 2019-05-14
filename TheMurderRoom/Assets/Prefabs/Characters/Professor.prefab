@@ -265,10 +265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4360a9312e88ea9448b82a3999917c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  navTarget: {fileID: 0}
+  rotateSpeed: 100
   flowchart: {fileID: 0}
-  head: {fileID: 4597733078153606}
-  body: {fileID: 4055866483457158}
+  ikController: {fileID: 0}
 --- !u!114 &114409670833806752
 MonoBehaviour:
   m_ObjectHideFlags: 1

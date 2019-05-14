@@ -18,9 +18,9 @@ namespace Fungus {
         protected virtual void CallTheMethod() {
             Game.instance.EndDialogue();
 
-            Npc npc = GetComponent<Npc>();
+            Npc npc = GetComponent<Flowchart>().npc;
             if(npc != null) {
-                //npc.EndDialougue();
+                npc.EndDialogue();
             }
         }
 

@@ -19,6 +19,9 @@ namespace Fungus
     public class Flowchart : MonoBehaviour, ISubstitutionHandler
     {
         [HideInInspector]
+        [SerializeField] public Npc npc;
+
+        [HideInInspector]
         [SerializeField] protected int version = 0; // Default to 0 to always trigger an update for older versions of Fungus.
 
         [HideInInspector]
