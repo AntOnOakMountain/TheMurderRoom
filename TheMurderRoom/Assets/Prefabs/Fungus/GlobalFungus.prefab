@@ -49,9 +49,6 @@ GameObject:
   - component: {fileID: 114570010451023932}
   - component: {fileID: 114769578047481864}
   - component: {fileID: 114725057002740906}
-  - component: {fileID: 114856055565361900}
-  - component: {fileID: 114071677532850712}
-  - component: {fileID: 114047736268117826}
   m_Layer: 0
   m_Name: GlobalFungus
   m_TagString: Untagged
@@ -114,33 +111,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114047736268117826
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 35
-  indentLevel: 1
-  storyText: "(Du verkar inte p\xE5verkas av tidsl\xE5set.)"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114067241571167314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,6 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npc: {fileID: 0}
   version: 1
   scrollPos: {x: 52, y: -136}
   variablesScrollPos: {x: 0, y: 0}
@@ -165,7 +136,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114730019161628822}
+  - {fileID: 114252796017311026}
   selectedCommands: []
   variables:
   - {fileID: 114021658469332758}
@@ -180,33 +151,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &114071677532850712
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 36
-  indentLevel: 1
-  storyText: "(Det g\xF6r ont.)"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114088210229325466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -602,17 +546,14 @@ MonoBehaviour:
   commandList:
   - {fileID: 114769578047481864}
   - {fileID: 114570010451023932}
-  - {fileID: 114047736268117826}
   - {fileID: 114749808957720640}
   - {fileID: 114093916055682648}
   - {fileID: 114756710578353242}
   - {fileID: 114046848767881480}
-  - {fileID: 114071677532850712}
   - {fileID: 114451311169873982}
   - {fileID: 114417599401148206}
   - {fileID: 114181285999768524}
   - {fileID: 114799077405715274}
-  - {fileID: 114856055565361900}
   - {fileID: 114088210229325466}
   - {fileID: 114951794470503090}
   - {fileID: 114988354163101786}
@@ -688,33 +629,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
---- !u!114 &114856055565361900
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1343507186682190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 37
-  indentLevel: 1
-  storyText: "(Det b\xF6rjar k\xE4nnas konstigt att anv\xE4nda tidsl\xE5set.)"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
-  addToJournal: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &114880244253714946
 MonoBehaviour:
   m_ObjectHideFlags: 1
