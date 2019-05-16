@@ -88,7 +88,6 @@ GameObject:
   - component: {fileID: 114385655769898000}
   - component: {fileID: 114068417803738188}
   - component: {fileID: 114419157129004550}
-  - component: {fileID: 114940039752360782}
   - component: {fileID: 114025199040749956}
   - component: {fileID: 114090964465491362}
   - component: {fileID: 114451210400125074}
@@ -1087,7 +1086,6 @@ MonoBehaviour:
   description: glad
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114940039752360782}
   - {fileID: 114025199040749956}
   - {fileID: 114273344868673616}
   - {fileID: 114227765171490558}
@@ -3397,8 +3395,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 352.06866
-    y: -272.9066
+    x: 349.06866
+    y: -428.9066
     width: 125.00003
     height: 40
   tint: {r: 0.9705882, g: 0.5923443, b: 0.5923443, a: 1}
@@ -4025,8 +4023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 353.33423
-    y: -150.12164
+    x: 365.33426
+    y: -310.12167
     width: 125.00003
     height: 40
   tint: {r: 0.9632353, g: 0.6445178, b: 0.6445178, a: 1}
@@ -4424,8 +4422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 352.06818
-    y: -75.43818
+    x: 349.06818
+    y: -231.43823
     width: 125.00003
     height: 40
   tint: {r: 0.9264706, g: 0.5858564, b: 0.5858564, a: 1}
@@ -5689,7 +5687,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
   hideThisOption:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5969,7 +5967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 266
   indentLevel: 0
-  text: "Adj\xF6."
+  text: "\"Adj\xF6.\""
   description: 
   targetBlock: {fileID: 114662517752121166}
   hideIfVisited: 0
@@ -6033,7 +6031,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 378
   blockName: K_Introduktion_4
-  description: "nerv\xF6s"
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114047949723407220}
@@ -6810,8 +6808,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 195.10614
-    y: -271.64078
+    x: 192.10614
+    y: -427.64078
     width: 125.00003
     height: 40
   tint: {r: 0.9558824, g: 0.57634085, b: 0.57634085, a: 1}
@@ -8064,7 +8062,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
   hideThisOption:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8831,8 +8829,8 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114731956864964486}
   - {fileID: 114986969004960306}
+  - {fileID: 114731956864964486}
   - {fileID: 114371737284110250}
   - {fileID: 114464185884930328}
   - {fileID: 114261417297650864}
@@ -8886,7 +8884,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 328
   blockName: K_Professor
-  description: neutral
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114002297356463570}
@@ -9951,7 +9949,7 @@ MonoBehaviour:
   indentLevel: 1
   text: "Tack f\xF6r din tid, kapten"
   description: 
-  targetBlock: {fileID: 114662517752121166}
+  targetBlock: {fileID: 0}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -9976,7 +9974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc: {fileID: 0}
   version: 1
-  scrollPos: {x: 475.97012, y: -302.72794}
+  scrollPos: {x: 27.970076, y: -411.72797}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 400
@@ -9988,8 +9986,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114662517752121166}
-  selectedCommands: []
+  - {fileID: 114829074613315778}
+  selectedCommands:
+  - {fileID: 114314165026026296}
   variables:
   - {fileID: 114147512082380746}
   - {fileID: 114714448213120110}
@@ -10094,33 +10093,6 @@ MonoBehaviour:
   - {fileID: 114654422345588668}
   - {fileID: 114961660790469046}
   - {fileID: 114004707340744418}
---- !u!114 &114940039752360782
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 132
-  indentLevel: 0
-  variable: {fileID: 114147512082380746}
-  setOperator: 2
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 1
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114941788701894714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10188,8 +10160,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 514.094
-    y: -274.1724
+    x: 511.094
+    y: -430.1724
     width: 125.00003
     height: 40
   tint: {r: 0.99264705, g: 0.642301, b: 0.642301, a: 1}
@@ -10276,7 +10248,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 333
   blockName: K_Filosof
-  description: irriterad
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114313716884428930}

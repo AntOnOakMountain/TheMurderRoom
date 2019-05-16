@@ -429,6 +429,15 @@ GameObject:
   - component: {fileID: 114849717016592520}
   - component: {fileID: 114305677665090294}
   - component: {fileID: 114095991343667686}
+  - component: {fileID: 114945150911168680}
+  - component: {fileID: 114197694270636788}
+  - component: {fileID: 114654934684976520}
+  - component: {fileID: 114495093672197954}
+  - component: {fileID: 114331371271675576}
+  - component: {fileID: 114323253292823544}
+  - component: {fileID: 114973831201656594}
+  - component: {fileID: 114423081459033500}
+  - component: {fileID: 114244596137717434}
   m_Layer: 0
   m_Name: ProfessorFungus
   m_TagString: Untagged
@@ -565,7 +574,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 109
   blockName: P_Politik_0
-  description: '*'
+  description: irriterad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114122233237803562}
@@ -573,6 +582,7 @@ MonoBehaviour:
   - {fileID: 114345045416090642}
   - {fileID: 114182248149327352}
   - {fileID: 114465903858888218}
+  - {fileID: 114197694270636788}
   - {fileID: 114163097498441010}
   - {fileID: 114430897890091208}
 --- !u!114 &114014206037463236
@@ -1549,7 +1559,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 359
   blockName: P_Tidsforskning_1
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114583358301985622}
@@ -1603,7 +1613,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 302
   blockName: P_Forskning_1
-  description: '*'
+  description: neutral
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114694002307969310}
@@ -1799,9 +1809,10 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 339
   blockName: P_Gift_2
-  description: 
+  description: "f\xF6rvirrad"
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114423081459033500}
   - {fileID: 114430657729761370}
   - {fileID: 114519542677987300}
   - {fileID: 114139669172506428}
@@ -2062,7 +2073,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 77
   blockName: P_Restriktioner_1
-  description: 
+  description: neutral
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114398956370557216}
@@ -2220,7 +2231,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
   hideThisOption:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2608,8 +2619,8 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114187001245588746}
   - {fileID: 114297764247058152}
+  - {fileID: 114187001245588746}
   - {fileID: 114211091020430686}
   - {fileID: 114948150561391520}
   - {fileID: 114058371971481690}
@@ -2690,7 +2701,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 31
   blockName: P_Introduktion_6
-  description: 
+  description: neutral
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114437263385014402}
@@ -2935,6 +2946,21 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114197694270636788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 636
+  indentLevel: 0
+  commenterName: 
+  commentText: 
 --- !u!114 &114199250110904556
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3242,7 +3268,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 379
   blockName: P_Superhumans_1
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114190716507626950}
@@ -3461,6 +3487,33 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114244596137717434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 642
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114256206307517002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3549,12 +3602,13 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 210
   blockName: P_Superhumans
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114139762161874716}
   - {fileID: 114331730232448574}
   - {fileID: 114036110440445696}
+  - {fileID: 114331371271675576}
   - {fileID: 114510486717882726}
   - {fileID: 114188847632027670}
 --- !u!114 &114267398675911556
@@ -3862,9 +3916,10 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 334
   blockName: P_Gift_1
-  description: 
+  description: "f\xF6rvirrad"
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114244596137717434}
   - {fileID: 114290088928141208}
   - {fileID: 114098151336054638}
   - {fileID: 114037080737483150}
@@ -4026,7 +4081,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 90
   blockName: P_Restriktioner_2
-  description: 
+  description: irriterad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114701195304893754}
@@ -4101,6 +4156,21 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114323253292823544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 635
+  indentLevel: 0
+  commenterName: 
+  commentText: "f\xF6rbryllad"
 --- !u!114 &114326174127202276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4202,6 +4272,21 @@ MonoBehaviour:
   commandList:
   - {fileID: 114928333728096476}
   - {fileID: 114420147505805372}
+--- !u!114 &114331371271675576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 638
+  indentLevel: 0
+  commenterName: 
+  commentText: 
 --- !u!114 &114331467837885258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4292,12 +4377,12 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 387
   blockName: P_Forskning_5
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114080906216383472}
   - {fileID: 114741380552894650}
   - {fileID: 114602122307839950}
-  - {fileID: 114080906216383472}
   - {fileID: 114828807681543174}
 --- !u!114 &114338877981208282
 MonoBehaviour:
@@ -4790,7 +4875,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 57
   blockName: P_Restriktioner_0
-  description: 
+  description: irriterad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114267938783862412}
@@ -5116,6 +5201,33 @@ MonoBehaviour:
   itemId: 504
   indentLevel: 0
   delay: 0
+--- !u!114 &114423081459033500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 641
+  indentLevel: 0
+  variable: {fileID: 114371981413295946}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114425147955073732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5213,7 +5325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 340
   indentLevel: 0
-  storyText: "Alla i det h\xE4r rummet visste, men varf\xF6r skulle de..."
+  storyText: "Bara jag och v\xE4rdinnan visste, ingen annan..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5511,7 +5623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc: {fileID: 0}
   version: 1
-  scrollPos: {x: 494.09717, y: 368.3007}
+  scrollPos: {x: 301.31363, y: 137.37276}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 400
@@ -5523,8 +5635,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114706991906050328}
-  selectedCommands: []
+  - {fileID: 114135886453415226}
+  selectedCommands:
+  - {fileID: 114128008801369690}
   variables:
   - {fileID: 114152740352556982}
   - {fileID: 114022477760343734}
@@ -5753,13 +5866,14 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 211
   blockName: P_Tidsforskning
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114440060687747880}
   - {fileID: 114973172357462462}
   - {fileID: 114638793841138104}
   - {fileID: 114028073037246344}
+  - {fileID: 114495093672197954}
   - {fileID: 114132923943487708}
   - {fileID: 114056422327393906}
 --- !u!114 &114469940646386408
@@ -5811,7 +5925,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 128
   blockName: "P_Politik_R\xE4tt"
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114495657462711756}
@@ -6044,7 +6158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 612
   indentLevel: 0
-  storyText: Du verkar inte uppskatta parlamentets politik.
+  storyText: Du verkar inte uppskatta parlamentets nya etiklagar.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6058,6 +6172,21 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114495093672197954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 639
+  indentLevel: 0
+  commenterName: 
+  commentText: 
 --- !u!114 &114495537243230758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6621,12 +6750,12 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 366
   blockName: P_Forskning_4
-  description: 
+  description: irriterad
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114089012238707898}
   - {fileID: 114832584953341938}
   - {fileID: 114905664631946998}
-  - {fileID: 114089012238707898}
   - {fileID: 114502121591181258}
 --- !u!114 &114552623822222114
 MonoBehaviour:
@@ -7404,7 +7533,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 360
   blockName: P_Forskning_2
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114447241194538366}
@@ -7436,8 +7565,8 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114845593737303156}
   - {fileID: 114219571506208670}
+  - {fileID: 114845593737303156}
   - {fileID: 114126943767505768}
   - {fileID: 114414290300424710}
   - {fileID: 114751833130929196}
@@ -7672,6 +7801,21 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114654934684976520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 640
+  indentLevel: 0
+  commenterName: 
+  commentText: 
 --- !u!114 &114655274228194036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8041,7 +8185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 526
   indentLevel: 1
-  text: Politik
+  text: Etiklagar
   description: 
   targetBlock: {fileID: 114013971857878560}
   hideIfVisited: 1
@@ -8186,7 +8330,7 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 91
   blockName: P_Restriktioner_3
-  description: 
+  description: glad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114047657156008660}
@@ -8651,10 +8795,11 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 132
   blockName: P_Politik_2
-  description: 
+  description: irriterad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114829948392430810}
+  - {fileID: 114945150911168680}
   - {fileID: 114441318411376316}
   - {fileID: 114237699198491000}
   - {fileID: 114495844862628358}
@@ -9584,11 +9729,12 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 34
   blockName: P_Introduktion_5
-  description: 
+  description: irriterad
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114937986985203306}
   - {fileID: 114893363433550564}
+  - {fileID: 114654934684976520}
   - {fileID: 114041108604917738}
   - {fileID: 114025797884318544}
 --- !u!114 &114882292693944984
@@ -9976,8 +10122,8 @@ MonoBehaviour:
   description: irriterad
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114499442426990662}
   - {fileID: 114706766430531658}
+  - {fileID: 114499442426990662}
   - {fileID: 114849717016592520}
   - {fileID: 114686731762439862}
   - {fileID: 114305677665090294}
@@ -10142,21 +10288,50 @@ MonoBehaviour:
   useCustomTint: 1
   itemId: 322
   blockName: P_Gift_0
-  description: "f\xF6rbryllad"
+  description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114962006814620028}
   - {fileID: 114850062016918516}
+  - {fileID: 114962006814620028}
   - {fileID: 114983775479605006}
   - {fileID: 114056624447553968}
   - {fileID: 114546967376897186}
   - {fileID: 114109203403197492}
   - {fileID: 114167299686840094}
   - {fileID: 114116615712717680}
+  - {fileID: 114323253292823544}
   - {fileID: 114572225555707626}
   - {fileID: 114768791041496990}
+  - {fileID: 114973831201656594}
   - {fileID: 114201781866037904}
   - {fileID: 114559669061563204}
+--- !u!114 &114945150911168680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 637
+  indentLevel: 0
+  variable: {fileID: 114152740352556982}
+  setOperator: 3
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114946785978117708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10514,6 +10689,21 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114973831201656594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 634
+  indentLevel: 0
+  commenterName: 
+  commentText: idle
 --- !u!114 &114975026531783394
 MonoBehaviour:
   m_ObjectHideFlags: 1
