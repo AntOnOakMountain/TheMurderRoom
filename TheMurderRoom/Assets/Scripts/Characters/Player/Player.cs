@@ -83,7 +83,7 @@ public class Player : MonoBehaviour {
                     Game.instance.SetState(Game.State.Dialogue);
                     lookingAt.SetState(Npc.State.Dialogue);
                     if (lookingAt.ikController != null) {
-                        fpCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
+                        fpCamera.dialogueCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
                     }
                 }
             }
@@ -170,7 +170,7 @@ public class Player : MonoBehaviour {
 
     public void SetState(State newState) {
         state = newState;
-        fpCamera.NullFocusPoint();
+        fpCamera.dialogueCamera.NullFocusPoint();
         switch (newState) {
             case State.Dialogue:
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);

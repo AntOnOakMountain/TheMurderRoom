@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4501635293203248}
   - component: {fileID: 114936191053986842}
+  - component: {fileID: 114285585667046240}
   m_Layer: 8
   m_Name: CameraFixture
   m_TagString: Untagged
@@ -102,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1137809607272000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 54.672, z: 3.9808}
+  m_LocalPosition: {x: -1.4, y: 52.511, z: 3.9808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4501635293203248}
@@ -133,7 +134,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -207,6 +208,20 @@ MonoBehaviour:
   intensity: 0.05
   bobbingSpeed: 2
   bobbingReturnSpeed: 0.2
+--- !u!114 &114285585667046240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849527416145276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516774b801a223245b4732f8b043ff62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusSpeed: 2
+  npcLookAtOffset: 0.55
+  distanceToNpc: 2
 --- !u!114 &114852959617217790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -257,8 +272,7 @@ MonoBehaviour:
   maxDownwardsAngle: 60
   maxLeftwardsAngle: 360
   maxRightwardsAngle: 360
-  focusSpeed: 2
-  npcLookAtOffset: 0.92
+  dialogueCamera: {fileID: 0}
 --- !u!114 &114975197176056584
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -20,38 +20,18 @@ public class FPCamera : MonoBehaviour {
     [Range(0, 360)]
     public float maxRightwardsAngle = 360F;
 
-    private Transform focusPoint;
+    public DialogueCameraController dialogueCamera;
 
-    [Header("Dialogue focus on character")]
-    [Tooltip("Focus Speed when set to focus on a point")]
-    public float focusSpeed = 2f;
-
-    [Tooltip("How far to the side of a npc should the camera focus on during dialogue.")]
-    public float npcLookAtOffset = 0.92f;
-
+    void Start() {
+        dialogueCamera = GetComponent<DialogueCameraController>();
+    }
 
     void Update() {
         if (Player.instance.IsInState(Player.State.Play)) {
             BasicCameraControls();
         }
-        FocusOnPoint();
     }
-
-
-    private void FocusOnPoint() {
-        if (focusPoint != null) {
-            //find the vector pointing from our position to the target
-            Vector3 actualPoint = focusPoint.position + (transform.right * npcLookAtOffset);
-
-            Vector3 direction = (actualPoint - transform.position).normalized;
-
-            //create the rotation we need to be in to look at the target
-            Quaternion lookRotation = Quaternion.LookRotation(direction);
-
-            //rotate us over time according to speed until we are in the required rotation
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * focusSpeed);
-        }
-    }
+    
 
     private void BasicCameraControls() {
         // Calculate new rotation values
@@ -79,15 +59,5 @@ public class FPCamera : MonoBehaviour {
 
         // Apply new rotation
         transform.localEulerAngles = new Vector3(rotationX, rotationY, 0);
-    }
-
-    public void SetDialogueFocusPoint(Transform point) {
-        if(point != null) {
-            focusPoint = point;
-        }
-    }
-
-    public void NullFocusPoint() {
-        focusPoint = null;
     }
 }
