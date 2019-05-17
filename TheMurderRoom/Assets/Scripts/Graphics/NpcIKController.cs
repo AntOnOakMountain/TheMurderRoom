@@ -38,7 +38,7 @@ public class NpcIKController : MonoBehaviour {
     }
 
     void Update() {
-        Vector3 playerDistance = Player.instance.GetCameraPosition() - npc.transform.position;
+        Vector3 playerDistance = Player.instance.fpCamera.transform.position - npc.transform.position;
 
         Vector3 nForward = npc.transform.forward;
 

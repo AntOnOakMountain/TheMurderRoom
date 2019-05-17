@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516774b801a223245b4732f8b043ff62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  focusSpeed: 2
+  focusSpeed: 1
   npcLookAtOffset: 0.55
   distanceToNpc: 2
 --- !u!114 &114852959617217790
@@ -253,8 +253,8 @@ MonoBehaviour:
   m_StepInterval: 1.5
   playerFootstepEvent: event:/2D/Player_Footstep_v2
   roomEmitter: {fileID: 0}
-  pad: {fileID: 0}
   interactDistance: 2
+  fpCamera: {fileID: 0}
 --- !u!114 &114936191053986842
 MonoBehaviour:
   m_ObjectHideFlags: 1

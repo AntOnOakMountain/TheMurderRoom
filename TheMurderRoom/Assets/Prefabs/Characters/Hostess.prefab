@@ -2117,7 +2117,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 0}
-  lookSpeed: 1
+  chest: {fileID: 0}
+  npc: {fileID: 0}
+  rotationSpeed: 1
+  headRotationAmount: 0.45
+  chestRotationAmount: 0.45
+  lookAtDistance: 3
+  lookAtMaxAngle: 60
 --- !u!136 &136049870877183522
 CapsuleCollider:
   m_ObjectHideFlags: 1

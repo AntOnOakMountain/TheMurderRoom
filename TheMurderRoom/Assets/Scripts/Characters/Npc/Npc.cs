@@ -13,8 +13,9 @@ public class Npc : MonoBehaviour {
     }
 
     [Tooltip("How fast the character will rotate it's body when talking to the player.")]
-    public float rotateSpeed = 100f;
+    public float rotateSpeed = 100;
     private Quaternion rotationBeforeDialogue;
+    private Quaternion dialogueRotation;
 
     [Tooltip("Flowchart linked to this npc.")]
     public Flowchart flowchart;
@@ -30,8 +31,8 @@ public class Npc : MonoBehaviour {
             flowchartInteract = flowchart.GetComponent<Interact>();
             flowchart.npc = this;
         }
-        rotationBeforeDialogue = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
-
+        rotationBeforeDialogue = transform.rotation;
+        dialogueRotation = transform.rotation;
         ikController = GetComponentInChildren<NpcIKController>();
     }
 
@@ -45,16 +46,9 @@ public class Npc : MonoBehaviour {
 	
 	void Update () {
         if(state == State.Dialogue) {
-
-            // Rotate npc towards player
-            Vector3 playerDistance =  Player.instance.transform.position- transform.position;
-            Quaternion goalRotation = Quaternion.LookRotation(playerDistance.normalized, Vector3.up);
-            // Only rotate in Y axis
-            goalRotation =  Quaternion.Euler(0, goalRotation.eulerAngles.y, 0);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, goalRotation, rotateSpeed * Time.deltaTime);
+             transform.rotation = Quaternion.RotateTowards(transform.rotation, dialogueRotation, rotateSpeed * Time.deltaTime);
         }
-        else {
-            // Rotate back to default rotation
+        else if(state == State.Idle) {
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotationBeforeDialogue, rotateSpeed * Time.deltaTime);
         }
 	}
@@ -64,7 +58,13 @@ public class Npc : MonoBehaviour {
 
         if(newState == State.Dialogue) {
             // Save rotation it had before player talked to it
-            rotationBeforeDialogue = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+            rotationBeforeDialogue = transform.rotation;
+
+            // Rotate npc towards player
+            Vector3 playerDistance = Player.instance.transform.position - transform.position;
+            dialogueRotation = Quaternion.LookRotation(playerDistance.normalized, Vector3.up);
+            // Only rotate in Y axis
+            dialogueRotation = Quaternion.Euler(0, dialogueRotation.eulerAngles.y, 0);
         }
     }
 

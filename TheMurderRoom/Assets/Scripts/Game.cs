@@ -46,56 +46,54 @@ public class Game : MonoBehaviour {
 
         if (state == State.Play) {
             if (Input.GetButtonDown("RewindTime")) {
-                RewindTime();
+                RewindTime(false);
             }
 
             if (flowChart.GetIntegerVariable("time_left") == 0) {
-                SetState(State.Dialogue);
-                Journal.journal.Clear();
-                Journal.journal.ToggleJournal(true);
-                flowChart.ExecuteBlock("Forced Rewind");
+                RewindTime(true);
             }
         }        
     }
 
-    public void RewindTime() {
-        if (state == State.Play) {
-            SetState(State.Dialogue);
-            Journal.journal.Clear();
-            Journal.journal.ToggleJournal(true);
+    public void RewindTime(bool isForced) {
+        SetState(State.Dialogue);
+        Journal.journal.Clear();
+        Journal.journal.ToggleJournal(true);
+        if (isForced) {
+            flowChart.ExecuteBlock("Forced Rewind");
+        }
+        else {
             flowChart.ExecuteBlock("Rewind time");
         }
     }
 
     public void EndDialogue() {
-        Player.instance.EndDialogue();
+        Journal.journal.ToggleJournal(false);
+        SetState(State.Play);
     }
 
     public void SetState(State newState) {
         state = newState;
-
-        if(newState == State.Play) {
-            Cursor.lockState = CursorLockMode.Locked;
-        }
-        else {
-            Cursor.lockState = CursorLockMode.None;
-        }
 
         switch (newState) {
             case State.Dialogue:
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;
                 break;
             case State.Play:
-                Player.instance.SetState(Player.State.Play);
+                Player.instance.fpCamera.dialogueCamera.StopDialogueFocusOn(); // will lead to player entering play state
+                //Player.instance.SetState(Player.State.Play);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(true);
                 UIManager.Instance.quitButton.gameObject.SetActive(true);
+                Cursor.lockState = CursorLockMode.Locked;
                 break;
             case State.Menu:
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;
                 break;
         }
     }

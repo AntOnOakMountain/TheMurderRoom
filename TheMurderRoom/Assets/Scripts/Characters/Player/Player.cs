@@ -13,8 +13,7 @@ public class Player : MonoBehaviour {
 
     [Header("Movement Settings")]
     public float maxSpeed = 10f;
-    [HideInInspector]
-    public float speed = 0;
+    [HideInInspector] public float speed = 0;
     public float acceleration = 20f;
     public float deceleration = 20f;
     public float gravity = 9.81f;
@@ -31,12 +30,7 @@ public class Player : MonoBehaviour {
     FMOD.Studio.EventInstance player_Footstep;
 
     public FMODUnity.StudioEventEmitter roomEmitter;
-    
-
-    [Header("Fungus stuff")]
-    [Tooltip("Link to the pad Flowchart")]
-    public OpenPad pad;
-
+   
     // Variables for interacting with Npc/objects
     private LayerMask interactableMask;
     private Npc lookingAt = null;
@@ -76,20 +70,16 @@ public class Player : MonoBehaviour {
 
     void Update() {
         if (state == State.Play) {
-            // Interact with NPC/Objects
             ScanForInteractables();
+            // Interact with NPC/Objects
             if (lookingAt != null && Input.GetButtonDown("Interact")) {
                 if (lookingAt.Interact()) {
-                    Game.instance.SetState(Game.State.Dialogue);
+                    Game.instance.SetState(Game.State.Dialogue); // also sets player ti dialogue state
                     lookingAt.SetState(Npc.State.Dialogue);
                     if (lookingAt.ikController != null) {
-                        fpCamera.dialogueCamera.SetDialogueFocusPoint(lookingAt.ikController.head);
+                        fpCamera.dialogueCamera.StartDialogueFocusOn(lookingAt.ikController.head);
                     }
                 }
-            }
-            else if(Input.GetButtonDown("OpenPad")){
-                pad.Open();
-                Game.instance.SetState(Game.State.Dialogue);
             }
         }
     }
@@ -153,7 +143,6 @@ public class Player : MonoBehaviour {
     private RaycastHit hit;
     private void ScanForInteractables() {
         // Raycast (what do you look at)
-        Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, interactDistance, interactableMask);
         if (Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, interactDistance, interactableMask)) {
             // If looking at a Npc or interactable, save it in lookingAt
             if (hit.transform.tag == "Npc" || hit.transform.tag == "Interactable") {
@@ -170,23 +159,17 @@ public class Player : MonoBehaviour {
 
     public void SetState(State newState) {
         state = newState;
-        fpCamera.dialogueCamera.NullFocusPoint();
+        
         switch (newState) {
             case State.Dialogue:
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);
                 speed = 0;
                 break;
+            case State.Play:
+                if (roomEmitter != null)
+                    roomEmitter.SetParameter("Conversation", 0.0f);
+                break;
         }
-    }
-
-    /// <summary>
-    /// Called to from fungus to signal when an conversation have ended
-    /// </summary>
-    public void EndDialogue() {
-        Game.instance.SetState(Game.State.Play);
-        Journal.journal.ToggleJournal(false);
-        if(roomEmitter != null)
-            roomEmitter.SetParameter("Conversation", 0.0f);
     }
 
     public State GetState() {
@@ -218,9 +201,5 @@ public class Player : MonoBehaviour {
         player_Footstep = FMODUnity.RuntimeManager.CreateInstance(playerFootstepEvent);
         player_Footstep.start();
         
-    }
-
-    public Vector3 GetCameraPosition() {
-        return fpCamera.transform.position;
     }
 }

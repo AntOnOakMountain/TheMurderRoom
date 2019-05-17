@@ -20,7 +20,7 @@ public class FPCamera : MonoBehaviour {
     [Range(0, 360)]
     public float maxRightwardsAngle = 360F;
 
-    public DialogueCameraController dialogueCamera;
+    [HideInInspector] public DialogueCameraController dialogueCamera;
 
     void Start() {
         dialogueCamera = GetComponent<DialogueCameraController>();
