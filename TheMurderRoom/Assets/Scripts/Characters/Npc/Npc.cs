@@ -14,14 +14,13 @@ public class Npc : MonoBehaviour {
 
     [Tooltip("How fast the character will rotate it's body when talking to the player.")]
     public float rotateSpeed = 100f;
+    private Quaternion rotationBeforeDialogue;
 
     [Tooltip("Flowchart linked to this npc.")]
     public Flowchart flowchart;
     private Interact flowchartInteract;
 
-    private Quaternion rotationBeforeDialogue;
-
-    [HideInInspector] public IKController ikController;
+    [HideInInspector] public NpcIKController ikController;
 
 	void Start () {
         if(flowchart == null) {
@@ -33,7 +32,7 @@ public class Npc : MonoBehaviour {
         }
         rotationBeforeDialogue = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
 
-        ikController = GetComponentInChildren<IKController>();
+        ikController = GetComponentInChildren<NpcIKController>();
     }
 
     public bool Interact() {
@@ -57,23 +56,6 @@ public class Npc : MonoBehaviour {
         else {
             // Rotate back to default rotation
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotationBeforeDialogue, rotateSpeed * Time.deltaTime);
-        }
-        
-        if(ikController != null) {
-            Vector3 playerDistance = Player.instance.GetCameraPosition() - transform.position;
-            float lookAtDistance = 3f;
-            float lookAtMaxAngle = 60f;
-
-            Vector3 nForward = transform.forward.normalized;
-            Vector3 nDistance = playerDistance.normalized;
-
-            if (Vector3.Angle(nForward, nDistance) < lookAtMaxAngle && 
-                playerDistance.sqrMagnitude < Mathf.Pow(lookAtDistance, 2)) {
-                ikController.LookAtPlayer();
-            }
-            else {
-                ikController.StopLookingAtPlayer();
-            }
         }
 	}
 

@@ -14,8 +14,8 @@ public class DialogueCameraController : MonoBehaviour {
     private Vector3 goalPosition;
     private Quaternion goalRotation;
 
-    private float lerpTo = 1;
-    private float lerpFrom = 1;
+    private float slerpTo = 1;
+    private float slerpFrom = 1;
 
     [Tooltip("Speed of going to dialogue view")]
     public float focusSpeed = 0.2f;
@@ -31,28 +31,24 @@ public class DialogueCameraController : MonoBehaviour {
         defaultLocalPosition = transform.localPosition;
 
         // Set the lerp values as "done" (over 1)
-        lerpTo = 2;
-        lerpFrom = 2;
+        slerpTo = 2;
+        slerpFrom = 2;
 }
 
 
     void Update() {
-        if (isInDialogue && lerpTo < 1f) {
-            lerpTo += focusSpeed * Time.deltaTime;
-            // for a little nicer movement
-            float sineLerp = Mathf.Sin(lerpTo * Mathf.PI / 2);
+        if (isInDialogue && slerpTo < 1f) {
+            slerpTo += focusSpeed * Time.deltaTime;
             
-            Player.instance.transform.position = Vector3.Lerp(startingPosition, goalPosition, sineLerp);
-            transform.rotation = Quaternion.Slerp(startingRotation, goalRotation, sineLerp);
+            Player.instance.transform.position = Vector3.Slerp(startingPosition, goalPosition, slerpTo);
+            transform.rotation = Quaternion.Slerp(startingRotation, goalRotation, slerpTo);
         }
-        else if(lerpFrom < 1f){
+        else if(slerpFrom < 1f){
             // Go back to previous position and rotation
-            lerpFrom += focusSpeed * Time.deltaTime;
-            // for a little nicer movement
-            float sineLerp = Mathf.Sin(lerpFrom * Mathf.PI / 2);
+            slerpFrom += focusSpeed * Time.deltaTime;
 
-            Player.instance.transform.position = Vector3.Lerp(goalPosition, startingPosition, sineLerp);
-            transform.rotation = Quaternion.Slerp(goalRotation, startingRotation, sineLerp);
+            Player.instance.transform.position = Vector3.Slerp(goalPosition, startingPosition, slerpFrom);
+            transform.rotation = Quaternion.Slerp(goalRotation, startingRotation, slerpFrom);
         }
     }
 
@@ -60,7 +56,7 @@ public class DialogueCameraController : MonoBehaviour {
         if (point != null) {
             isInDialogue = true;
             focusPoint = point.position;
-            lerpTo = 0;
+            slerpTo = 0;
 
             // Calculate goal position
             Vector3 distance = Player.instance.transform.position - focusPoint;
@@ -85,7 +81,7 @@ public class DialogueCameraController : MonoBehaviour {
     public void NullFocusPoint() {
         if(isInDialogue) {
             isInDialogue = false;
-            lerpFrom = 0;
+            slerpFrom = 0;
 
             // if you start talking to a npc's when looking at its feet it feel odd to go back to that camera rotation afterwards, so remove all up and down rotation
             startingRotation = Quaternion.Euler(0, startingRotation.eulerAngles.y, 0);

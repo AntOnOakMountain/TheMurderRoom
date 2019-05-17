@@ -756,6 +756,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114285585667046240, guid: 714cfcd9e6d694641b43b1ceb6bc83ef,
+        type: 2}
+      propertyPath: focusSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 714cfcd9e6d694641b43b1ceb6bc83ef, type: 2}
   m_IsPrefabParent: 0
@@ -2829,6 +2834,11 @@ Prefab:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 2146370604}
+    - target: {fileID: 114561057887292080, guid: 5cb25c3a9c95b924caef39e4b2de80bc,
+        type: 2}
+      propertyPath: rotateSpeed
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cb25c3a9c95b924caef39e4b2de80bc, type: 2}
   m_IsPrefabParent: 0
@@ -3031,7 +3041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1527244440}
+  selectedFlowchart: {fileID: 2146370604}
 --- !u!4 &1410672312
 Transform:
   m_ObjectHideFlags: 1

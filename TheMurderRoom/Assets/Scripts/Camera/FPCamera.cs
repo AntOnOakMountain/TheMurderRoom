@@ -42,7 +42,7 @@ public class FPCamera : MonoBehaviour {
         // modulus to not go over 360
         rotationX %= 360; 
         if (rotationX < 0) {
-            // The inspector displays the xAxis value as negative but it is stored as a positive. So need to translate a negative xRotation to the positive value with the same angle
+            // The inspector displays the xAxis value as negative but it is always stored as a positive. So need to translate a negative xRotation to the positive value with the same angle
             rotationX = rotationX + 360;
         }
         // Looks upwards 
