@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 114125731253921126}
   - component: {fileID: 114827756186057934}
   - component: {fileID: 114912514923093372}
+  - component: {fileID: 114852360208629718}
   m_Layer: 0
   m_Name: HostessFungus
   m_TagString: Untagged
@@ -1893,6 +1894,7 @@ MonoBehaviour:
   - {fileID: 114219249152034482}
   - {fileID: 114954715409495424}
   - {fileID: 114912514923093372}
+  - {fileID: 114852360208629718}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -3527,6 +3529,21 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114852360208629718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426449739129446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  remember: 1
+  key: relation
+  value: 0
 --- !u!114 &114855018326327168
 MonoBehaviour:
   m_ObjectHideFlags: 1

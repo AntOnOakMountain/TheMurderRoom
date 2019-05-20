@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour {
     [HideInInspector] public Transform logButton;
     [HideInInspector] public Transform timeLockButton;
     [HideInInspector] public Transform quitButton;
+    [HideInInspector] public RelationshipMeter relationshipMeter;
 
     private static UIManager uiManager;
     public static UIManager Instance {
@@ -28,7 +29,8 @@ public class UIManager : MonoBehaviour {
         interactPrompt.gameObject.SetActive(false);
 
         logButton = transform.Find("ButtonHud/Buttons/Log Button");
-        timeLockButton = transform.Find("ButtonHud/Buttons/Time Lock Button");
+        timeLockButton = transform.Find("TimeLockUI/Time Lock Button");
         quitButton = transform.Find("ButtonHud/Buttons/Quit Game");
+        relationshipMeter = transform.Find("Journal/Panel/RelationshipMeter").GetComponent<RelationshipMeter>();
     }
 }
