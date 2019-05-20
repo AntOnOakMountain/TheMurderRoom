@@ -45,10 +45,7 @@ public class RelationshipMeter : MonoBehaviour {
 
     private void SetRelationshipValue(int value) {
         value =  Mathf.Clamp(value, -halfNumberOfValues, halfNumberOfValues);
-        Debug.Log("=================================");
-        Debug.Log(lastValue);
-        Debug.Log(value);
-        
+       
         if (value != currentValue) {
             lastValue = currentValue;
             currentValue = value;
