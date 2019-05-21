@@ -3544,12 +3544,12 @@ Prefab:
     - target: {fileID: 224355072894057214, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224355072894057214, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 58
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224730964292328766, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
@@ -3569,12 +3569,12 @@ Prefab:
     - target: {fileID: 224730964292328766, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -67
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224825494607564470, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 67
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224825494607564470, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
@@ -3754,7 +3754,7 @@ Prefab:
     - target: {fileID: 224203256372991894, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 215.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224366198428989320, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
@@ -3774,17 +3774,17 @@ Prefab:
     - target: {fileID: 224366198428989320, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224366198428989320, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224897934120610138, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114246962774375624, guid: c08f1569d4c6d7c4881f8d68e5aaf2ee,
         type: 2}
@@ -6072,17 +6072,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  Event: event:/3D/AMB_Room/AMB_Fireplace_high
+  PlayEvent: 11
+  StopEvent: 12
   CollisionTag: 
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10
 --- !u!23 &2000417157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6863,6 +6863,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2004985561}
     m_Modifications:
+    - target: {fileID: 114404894148512432, guid: 4d75d7359bd856d4d887ffc0897c1db6,
+        type: 2}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114404894148512432, guid: 4d75d7359bd856d4d887ffc0897c1db6,
         type: 2}
       propertyPath: selectedCommands.Array.size
