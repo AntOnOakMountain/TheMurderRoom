@@ -9,7 +9,7 @@ public class RelationshipMeter : MonoBehaviour {
     private Flowchart flowchart;
 
     public float meterFillSpeed = 32f;
-    public float sizeOfMeter = 320;
+    private float sizeOfMeter;
     public int numberOfValues = 10;
     private int halfNumberOfValues;
 
@@ -26,10 +26,12 @@ public class RelationshipMeter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        intervalUISize = sizeOfMeter / 10;
-        halfNumberOfValues = numberOfValues / 2;
+        
         badMeter = transform.Find("Bad").GetComponent<Image>();
         goodMeter = transform.Find("Good").GetComponent<Image>();
+        sizeOfMeter = badMeter.rectTransform.sizeDelta.x;
+        intervalUISize = sizeOfMeter / 10;
+        halfNumberOfValues = numberOfValues / 2;
 
         interpolation = 0;
     }
