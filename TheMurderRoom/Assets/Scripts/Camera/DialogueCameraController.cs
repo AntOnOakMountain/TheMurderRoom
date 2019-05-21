@@ -5,7 +5,6 @@ using UnityEngine;
 public class DialogueCameraController : MonoBehaviour {
 
     private bool isInDialogue = false;
-    private Vector3 defaultLocalPosition;
 
     private Vector3 startingPosition;
     private Quaternion startingRotation;
@@ -21,9 +20,6 @@ public class DialogueCameraController : MonoBehaviour {
     public float distanceToNpc = 2f;
 
     void Start() {
-        // Save original local position
-        defaultLocalPosition = transform.localPosition;
-
         // Set the lerp values as "done" (over 1)
         lerpAmount = 2;
     }
