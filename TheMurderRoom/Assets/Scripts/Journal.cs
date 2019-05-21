@@ -74,10 +74,13 @@ public class Journal : MonoBehaviour{
         yield return null;
         layout.preferredHeight = transform.rect.height * bubblePadding;
         yield return null;
-        if (menuDialog.transform.GetChild(0).gameObject.activeSelf)
+        // Fungus.MenuDialog.ActiveMenuDialog is null sometimes (or always?) causing an error
+        if (menuDialog.transform.GetChild(0).gameObject.activeSelf && Fungus.MenuDialog.ActiveMenuDialog != null) {
             menuDialog.GetComponent<LayoutElement>().preferredHeight = Fungus.MenuDialog.ActiveMenuDialog.DisplayedOptionsCount * 55 * bubblePadding + 8;
-        else
+        }
+        else if (Fungus.MenuDialog.ActiveMenuDialog != null) {
             menuDialog.GetComponent<LayoutElement>().preferredHeight = 0;
+        }
         yield return null;
         journalUI.transform.parent.parent.GetComponent<ScrollRect>().normalizedPosition = new Vector2(0, 0);
     }
