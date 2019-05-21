@@ -12,8 +12,6 @@ public class TimeLockUI : MonoBehaviour {
     public Sprite oneTimeTickLeft;
     public Sprite noTimeTickLeft;
 
-    private Flowchart globalFlowchart;
-
     private int lastTick = 4;
     private int currentTick = 4;
 
@@ -22,12 +20,11 @@ public class TimeLockUI : MonoBehaviour {
     public void Start() {
         uiImage = GetComponent<Image>();
         SetTicksLeft(4);
-        globalFlowchart = GameObject.Find("GlobalFungus").GetComponent<Flowchart>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        currentTick = globalFlowchart.GetIntegerVariable("time_left");
+        currentTick = Game.instance.globalFlowchart.GetIntegerVariable("time_left");
 
         if(lastTick != currentTick) {
             SetTicksLeft(currentTick);
