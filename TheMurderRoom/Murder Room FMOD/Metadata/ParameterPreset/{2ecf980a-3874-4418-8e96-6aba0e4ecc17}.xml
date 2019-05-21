@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{2ecf980a-3874-4418-8e96-6aba0e4ecc17}">
+        <property name="name">
+            <value>dialog fade</value>
+        </property>
+        <relationship name="folder">
+            <destination>{474c2cf1-1129-4e7d-a9dc-decd029b1cc9}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{bd634a01-a56b-4994-b56b-1dbcaae20e93}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{bd634a01-a56b-4994-b56b-1dbcaae20e93}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>
