@@ -38,7 +38,7 @@ public class Player : MonoBehaviour {
     public float interactDistance = 2f;
 
     /// <summary> Used for the basic camera controls </summary>
-    public FPCamera fpCamera;
+    [HideInInspector] public FPCamera fpCamera;
 
    // State variables
    public enum State {

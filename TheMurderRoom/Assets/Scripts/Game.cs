@@ -14,7 +14,7 @@ public class Game : MonoBehaviour {
         get { return game; }
     }
 
-    private Flowchart flowChart;
+    [HideInInspector] public Flowchart globalFlowchart;
 
 
     private State state = State.Play;
@@ -32,7 +32,7 @@ public class Game : MonoBehaviour {
             Debug.Log("Only one game instance should exist per scene", this);
         }
 
-        flowChart = GameObject.Find("GlobalFungus").GetComponent<Flowchart>();
+        globalFlowchart = GameObject.Find("GlobalFungus").GetComponent<Flowchart>();
         SetState(State.Play);
     }
 
@@ -49,7 +49,7 @@ public class Game : MonoBehaviour {
                 RewindTime(false);
             }
 
-            if (flowChart.GetIntegerVariable("time_left") == 0) {
+            if (globalFlowchart.GetIntegerVariable("time_left") == 0) {
                 RewindTime(true);
             }
         }        
@@ -60,10 +60,10 @@ public class Game : MonoBehaviour {
         Journal.journal.Clear();
         Journal.journal.ToggleJournal(true);
         if (isForced) {
-            flowChart.ExecuteBlock("Forced Rewind");
+            globalFlowchart.ExecuteBlock("Forced Rewind");
         }
         else {
-            flowChart.ExecuteBlock("Rewind time");
+            globalFlowchart.ExecuteBlock("Rewind time");
         }
     }
 
