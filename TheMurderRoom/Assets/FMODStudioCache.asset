@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114549767540761282}
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   EditorEvents:
   - {fileID: 114789155804801238}
   - {fileID: 114976616267536426}
@@ -40,9 +40,9 @@ MonoBehaviour:
   - {fileID: 114208374058902038}
   - {fileID: 114202042071518082}
   - {fileID: 114231946148733720}
-  MasterBankRef: {fileID: 114706612036629232}
+  MasterBankRef: {fileID: 114943641225610726}
   StringsBankRef: {fileID: 114549767540761282}
-  stringsBankWriteTime: 636940673060260888
+  stringsBankWriteTime: 636940498988972232
   cacheVersion: 2
 --- !u!114 &114001493699524978
 MonoBehaviour:
@@ -271,7 +271,7 @@ MonoBehaviour:
   Path: event:/2D/UI/UI_Clue_v4
   guid: 949d5c77760916408d9e17c721423d36
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -440,7 +440,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Room/AMB_Partypeople
   guid: 748a5126f9402f448a3f800dbaff5344
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Room/AMB_Fireplace_high
   guid: e797de4c3831bd4791105984b781c698
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
   Path: event:/VO/Professor/Professor_sigh
   guid: cd3c1e641f4b2344b55f3584d343c318
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -799,7 +799,7 @@ MonoBehaviour:
   Path: event:/2D/AMB/AMB_Rain_w_thunder_2D
   guid: 93d48a9345cf4349af666ee1e3701b3d
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -821,7 +821,7 @@ MonoBehaviour:
   Path: event:/VO/Professor/Professor_Fnys
   guid: edf5f9fd9294bd489d002a879705f338
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1049,7 +1049,7 @@ MonoBehaviour:
   Path: event:/2D/UI/UI_Clue_v3
   guid: bed17f513132d342bf8f6d4164b1994d
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1276,7 +1276,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Rewind
   guid: aa7e006617fcbe4e908adb0aaab5e3ca
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1637,7 +1637,7 @@ MonoBehaviour:
   Path: event:/Musik/Gramophone 2
   guid: 4fe8e45ad8fce945b44ca01bbf872d5b
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Rewind_v2
   guid: 38e17455db65d347b9de1c1edd79ccf8
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   Path: event:/VO/Hostess/Hostess_laugh
   guid: 1e9dabcc8b96814fa56e8a0a3d258816
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2077,7 +2077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\Audio\Desktop\Murder Room.strings.bank
-  lastModified: 636940673060260888
+  lastModified: 636940498988972232
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -2228,7 +2228,7 @@ MonoBehaviour:
   Path: event:/3D/Failstate/Player_Failstate
   guid: 955759c0cb603e4899b2b284b932c254
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2272,12 +2272,12 @@ MonoBehaviour:
   Path: event:/Musik/Room logic 2
   guid: 292580d3742f4541b308f21c530c2080
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 114878529960885874}
+  - {fileID: 114011910720433394}
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
@@ -2532,7 +2532,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Rewind_v3
   guid: 85f64a8e452fac42954675a504ea7461
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2597,7 +2597,7 @@ MonoBehaviour:
   Path: event:/2D/Events/death
   guid: 9321d0cae48d054bac606f6baec0d972
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2638,7 +2638,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Event_Hostess
   guid: 343d49aec0c3814c9aedfb826094492c
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2682,7 +2682,7 @@ MonoBehaviour:
   Path: event:/3D/Failstate/Failstate_2D
   guid: 50cf7b57f60c384091f994c7fcb2c42a
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2712,25 +2712,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1017
---- !u!114 &114706612036629232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: C:\Users\E\Documents\GitHub\TheMurderRoom\TheMurderRoom\Assets\Audio\Desktop\Murder
-    Room.bank
-  lastModified: 636940673060240944
-  LoadResult: 0
-  FileSizes:
-  - Name: 
-    Value: 13440832
-  Exists: 1
 --- !u!114 &114711060687869246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2807,7 +2788,7 @@ MonoBehaviour:
   Path: event:/2D/AMB/AMB_Rain_v2
   guid: 2a1836d2a3270245813914f7e3b08a4e
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2829,7 +2810,7 @@ MonoBehaviour:
   Path: event:/VO/Professor/Professor_laugh
   guid: 3a1f126022238044bc24dd37eb357781
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2851,7 +2832,7 @@ MonoBehaviour:
   Path: snapshot:/EQ
   guid: 0c1e28a2eaf85a4fb9f62f2304c6abff
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2939,7 +2920,7 @@ MonoBehaviour:
   Path: event:/2D/UI/UI_Clue
   guid: 0ab12e6c0528e047818228a6cf1cdba5
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3005,7 +2986,7 @@ MonoBehaviour:
   Path: snapshot:/Rewind
   guid: 9cb985ad3f20f04fa7a6ef346e6d1e9c
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3286,21 +3267,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 496
---- !u!114 &114878529960885874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Conversation
-  Min: 0
-  Max: 1
-  Default: 0
 --- !u!114 &114880287160442438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3662,7 +3628,7 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 13440832
-  Exists: 0
+  Exists: 1
 --- !u!114 &114944122404609878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3759,7 +3725,7 @@ MonoBehaviour:
   Path: event:/2D/UI/UI_Clue_v2
   guid: 8cdfd27f28c444408795ecf13ac45bab
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3781,7 +3747,7 @@ MonoBehaviour:
   Path: snapshot:/failstate
   guid: 0b478069544ec048a43690a1d2940cd8
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3833,7 +3799,7 @@ MonoBehaviour:
   Path: event:/2D/Player_Footstep_v2
   guid: a944a4e6f06b42439f6300bcb1962a8c
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114943641225610726}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
