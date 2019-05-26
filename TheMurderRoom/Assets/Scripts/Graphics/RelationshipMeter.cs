@@ -42,7 +42,10 @@ public class RelationshipMeter : MonoBehaviour {
 
         lastFrameValue = lastValue;
         currentValue = lastValue;
-        SetRelationshipValue(lastValue);
+        interpolation = 2;
+        float width = (currentValue + halfNumberOfValues) * intervalUISize;
+        goodMeter.rectTransform.sizeDelta = new Vector2(width, goodMeter.rectTransform.sizeDelta.y);
+        
     }
 
     private void SetRelationshipValue(int value) {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
 public class Journal : MonoBehaviour{
 
     public static Journal journal;
@@ -92,3 +93,4 @@ public class Journal : MonoBehaviour{
         entries.Clear();
     }
 }
+*/

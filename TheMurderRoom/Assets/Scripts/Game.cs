@@ -57,8 +57,8 @@ public class Game : MonoBehaviour {
 
     public void RewindTime(bool isForced) {
         SetState(State.Dialogue);
-        Journal.journal.Clear();
-        Journal.journal.ToggleJournal(true);
+        DialogWindow.dialogWindow.Clear();
+        DialogWindow.dialogWindow.gameObject.SetActive(true);
         if (isForced) {
             globalFlowchart.ExecuteBlock("Forced Rewind");
         }
@@ -68,7 +68,7 @@ public class Game : MonoBehaviour {
     }
 
     public void EndDialogue() {
-        Journal.journal.ToggleJournal(false);
+        DialogWindow.dialogWindow.gameObject.SetActive(false);
         SetState(State.Play);
     }
 

@@ -31,6 +31,6 @@ public class UIManager : MonoBehaviour {
         logButton = transform.Find("ButtonHud/Buttons/Log Button");
         timeLockButton = transform.Find("TimeLockUI/Time Lock Button");
         quitButton = transform.Find("ButtonHud/Buttons/Quit Game");
-        relationshipMeter = transform.Find("Journal/Panel/RelationshipMeter").GetComponent<RelationshipMeter>();
+        relationshipMeter = transform.Find("DialogWindow/Panel/RelationshipMeter").GetComponent<RelationshipMeter>();
     }
 }

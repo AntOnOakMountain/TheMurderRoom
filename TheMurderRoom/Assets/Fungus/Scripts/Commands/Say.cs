@@ -131,12 +131,10 @@ namespace Fungus
 
             sayDialog.Say(subbedText, !extendPrevious, waitForClick, fadeWhenDone, stopVoiceover, waitForVO, voiceOverClip, delegate {
                 if (addToJournal) {
-                    if (Journal.journal == null)
-                        Debug.LogWarning("Missing journal");
-                    else
-                        Journal.journal.Add(new JournalEntry(character != null ? character.NameText : "No name", storyText));
+                    DialogWindow.dialogWindow.AddLogEntry(subbedText, false);
+                    // prevent the say dialog to remain after it been logged
+                    SayDialog.ActiveSayDialog.SetActive(false);
                 }
-                SayDialog.ActiveSayDialog.GetComponentInParent<LayoutElement>().preferredHeight = 0;
                 Continue();
             });
         }

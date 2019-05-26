@@ -259,7 +259,6 @@ namespace Fungus
                 // Stop timeout
                 Clear();
                 HideSayDialog();
-                Journal.journal.Add(new JournalEntry("You", text));
                 if (block != null)
                 {
                     var flowchart = block.GetFlowchart();
@@ -271,6 +270,7 @@ namespace Fungus
                     // Use a coroutine to call the block on the next frame
                     // Have to use the Flowchart gameobject as the MenuDialog is now inactive
                     flowchart.StartCoroutine(CallBlock(block));
+                    DialogWindow.dialogWindow.AddLogEntry(text, true);
                 }
             };
 
@@ -359,7 +359,8 @@ namespace Fungus
                 textComponent.text = text;
             }
             button.onClick.AddListener(action);
-            
+
+            DialogWindow.dialogWindow.ScrollToBottom();
 
             return true;
         }

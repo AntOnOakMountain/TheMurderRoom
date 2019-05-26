@@ -285,6 +285,7 @@ namespace Fungus
         public virtual void SetActive(bool state)
         {
             gameObject.SetActive(state);
+            DialogWindow.dialogWindow.ScrollToBottom();
         }
 
         /// <summary>
