@@ -6,7 +6,6 @@ public class Lightning : MonoBehaviour {
 
     private new Light light;
 
-
     public float howOftenMin = 1f;
     public float howOftenMax = 1f;
 
@@ -19,7 +18,8 @@ public class Lightning : MonoBehaviour {
     public float lightningRange = 100;
 
     private Timer timer;
-    private Timer timerDuration;
+
+    private bool lightOn = false;
 
     // Use this for initialization
     void Start() {
@@ -27,23 +27,37 @@ public class Lightning : MonoBehaviour {
         defaultRange = light.range;
         defaultIntensity = light.intensity;
 
-        timerDuration = new Timer(duration);
         timer = new Timer(Random.Range(howOftenMin, howOftenMax));
         timer.Start();
     }
 
     // Update is called once per frame
     void Update() {
-        if (timer.IsDone() && !timerDuration.IsActive()) {
-            light.intensity = lightningIntensity;
-            light.range = lightningRange;
+        if (timer.IsDone()) {
+            // turn of light
+            if (lightOn) {
+                light.intensity = 0;
+                light.range = 0;
 
-            timerDuration.Start();// restart timer
+                lightOn = false;
+
+                timer = new Timer(Random.Range(howOftenMin, howOftenMax));
+                timer.Start();
+            }
+            // turn on light
+            else {
+                lightOn = true;
+                light.intensity = lightningIntensity;
+                light.range = lightningRange;
+
+                timer = new Timer(duration);
+                timer.Start();// restart timer
+            }
         }
-        //else if(timerDuration.IsDone() && timer.){
-            //light.range = Mathf.Lerp(previousRange, goalRange, timer.TimePercentagePassed());
-            //light.intensity = Mathf.Lerp(previousIntensity, goalIntensity, timer.TimePercentagePassed());
-        //}
 
+        if (lightOn) {
+            // fade out light
+            light.intensity = Mathf.Lerp(lightningIntensity, 0, timer.TimePercentagePassed());
+        }
     }
 }
