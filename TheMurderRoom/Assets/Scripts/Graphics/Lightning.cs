@@ -2,19 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Light))]
 public class Lightning : MonoBehaviour {
 
     private new Light light;
 
+    [Header("Time range for how often lightning will strike")]
     public float howOftenMin = 1f;
     public float howOftenMax = 1f;
 
+    [Tooltip("how long the light will stay (and fade out during)")]
     public float duration = 0.1f;
 
     private float defaultRange;
     private float defaultIntensity;
 
+    [Tooltip("how high intensity the light will have when lightning strikes")]
     public float lightningIntensity = 90;
+    [Tooltip("how long  range the light will have when lightning strikes")]
     public float lightningRange = 100;
 
     private Timer timer;

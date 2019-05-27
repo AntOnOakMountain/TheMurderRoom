@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Light))]
 public class LightFlicker : MonoBehaviour {
 
     private new Light light;
 
+    [Tooltip("How much the lights range will flicker (Lights base value +- range amount)")]
     public float rangeAmount = 0.5f;
+    [Tooltip("How much the lights intensity will flicker (Lights base value +- intensity amount)")]
     public float intensityAmount = 0.1f;
+    [Tooltip("How often (in seconds) the light will pick new values to go to")]
     public float howOften = 0.1f;
 
     private float defaultRange;
