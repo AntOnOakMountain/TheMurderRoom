@@ -25,11 +25,11 @@ public class DialogWindow : MonoBehaviour {
     void Update() {
         
         if (isScrollingTowardsBottom) {
-            scrollView.velocity = new Vector3(0, scrollSpeed * Time.deltaTime);
             // if scrolling is at bottom, stop it
             if (scrollView.verticalNormalizedPosition - Mathf.Epsilon <= 0) {
                 CancelScrollToBottom();
             }
+            scrollView.velocity = new Vector3(0, scrollSpeed * Time.deltaTime);
         }
     }
 
