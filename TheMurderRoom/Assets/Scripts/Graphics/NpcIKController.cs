@@ -34,6 +34,7 @@ public class NpcIKController : MonoBehaviour {
 
         head = animator.GetBoneTransform(HumanBodyBones.Head);
         chest = animator.GetBoneTransform(HumanBodyBones.Chest);
+
         npc = GetComponentInParent<Npc>();
     }
 
@@ -71,7 +72,7 @@ public class NpcIKController : MonoBehaviour {
         head.rotation = headRotationQuaternion * head.rotation;
         animator.SetBoneLocalRotation(HumanBodyBones.Head, head.localRotation);
 
-        // Chest
+      // Chest
         // create a direction beetween direct look at and looking forward
         Vector3 newChestDir = Vector3.Slerp(headToPlayerV, npc.transform.forward, chestRotationAmount * lookAmount);
         // Get how much you need to rotate to reach that direction
@@ -79,12 +80,6 @@ public class NpcIKController : MonoBehaviour {
         // Rotate it by that much (will still keep other animations effect since it rotates by a set amount instead of overriding)
         chest.rotation = chestRotationQuaternion * chest.rotation;
         animator.SetBoneLocalRotation(HumanBodyBones.Chest, chest.localRotation);
-        
-        /*
-         * // normal IK
-        animator.SetLookAtWeight(lookAmount);
-        animator.SetLookAtPosition(Player.instance.GetCameraPosition());
-        */
     }
 
     public void LookAtPlayer() {

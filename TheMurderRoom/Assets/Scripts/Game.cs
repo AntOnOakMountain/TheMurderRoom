@@ -59,6 +59,7 @@ public class Game : MonoBehaviour {
         SetState(State.Dialogue);
         DialogWindow.dialogWindow.Clear();
         DialogWindow.dialogWindow.gameObject.SetActive(true);
+        UIManager.Instance.relationshipMeter.gameObject.SetActive(false);
         if (isForced) {
             globalFlowchart.ExecuteBlock("Forced Rewind");
         }

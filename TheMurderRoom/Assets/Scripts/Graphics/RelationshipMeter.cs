@@ -38,14 +38,20 @@ public class RelationshipMeter : MonoBehaviour {
 
     public void SetFlowchart(Flowchart chart) {
         flowchart = chart;
-        lastValue = chart.GetIntegerVariable("relation");
+        Variable relation = chart.GetVariable("relation");
+        if(relation != null) {
+            gameObject.SetActive(true);
+            lastValue = ((IntegerVariable)relation).Value;
 
-        lastFrameValue = lastValue;
-        currentValue = lastValue;
-        interpolation = 2;
-        float width = (currentValue + halfNumberOfValues) * intervalUISize;
-        goodMeter.rectTransform.sizeDelta = new Vector2(width, goodMeter.rectTransform.sizeDelta.y);
-        
+            lastFrameValue = lastValue;
+            currentValue = lastValue;
+            interpolation = 2;
+            float width = (currentValue + halfNumberOfValues) * intervalUISize;
+            goodMeter.rectTransform.sizeDelta = new Vector2(width, goodMeter.rectTransform.sizeDelta.y);
+        }
+        else {
+            gameObject.SetActive(false);
+        } 
     }
 
     private void SetRelationshipValue(int value) {
