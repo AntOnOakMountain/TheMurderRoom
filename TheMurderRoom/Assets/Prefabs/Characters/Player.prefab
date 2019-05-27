@@ -272,8 +272,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dcc0c630f78ca6419aca5efc3bcd054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 2
-  goalRange: 20
+  duration: 7
+  goalRange: 40
+  reverseDuration: 4
 --- !u!114 &114183478393364526
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,6 +289,7 @@ MonoBehaviour:
   intensity: 0.05
   bobbingSpeed: 2
   bobbingReturnSpeed: 0.2
+  playerFootstepEvent: event:/2D/Player_Footstep_v2
 --- !u!114 &114285585667046240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -330,8 +332,6 @@ MonoBehaviour:
   acceleration: 10
   deceleration: 10
   gravity: 9.81
-  m_StepInterval: 1.5
-  playerFootstepEvent: event:/2D/Player_Footstep_v2
   roomEmitter: {fileID: 0}
   interactDistance: 2
   fpCamera: {fileID: 0}

@@ -12,6 +12,19 @@ public class HeadBobbing : MonoBehaviour {
     private float bobOscillate = 0;
     private float timer = 0;
 
+    [FMODUnity.EventRef]
+    public string playerFootstepEvent;
+    FMOD.Studio.EventInstance player_Footstep;
+
+    // limit footstep sound to not trigger multiple times at almost the same time
+    private Timer timeSinceLastFootstep;
+
+    void Start() {
+        timeSinceLastFootstep = new Timer(0.2f);
+        timeSinceLastFootstep.Start();
+        timeSinceLastFootstep.InstantFinish();
+    }
+
     void Update() {
         // If standing still return to neutral position
         if (Mathf.Abs(Player.instance.speed) < Mathf.Epsilon) {
@@ -33,5 +46,17 @@ public class HeadBobbing : MonoBehaviour {
         bobOscillate = Mathf.Sin(timer * (2 * Mathf.PI));
 
         transform.localPosition = new Vector3(0, bobOscillate * intensity, 0);
+
+        if(bobOscillate < -0.9f) {
+            PlayFootstep();
+        }
+    }
+
+    private void PlayFootstep() {
+        if (timeSinceLastFootstep.IsDone()) {
+            player_Footstep = FMODUnity.RuntimeManager.CreateInstance(playerFootstepEvent);
+            player_Footstep.start();
+            timeSinceLastFootstep.Start();
+        }
     }
 }

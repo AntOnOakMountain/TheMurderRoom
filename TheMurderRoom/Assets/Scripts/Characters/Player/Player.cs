@@ -21,14 +21,6 @@ public class Player : MonoBehaviour {
     private float previousSideways = 0;
     private CharacterController characterController;
 
-    [SerializeField] private float m_StepInterval;
-    private float m_StepCycle;
-    private float m_NextStep;
-
-    [FMODUnity.EventRef]
-    public string playerFootstepEvent;
-    FMOD.Studio.EventInstance player_Footstep;
-
     public FMODUnity.StudioEventEmitter roomEmitter;
    
     // Variables for interacting with Npc/objects
@@ -63,9 +55,6 @@ public class Player : MonoBehaviour {
         int npcLayer = 1 << LayerMask.NameToLayer("Npc");
         int interactableLayer = 1 << LayerMask.NameToLayer("Interactable");
         interactableMask.value = npcLayer | interactableLayer;
-
-        m_StepCycle = 0f;
-        m_NextStep = m_StepCycle / 2f;
     }
 
     void Update() {
@@ -136,7 +125,6 @@ public class Player : MonoBehaviour {
 
         // Move
         characterController.Move(movement);
-        ProgressStepCycle(movement);
     }
 
 
@@ -178,28 +166,5 @@ public class Player : MonoBehaviour {
 
     public bool IsInState(State state) {
         return this.state == state;
-    }
-
-    private void ProgressStepCycle(Vector3 velocity)
-    {
-        if (velocity.sqrMagnitude > 0 && (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0))
-        {
-            m_StepCycle += (velocity.magnitude + speed) * Time.fixedDeltaTime;
-        }
-
-        if (!(m_StepCycle > m_NextStep))
-        {
-            return;
-        }
-
-        m_NextStep = m_StepCycle + m_StepInterval;
-
-        PlayFootstep();
-    }
-
-    private void PlayFootstep() {
-        player_Footstep = FMODUnity.RuntimeManager.CreateInstance(playerFootstepEvent);
-        player_Footstep.start();
-        
     }
 }

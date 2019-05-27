@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Game : MonoBehaviour {
 
+    private bool timeUp = false;
+
     public enum State {
         Play, Dialogue, Menu
     }
@@ -37,22 +39,26 @@ public class Game : MonoBehaviour {
     }
 
     void Update() {
-        #if (!UNITY_EDITOR)
-            if (Input.GetKey("escape")) {
-                ExitMenu.instance.gameObject.SetActive(true);
-                SetState(State.Menu);
-            }
-        #endif
+        if (!timeUp) {
+            #if (!UNITY_EDITOR)
+                if (Input.GetKey("escape")) {
+                    ExitMenu.instance.gameObject.SetActive(true);
+                    SetState(State.Menu);
+                }
+            #endif
 
-        if (state == State.Play) {
-            if (Input.GetButtonDown("RewindTime")) {
-                RewindTime(false);
-            }
+            if (state == State.Play) {
+                if (Input.GetButtonDown("RewindTime")) {
+                    RewindTime(false);
+                }
 
-            if (globalFlowchart.GetIntegerVariable("time_left") == 0) {
-                RewindTime(true);
+                if (globalFlowchart.GetIntegerVariable("time_left") == 0) {
+                    timeUp = true;
+                    RewindTime(true);
+                }
             }
-        }        
+        }
+               
     }
 
     public void RewindTime(bool isForced) {
