@@ -21,14 +21,14 @@ public class RelationshipMeter : MonoBehaviour {
 
     private float interpolation;
 
-    private Image badMeter;
-    private Image goodMeter;
+    public Image badMeter;
+    public Image goodMeter;
 
 	// Use this for initialization
 	void Start () {
         
-        badMeter = transform.Find("Bad").GetComponent<Image>();
-        goodMeter = transform.Find("Good").GetComponent<Image>();
+        //badMeter = transform.Find("Bad").GetComponent<Image>();
+        //goodMeter = transform.Find("Good").GetComponent<Image>();
         sizeOfMeter = badMeter.rectTransform.sizeDelta.x;
         intervalUISize = sizeOfMeter / 10;
         halfNumberOfValues = numberOfValues / 2;
