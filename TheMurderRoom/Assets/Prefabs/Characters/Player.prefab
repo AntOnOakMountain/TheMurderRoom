@@ -81,6 +81,11 @@ GameObject:
   - component: {fileID: 114852959617217790}
   - component: {fileID: 114138758378333284}
   - component: {fileID: 114040937249247708}
+  - component: {fileID: 114731573139728182}
+  - component: {fileID: 114113408435837938}
+  - component: {fileID: 114218493915479036}
+  - component: {fileID: 114038961582510236}
+  - component: {fileID: 114258720140266612}
   m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
@@ -263,6 +268,19 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114038961582510236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976737905963122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5983a4e2c4414ab4f9ea51833380af48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  returnTime: 1
 --- !u!114 &114040937249247708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -322,6 +340,20 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &114113408435837938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976737905963122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad238af10fb63d4f9aab196788a667d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 0.2
+  speed: 2
+  returnTime: 1
 --- !u!114 &114121465578783194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -367,6 +399,34 @@ MonoBehaviour:
   bobbingSpeed: 2
   bobbingReturnSpeed: 0.2
   playerFootstepEvent: event:/2D/Player_Footstep_v2
+--- !u!114 &114218493915479036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976737905963122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f231585f56faa4696bbe62328e7cb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  returnTime: 1
+--- !u!114 &114258720140266612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976737905963122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fde13ed33770a641ba9c80280a131b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalIntensity: -50
+  xRange: 0.05
+  speed: 2
+  returnTime: 1
 --- !u!114 &114285585667046240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -381,6 +441,21 @@ MonoBehaviour:
   focusSpeed: 1
   npcLookAtOffset: 0.55
   distanceToNpc: 2
+--- !u!114 &114731573139728182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976737905963122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7227d79e0157b774295b2009d493598e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minFocusDistance: 1.5
+  maxFocusDistance: 6
+  speed: 2
+  returnTime: 1
 --- !u!114 &114852959617217790
 MonoBehaviour:
   m_ObjectHideFlags: 1
