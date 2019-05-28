@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class UIManager : MonoBehaviour {
     [HideInInspector] public Transform timeLockButton;
     [HideInInspector] public Transform quitButton;
     [HideInInspector] public RelationshipMeter relationshipMeter;
+    [HideInInspector] public Text dialogCharacterName;
 
     private static UIManager uiManager;
     public static UIManager Instance {
@@ -32,5 +34,6 @@ public class UIManager : MonoBehaviour {
         timeLockButton = transform.Find("TimeLockUI/Time Lock Button");
         quitButton = transform.Find("ButtonHud/Buttons/Quit Game");
         relationshipMeter = transform.Find("DialogWindow/Panel/RelationshipMeter").GetComponent<RelationshipMeter>();
+        dialogCharacterName = transform.Find("DialogWindow/Panel/CharacterName").GetComponent<Text>();
     }
 }

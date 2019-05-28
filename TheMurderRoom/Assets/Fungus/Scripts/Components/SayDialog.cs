@@ -23,8 +23,8 @@ namespace Fungus
         [Tooltip("The canvas UI object")]
         [SerializeField] protected Canvas dialogCanvas;
 
-        [Tooltip("The name text UI object")]
-        [SerializeField] protected Text nameText;
+        //[Tooltip("The name text UI object")]
+        //[SerializeField] protected Text nameText;
 
         [Tooltip("The story text UI object")]
         [SerializeField] protected Text storyText;
@@ -138,10 +138,10 @@ namespace Fungus
             // Start method of another component, so check that no image has been set yet.
             // Same for nameText.
 
-            if (nameText != null && nameText.text == "")
+            /*if (nameText != null && nameText.text == "")
             {
                 SetCharacterName("", Color.white);
-            }
+            }*/
             if (currentCharacterImage == null)
             {                
                 // Character image is hidden by default.
@@ -300,10 +300,10 @@ namespace Fungus
                 {
                     characterImage.gameObject.SetActive(false);
                 }
-                if (nameText != null)
+                /*if (nameText != null)
                 {
                     nameText.text = "";
-                }
+                }*/
                 speakingCharacter = null;
             }
             else
@@ -410,12 +410,12 @@ namespace Fungus
         /// </summary>
         public virtual void SetCharacterName(string name, Color color)
         {
-            if (nameText != null)
+            /*if (nameText != null)
             {
                 var subbedName = stringSubstituter.SubstituteStrings(name);
                 nameText.text = subbedName;
                 nameText.color = color;
-            }
+            }*/
         }
 
         /// <summary>
