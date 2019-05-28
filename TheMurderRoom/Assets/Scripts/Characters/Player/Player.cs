@@ -55,6 +55,8 @@ public class Player : MonoBehaviour {
         int npcLayer = 1 << LayerMask.NameToLayer("Npc");
         int interactableLayer = 1 << LayerMask.NameToLayer("Interactable");
         interactableMask.value = npcLayer | interactableLayer;
+
+        this.SetState(State.Play);
     }
 
     void Update() {

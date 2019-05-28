@@ -90,12 +90,14 @@ public class Game : MonoBehaviour {
                 Cursor.lockState = CursorLockMode.None;
                 break;
             case State.Play:
-                // Ugly solution for dialogueCamera not being set when this is run st setup
-                if(Player.instance.fpCamera.dialogueCamera != null) {
-                    Player.instance.fpCamera.dialogueCamera.StopDialogueFocusOn(); // will lead to player entering play state
-                }
-                else {
-                    Player.instance.SetState(Player.State.Play);
+                // Ugly solution for player not being set at Start call
+                if (Player.instance != null) {
+                    if (Player.instance.fpCamera.dialogueCamera != null) {
+                        Player.instance.fpCamera.dialogueCamera.StopDialogueFocusOn(); // will lead to player entering play state
+                    }
+                    else {
+                        Player.instance.SetState(Player.State.Play);
+                    }
                 }
                 
                 UIManager.Instance.timeLockButton.gameObject.SetActive(true);

@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 165933923}
   m_Layer: 0
   m_Name: Fungus
-  m_TagString: EditorOnly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2015,22 +2015,22 @@ Prefab:
     - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 224978967748779880, guid: d1be51deac96f11459aae44a88f57692,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1be51deac96f11459aae44a88f57692, type: 2}
@@ -3402,7 +3402,7 @@ GameObject:
   - component: {fileID: 1320229037}
   m_Layer: 0
   m_Name: Npcs
-  m_TagString: EditorOnly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
