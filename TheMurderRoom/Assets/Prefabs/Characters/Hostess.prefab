@@ -2058,7 +2058,7 @@ MonoBehaviour:
   headRotationAmount: 0.45
   chestRotationAmount: 0.45
   lookAtDistance: 3
-  lookAtMaxAngle: 61
+  lookAtMaxAngle: 60
 --- !u!114 &114561057887292080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2073,8 +2073,8 @@ MonoBehaviour:
   rotateSpeed: 100
   flowchart: {fileID: 0}
   ikController: {fileID: 0}
-  maxInteractAngle: 60
-  turnWhenTalkedTo: 0
+  maxInteractAngle: 110
+  turnWhenTalkedTo: 1
 --- !u!114 &114742401978376594
 MonoBehaviour:
   m_ObjectHideFlags: 1
