@@ -379,6 +379,107 @@ GameObject:
   - component: {fileID: 114582064045711580}
   - component: {fileID: 114533537575836264}
   - component: {fileID: 114705620642873914}
+  - component: {fileID: 114847830138316904}
+  - component: {fileID: 114752130096326408}
+  - component: {fileID: 114188169855945406}
+  - component: {fileID: 114793211652004164}
+  - component: {fileID: 114528681039285086}
+  - component: {fileID: 114051330907107356}
+  - component: {fileID: 114490256005881358}
+  - component: {fileID: 114883674981872078}
+  - component: {fileID: 114648525573920422}
+  - component: {fileID: 114128082103601716}
+  - component: {fileID: 114389263053825158}
+  - component: {fileID: 114736335580585304}
+  - component: {fileID: 114359297697748268}
+  - component: {fileID: 114483844652209230}
+  - component: {fileID: 114435004451614596}
+  - component: {fileID: 114594332960899350}
+  - component: {fileID: 114411478418649336}
+  - component: {fileID: 114394023886801304}
+  - component: {fileID: 114624387579161748}
+  - component: {fileID: 114885597995998726}
+  - component: {fileID: 114998631476965790}
+  - component: {fileID: 114347124350246438}
+  - component: {fileID: 114642576108589714}
+  - component: {fileID: 114101647165459012}
+  - component: {fileID: 114598738766229816}
+  - component: {fileID: 114144217400071464}
+  - component: {fileID: 114884341857259032}
+  - component: {fileID: 114191819683988048}
+  - component: {fileID: 114635785324540520}
+  - component: {fileID: 114781646451318288}
+  - component: {fileID: 114346041946462716}
+  - component: {fileID: 114158050725781036}
+  - component: {fileID: 114275656200982520}
+  - component: {fileID: 114400201736499260}
+  - component: {fileID: 114437110618231032}
+  - component: {fileID: 114702574202705314}
+  - component: {fileID: 114750572633156330}
+  - component: {fileID: 114354556956095482}
+  - component: {fileID: 114340088702305674}
+  - component: {fileID: 114555203102891642}
+  - component: {fileID: 114654973783978282}
+  - component: {fileID: 114585506638829768}
+  - component: {fileID: 114594052076045214}
+  - component: {fileID: 114222644169895708}
+  - component: {fileID: 114183888909462432}
+  - component: {fileID: 114169926536760100}
+  - component: {fileID: 114984433708314346}
+  - component: {fileID: 114839468870031122}
+  - component: {fileID: 114930531961389268}
+  - component: {fileID: 114179442029192080}
+  - component: {fileID: 114221807847596576}
+  - component: {fileID: 114837309068215176}
+  - component: {fileID: 114413606117163518}
+  - component: {fileID: 114402165819151088}
+  - component: {fileID: 114313780306297698}
+  - component: {fileID: 114519285049687744}
+  - component: {fileID: 114149073007129102}
+  - component: {fileID: 114899556681429624}
+  - component: {fileID: 114769612231152886}
+  - component: {fileID: 114377203417531062}
+  - component: {fileID: 114600906357124316}
+  - component: {fileID: 114751001164685672}
+  - component: {fileID: 114007519671799344}
+  - component: {fileID: 114348857586473546}
+  - component: {fileID: 114773071702913022}
+  - component: {fileID: 114279743270390480}
+  - component: {fileID: 114899351902221294}
+  - component: {fileID: 114295366347863220}
+  - component: {fileID: 114280571035953394}
+  - component: {fileID: 114928073055647046}
+  - component: {fileID: 114108681058710800}
+  - component: {fileID: 114878424754388472}
+  - component: {fileID: 114492912406799144}
+  - component: {fileID: 114032348300410720}
+  - component: {fileID: 114463789705716208}
+  - component: {fileID: 114773610388412204}
+  - component: {fileID: 114925331435681562}
+  - component: {fileID: 114494677984726504}
+  - component: {fileID: 114321908080814650}
+  - component: {fileID: 114814362279790534}
+  - component: {fileID: 114298130962229320}
+  - component: {fileID: 114214283618940964}
+  - component: {fileID: 114940638099247124}
+  - component: {fileID: 114082549190525544}
+  - component: {fileID: 114624194736897976}
+  - component: {fileID: 114741739540899820}
+  - component: {fileID: 114239470352598450}
+  - component: {fileID: 114239720849501542}
+  - component: {fileID: 114438102606752656}
+  - component: {fileID: 114741223918524000}
+  - component: {fileID: 114088073529072300}
+  - component: {fileID: 114631254811117652}
+  - component: {fileID: 114414812453988700}
+  - component: {fileID: 114359667524033376}
+  - component: {fileID: 114416386483404958}
+  - component: {fileID: 114415684583114478}
+  - component: {fileID: 114823713257054200}
+  - component: {fileID: 114613021044357570}
+  - component: {fileID: 114807877470608326}
+  - component: {fileID: 114097113876406456}
+  - component: {fileID: 114834164997183050}
   m_Layer: 0
   m_Name: CaptainFungus
   m_TagString: Untagged
@@ -513,6 +614,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114007519671799344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 634
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114007568394952570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -690,6 +815,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114032348300410720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 623
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114035520775447466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -855,6 +1004,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114051330907107356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 691
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114058368981427040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -960,8 +1133,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114109949108619660}
+  - {fileID: 114144217400071464}
   - {fileID: 114917868914761062}
   - {fileID: 114477202306690470}
+  - {fileID: 114598738766229816}
   - {fileID: 114665618196374402}
 --- !u!114 &114067707061878816
 MonoBehaviour:
@@ -1014,10 +1189,12 @@ MonoBehaviour:
   description: glad
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114239720849501542}
   - {fileID: 114025199040749956}
   - {fileID: 114273344868673616}
   - {fileID: 114227765171490558}
   - {fileID: 114312168765475554}
+  - {fileID: 114239470352598450}
   - {fileID: 114512310877584378}
   - {fileID: 114596088584009508}
   - {fileID: 114437746292762564}
@@ -1117,6 +1294,54 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114082549190525544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 613
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114088073529072300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 606
+  indentLevel: 1
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114089401130802890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1196,9 +1421,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114806947067930718}
+  - {fileID: 114222644169895708}
   - {fileID: 114394896401500038}
   - {fileID: 114459926919977420}
   - {fileID: 114520631483958020}
+  - {fileID: 114594052076045214}
   - {fileID: 114775353234476370}
 --- !u!114 &114093062107694914
 MonoBehaviour:
@@ -1263,6 +1490,30 @@ MonoBehaviour:
   remember: 0
   key: Clue_4
   value: 0
+--- !u!114 &114097113876406456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 597
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114100904308153670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1278,6 +1529,54 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: 
+--- !u!114 &114101647165459012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 673
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114108681058710800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 626
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114109949108619660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1359,10 +1658,36 @@ MonoBehaviour:
   commandList:
   - {fileID: 114717725334773948}
   - {fileID: 114718291276992968}
+  - {fileID: 114928073055647046}
   - {fileID: 114184935763458100}
   - {fileID: 114165546011477612}
   - {fileID: 114727361578993732}
+  - {fileID: 114280571035953394}
   - {fileID: 114039873967730790}
+--- !u!114 &114128082103601716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 687
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114133507432709768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1432,8 +1757,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 114628373259719610}
   - {fileID: 114082486517380250}
+  - {fileID: 114082549190525544}
   - {fileID: 114427928661099650}
   - {fileID: 114514391429758882}
+  - {fileID: 114940638099247124}
   - {fileID: 114044879707502340}
 --- !u!114 &114139755616267106
 MonoBehaviour:
@@ -1505,6 +1832,30 @@ MonoBehaviour:
   itemId: 289
   indentLevel: 0
   delay: 0
+--- !u!114 &114144217400071464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 671
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114147512082380746
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1547,6 +1898,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114149073007129102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 640
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114149073612374770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1657,6 +2032,30 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: 
+--- !u!114 &114158050725781036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 665
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114165546011477612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1685,6 +2084,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114169926536760100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 651
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114171682862465310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1709,7 +2132,9 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114463789705716208}
   - {fileID: 114911736798895048}
+  - {fileID: 114773610388412204}
   - {fileID: 114157215177051962}
   - {fileID: 114194366210326920}
   - {fileID: 114641203993511730}
@@ -1766,9 +2191,35 @@ MonoBehaviour:
   commandList:
   - {fileID: 114743424121785034}
   - {fileID: 114768341601987206}
+  - {fileID: 114179442029192080}
   - {fileID: 114871608592910614}
   - {fileID: 114185267528547670}
+  - {fileID: 114930531961389268}
   - {fileID: 114762400639832458}
+--- !u!114 &114179442029192080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 647
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114181481490214346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1811,6 +2262,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114183888909462432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 652
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114184935763458100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1948,6 +2423,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114188169855945406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 694
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114189160440490806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2002,6 +2501,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114191819683988048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 669
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114191995633934930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2166,6 +2689,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114214283618940964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 615
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114214497775986184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2275,6 +2822,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 326
   indentLevel: 0
+--- !u!114 &114221807847596576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 646
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114222644169895708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 653
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114226319388101950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2444,9 +3039,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114071004790923098}
+  - {fileID: 114899556681429624}
   - {fileID: 114896342741870286}
   - {fileID: 114231015576597864}
   - {fileID: 114214497775986184}
+  - {fileID: 114149073007129102}
   - {fileID: 114588001054349784}
   - {fileID: 114578045627947324}
   - {fileID: 114235372030937586}
@@ -2465,6 +3062,54 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: 
+--- !u!114 &114239470352598450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 610
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114239720849501542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 609
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114240082601502978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2489,9 +3134,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114702574202705314}
   - {fileID: 114758353850728052}
   - {fileID: 114708699908859236}
   - {fileID: 114259726052423920}
+  - {fileID: 114437110618231032}
   - {fileID: 114878972877306982}
   - {fileID: 114716618837008050}
   - {fileID: 114667472783369880}
@@ -2745,9 +3392,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114089401130802890}
+  - {fileID: 114555203102891642}
   - {fileID: 114811874193437054}
   - {fileID: 114663521517833740}
   - {fileID: 114550849308842848}
+  - {fileID: 114340088702305674}
   - {fileID: 114236949753992972}
 --- !u!114 &114273344868673616
 MonoBehaviour:
@@ -2801,8 +3450,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114414863648107024}
+  - {fileID: 114295366347863220}
   - {fileID: 114368908024568316}
   - {fileID: 114344900659914858}
+  - {fileID: 114899351902221294}
   - {fileID: 114587620725755510}
   - {fileID: 114089433958930932}
   - {fileID: 114440929803677962}
@@ -2831,11 +3482,37 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114705620642873914}
+  - {fileID: 114347124350246438}
   - {fileID: 114028900673383244}
   - {fileID: 114290482747295494}
   - {fileID: 114494243082140790}
   - {fileID: 114439439469506136}
+  - {fileID: 114998631476965790}
   - {fileID: 114632118334716662}
+--- !u!114 &114275656200982520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 664
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114276355192625910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2897,6 +3574,54 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114279743270390480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 631
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114280571035953394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 628
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114283200005852140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2921,9 +3646,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114752130096326408}
   - {fileID: 114141920611728932}
   - {fileID: 114371792504217798}
   - {fileID: 114665380097060984}
+  - {fileID: 114847830138316904}
   - {fileID: 114445928833120304}
   - {fileID: 114533537575836264}
 --- !u!114 &114286493767306100
@@ -3051,6 +3778,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114295366347863220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 629
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114297470467385254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3075,8 +3826,34 @@ MonoBehaviour:
   description: irriterad
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114834164997183050}
   - {fileID: 114618096768410242}
+  - {fileID: 114097113876406456}
   - {fileID: 114142775466793278}
+--- !u!114 &114298130962229320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 616
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114300226002621080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3157,9 +3934,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114400201736499260}
   - {fileID: 114191995633934930}
   - {fileID: 114489603055930328}
   - {fileID: 114912947782939118}
+  - {fileID: 114275656200982520}
   - {fileID: 114549640027829640}
   - {fileID: 114769817584043416}
   - {fileID: 114942285503448952}
@@ -3192,7 +3971,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -413.79602
-    y: 668.2972
+    y: 676.4605
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
@@ -3204,9 +3983,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114743929642006434}
   - {fileID: 114813494217307640}
+  - {fileID: 114032348300410720}
   - {fileID: 114727140289538428}
   - {fileID: 114656018375028966}
   - {fileID: 114887401403046926}
+  - {fileID: 114492912406799144}
   - {fileID: 114773641388413152}
 --- !u!114 &114312168765475554
 MonoBehaviour:
@@ -3235,6 +4016,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114313780306297698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 642
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114314023353653978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3282,6 +4087,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &114321908080814650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 618
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114333109782147460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3325,6 +4154,30 @@ MonoBehaviour:
   remember: 1
   key: K_Greet
   value: 0
+--- !u!114 &114340088702305674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 658
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114341036916882284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3349,8 +4202,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114885597995998726}
   - {fileID: 114446126613723206}
   - {fileID: 114603687890283388}
+  - {fileID: 114624387579161748}
   - {fileID: 114100904308153670}
   - {fileID: 114734902318841760}
   - {fileID: 114549226267616850}
@@ -3408,6 +4263,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114346041946462716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 666
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114346099115792406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3452,12 +4331,62 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114214283618940964}
   - {fileID: 114139755616267106}
   - {fileID: 114714290843189466}
   - {fileID: 114432985774820386}
+  - {fileID: 114298130962229320}
   - {fileID: 114913243449998716}
   - {fileID: 114172047243525690}
   - {fileID: 114750149695312014}
+--- !u!114 &114347124350246438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 675
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114348857586473546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 633
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114349475217619498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3503,10 +4432,36 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114583550117748966}
+  - {fileID: 114585506638829768}
   - {fileID: 114777450618275414}
   - {fileID: 114417560626888324}
   - {fileID: 114446187550667348}
+  - {fileID: 114654973783978282}
   - {fileID: 114930895895246586}
+--- !u!114 &114354556956095482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 659
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114356602449204278
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3521,6 +4476,54 @@ MonoBehaviour:
   itemId: 419
   indentLevel: 0
   delay: 0
+--- !u!114 &114359297697748268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 684
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114359667524033376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 603
+  indentLevel: 1
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114359703415775880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3658,6 +4661,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114377203417531062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 637
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114379458679352786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3793,9 +4820,35 @@ MonoBehaviour:
   commandList:
   - {fileID: 114302418094315892}
   - {fileID: 114457323820597540}
+  - {fileID: 114402165819151088}
   - {fileID: 114216729530527964}
   - {fileID: 114960398065984938}
+  - {fileID: 114413606117163518}
   - {fileID: 114905365515536966}
+--- !u!114 &114389263053825158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 686
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114391054404173686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3811,6 +4864,30 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: 
+--- !u!114 &114394023886801304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 679
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114394196489201894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3862,7 +4939,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114411478418649336}
   - {fileID: 114149073612374770}
+  - {fileID: 114394023886801304}
   - {fileID: 114244627586440508}
 --- !u!114 &114394896401500038
 MonoBehaviour:
@@ -3891,6 +4970,54 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114400201736499260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 663
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114402165819151088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 643
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114403272532224152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3985,6 +5112,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 311
   indentLevel: 0
+--- !u!114 &114411478418649336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 680
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114412789280702498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3998,6 +5149,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 366
   indentLevel: 0
+--- !u!114 &114413606117163518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 644
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114414812453988700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 604
+  indentLevel: 1
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114414863648107024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4052,6 +5251,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114415684583114478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 601
+  indentLevel: 1
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114415786803870246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4079,6 +5302,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114416386483404958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 602
+  indentLevel: 1
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114417560626888324
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4133,8 +5380,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 114247253307843608}
   - {fileID: 114914888565209502}
+  - {fileID: 114741739540899820}
   - {fileID: 114212618376055508}
   - {fileID: 114556631367406222}
+  - {fileID: 114624194736897976}
   - {fileID: 114035520775447466}
 --- !u!114 &114419390174024132
 MonoBehaviour:
@@ -4314,6 +5563,54 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114435004451614596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 682
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114437110618231032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 662
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114437746292762564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4341,6 +5638,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114438102606752656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 608
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114439439469506136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4421,9 +5742,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114907037046914860}
   - {fileID: 114473580444179914}
+  - {fileID: 114751001164685672}
   - {fileID: 114120977524711004}
   - {fileID: 114843894220863470}
   - {fileID: 114183502290410388}
+  - {fileID: 114600906357124316}
   - {fileID: 114485799391662630}
 --- !u!114 &114443948123242136
 MonoBehaviour:
@@ -4439,7 +5762,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 273.2745
-    y: 646.213
+    y: 650.2947
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
@@ -4450,9 +5773,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114040896104193858}
+  - {fileID: 114741223918524000}
   - {fileID: 114067707061878816}
   - {fileID: 114289678466403132}
   - {fileID: 114133507432709768}
+  - {fileID: 114438102606752656}
   - {fileID: 114391054404173686}
   - {fileID: 114385655769898000}
   - {fileID: 114847028722998680}
@@ -4716,6 +6041,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114463789705716208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 622
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114464185884930328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4809,10 +6158,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114483844652209230}
   - {fileID: 114256056067098340}
   - {fileID: 114267052453851662}
   - {fileID: 114767916946381278}
   - {fileID: 114093062107694914}
+  - {fileID: 114359297697748268}
   - {fileID: 114551352932272478}
   - {fileID: 114366674146309564}
   - {fileID: 114783861832805220}
@@ -4870,6 +6221,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114483844652209230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 683
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114485799391662630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4939,6 +6314,54 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114490256005881358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 690
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114492912406799144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 624
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114494243082140790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4966,6 +6389,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114494677984726504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 619
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114503504946932264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5062,6 +6509,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 359
   indentLevel: 0
+--- !u!114 &114519285049687744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 641
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114520631483958020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5115,9 +6586,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114566318289404902}
   - {fileID: 114185573992078018}
+  - {fileID: 114839468870031122}
   - {fileID: 114071961771319926}
   - {fileID: 114193853681380332}
   - {fileID: 114989875246747030}
+  - {fileID: 114984433708314346}
   - {fileID: 114543944972793930}
 --- !u!114 &114526207060549254
 MonoBehaviour:
@@ -5146,6 +6619,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114528681039285086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 692
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114533537575836264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5254,9 +6751,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114047949723407220}
+  - {fileID: 114781646451318288}
   - {fileID: 114901381143044302}
   - {fileID: 114571247182588338}
   - {fileID: 114265906049251822}
+  - {fileID: 114635785324540520}
   - {fileID: 114686160547223768}
 --- !u!114 &114543944972793930
 MonoBehaviour:
@@ -5398,6 +6897,30 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: 
+--- !u!114 &114555203102891642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 657
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114556631367406222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5577,8 +7100,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114490256005881358}
   - {fileID: 114867674890512054}
   - {fileID: 114561514916660460}
+  - {fileID: 114883674981872078}
   - {fileID: 114699325158872500}
   - {fileID: 114692386289410838}
   - {fileID: 114403587538756800}
@@ -5606,8 +7131,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114736335580585304}
   - {fileID: 114748008818111970}
   - {fileID: 114386835326574722}
+  - {fileID: 114389263053825158}
   - {fileID: 114346099115792406}
 --- !u!114 &114582740193807128
 MonoBehaviour:
@@ -5634,7 +7161,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114941788701894714}
+  - {fileID: 114191819683988048}
   - {fileID: 114415651646500474}
+  - {fileID: 114884341857259032}
   - {fileID: 114608518276291780}
 --- !u!114 &114582998940900690
 MonoBehaviour:
@@ -5690,6 +7219,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114585506638829768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 655
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114587620725755510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5720,6 +7273,54 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: 
+--- !u!114 &114594052076045214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 654
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114594332960899350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 681
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114596088584009508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5802,6 +7403,54 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114598738766229816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 672
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114600906357124316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 636
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114603687890283388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5855,6 +7504,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 114844061820924642}
+--- !u!114 &114613021044357570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 599
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114616175457409264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5902,6 +7575,54 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114624194736897976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 612
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114624387579161748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 678
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114628373259719610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5929,6 +7650,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114631254811117652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 605
+  indentLevel: 1
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114632118334716662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5943,6 +7688,30 @@ MonoBehaviour:
   itemId: 538
   indentLevel: 0
   delay: 0
+--- !u!114 &114635785324540520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 668
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114640645776891802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5997,6 +7766,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114642576108589714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 674
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114645234798361088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6024,6 +7817,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114648525573920422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 688
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114652121966613206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6093,10 +7910,36 @@ MonoBehaviour:
   commandList:
   - {fileID: 114381781763707036}
   - {fileID: 114058368981427040}
+  - {fileID: 114377203417531062}
   - {fileID: 114597906400331626}
   - {fileID: 114878595683199988}
   - {fileID: 114215600213421814}
+  - {fileID: 114769612231152886}
   - {fileID: 114288843703141688}
+--- !u!114 &114654973783978282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 656
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114655712226623492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6202,7 +8045,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114613021044357570}
   - {fileID: 114884899907835358}
+  - {fileID: 114807877470608326}
   - {fileID: 114536742625142772}
 --- !u!114 &114663521517833740
 MonoBehaviour:
@@ -6256,8 +8101,10 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114279743270390480}
   - {fileID: 114007568394952570}
   - {fileID: 114777546473939594}
+  - {fileID: 114773071702913022}
   - {fileID: 114238687990857696}
   - {fileID: 114456637776801304}
   - {fileID: 114544336450831272}
@@ -6354,7 +8201,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114051330907107356}
   - {fileID: 114012717443804402}
+  - {fileID: 114528681039285086}
   - {fileID: 114874914070408862}
 --- !u!114 &114667472783369880
 MonoBehaviour:
@@ -6409,9 +8258,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114359703415775880}
   - {fileID: 114286493767306100}
+  - {fileID: 114814362279790534}
   - {fileID: 114061213558479756}
   - {fileID: 114428715144331308}
   - {fileID: 114874607504287568}
+  - {fileID: 114321908080814650}
   - {fileID: 114859873325220234}
 --- !u!114 &114678576897875444
 MonoBehaviour:
@@ -6478,7 +8329,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114648525573920422}
   - {fileID: 114462042349611688}
+  - {fileID: 114128082103601716}
   - {fileID: 114349475217619498}
 --- !u!114 &114692386289410838
 MonoBehaviour:
@@ -6549,6 +8402,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114702574202705314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 661
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114705620642873914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6600,8 +8477,10 @@ MonoBehaviour:
   description: glad
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114494677984726504}
   - {fileID: 114333109782147460}
   - {fileID: 114526207060549254}
+  - {fileID: 114925331435681562}
   - {fileID: 114842267296298722}
   - {fileID: 114867293697712844}
   - {fileID: 114883948047496832}
@@ -6646,7 +8525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1055.9297
+    x: 1057.6538
     y: 839.7629
     width: 120
     height: 40
@@ -6891,8 +8770,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114728955101504072}
+  - {fileID: 114158050725781036}
   - {fileID: 114017912677173104}
   - {fileID: 114449086806469140}
+  - {fileID: 114346041946462716}
   - {fileID: 114811125116109070}
 --- !u!114 &114727140289538428
 MonoBehaviour:
@@ -7076,6 +8957,78 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &114736335580585304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 685
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114741223918524000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 607
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114741739540899820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 611
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114741932687018078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7252,6 +9205,78 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114750572633156330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 660
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114751001164685672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 635
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114752130096326408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 695
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114758353850728052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7303,7 +9328,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114594332960899350}
   - {fileID: 114153719818849372}
+  - {fileID: 114435004451614596}
   - {fileID: 114830789141451638}
 --- !u!114 &114761661078584410
 MonoBehaviour:
@@ -7401,6 +9428,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114769612231152886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 638
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114769817584043416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7468,6 +9519,54 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114773071702913022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 632
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114773610388412204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 621
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114773641388413152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7559,6 +9658,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114781646451318288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 667
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114783861832805220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7610,12 +9733,38 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114793211652004164}
   - {fileID: 114403272532224152}
   - {fileID: 114195253529859146}
   - {fileID: 114226319388101950}
   - {fileID: 114665081064466770}
   - {fileID: 114535991983911964}
+  - {fileID: 114188169855945406}
   - {fileID: 114890407016769940}
+--- !u!114 &114793211652004164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 693
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114804435344742854
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7670,6 +9819,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114807877470608326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 598
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114811125116109070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7756,9 +9929,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114987164150022580}
+  - {fileID: 114101647165459012}
   - {fileID: 114988401172340608}
   - {fileID: 114898312803354662}
   - {fileID: 114652121966613206}
+  - {fileID: 114642576108589714}
   - {fileID: 114720155536862456}
   - {fileID: 114379458679352786}
 --- !u!114 &114813494217307640
@@ -7788,6 +9963,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114814362279790534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 617
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114814850775796000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7841,8 +10040,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 114986969004960306}
   - {fileID: 114731956864964486}
+  - {fileID: 114354556956095482}
   - {fileID: 114371737284110250}
   - {fileID: 114464185884930328}
+  - {fileID: 114750572633156330}
   - {fileID: 114261417297650864}
   - {fileID: 114719100179438266}
   - {fileID: 114191354739486270}
@@ -7873,6 +10074,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114823713257054200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 600
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114829074613315778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7929,6 +10154,78 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114834164997183050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 596
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114837309068215176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 645
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114839468870031122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 649
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114842267296298722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8062,6 +10359,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114847830138316904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 696
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114859873325220234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8288,6 +10609,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114878424754388472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 625
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 5
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114878595683199988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8331,6 +10676,30 @@ MonoBehaviour:
   indentLevel: 0
   commenterName: 
   commentText: idle
+--- !u!114 &114883674981872078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 689
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114883948047496832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8358,6 +10727,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114884341857259032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 670
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114884899907835358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8385,6 +10778,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114885597995998726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 677
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114887401403046926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8436,6 +10853,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114823713257054200}
   - {fileID: 114185607711937168}
   - {fileID: 114540235438143812}
   - {fileID: 114029838239745494}
@@ -8487,9 +10905,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114415786803870246}
   - {fileID: 114729716837244212}
+  - {fileID: 114169926536760100}
   - {fileID: 114404584591514550}
   - {fileID: 114486323524412586}
   - {fileID: 114743995375299622}
+  - {fileID: 114183888909462432}
   - {fileID: 114356602449204278}
 --- !u!114 &114896342741870286
 MonoBehaviour:
@@ -8571,11 +10991,61 @@ MonoBehaviour:
   commandList:
   - {fileID: 114678576897875444}
   - {fileID: 114049785673356970}
+  - {fileID: 114878424754388472}
   - {fileID: 114421925022272300}
   - {fileID: 114267669655521692}
   - {fileID: 114478321234941608}
   - {fileID: 114992762117286252}
+  - {fileID: 114108681058710800}
   - {fileID: 114189160440490806}
+--- !u!114 &114899351902221294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 630
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114899556681429624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 639
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114900234972414466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8600,8 +11070,10 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114837309068215176}
   - {fileID: 114741932687018078}
   - {fileID: 114597340182354226}
+  - {fileID: 114221807847596576}
   - {fileID: 114544390635972084}
   - {fileID: 114804435344742854}
   - {fileID: 114195510768639986}
@@ -8865,8 +11337,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 114829074613315778}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 114147512082380746}
@@ -8892,6 +11363,30 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &114925331435681562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 620
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114926557090607928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8918,9 +11413,59 @@ MonoBehaviour:
   commandList:
   - {fileID: 114036570472066604}
   - {fileID: 114821186421988750}
+  - {fileID: 114348857586473546}
   - {fileID: 114719107569071002}
   - {fileID: 114640645776891802}
+  - {fileID: 114007519671799344}
   - {fileID: 114149236795316896}
+--- !u!114 &114928073055647046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 627
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114930531961389268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 648
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114930895895246586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8955,7 +11500,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 413.46558
-    y: 1053.4961
+    y: 1051.772
     width: 120
     height: 40
   tint: {r: 0.74179775, g: 0.36672792, b: 0.875, a: 1}
@@ -8966,11 +11511,37 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114979148615635822}
+  - {fileID: 114519285049687744}
   - {fileID: 114300226002621080}
   - {fileID: 114287301764967988}
+  - {fileID: 114313780306297698}
   - {fileID: 114654422345588668}
   - {fileID: 114961660790469046}
   - {fileID: 114004707340744418}
+--- !u!114 &114940638099247124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 614
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114941788701894714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9133,6 +11704,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114984433708314346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 650
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114985066062613766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9220,7 +11815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: Eh, jo, ministern.
+  storyText: Ministern? (harklar sig)
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9287,13 +11882,19 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114513133045377518}
+  - {fileID: 114415684583114478}
   - {fileID: 114655712226623492}
   - {fileID: 114276489397355062}
+  - {fileID: 114416386483404958}
   - {fileID: 114770556446349060}
+  - {fileID: 114359667524033376}
   - {fileID: 114973787970897696}
   - {fileID: 114005174894511128}
+  - {fileID: 114414812453988700}
   - {fileID: 114191159091832178}
+  - {fileID: 114631254811117652}
   - {fileID: 114658111183488364}
+  - {fileID: 114088073529072300}
   - {fileID: 114226963428967790}
   - {fileID: 114573673610427814}
 --- !u!114 &114992762117286252
@@ -9324,3 +11925,27 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114998631476965790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 676
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 114714448213120110}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Admiral_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 4
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
