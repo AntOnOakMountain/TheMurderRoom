@@ -24,7 +24,7 @@ public class NpcIKController : MonoBehaviour {
     public float lookAtDistance = 3;
 
     [Tooltip("Maximum angle at which the npc will follow the player with its head and chest ")]
-    public float lookAtMaxAngle = 60;
+    public float lookAtMaxAngle = 70;
 
 
     // Use this for initialization

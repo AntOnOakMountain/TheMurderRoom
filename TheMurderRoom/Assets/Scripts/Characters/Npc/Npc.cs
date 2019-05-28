@@ -23,6 +23,9 @@ public class Npc : MonoBehaviour {
 
     [HideInInspector] public NpcIKController ikController;
 
+    public float maxInteractAngle = 60f;
+    public bool turnWhenTalkedTo = false;
+
 	void Start () {
         if(flowchart == null) {
             Debug.Log("this npc should have a flowchart linked to it.", this);
@@ -46,11 +49,13 @@ public class Npc : MonoBehaviour {
     }
 	
 	void Update () {
-        if(state == State.Dialogue) {
-             transform.rotation = Quaternion.RotateTowards(transform.rotation, dialogueRotation, rotateSpeed * Time.deltaTime);
-        }
-        else if(state == State.Idle) {
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, rotationBeforeDialogue, rotateSpeed * Time.deltaTime);
+        if (turnWhenTalkedTo) {
+            if (state == State.Dialogue) {
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, dialogueRotation, rotateSpeed * Time.deltaTime);
+            }
+            else if (state == State.Idle) {
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, rotationBeforeDialogue, rotateSpeed * Time.deltaTime);
+            }
         }
 	}
 

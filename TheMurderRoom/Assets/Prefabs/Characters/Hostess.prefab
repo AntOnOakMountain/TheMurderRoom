@@ -2058,7 +2058,7 @@ MonoBehaviour:
   headRotationAmount: 0.45
   chestRotationAmount: 0.45
   lookAtDistance: 3
-  lookAtMaxAngle: 60
+  lookAtMaxAngle: 61
 --- !u!114 &114561057887292080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2073,6 +2073,8 @@ MonoBehaviour:
   rotateSpeed: 100
   flowchart: {fileID: 0}
   ikController: {fileID: 0}
+  maxInteractAngle: 60
+  turnWhenTalkedTo: 0
 --- !u!114 &114742401978376594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2118,7 +2120,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 97bb4a3b58afc4142bd3ebdafe3ffff7, type: 2}
+  - {fileID: 2100000, guid: a83ff1c0811ca6f47b9978d09ac75d59, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

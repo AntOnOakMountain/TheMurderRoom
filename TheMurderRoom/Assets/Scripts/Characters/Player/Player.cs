@@ -130,15 +130,26 @@ public class Player : MonoBehaviour {
 
     private RaycastHit hit;
     private void ScanForInteractables() {
+        bool found = false;
+
         // Raycast (what do you look at)
         if (Physics.Raycast(fpCamera.transform.position, fpCamera.transform.forward, out hit, interactDistance, interactableMask)) {
             // If looking at a Npc or interactable, save it in lookingAt
             if (hit.transform.tag == "Npc" || hit.transform.tag == "Interactable") {
-                lookingAt = hit.transform.GetComponent<Npc>();
-                UIManager.Instance.interactPrompt.gameObject.SetActive(true);
+                Npc npc = hit.transform.GetComponent<Npc>();
+                Vector3 npcDistance = transform.position - npc.transform.position;
+
+                Vector3 nForward = npc.transform.forward;
+
+                // only interactable from front
+                if (Vector3.Angle(nForward, npcDistance) < npc.maxInteractAngle) {
+                    lookingAt = hit.transform.GetComponent<Npc>();
+                    UIManager.Instance.interactPrompt.gameObject.SetActive(true);
+                    found = true;
+                }
             }
         }
-        else {
+        if(!found) {
             // When no longer looking at a Npc/Interactable null lookingAt
             lookingAt = null;
             UIManager.Instance.interactPrompt.gameObject.SetActive(false);
