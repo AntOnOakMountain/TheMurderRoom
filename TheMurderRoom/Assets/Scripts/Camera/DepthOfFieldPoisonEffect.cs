@@ -7,7 +7,6 @@ public class DepthOfFieldPoisonEffect : MonoBehaviour {
     private PostProcessVolume volume;
     private DepthOfField dof;
 
-
     public float minFocusDistance = 1.5f;
     public float maxFocusDistance = 6f;
 

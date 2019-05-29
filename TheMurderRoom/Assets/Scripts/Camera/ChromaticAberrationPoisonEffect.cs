@@ -5,18 +5,26 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class ChromaticAberrationPoisonEffect : MonoBehaviour {
 
+    private static int INFINITE = -1;
+
     private PostProcessVolume volume;
     private ChromaticAberration ca;
 
     public float speed = 2;
+    [Range(0, 1)]
+    public float intensity = 1;
 
     private bool active = false;
     private float startTime = 0;
+
+    // used to interpolate from when done for a smooth ending 
     private float endIntensity = 0;
 
     [Tooltip("How long in seconds for the effect to return to normal after being deactivated.")]
     public float returnTime = 1f;
     private Timer returnTimer;
+
+    private int loopAmount;
 
     void Start() {
         volume = GetComponent<PostProcessVolume>();
@@ -27,13 +35,20 @@ public class ChromaticAberrationPoisonEffect : MonoBehaviour {
 
     void Update() {
         if (active) {
-            float sinValue = (Time.realtimeSinceStartup - startTime) * speed * Mathf.PI * 0.5f;
-            sinValue = Mathf.Sin(sinValue - (Mathf.PI/2));
+            float sinValue = (Time.realtimeSinceStartup - startTime) * speed;
+            float value = Mathf.Sin(sinValue - (Mathf.PI/2));
 
             // make sinValue be between 0-1
-            sinValue += 1;
-            sinValue /= 2;
-            ca.intensity.value = sinValue;
+            value += 1;
+            value /= 2;
+            value *= intensity;
+            ca.intensity.value = value;
+
+            if (loopAmount != INFINITE) {
+                if (((Time.realtimeSinceStartup - startTime) * speed) / (2 * Mathf.PI) >= loopAmount) {
+                    Deactivate();
+                }
+            }
         }
         // go back to normal
         else if (!active && ca.active) {
@@ -47,12 +62,19 @@ public class ChromaticAberrationPoisonEffect : MonoBehaviour {
                 Deactivate();
             }
             else {
-                Activate();
+                Activate(INFINITE);
             }
         }
     }
 
-    public void Activate() {
+    public void Activate(int loopAmount) {
+        this.loopAmount = loopAmount;
+        if (loopAmount < 0) {
+            this.loopAmount = INFINITE;
+        }
+        else {
+            this.loopAmount = loopAmount;
+        }
         active = true;
         ca.active = true;
         startTime = Time.realtimeSinceStartup;
