@@ -6,6 +6,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
 
     public static TimeTravelLightEffect instance;
     private Transform magicCircle;
+    private Transform reverseMagicCircle;
 
     public float duration;
     public float goalRange;
@@ -29,14 +30,17 @@ public class TimeTravelLightEffect : MonoBehaviour {
         magicCircle = transform.Find("PS_TimeTravel");
         magicCircle.gameObject.SetActive(false);
 
-        waitForParticleSystem = new Timer(0f);
+        reverseMagicCircle = transform.Find("PS_TimeTravel Reverse");
+        reverseMagicCircle.gameObject.SetActive(false);
+
+        waitForParticleSystem = new Timer(2f);
         timer = new Timer(duration);
     }
 
     public void Activate(bool reverse) {
-        Debug.Log("ACtivate");
         this.reverse = reverse;
         if (reverse) {
+            reverseMagicCircle.gameObject.SetActive(true);
             start = goalRange;
             end = 0;
             timer = new Timer(reverseDuration);
@@ -47,16 +51,15 @@ public class TimeTravelLightEffect : MonoBehaviour {
             start = 0;
             end = goalRange;
             waitForParticleSystem.Start();
+            timer = new Timer(duration);
         }
         light.range = start;
 
         gameObject.SetActive(true);
-        
     }
 
     public void Update() {
         if(waitForParticleSystem.IsDone() && !timer.IsActive()) {
-            timer = new Timer(duration);
             timer.Start();
         }
 
@@ -71,6 +74,8 @@ public class TimeTravelLightEffect : MonoBehaviour {
         if (timer.IsDone()) {
             timer.Pause();
             gameObject.SetActive(false);
+            reverseMagicCircle.gameObject.SetActive(false);
+            magicCircle.gameObject.SetActive(false);
         }
     }
 }
