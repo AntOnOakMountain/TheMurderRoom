@@ -57,6 +57,8 @@ GameObject:
   - component: {fileID: 114332892785514372}
   - component: {fileID: 114502487722552046}
   - component: {fileID: 114323960601865122}
+  - component: {fileID: 114833760947212352}
+  - component: {fileID: 114090543568820892}
   m_Layer: 0
   m_Name: GlobalFungus
   m_TagString: Untagged
@@ -144,7 +146,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114098505378832382}
+  - {fileID: 114730019161628822}
   selectedCommands: []
   variables:
   - {fileID: 114021658469332758}
@@ -173,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  text: Vrid tillbaka tiden
+  text: (Vrid tillbaka tiden)
   description: 
   targetBlock: {fileID: 114730019161628822}
   hideIfVisited: 0
@@ -187,6 +189,20 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114090543568820892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343507186682190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1515571e69a04e4eb327f0e07fe4920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  name: Ministern
 --- !u!114 &114098505378832382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,6 +227,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114090543568820892}
   - {fileID: 114323960601865122}
   - {fileID: 114502487722552046}
   - {fileID: 114374113124625962}
@@ -494,6 +511,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114833760947212352}
   - {fileID: 114880244253714946}
   - {fileID: 114089982731156750}
   - {fileID: 114989470889755134}
@@ -624,7 +642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  text: Vrid tillbaka tiden
+  text: (Vrid tillbaka tiden)
   description: 
   targetBlock: {fileID: 114730019161628822}
   hideIfVisited: 0
@@ -761,6 +779,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
+--- !u!114 &114833760947212352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343507186682190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1515571e69a04e4eb327f0e07fe4920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  name: Ministern
 --- !u!114 &114840546398291790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -846,7 +878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  text: Avbryt
+  text: (Avbryt)
   description: 
   targetBlock: {fileID: 114150793203051060}
   hideIfVisited: 0

@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 114207174587570638}
   - component: {fileID: 114830984614778360}
   - component: {fileID: 114029352111305820}
+  - component: {fileID: 114477196737986850}
   m_Layer: 0
   m_Name: HostessFungus
   m_TagString: Untagged
@@ -289,7 +290,7 @@ MonoBehaviour:
   itemId: 507
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -313,7 +314,7 @@ MonoBehaviour:
   itemId: 508
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -337,7 +338,7 @@ MonoBehaviour:
   itemId: 498
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -361,7 +362,7 @@ MonoBehaviour:
   itemId: 504
   indentLevel: 1
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -385,7 +386,7 @@ MonoBehaviour:
   itemId: 522
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -507,7 +508,7 @@ MonoBehaviour:
   itemId: 543
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -585,7 +586,7 @@ MonoBehaviour:
   itemId: 535
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -609,7 +610,7 @@ MonoBehaviour:
   itemId: 545
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -633,7 +634,7 @@ MonoBehaviour:
   itemId: 538
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -657,7 +658,7 @@ MonoBehaviour:
   itemId: 521
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -681,7 +682,7 @@ MonoBehaviour:
   itemId: 505
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -865,7 +866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 432
   indentLevel: 1
-  text: "\"Hur pass v\xE4lk\xE4nd \xE4r Gyrids f\xF6rs\xE4ljning av gift?\""
+  text: "\"Hur pass v\xE4lk\xE4nd \xE4r Gyrids giftf\xF6rs\xE4ljning?\""
   description: 
   targetBlock: {fileID: 114609712737958410}
   hideIfVisited: 1
@@ -920,7 +921,7 @@ MonoBehaviour:
   itemId: 530
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1015,7 +1016,7 @@ MonoBehaviour:
   itemId: 532
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1109,7 +1110,7 @@ MonoBehaviour:
   itemId: 540
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1160,7 +1161,7 @@ MonoBehaviour:
   itemId: 525
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1184,7 +1185,7 @@ MonoBehaviour:
   itemId: 519
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1228,7 +1229,7 @@ MonoBehaviour:
   itemId: 542
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1252,7 +1253,7 @@ MonoBehaviour:
   itemId: 509
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1296,7 +1297,7 @@ MonoBehaviour:
   itemId: 527
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1333,7 +1334,7 @@ MonoBehaviour:
   itemId: 500
   indentLevel: 1
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1621,7 +1622,7 @@ MonoBehaviour:
   itemId: 534
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1750,7 +1751,7 @@ MonoBehaviour:
   itemId: 537
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1774,7 +1775,7 @@ MonoBehaviour:
   itemId: 544
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1865,7 +1866,7 @@ MonoBehaviour:
   itemId: 520
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -1916,7 +1917,7 @@ MonoBehaviour:
   itemId: 501
   indentLevel: 1
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2205,7 +2206,7 @@ MonoBehaviour:
   itemId: 515
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2296,8 +2297,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114378673131327330}
-  selectedCommands: []
+  - {fileID: 114609712737958410}
+  selectedCommands:
+  - {fileID: 114993889036175288}
   variables:
   - {fileID: 114136651160362668}
   - {fileID: 114847003515896202}
@@ -2462,7 +2464,7 @@ MonoBehaviour:
   itemId: 450
   indentLevel: 0
   storyText: "Jag brukar l\xE5ta Gyrid sk\xF6ta sin f\xF6rs\xE4ljning av gift p\xE5
-    mina fester; jag hittar k\xF6pare och skickar dem till henne."
+    mina fester, jag hittar k\xF6pare och skickar dem till henne."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2517,7 +2519,7 @@ MonoBehaviour:
   itemId: 524
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2541,7 +2543,7 @@ MonoBehaviour:
   itemId: 516
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2620,7 +2622,7 @@ MonoBehaviour:
   itemId: 539
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2630,6 +2632,20 @@ MonoBehaviour:
     integerVal: 0
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &114477196737986850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426449739129446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1515571e69a04e4eb327f0e07fe4920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 546
+  indentLevel: 0
+  name: "V\xE4rdinnan"
 --- !u!114 &114484555065396976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2644,7 +2660,7 @@ MonoBehaviour:
   itemId: 533
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2776,8 +2792,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 520.2148
-    y: 387.07556
+    x: 497.8009
+    y: 392.24802
     width: 120
     height: 40
   tint: {r: 0.9264706, g: 0.37467563, b: 0.5915882, a: 1}
@@ -2892,7 +2908,7 @@ MonoBehaviour:
   itemId: 526
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -2994,8 +3010,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114716190370006606}
   - {fileID: 114993889036175288}
+  - {fileID: 114716190370006606}
   - {fileID: 114023173297271552}
   - {fileID: 114970156372228152}
   - {fileID: 114839235212823684}
@@ -3078,7 +3094,7 @@ MonoBehaviour:
   itemId: 512
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3102,7 +3118,7 @@ MonoBehaviour:
   itemId: 541
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3269,10 +3285,10 @@ MonoBehaviour:
   itemId: 446
   indentLevel: 0
   variable: {fileID: 0}
-  setOperator: 3
+  setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   integerData:
     integerRef: {fileID: 0}
     integerVal: 1
@@ -3324,7 +3340,7 @@ MonoBehaviour:
   itemId: 503
   indentLevel: 1
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3583,7 +3599,7 @@ MonoBehaviour:
   itemId: 529
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3631,6 +3647,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 114687864350621014}
   commandList:
+  - {fileID: 114477196737986850}
   - {fileID: 114029352111305820}
   - {fileID: 114827756186057934}
   - {fileID: 114830984614778360}
@@ -3746,7 +3763,7 @@ MonoBehaviour:
   itemId: 523
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3770,7 +3787,7 @@ MonoBehaviour:
   itemId: 502
   indentLevel: 1
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3794,7 +3811,7 @@ MonoBehaviour:
   itemId: 510
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3845,7 +3862,7 @@ MonoBehaviour:
   itemId: 513
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3896,7 +3913,7 @@ MonoBehaviour:
   itemId: 514
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3947,7 +3964,7 @@ MonoBehaviour:
   itemId: 499
   indentLevel: 1
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3971,7 +3988,7 @@ MonoBehaviour:
   itemId: 506
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -3995,7 +4012,7 @@ MonoBehaviour:
   itemId: 517
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -4621,7 +4638,7 @@ MonoBehaviour:
   itemId: 536
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -4645,7 +4662,7 @@ MonoBehaviour:
   itemId: 518
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}
@@ -4697,7 +4714,7 @@ MonoBehaviour:
   itemId: 445
   indentLevel: 0
   variable: {fileID: 0}
-  setOperator: 0
+  setOperator: 3
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -4724,7 +4741,7 @@ MonoBehaviour:
   itemId: 528
   indentLevel: 0
   _animator:
-    animatorRef: {fileID: 0}
+    animatorRef: {fileID: 114136651160362668}
     animatorVal: {fileID: 0}
   _parameterName:
     stringRef: {fileID: 0}

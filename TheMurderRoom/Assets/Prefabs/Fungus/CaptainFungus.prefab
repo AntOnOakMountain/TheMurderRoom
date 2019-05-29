@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 114235372030937586}
   - component: {fileID: 114935550663360174}
   - component: {fileID: 114387735142808224}
-  - component: {fileID: 114979148615635822}
   - component: {fileID: 114302418094315892}
   - component: {fileID: 114300226002621080}
   - component: {fileID: 114216729530527964}
@@ -480,6 +479,8 @@ GameObject:
   - component: {fileID: 114807877470608326}
   - component: {fileID: 114097113876406456}
   - component: {fileID: 114834164997183050}
+  - component: {fileID: 114235442471162336}
+  - component: {fileID: 114225990165898572}
   m_Layer: 0
   m_Name: CaptainFungus
   m_TagString: Untagged
@@ -1646,7 +1647,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -546.133
-    y: 489.72894
+    y: 487.6881
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 0.022, a: 1}
@@ -2647,7 +2648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  text: "\u201CKriget \xE4r oundvikligt. (l\xF6gn)\u201D"
+  text: "\u201CKriget \xE4r oundvikligt.\" (l\xF6gn)"
   description: 
   targetBlock: {fileID: 114172984021183556}
   hideIfVisited: 0
@@ -2870,6 +2871,33 @@ MonoBehaviour:
     integerVal: 1
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &114225990165898572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 698
+  indentLevel: 0
+  variable: {fileID: 114147512082380746}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114226319388101950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2994,6 +3022,20 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114235442471162336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1515571e69a04e4eb327f0e07fe4920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 697
+  indentLevel: 0
+  name: Kaptenen
 --- !u!114 &114236949753992972
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7725,7 +7767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 457
   indentLevel: 0
-  storyText: "Men det spelar inte n\xE5gon roll f\xF6r oss. "
+  storyText: "Han \xE4r nog snarare desperat."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10292,6 +10334,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 114612461776552340}
   commandList:
+  - {fileID: 114235442471162336}
   - {fileID: 114251182498869124}
   - {fileID: 114845522612777026}
   - {fileID: 114024766625608474}
@@ -10450,7 +10493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 585
   indentLevel: 0
-  storyText: "Den h\xE4r flaskan inneh\xE5ller motgiftet, jag stal den fr\xE5n Gyrid
+  storyText: "Den h\xE4r flaskan inneh\xE5ller motgiftet. Jag stal den fr\xE5n Gyrid
     tillsammans med giftet. "
   description: 
   character: {fileID: 0}
@@ -10951,7 +10994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 526
   indentLevel: 0
-  storyText: "Jag ville tacka dig f\xF6r det st\xF6d du visat mig den h\xE4r kv\xE4llen."
+  storyText: "Jag ville tacka dig f\xF6r det st\xF6d du har visat mig den h\xE4r kv\xE4llen."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11070,6 +11113,7 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114225990165898572}
   - {fileID: 114837309068215176}
   - {fileID: 114741932687018078}
   - {fileID: 114597340182354226}
@@ -11326,9 +11370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc: {fileID: 0}
   version: 1
-  scrollPos: {x: 783.3395, y: -24.070131}
+  scrollPos: {x: 881.2992, y: -124.07026}
   variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
+  variablesExpanded: 0
   blockViewHeight: 400
   zoom: 0.48999974
   scrollViewRect:
@@ -11337,8 +11381,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 114898789600489460}
+  selectedCommands:
+  - {fileID: 114678576897875444}
   variables:
   - {fileID: 114147512082380746}
   - {fileID: 114714448213120110}
@@ -11510,7 +11556,6 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114979148615635822}
   - {fileID: 114519285049687744}
   - {fileID: 114300226002621080}
   - {fileID: 114287301764967988}
@@ -11677,33 +11722,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114979148615635822
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 103
-  indentLevel: 0
-  variable: {fileID: 114147512082380746}
-  setOperator: 2
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 1
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114984433708314346
 MonoBehaviour:
   m_ObjectHideFlags: 1
