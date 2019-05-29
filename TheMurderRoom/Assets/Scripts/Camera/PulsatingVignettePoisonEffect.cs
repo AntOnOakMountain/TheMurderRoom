@@ -5,6 +5,8 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class PulsatingVignettePoisonEffect : MonoBehaviour {
 
+    private static int INFINITE = -1;
+
     private PostProcessVolume volume;
     private Vignette vignette;
 
@@ -23,6 +25,8 @@ public class PulsatingVignettePoisonEffect : MonoBehaviour {
     public float returnTime = 1f;
     private Timer returnTimer;
 
+    private int loopAmount = INFINITE;
+
     void Start() {
         volume = GetComponent<PostProcessVolume>();
         vignette = volume.profile.GetSetting<Vignette>();
@@ -33,12 +37,18 @@ public class PulsatingVignettePoisonEffect : MonoBehaviour {
 
     void Update() {
         if (active) {
-            float sinValue = (Time.realtimeSinceStartup - startTime) * speed * Mathf.PI * 0.5f;
-            sinValue = Mathf.Sin(sinValue);
-            sinValue *= intensity;
+            float sinValue = (Time.realtimeSinceStartup - startTime) * speed;
+            float value = Mathf.Sin(sinValue);
+            value *= intensity;
             // only positive for better effect
-            sinValue = Mathf.Abs(sinValue);
-            vignette.intensity.value = normalIntesity + sinValue;
+            value = Mathf.Abs(value);
+            vignette.intensity.value = normalIntesity + value;
+
+            if (loopAmount != INFINITE) {
+                if (((Time.realtimeSinceStartup - startTime) * speed) / (2 * Mathf.PI) >= loopAmount) {
+                    Deactivate();
+                }
+            }
         }
         // go back to normal
         else if(!active && !Mathf.Approximately(vignette.intensity, normalIntesity)) {
@@ -49,12 +59,20 @@ public class PulsatingVignettePoisonEffect : MonoBehaviour {
                 Deactivate();
             }
             else {
-                Activate();
+                Activate(INFINITE);
             }
         }
     }
 
-    public void Activate() {
+    public void Activate(int loopAmount) {
+        this.loopAmount = loopAmount;
+        if (loopAmount < 0) {
+            this.loopAmount = INFINITE;
+        }
+        else {
+            this.loopAmount = loopAmount;
+        }
+
         active = true;
         startTime = Time.realtimeSinceStartup;
     }

@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
 public class DepthOfFieldPoisonEffect : MonoBehaviour {
+
+    private static int INFINITE = -1;
+
     private PostProcessVolume volume;
     private DepthOfField dof;
 
@@ -26,6 +29,8 @@ public class DepthOfFieldPoisonEffect : MonoBehaviour {
 
     private Timer fadeInTimer;
 
+    private int loopAmount;
+
     void Start() {
         volume = GetComponent<PostProcessVolume>();
         dof = volume.profile.GetSetting<DepthOfField>();
@@ -39,15 +44,22 @@ public class DepthOfFieldPoisonEffect : MonoBehaviour {
 
     void Update() {
         if (active) {
+            // fade in effect
             dof.focalLength.value = Mathf.Lerp(1, goalFocalLenght, fadeInTimer.TimePercentagePassed());
 
-            float sinValue = (Time.realtimeSinceStartup - startTime) * speed * Mathf.PI * 0.5f;
-            sinValue = Mathf.Sin(sinValue);
+            float sinValue = (Time.realtimeSinceStartup - startTime) * speed;
+            float value = Mathf.Sin(sinValue);
 
             // make sinValue be between 0-1
-            sinValue += 1;
-            sinValue /= 2;
-            dof.focusDistance.value = Mathf.Lerp(minFocusDistance, maxFocusDistance, sinValue);
+            value += 1;
+            value /= 2;
+            dof.focusDistance.value = Mathf.Lerp(minFocusDistance, maxFocusDistance, value);
+
+            if (loopAmount != INFINITE) {
+                if (((Time.realtimeSinceStartup - startTime) * speed) / (2 * Mathf.PI) >= loopAmount) {
+                    Deactivate();
+                }
+            }
         }
         // go back to normal
         else if (!active && dof.active) {
@@ -61,12 +73,19 @@ public class DepthOfFieldPoisonEffect : MonoBehaviour {
                 Deactivate();
             }
             else {
-                Activate();
+                Activate(INFINITE);
             }
         }
     }
     
-    public void Activate() {
+    public void Activate(int loopAmount) {
+        this.loopAmount = loopAmount;
+        if (loopAmount < 0) {
+            this.loopAmount = INFINITE;
+        }
+        else {
+            this.loopAmount = loopAmount;
+        }
         dof.active = true;
         active = true;
         startTime = Time.realtimeSinceStartup;

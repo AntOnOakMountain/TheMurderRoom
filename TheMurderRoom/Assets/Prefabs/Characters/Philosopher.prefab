@@ -84,7 +84,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671822716764664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.474, y: 52.38, z: 0.659}
+  m_LocalPosition: {x: -5.76, y: 52.38, z: 0.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4633308831630802}
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4360a9312e88ea9448b82a3999917c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 100
+  rotateSpeed: 150
   flowchart: {fileID: 0}
   ikController: {fileID: 0}
   maxInteractAngle: 110

@@ -5,8 +5,8 @@ using UnityEngine;
 public class TimeTravelLightEffect : MonoBehaviour {
 
     public static TimeTravelLightEffect instance;
-    private Transform magicCircle;
-    private Transform reverseMagicCircle;
+    public Transform magicCircle;
+    public Transform reverseMagicCircle;
 
     public float duration;
     public float goalRange;
@@ -27,10 +27,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
         light = GetComponent<Light>();
         gameObject.SetActive(false);
 
-        magicCircle = transform.Find("PS_TimeTravel");
         magicCircle.gameObject.SetActive(false);
-
-        reverseMagicCircle = transform.Find("PS_TimeTravel Reverse");
         reverseMagicCircle.gameObject.SetActive(false);
 
         waitForParticleSystem = new Timer(2f);

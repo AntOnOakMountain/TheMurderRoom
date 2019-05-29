@@ -1492,8 +1492,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1666175899096772}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.23, y: 52.452, z: -2.24}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.146, y: 52.452, z: -1.954}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4151615107057760}
@@ -2108,7 +2108,7 @@ Animator:
   m_GameObject: {fileID: 1156927120801774}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 89883ee1c43b2524c946c26c6af831bc, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7859a3e9281e61f4882bcee5b0c2cece, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4360a9312e88ea9448b82a3999917c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 100
+  rotateSpeed: 150
   flowchart: {fileID: 0}
   ikController: {fileID: 0}
   maxInteractAngle: 110
@@ -2207,7 +2207,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 89883ee1c43b2524c946c26c6af831bc, type: 3}
+  - {fileID: 2100000, guid: 776745eaad2184d4a8f1ab8411fe4603, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -5,6 +5,8 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class LensDistortionPoisonEffect : MonoBehaviour {
 
+    private static int INFINITE = -1;
+
     private PostProcessVolume volume;
     private LensDistortion ld;
 
@@ -21,6 +23,8 @@ public class LensDistortionPoisonEffect : MonoBehaviour {
 
     private Timer fadeInTimer;
 
+    private int loopAmount;
+
     void Start() {
         volume = GetComponent<PostProcessVolume>();
         ld = volume.profile.GetSetting<LensDistortion>();
@@ -36,13 +40,19 @@ public class LensDistortionPoisonEffect : MonoBehaviour {
         if (active) {
             ld.intensity.value = Mathf.Lerp(0, goalIntensity, fadeInTimer.TimePercentagePassed());
 
-            float sinValue = (Time.realtimeSinceStartup - startTime) * speed * Mathf.PI * 0.5f;
-            sinValue = Mathf.Sin(sinValue);
+            float sinValue = (Time.realtimeSinceStartup - startTime) * speed;
+            float value = Mathf.Sin(sinValue);
 
-            // make sinValue be between -xRange to xRange
-            sinValue *= xRange;
+            // make value be between -xRange to xRange
+            value *= xRange;
 
-            ld.centerX.value = sinValue;
+            ld.centerX.value = value;
+
+            if (loopAmount != INFINITE) {
+                if (((Time.realtimeSinceStartup - startTime) * speed) / (2 * Mathf.PI) >= loopAmount) {
+                    Deactivate();
+                }
+            }
         }
         // go back to normal
         else if (!active && ld.active) {
@@ -56,12 +66,19 @@ public class LensDistortionPoisonEffect : MonoBehaviour {
                 Deactivate();
             }
             else {
-                Activate();
+                Activate(INFINITE);
             }
         }
     }
 
-    public void Activate() {
+    public void Activate(int loopAmount) {
+        this.loopAmount = loopAmount;
+        if (loopAmount < 0) {
+            this.loopAmount = INFINITE;
+        }
+        else {
+            this.loopAmount = loopAmount;
+        }
         ld.active = true;
         active = true;
         startTime = Time.realtimeSinceStartup;
