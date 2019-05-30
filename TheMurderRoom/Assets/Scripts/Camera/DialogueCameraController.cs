@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueCameraController : MonoBehaviour {
+public class DialogueCameraController : MonoBehaviour{
 
     private bool isInDialogue = false;
 

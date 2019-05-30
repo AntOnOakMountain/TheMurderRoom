@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Game : MonoBehaviour {
 
@@ -17,7 +18,9 @@ public class Game : MonoBehaviour {
     }
 
     [HideInInspector] public Flowchart globalFlowchart;
-
+    [HideInInspector] public int timeLeft;
+    private int previousTimeLeft;
+    public UnityEvent timeLeftChanged;
 
     private State state = State.Play;
     public State getState() {
@@ -35,10 +38,18 @@ public class Game : MonoBehaviour {
         }
 
         globalFlowchart = GameObject.Find("GlobalFungus").GetComponent<Flowchart>();
+        timeLeft = globalFlowchart.GetIntegerVariable("time_left");
+        previousTimeLeft = timeLeft;
         SetState(State.Play);
     }
 
     void Update() {
+        timeLeft = globalFlowchart.GetIntegerVariable("time_left");
+        if(timeLeft != previousTimeLeft) {
+            timeLeftChanged.Invoke();
+        }
+        previousTimeLeft = timeLeft;
+
         if (!timeUp) {
             #if (!UNITY_EDITOR)
                 if (Input.GetKey("escape")) {
@@ -52,7 +63,7 @@ public class Game : MonoBehaviour {
                     RewindTime(false);
                 }
 
-                if (globalFlowchart.GetIntegerVariable("time_left") == 0) {
+                if (timeLeft == 0) {
                     timeUp = true;
                     RewindTime(true);
                 }

@@ -10,7 +10,7 @@ namespace Fungus {
     [AddComponentMenu("")]
     public class SetName : Command {
         [Tooltip("Name to set")]
-        [SerializeField] protected string name;
+        [SerializeField] protected new string name;
 
         protected virtual void CallTheMethod() {
             UIManager.Instance.dialogCharacterName.text = name;
