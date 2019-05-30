@@ -22,14 +22,15 @@ public class DialogueMessagePopupManager : MonoBehaviour {
         }
 
         list = GetComponentsInChildren<DialogueMessagePopup>();
-        current = list.Length - 1;
+        current = 0;
     }
 
     public void Display(string text, float duration, float fadeDuration) {
         list[current].Display(text, duration, fadeDuration);
-        current--;
-        if(current < 0) {
-            current = list.Length - 1;
+        list[current].transform.SetSiblingIndex(0);
+        current++;
+        if(current >= list.Length) {
+            current = 0;
         }
     }
 }
