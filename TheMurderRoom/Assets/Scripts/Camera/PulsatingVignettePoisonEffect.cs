@@ -45,7 +45,8 @@ public class PulsatingVignettePoisonEffect : MonoBehaviour {
             vignette.intensity.value = normalIntesity + value;
 
             if (loopAmount != INFINITE) {
-                if (((Time.realtimeSinceStartup - startTime) * speed) / (2 * Mathf.PI) >= loopAmount) {
+                // each loop is half a loop so, * 2 to get actual number of loops
+                if (2 * ((Time.realtimeSinceStartup - startTime) * speed) / (2 * Mathf.PI) >= loopAmount) {
                     Deactivate();
                 }
             }
