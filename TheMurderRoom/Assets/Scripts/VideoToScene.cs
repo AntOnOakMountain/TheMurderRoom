@@ -4,25 +4,32 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
-public class Intro : MonoBehaviour {
+public class VideoToScene : MonoBehaviour {
 
     private VideoPlayer videoPlayer;
     private AsyncOperation loadScene;
 
+    public string scene;
+
     void Start() {
         videoPlayer = GetComponent<VideoPlayer>();
 
-        loadScene = SceneManager.LoadSceneAsync("PlayScene");
+        loadScene = SceneManager.LoadSceneAsync(scene);
         loadScene.allowSceneActivation = false;
         StartCoroutine(AsyncLoadScene());
 
         videoPlayer.loopPointReached += EndReached;
+        SkipVideo.skipVideo.AddListener(SkipIntro);
     }
 
 
     void EndReached(VideoPlayer vp) {
         vp.enabled = false;
-        // Allow scene load to finish
+        SkipIntro();
+    }
+
+    void SkipIntro() {
+        // Allows scene load to finish
         loadScene.allowSceneActivation = true;
     }
 
@@ -31,5 +38,4 @@ public class Intro : MonoBehaviour {
             yield return null;
         }
     }
-
 }
