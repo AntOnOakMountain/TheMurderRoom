@@ -25,6 +25,7 @@ public class Timer {
     }
 
     public void Start() {
+        pauseStartTime = 0;
         startTime = Time();
         active = true;
     }

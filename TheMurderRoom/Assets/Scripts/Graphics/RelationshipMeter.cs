@@ -23,6 +23,15 @@ public class RelationshipMeter : MonoBehaviour {
 
     public Image badMeter;
     public Image goodMeter;
+    public Image blink;
+
+    // Blink valeus
+    private float startTime;
+    public float blinkSpeed = 10;
+    [Range(0, 1)]
+    public float blinkIntensity = 0.5f;
+
+    private Color blinkNoAlphaColor;
 
 	// Use this for initialization
 	void Start () {
@@ -34,6 +43,8 @@ public class RelationshipMeter : MonoBehaviour {
         halfNumberOfValues = numberOfValues / 2;
 
         interpolation = 0;
+
+        blinkNoAlphaColor = new Color(blink.color.r, blink.color.g, blink.color.b, 0);
     }
 
     public void SetFlowchart(Flowchart chart) {
@@ -65,19 +76,21 @@ public class RelationshipMeter : MonoBehaviour {
         else {
             interpolation = 2;
         }
+
+        startTime = Time.realtimeSinceStartup;
     }
 	
 	// Update is called once per frame
 	void Update () {
         if (flowchart != null) {
             
-            int value = flowchart.GetIntegerVariable("relation");
+            int relation = flowchart.GetIntegerVariable("relation");
             // Value have just changed
             
-            if (lastFrameValue != value) {
-                SetRelationshipValue(value);
+            if (lastFrameValue != relation) {
+                SetRelationshipValue(relation);
             }
-            lastFrameValue = value;
+            lastFrameValue = relation;
 
             if (interpolation < 1) {
                 interpolation += Time.deltaTime * meterFillSpeed;
@@ -86,6 +99,18 @@ public class RelationshipMeter : MonoBehaviour {
                 Vector2 newSize = new Vector2(newWidth, goodMeter.rectTransform.sizeDelta.y);
 
                 goodMeter.rectTransform.sizeDelta = newSize;
+                
+                // Blink
+                float sinValue = (Time.realtimeSinceStartup - startTime) * blinkSpeed;
+                float value = Mathf.Sin(sinValue);
+                // only positive for better effect
+                value = Mathf.Abs(value);
+                value *= blinkIntensity;
+                Color newColor = new Color(blink.color.r, blink.color.g, blink.color.b, value);
+                blink.color = newColor;
+            }
+            else if(blink.color != blinkNoAlphaColor) {
+                blink.color = blinkNoAlphaColor;
             }
         }
     }
