@@ -255,13 +255,13 @@ GameObject:
   - component: {fileID: 114578593477665304}
   - component: {fileID: 114739414173235902}
   - component: {fileID: 114009990175267306}
-  - component: {fileID: 114048149823413624}
-  - component: {fileID: 114913405475330632}
-  - component: {fileID: 114979353452812790}
-  - component: {fileID: 114660431657185844}
-  - component: {fileID: 114139078864472972}
-  - component: {fileID: 114083485426625668}
-  - component: {fileID: 114494354310860874}
+  - component: {fileID: 114933213724016636}
+  - component: {fileID: 114536416292238478}
+  - component: {fileID: 114630271656673954}
+  - component: {fileID: 114241529358296894}
+  - component: {fileID: 114097411884070216}
+  - component: {fileID: 114622584811125688}
+  - component: {fileID: 114119053085135494}
   m_Layer: 0
   m_Name: ProfessorFungus
   m_TagString: Untagged
@@ -668,22 +668,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114048149823413624
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 715
-  indentLevel: 0
-  text: "Dialoger uppl\xE5sta"
-  duration: 5
-  fadeDuration: 1
 --- !u!114 &114054164533248814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -918,33 +902,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &114083485426625668
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 710
-  indentLevel: 0
-  variable: {fileID: 114140042967043574}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114086648314870266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1029,6 +986,22 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114097411884070216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 720
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 3
+  fadeDuration: 1
 --- !u!114 &114098151336054638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1308,6 +1281,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114119053085135494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 722
+  indentLevel: 0
+  variable: {fileID: 114152740352556982}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114122233237803562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1399,22 +1399,6 @@ MonoBehaviour:
   - {fileID: 114739414173235902}
   - {fileID: 114009990175267306}
   - {fileID: 114687274998803518}
---- !u!114 &114139078864472972
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 711
-  indentLevel: 0
-  text: "Dialog uppl\xE5st"
-  duration: 5
-  fadeDuration: 1
 --- !u!114 &114139669172506428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2014,6 +1998,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114241529358296894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 719
+  indentLevel: 0
+  variable: {fileID: 114511253344694294}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114244596137717434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3013,9 +3024,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114660431657185844}
+  - {fileID: 114241529358296894}
   - {fileID: 114263845496006744}
-  - {fileID: 114979353452812790}
+  - {fileID: 114630271656673954}
   - {fileID: 114045157972029902}
 --- !u!114 &114414290300424710
 MonoBehaviour:
@@ -3340,7 +3351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc: {fileID: 0}
   version: 1
-  scrollPos: {x: 378.66708, y: 396.7937}
+  scrollPos: {x: 378.66693, y: 510.22678}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 400
@@ -3352,7 +3363,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114118133467324862}
+  - {fileID: 114474966297120884}
   selectedCommands: []
   variables:
   - {fileID: 114152740352556982}
@@ -3504,7 +3515,7 @@ MonoBehaviour:
   - {fileID: 114957683110112960}
   - {fileID: 114214995529728742}
   - {fileID: 114710031419415756}
-  - {fileID: 114913405475330632}
+  - {fileID: 114536416292238478}
   - {fileID: 114593613628564132}
   - {fileID: 114927171815624888}
 --- !u!114 &114474966297120884
@@ -3562,33 +3573,6 @@ MonoBehaviour:
   integerData:
     integerRef: {fileID: 0}
     integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
---- !u!114 &114494354310860874
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 709
-  indentLevel: 0
-  variable: {fileID: 114152740352556982}
-  setOperator: 2
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 1
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -3926,6 +3910,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 705
   indentLevel: 0
+--- !u!114 &114536416292238478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 717
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 3
+  fadeDuration: 1
 --- !u!114 &114541518579516608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4478,10 +4478,37 @@ MonoBehaviour:
   commandList:
   - {fileID: 114789272589207740}
   - {fileID: 114714539917884062}
-  - {fileID: 114494354310860874}
+  - {fileID: 114119053085135494}
   - {fileID: 114386520219247898}
   - {fileID: 114375658498099470}
   - {fileID: 114062815467990872}
+--- !u!114 &114622584811125688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 721
+  indentLevel: 0
+  variable: {fileID: 114140042967043574}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114628780148804502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4509,6 +4536,22 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114630271656673954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 718
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 3
+  fadeDuration: 1
 --- !u!114 &114638673325782444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4577,33 +4620,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 533
   indentLevel: 0
---- !u!114 &114660431657185844
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 712
-  indentLevel: 0
-  variable: {fileID: 114511253344694294}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114670687849389304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5335,9 +5351,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 114083485426625668}
+  - {fileID: 114622584811125688}
   - {fileID: 114379353571683596}
-  - {fileID: 114139078864472972}
+  - {fileID: 114097411884070216}
   - {fileID: 114495264657074094}
   - {fileID: 114079761386271212}
 --- !u!114 &114823236960641304
@@ -5674,22 +5690,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114913405475330632
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 714
-  indentLevel: 0
-  text: "Dialog uppl\xE5st"
-  duration: 5
-  fadeDuration: 1
 --- !u!114 &114915868435801468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5778,6 +5778,22 @@ MonoBehaviour:
   - {fileID: 114686731762439862}
   - {fileID: 114305677665090294}
   - {fileID: 114095991343667686}
+--- !u!114 &114933213724016636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726393334339204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 716
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 3
+  fadeDuration: 1
 --- !u!114 &114937986985203306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5896,7 +5912,7 @@ MonoBehaviour:
   - {fileID: 114323253292823544}
   - {fileID: 114572225555707626}
   - {fileID: 114768791041496990}
-  - {fileID: 114048149823413624}
+  - {fileID: 114933213724016636}
   - {fileID: 114973831201656594}
   - {fileID: 114201781866037904}
   - {fileID: 114559669061563204}
@@ -6197,22 +6213,6 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &114979353452812790
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726393334339204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 713
-  indentLevel: 0
-  text: "Dialog uppl\xE5st"
-  duration: 5
-  fadeDuration: 1
 --- !u!114 &114989003829747138
 MonoBehaviour:
   m_ObjectHideFlags: 1
