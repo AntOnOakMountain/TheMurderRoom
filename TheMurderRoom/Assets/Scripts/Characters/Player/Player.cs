@@ -20,8 +20,6 @@ public class Player : MonoBehaviour {
     private float previousForward = 0;
     private float previousSideways = 0;
     private CharacterController characterController;
-
-    public FMODUnity.StudioEventEmitter roomEmitter;
    
     // Variables for interacting with Npc/objects
     private LayerMask interactableMask;
@@ -166,8 +164,6 @@ public class Player : MonoBehaviour {
                 speed = 0;
                 break;
             case State.Play:
-                if (roomEmitter != null)
-                    roomEmitter.SetParameter("Conversation", 0.0f);
                 break;
             case State.Cutscene:
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);

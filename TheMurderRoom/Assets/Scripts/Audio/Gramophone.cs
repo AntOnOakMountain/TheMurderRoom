@@ -5,17 +5,19 @@ using FMOD.Studio;
 
 public class Gramophone : MonoBehaviour {
 
+    public static Gramophone instance;
+
     public float part1Duration = 3;
     public FMODUnity.StudioEventEmitter part1;
     public float part2Duration = 3;
     public FMODUnity.StudioEventEmitter part2;
-
 
     private Timer timer;
     bool part1Active = true;
 
     // Use this for initialization
     void Start () {
+        instance = this;
         part1.Play();
         timer = new Timer(part1Duration);
         timer.Start();
@@ -38,4 +40,9 @@ public class Gramophone : MonoBehaviour {
             }
         }
 	}
+
+    public void SetParameter(float p) {
+        part1.SetParameter("Conversation", p);
+        part2.SetParameter("Conversation", p);
+    }
 }

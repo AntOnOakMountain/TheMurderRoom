@@ -95,6 +95,7 @@ public class Game : MonoBehaviour {
 
         switch (newState) {
             case State.Dialogue:
+                Gramophone.instance.SetParameter(1f);
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
@@ -102,6 +103,7 @@ public class Game : MonoBehaviour {
                 Cursor.lockState = CursorLockMode.None;
                 break;
             case State.Play:
+                Gramophone.instance.SetParameter(0f);
                 // Ugly solution for player not being set at Start call
                 if (Player.instance.fpCamera.dialogueCamera != null) {
                         
@@ -117,6 +119,7 @@ public class Game : MonoBehaviour {
                 Cursor.lockState = CursorLockMode.Locked;
                 break;
             case State.Menu:
+                Gramophone.instance.SetParameter(0f);
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
@@ -124,6 +127,7 @@ public class Game : MonoBehaviour {
                 Cursor.lockState = CursorLockMode.None;
                 break;
             case State.Cutscene:
+                Gramophone.instance.SetParameter(0f);
                 Player.instance.SetState(Player.State.Cutscene);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
