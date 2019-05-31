@@ -18,8 +18,6 @@ public class DialogueMessagePopup : MonoBehaviour {
 	void Start () {
         image = this.GetComponent<Image>();
         text = transform.GetComponentInChildren<Text>();
-
-        this.gameObject.SetActive(false);
     }
 	
 	// Update is called once per frame

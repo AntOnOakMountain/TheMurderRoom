@@ -23,6 +23,10 @@ public class DialogueMessagePopupManager : MonoBehaviour {
 
         list = GetComponentsInChildren<DialogueMessagePopup>();
         current = 0;
+        for(int i = 0; i < list.Length; i++) {
+            list[i].gameObject.SetActive(false);
+        }
+        
     }
 
     public void Display(string text, float duration, float fadeDuration) {
