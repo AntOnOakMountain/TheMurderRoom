@@ -41,7 +41,6 @@ GameObject:
   - component: {fileID: 114915399009773766}
   - component: {fileID: 114155290921778826}
   - component: {fileID: 114066342129912138}
-  - component: {fileID: 114673876043053280}
   - component: {fileID: 114419522262845654}
   - component: {fileID: 114376750458007712}
   - component: {fileID: 114844239347993128}
@@ -206,6 +205,9 @@ GameObject:
   - component: {fileID: 114909674549856510}
   - component: {fileID: 114495639224565140}
   - component: {fileID: 114611649605111162}
+  - component: {fileID: 114214392643987474}
+  - component: {fileID: 114135712724153564}
+  - component: {fileID: 114603481587657104}
   m_Layer: 0
   m_Name: HostessFungus
   m_TagString: Untagged
@@ -723,7 +725,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114825890229399992}
-  - {fileID: 114673876043053280}
   - {fileID: 114185496487236886}
   - {fileID: 114288431486641660}
   - {fileID: 114445454046564226}
@@ -828,6 +829,7 @@ MonoBehaviour:
   - {fileID: 114855018326327168}
   - {fileID: 114058119301319030}
   - {fileID: 114016673133714294}
+  - {fileID: 114603481587657104}
   - {fileID: 114792168030361950}
   - {fileID: 114513549710550122}
   - {fileID: 114471437296574200}
@@ -937,6 +939,22 @@ MonoBehaviour:
     integerVal: 1
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &114135712724153564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426449739129446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 714
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 5
+  fadeDuration: 1
 --- !u!114 &114136651160362668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1377,6 +1395,33 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114214392643987474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426449739129446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 715
+  indentLevel: 0
+  variable: {fileID: 114155290921778826}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &114223838763547642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2280,8 +2325,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114214392643987474}
   - {fileID: 114126610337402354}
   - {fileID: 114383300376412702}
+  - {fileID: 114135712724153564}
   - {fileID: 114783490691014952}
   - {fileID: 114084980671515766}
 --- !u!114 &114404894148512432
@@ -2308,11 +2355,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 114378673131327330}
-  selectedCommands:
-  - {fileID: 114611649605111162}
-  - {fileID: 114495639224565140}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 114136651160362668}
   - {fileID: 114847003515896202}
@@ -3013,6 +3057,22 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114603481587657104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426449739129446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 713
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 5
+  fadeDuration: 1
 --- !u!114 &114606887426672144
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3285,33 +3345,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &114673876043053280
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1426449739129446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 353
-  indentLevel: 0
-  variable: {fileID: 114155290921778826}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &114685613788963572
 MonoBehaviour:
   m_ObjectHideFlags: 1
