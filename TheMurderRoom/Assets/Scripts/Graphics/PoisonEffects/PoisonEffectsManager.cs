@@ -28,6 +28,7 @@ public class PoisonEffectsManager : MonoBehaviour {
     private Timer timer;
     private EffectSetting selectedEffect;
 
+    [Header("Currently Unused")]
     public TimeTickSetting fourTicksLeft;
     public TimeTickSetting threeTicksLeft;
     public TimeTickSetting twoTicksLeft;
@@ -79,15 +80,38 @@ public class PoisonEffectsManager : MonoBehaviour {
     }
 
     void Update() {
-        if(timer.IsActive() && timer.IsDone()) {
+        /*if(timer.IsActive() && timer.IsDone()) {
             PlayEffect(selectedEffect.effect, selectedEffect.loops);
             RandomizeEffect();
-        }
+        }*/
     }
 
     private void TimeLeftChanged() {
         timer.InstantFinish();
     }
+
+    public void PlayRandomEffect() {
+        int effect = Random.Range(0, 4);
+
+        int loops = 1;
+        switch (Game.instance.timeLeft) {
+            case 4:
+                loops = 1;
+                break;
+            case 3:
+                loops = 1;
+                break;
+            case 2:
+                loops = 2;
+                break;
+            case 1:
+                loops = 3;
+                break;
+        }
+
+        PlayEffect((Effect)effect, loops);
+    }
+
 
     private void RandomizeEffect() {
         TimeTickSetting setting = null;

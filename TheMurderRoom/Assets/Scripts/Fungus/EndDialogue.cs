@@ -22,6 +22,8 @@ namespace Fungus {
             if(npc != null) {
                 npc.EndDialogue();
             }
+
+            PoisonEffectsManager.instance.PlayRandomEffect();
         }
 
         public override void OnEnter() {
