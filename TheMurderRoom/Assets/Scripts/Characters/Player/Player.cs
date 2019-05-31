@@ -34,7 +34,7 @@ public class Player : MonoBehaviour {
 
    // State variables
    public enum State {
-        Play, Dialogue
+        Play, Dialogue, Cutscene
     }
     private State state = State.Play;
 
@@ -160,7 +160,6 @@ public class Player : MonoBehaviour {
 
     public void SetState(State newState) {
         state = newState;
-        
         switch (newState) {
             case State.Dialogue:
                 UIManager.Instance.interactPrompt.gameObject.SetActive(false);
@@ -169,6 +168,10 @@ public class Player : MonoBehaviour {
             case State.Play:
                 if (roomEmitter != null)
                     roomEmitter.SetParameter("Conversation", 0.0f);
+                break;
+            case State.Cutscene:
+                UIManager.Instance.interactPrompt.gameObject.SetActive(false);
+                speed = 0;
                 break;
         }
     }

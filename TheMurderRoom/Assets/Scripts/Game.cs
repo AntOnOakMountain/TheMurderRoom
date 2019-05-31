@@ -9,7 +9,7 @@ public class Game : MonoBehaviour {
     private bool timeUp = false;
 
     public enum State {
-        Play, Dialogue, Menu
+        Play, Dialogue, Menu, Cutscene
     }
 
     private static Game game;
@@ -98,28 +98,37 @@ public class Game : MonoBehaviour {
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
+                UIManager.Instance.helpButton.gameObject.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
                 break;
             case State.Play:
                 // Ugly solution for player not being set at Start call
-                if (Player.instance != null) {
-                    if (Player.instance.fpCamera.dialogueCamera != null) {
-                        Player.instance.fpCamera.dialogueCamera.StopDialogueFocusOn(); // will lead to player entering play state
-                    }
-                    else {
-                        Player.instance.SetState(Player.State.Play);
-                    }
+                if (Player.instance.fpCamera.dialogueCamera != null) {
+                        
+                    Player.instance.fpCamera.dialogueCamera.StopDialogueFocusOn(); // will lead to player entering play state
+                }
+                else {
+                    Player.instance.SetState(Player.State.Play);
                 }
                 
                 UIManager.Instance.timeLockButton.gameObject.SetActive(true);
                 UIManager.Instance.quitButton.gameObject.SetActive(true);
+                UIManager.Instance.helpButton.gameObject.SetActive(true);
                 Cursor.lockState = CursorLockMode.Locked;
                 break;
             case State.Menu:
                 Player.instance.SetState(Player.State.Dialogue);
                 UIManager.Instance.timeLockButton.gameObject.SetActive(false);
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
+                UIManager.Instance.helpButton.gameObject.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
+                break;
+            case State.Cutscene:
+                Player.instance.SetState(Player.State.Cutscene);
+                UIManager.Instance.timeLockButton.gameObject.SetActive(false);
+                UIManager.Instance.quitButton.gameObject.SetActive(false);
+                UIManager.Instance.helpButton.gameObject.SetActive(false);
+                Cursor.lockState = CursorLockMode.Locked;
                 break;
         }
     }

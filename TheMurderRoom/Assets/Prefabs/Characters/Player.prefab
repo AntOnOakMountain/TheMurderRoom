@@ -181,13 +181,7 @@ GameObject:
   - component: {fileID: 81275931727447916}
   - component: {fileID: 114183478393364526}
   - component: {fileID: 114852959617217790}
-  - component: {fileID: 114138758378333284}
-  - component: {fileID: 114040937249247708}
-  - component: {fileID: 114731573139728182}
-  - component: {fileID: 114113408435837938}
-  - component: {fileID: 114218493915479036}
-  - component: {fileID: 114038961582510236}
-  - component: {fileID: 114258720140266612}
+  - component: {fileID: 114719391644439444}
   m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
@@ -454,7 +448,23 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114038961582510236
+--- !u!114 &114121465578783194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450796838780492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dcc0c630f78ca6419aca5efc3bcd054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magicCircle: {fileID: 4460562151854636}
+  reverseMagicCircle: {fileID: 4082560686466474}
+  duration: 5
+  goalRange: 70
+  reverseDuration: 4
+--- !u!114 &114183478393364526
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -462,13 +472,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1976737905963122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5983a4e2c4414ab4f9ea51833380af48, type: 3}
+  m_Script: {fileID: 11500000, guid: 22740ac0c1b08074dbaac0d5732a6d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  intensity: 0.389
-  returnTime: 1
---- !u!114 &114040937249247708
+  intensity: 0.03
+  bobbingSpeed: 2
+  bobbingReturnSpeed: 0.4
+  playerFootstepEvent: event:/2D/Player_Footstep_v2 (2)
+--- !u!114 &114285585667046240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849527416145276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516774b801a223245b4732f8b043ff62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focusSpeed: 1
+  npcLookAtOffset: 0.55
+  distanceToNpc: 2
+--- !u!114 &114719391644439444
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -479,7 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 4598781038311830}
+  volumeTrigger: {fileID: 0}
   volumeLayer:
     serializedVersion: 2
     m_Bits: 4294967256
@@ -527,125 +552,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
---- !u!114 &114113408435837938
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976737905963122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ad238af10fb63d4f9aab196788a667d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intensity: 0.2
-  speed: 4
-  returnTime: 1
---- !u!114 &114121465578783194
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450796838780492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dcc0c630f78ca6419aca5efc3bcd054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  magicCircle: {fileID: 4460562151854636}
-  reverseMagicCircle: {fileID: 4082560686466474}
-  duration: 5
-  goalRange: 70
-  reverseDuration: 4
---- !u!114 &114138758378333284
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976737905963122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 1cb86d27c6762654a9f5e35ce48f0d99, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
---- !u!114 &114183478393364526
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976737905963122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22740ac0c1b08074dbaac0d5732a6d42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intensity: 0.03
-  bobbingSpeed: 2
-  bobbingReturnSpeed: 0.4
-  playerFootstepEvent: event:/2D/Player_Footstep_v2
---- !u!114 &114218493915479036
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976737905963122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f231585f56faa4696bbe62328e7cb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  intensity: 1
-  returnTime: 1
---- !u!114 &114258720140266612
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976737905963122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fde13ed33770a641ba9c80280a131b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goalIntensity: -50
-  xRange: 0.05
-  speed: 4
-  returnTime: 1
---- !u!114 &114285585667046240
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1849527416145276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 516774b801a223245b4732f8b043ff62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  focusSpeed: 1
-  npcLookAtOffset: 0.55
-  distanceToNpc: 2
---- !u!114 &114731573139728182
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1976737905963122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7227d79e0157b774295b2009d493598e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minFocusDistance: 1.5
-  maxFocusDistance: 6
-  speed: 4
-  returnTime: 1
 --- !u!114 &114852959617217790
 MonoBehaviour:
   m_ObjectHideFlags: 1

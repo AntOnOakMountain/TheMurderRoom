@@ -35,6 +35,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
     }
 
     public void Activate(bool reverse) {
+        Game.instance.SetState(Game.State.Cutscene);
         this.reverse = reverse;
         if (reverse) {
             reverseMagicCircle.gameObject.SetActive(true);
@@ -73,6 +74,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
             gameObject.SetActive(false);
             reverseMagicCircle.gameObject.SetActive(false);
             magicCircle.gameObject.SetActive(false);
+            Game.instance.SetState(Game.State.Play);
         }
     }
 }

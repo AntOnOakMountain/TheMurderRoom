@@ -27,7 +27,7 @@ public class FPCamera : MonoBehaviour {
     }
 
     void Update() {
-        if (Player.instance.IsInState(Player.State.Play)) {
+        if (Player.instance.IsInState(Player.State.Play) || Player.instance.IsInState(Player.State.Cutscene)) {
             BasicCameraControls();
         }
     }
