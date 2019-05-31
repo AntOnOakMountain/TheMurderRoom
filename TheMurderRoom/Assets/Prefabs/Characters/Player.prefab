@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 4605413471821830}
   - component: {fileID: 108963777798198814}
   - component: {fileID: 114121465578783194}
+  - component: {fileID: 114754579541445666}
   m_Layer: 8
   m_Name: TimeTravelLight
   m_TagString: Untagged
@@ -478,7 +479,7 @@ MonoBehaviour:
   intensity: 0.03
   bobbingSpeed: 2
   bobbingReturnSpeed: 0.4
-  playerFootstepEvent: event:/2D/Player_Footstep_v2 (2)
+  playerFootstepEvent: event:/2D/Player_Footstep_v2
 --- !u!114 &114285585667046240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -552,6 +553,28 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &114754579541445666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450796838780492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/2D/AMB/AMB_Rain_v2
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &114852959617217790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -580,7 +603,6 @@ MonoBehaviour:
   acceleration: 10
   deceleration: 10
   gravity: 9.81
-  roomEmitter: {fileID: 0}
   interactDistance: 2
   fpCamera: {fileID: 0}
 --- !u!114 &114936191053986842

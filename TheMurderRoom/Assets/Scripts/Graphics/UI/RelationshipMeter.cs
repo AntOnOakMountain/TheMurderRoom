@@ -33,8 +33,10 @@ public class RelationshipMeter : MonoBehaviour {
 
     private Color blinkNoAlphaColor;
 
-	// Use this for initialization
-	void Start () {
+    private FMODUnity.StudioEventEmitter soundEmitter;
+
+    // Use this for initialization
+    void Start () {
         
         //badMeter = transform.Find("Bad").GetComponent<Image>();
         //goodMeter = transform.Find("Good").GetComponent<Image>();
@@ -45,6 +47,8 @@ public class RelationshipMeter : MonoBehaviour {
         interpolation = 0;
 
         blinkNoAlphaColor = new Color(blink.color.r, blink.color.g, blink.color.b, 0);
+
+        soundEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
     }
 
     public void SetFlowchart(Flowchart chart) {
@@ -69,6 +73,7 @@ public class RelationshipMeter : MonoBehaviour {
         value =  Mathf.Clamp(value, -halfNumberOfValues, halfNumberOfValues);
        
         if (value != currentValue) {
+            soundEmitter.Play();
             lastValue = currentValue;
             currentValue = value;
             interpolation = 0;
@@ -85,8 +90,8 @@ public class RelationshipMeter : MonoBehaviour {
         if (flowchart != null) {
             
             int relation = flowchart.GetIntegerVariable("relation");
-            // Value have just changed
-            
+
+            // if value have just changed
             if (lastFrameValue != relation) {
                 SetRelationshipValue(relation);
             }

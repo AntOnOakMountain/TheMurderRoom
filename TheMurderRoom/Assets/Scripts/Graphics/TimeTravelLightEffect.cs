@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TimeTravelLightEffect : MonoBehaviour {
 
@@ -22,6 +23,8 @@ public class TimeTravelLightEffect : MonoBehaviour {
 
     private Timer waitForParticleSystem;
 
+    private FMODUnity.StudioEventEmitter soundEmitter;
+
     public void Start() {
         instance = this;
         light = GetComponent<Light>();
@@ -32,6 +35,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
 
         waitForParticleSystem = new Timer(2f);
         timer = new Timer(duration);
+        soundEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
     }
 
     public void Activate(bool reverse) {
@@ -52,7 +56,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
             timer = new Timer(duration);
         }
         light.range = start;
-
+        soundEmitter.Play();
         gameObject.SetActive(true);
     }
 
@@ -70,11 +74,17 @@ public class TimeTravelLightEffect : MonoBehaviour {
             }
         }
         if (timer.IsDone()) {
-            timer.Pause();
-            gameObject.SetActive(false);
-            reverseMagicCircle.gameObject.SetActive(false);
-            magicCircle.gameObject.SetActive(false);
-            Game.instance.SetState(Game.State.Play);
+            if (!reverse) {
+                SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            }
+            else {
+                timer.Pause();
+                gameObject.SetActive(false);
+                reverseMagicCircle.gameObject.SetActive(false);
+                magicCircle.gameObject.SetActive(false);
+                Game.instance.SetState(Game.State.Play);
+                soundEmitter.Stop();
+            }          
         }
     }
 }

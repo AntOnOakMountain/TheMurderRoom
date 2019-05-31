@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 224365927998195016}
   - component: {fileID: 222779183113594320}
   - component: {fileID: 114493838015591496}
+  - component: {fileID: 114785042384466628}
   m_Layer: 5
   m_Name: RelationshipMeter
   m_TagString: Untagged
@@ -3423,6 +3424,28 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114785042384466628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461849510289294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/2D/Player_Footstep_v2
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &114786054107611144
 MonoBehaviour:
   m_ObjectHideFlags: 1

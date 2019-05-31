@@ -12,36 +12,36 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114549767540761282}
-  - {fileID: 114706612036629232}
+  - {fileID: 114456276429177348}
+  - {fileID: 114675510578544972}
   EditorEvents:
-  - {fileID: 114789155804801238}
-  - {fileID: 114976616267536426}
-  - {fileID: 114753613303529892}
-  - {fileID: 114508308775943834}
-  - {fileID: 114609479078489504}
-  - {fileID: 114739434895983262}
-  - {fileID: 114698277896299414}
-  - {fileID: 114484834847482428}
-  - {fileID: 114748176703281118}
-  - {fileID: 114473432733835932}
-  - {fileID: 114700855305324264}
-  - {fileID: 114134420564685420}
-  - {fileID: 114681143285502782}
-  - {fileID: 114973729923223716}
-  - {fileID: 114694175627937004}
-  - {fileID: 114217048688042644}
-  - {fileID: 114087798854913738}
-  - {fileID: 114599312878631570}
-  - {fileID: 114802812169238338}
-  - {fileID: 114997276189370262}
-  - {fileID: 114385706682626284}
-  - {fileID: 114313909666372886}
-  - {fileID: 114208374058902038}
-  - {fileID: 114202042071518082}
-  - {fileID: 114231946148733720}
-  MasterBankRef: {fileID: 114706612036629232}
-  StringsBankRef: {fileID: 114549767540761282}
+  - {fileID: 114180204122938736}
+  - {fileID: 114820596838078178}
+  - {fileID: 114356688028012326}
+  - {fileID: 114734714785631440}
+  - {fileID: 114087575347652954}
+  - {fileID: 114271967561681978}
+  - {fileID: 114527060426092038}
+  - {fileID: 114411387372309758}
+  - {fileID: 114721762581024684}
+  - {fileID: 114997554064629820}
+  - {fileID: 114631567982544486}
+  - {fileID: 114262845598812626}
+  - {fileID: 114024825410068192}
+  - {fileID: 114077472689693974}
+  - {fileID: 114166268551052908}
+  - {fileID: 114585494605906900}
+  - {fileID: 114012375840717826}
+  - {fileID: 114567479740999204}
+  - {fileID: 114849208896207278}
+  - {fileID: 114329608415013372}
+  - {fileID: 114976511325604430}
+  - {fileID: 114419929186943224}
+  - {fileID: 114538177867761454}
+  - {fileID: 114317926204160306}
+  - {fileID: 114055515113279210}
+  MasterBankRef: {fileID: 114675510578544972}
+  StringsBankRef: {fileID: 114456276429177348}
   stringsBankWriteTime: 636940673060260888
   cacheVersion: 2
 --- !u!114 &114001493699524978
@@ -66,6 +66,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15585
+--- !u!114 &114007260625419102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Bad
+  guid: 07fecdbf337cbc4581351254927b50f7
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5952
 --- !u!114 &114009035276199338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +147,28 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &114012375840717826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_v4
+  guid: 949d5c77760916408d9e17c721423d36
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 576
 --- !u!114 &114022727947432094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,6 +191,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 86000
+--- !u!114 &114024825410068192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Events/Rewind_v3
+  guid: 85f64a8e452fac42954675a504ea7461
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
 --- !u!114 &114028673473315884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +235,27 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6000
+--- !u!114 &114036404884478748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Captain/Kapten_Fnyser
+  guid: 4fa5a449d7ddaf4a9790a8d91819633c
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
 --- !u!114 &114039261809709290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +300,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6000
+--- !u!114 &114055515113279210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Fnys
+  guid: edf5f9fd9294bd489d002a879705f338
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 496
+--- !u!114 &114058461202710362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Skratta_kort
+  guid: fedeee6278c35a4ab5fd3b687e9893be
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 406
 --- !u!114 &114072870294443878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +365,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56494
+--- !u!114 &114077472689693974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_v2
+  guid: 8cdfd27f28c444408795ecf13ac45bab
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &114080477998172026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +409,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1017
+--- !u!114 &114087575347652954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Musik/Room logic 2
+  guid: 292580d3742f4541b308f21c530c2080
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 114480412437200528}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 16800
 --- !u!114 &114087798854913738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,8 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/2D/UI/UI_Clue_v4
   guid: 949d5c77760916408d9e17c721423d36
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -300,6 +474,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 64052
+--- !u!114 &114103084902038322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/AMB_Room/AMB_Rain
+  guid: 894d411dae5b0f45aa743ad0d41f29b0
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72890
 --- !u!114 &114107985534961698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,6 +541,65 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 550
 --- !u!114 &114117632751609056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Conversation
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114126245620387866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_v4
+  guid: 949d5c77760916408d9e17c721423d36
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 576
+--- !u!114 &114127085870124618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/Failstate/Failstate_2D
+  guid: 50cf7b57f60c384091f994c7fcb2c42a
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 64052
+--- !u!114 &114127088752604832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -440,7 +695,7 @@ MonoBehaviour:
   Path: event:/3D/AMB_Room/AMB_Partypeople
   guid: 748a5126f9402f448a3f800dbaff5344
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -544,6 +799,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114166268551052908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Events/death
+  guid: 9321d0cae48d054bac606f6baec0d972
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1017
 --- !u!114 &114168374339299508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,6 +886,70 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &114177850798689392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Good
+  guid: dc427240fdd9c142bcfe88b906b1b68f
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5952
+--- !u!114 &114178824721205868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Bad
+  guid: 07fecdbf337cbc4581351254927b50f7
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5952
+--- !u!114 &114180204122938736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue
+  guid: 0ab12e6c0528e047818228a6cf1cdba5
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &114185152780075974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +994,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &114193091616878908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Captain/Kapten_Fnyser
+  guid: 4fa5a449d7ddaf4a9790a8d91819633c
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
 --- !u!114 &114202042071518082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,13 +1030,13 @@ MonoBehaviour:
   Path: event:/3D/AMB_Room/AMB_Fireplace_high
   guid: e797de4c3831bd4791105984b781c698
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 8
   Length: 86000
 --- !u!114 &114202787884055624
 MonoBehaviour:
@@ -741,6 +1104,27 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
+--- !u!114 &114207544121037932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Harklar
+  guid: e75d96da6064384ca496de0764267210
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 812
 --- !u!114 &114208374058902038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,8 +1138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/VO/Professor/Professor_sigh
   guid: cd3c1e641f4b2344b55f3584d343c318
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -799,7 +1182,7 @@ MonoBehaviour:
   Path: event:/2D/AMB/AMB_Rain_w_thunder_2D
   guid: 93d48a9345cf4349af666ee1e3701b3d
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -807,6 +1190,42 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56494
+--- !u!114 &114220859193440930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Conversation
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114231849747386754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Captain/Kapten_Harklar
+  guid: 4b5b301a05507b46bc44d6474009e0ac
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &114231946148733720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,8 +1239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/VO/Professor/Professor_Fnys
   guid: edf5f9fd9294bd489d002a879705f338
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -895,6 +1313,27 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 496
+--- !u!114 &114246486040885420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Skrattar_kort
+  guid: 59203984c56dc3409af3a1e177097546
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2009
 --- !u!114 &114257242735478244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,6 +1349,72 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &114262845598812626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/AMB_Room/AMB_Partypeople
+  guid: 748a5126f9402f448a3f800dbaff5344
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1.8000001
+  MaxDistance: 9
+  Length: 56500
+--- !u!114 &114270530476455358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Suckar
+  guid: 11d14fbb6e6dbb4c999e241f2412ecca
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1593
+--- !u!114 &114271967561681978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/AMB/AMB_Rain_v2
+  guid: 2a1836d2a3270245813914f7e3b08a4e
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 60000
 --- !u!114 &114290299406641354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,6 +1452,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 64052
+--- !u!114 &114298689568676740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_pen
+  guid: 0e8131f2ba972246aca71e44c2897d55
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 545
 --- !u!114 &114299684455087212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,6 +1495,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114300867604096396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Skrattar
+  guid: 3a1f126022238044bc24dd37eb357781
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2009
 --- !u!114 &114307102346436572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1048,8 +1596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/2D/UI/UI_Clue_v3
   guid: bed17f513132d342bf8f6d4164b1994d
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1057,6 +1604,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3900
+--- !u!114 &114317926204160306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/AMB_Room/AMB_Fireplace_high
+  guid: e797de4c3831bd4791105984b781c698
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 86000
+--- !u!114 &114322321079717116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Captain/Kapten_Suckar
+  guid: 739c9e030b7d194882ef5e307fe9457b
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1312
 --- !u!114 &114326029851156346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,6 +1665,43 @@ MonoBehaviour:
   - Name: 
     Value: 2564
   Exists: 1
+--- !u!114 &114328570681664756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Conversation
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114329608415013372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Player_Footstep_v2
+  guid: a944a4e6f06b42439f6300bcb1962a8c
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 550
 --- !u!114 &114331727227838586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,6 +1786,111 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3000
+--- !u!114 &114339077884779024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Skrattar_kort
+  guid: 59203984c56dc3409af3a1e177097546
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2009
+--- !u!114 &114341954513637280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/AMB_Room/AMB_Rain
+  guid: 894d411dae5b0f45aa743ad0d41f29b0
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72890
+--- !u!114 &114344505568843426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Fnyser
+  guid: 5bfb2ac7b9e8ab459198437a0cb53482
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 375
+--- !u!114 &114355722319452016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\E\Documents\GitHub\TheMurderRoom\TheMurderRoom\Assets\Audio\Desktop\Murder
+    Room.bank
+  lastModified: 636940673060240944
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 13440832
+  Exists: 1
+--- !u!114 &114356688028012326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: snapshot:/EQ
+  guid: 0c1e28a2eaf85a4fb9f62f2304c6abff
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &114360542572668452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,6 +1913,27 @@ MonoBehaviour:
   MinDistance: 1.8000001
   MaxDistance: 9
   Length: 56500
+--- !u!114 &114364039764003414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/AMB/AMB_Rain_NEW_2D (2)
+  guid: 92f27a3b0014504984210af1421987c3
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72890
 --- !u!114 &114365383143693102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1262,6 +2015,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6000
+--- !u!114 &114385456124764356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Hostess/Hostess_laugh
+  guid: 1e9dabcc8b96814fa56e8a0a3d258816
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1671
 --- !u!114 &114385706682626284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,7 +2051,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Rewind
   guid: aa7e006617fcbe4e908adb0aaab5e3ca
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1284,6 +2059,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6000
+--- !u!114 &114386617831256342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Failstate/Failstate_2D
+  guid: 50cf7b57f60c384091f994c7fcb2c42a
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 24000
 --- !u!114 &114391338551298846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1304,6 +2101,29 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 20
+  Length: 16800
+--- !u!114 &114395754937658176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Musik/MurderRoom logic
+  guid: acc23adffeaf634ab58b65ae74ab7797
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 114220859193440930}
+  MinDistance: 0
+  MaxDistance: 0
   Length: 16800
 --- !u!114 &114397321558865656
 MonoBehaviour:
@@ -1349,6 +2169,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 16800
+--- !u!114 &114402005674982146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/Failstate/Player_Failstate
+  guid: 955759c0cb603e4899b2b284b932c254
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64052
 --- !u!114 &114403653370264410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1371,6 +2213,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56494
+--- !u!114 &114411387372309758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Events/Rewind_v2
+  guid: 38e17455db65d347b9de1c1edd79ccf8
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3800
 --- !u!114 &114412025265608548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,6 +2256,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3900
+--- !u!114 &114413369037471772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: E:\The murder room\TMR clone\TheMurderRoom\TheMurderRoom\Assets\Audio\Desktop\Murder
+    Room.bank
+  lastModified: 636948986080099831
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 25239360
+  Exists: 1
 --- !u!114 &114418331527107800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1414,6 +2297,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 86000
+--- !u!114 &114419929186943224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_v3
+  guid: bed17f513132d342bf8f6d4164b1994d
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3900
 --- !u!114 &114422133229138858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1476,6 +2381,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114427196129840930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Skratta_kort
+  guid: fedeee6278c35a4ab5fd3b687e9893be
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 406
+--- !u!114 &114431442659957214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Fnys
+  guid: edf5f9fd9294bd489d002a879705f338
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 496
 --- !u!114 &114432939976111012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1560,6 +2509,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 64052
+--- !u!114 &114442076408175618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Hostess/Hostess_Skratt_Glatt
+  guid: e0360ce839bcaf4bafed4b6f0bed20c3
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1671
 --- !u!114 &114450102485371968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,6 +2554,45 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
+--- !u!114 &114456276429177348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets\Audio\Desktop\Murder Room.strings.bank
+  lastModified: 636940673060260888
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 2588
+  Exists: 1
+--- !u!114 &114464699398207468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Skrattar
+  guid: 3a1f126022238044bc24dd37eb357781
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2009
 --- !u!114 &114468988255622386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,13 +2647,13 @@ MonoBehaviour:
   Path: event:/Musik/Gramophone 2
   guid: 4fe8e45ad8fce945b44ca01bbf872d5b
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 16800
 --- !u!114 &114473474260001912
 MonoBehaviour:
@@ -1667,6 +2677,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1149
+--- !u!114 &114480412437200528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Conversation
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114484834847482428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1681,7 +2706,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Rewind_v2
   guid: 38e17455db65d347b9de1c1edd79ccf8
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1853,6 +2878,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &114506503576401250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue
+  guid: 0ab12e6c0528e047818228a6cf1cdba5
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &114507768297959370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/AMB/AMB_Rain_NEW_Normlize
+  guid: dcbb7dfcd4642e4da5c23dbdab0100c4
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72890
 --- !u!114 &114508308775943834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,8 +2935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/VO/Hostess/Hostess_laugh
   guid: 1e9dabcc8b96814fa56e8a0a3d258816
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1982,6 +3050,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &114527060426092038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Events/Event_Hostess
+  guid: 343d49aec0c3814c9aedfb826094492c
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4961
+--- !u!114 &114529665572423200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Player_Footstep_v2
+  guid: a944a4e6f06b42439f6300bcb1962a8c
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 550
 --- !u!114 &114537291827737194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,6 +3129,28 @@ MonoBehaviour:
   Path: event:/VO/Professor/Professor_sigh
   guid: cd3c1e641f4b2344b55f3584d343c318
   Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1149
+--- !u!114 &114538177867761454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_sigh
+  guid: cd3c1e641f4b2344b55f3584d343c318
+  Banks:
+  - {fileID: 114675510578544972}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2065,6 +3199,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 550
+--- !u!114 &114544140945611188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_v2
+  guid: 8cdfd27f28c444408795ecf13ac45bab
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &114549767540761282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2076,12 +3232,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: Assets\Audio\Desktop\Murder Room.strings.bank
-  lastModified: 636940673060260888
+  Path: E:\The murder room\TMR clone\TheMurderRoom\TheMurderRoom\Assets\Audio\Desktop\Murder
+    Room.strings.bank
+  lastModified: 636948986081621358
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 2588
+    Value: 3266
   Exists: 1
 --- !u!114 &114555714429627118
 MonoBehaviour:
@@ -2169,6 +3326,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 86000
+--- !u!114 &114567479740999204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/Failstate/Player_Failstate
+  guid: 955759c0cb603e4899b2b284b932c254
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64052
 --- !u!114 &114573441355278714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2214,6 +3393,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 25
   Length: 60000
+--- !u!114 &114585494605906900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/AMB/AMB_Rain_w_thunder_2D
+  guid: 93d48a9345cf4349af666ee1e3701b3d
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56494
 --- !u!114 &114599312878631570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2227,8 +3428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/3D/Failstate/Player_Failstate
   guid: 955759c0cb603e4899b2b284b932c254
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2258,6 +3458,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114603040668568872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Suckar
+  guid: cd3c1e641f4b2344b55f3584d343c318
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1004
 --- !u!114 &114609479078489504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,15 +3494,37 @@ MonoBehaviour:
   Path: event:/Musik/Room logic 2
   guid: 292580d3742f4541b308f21c530c2080
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 114878529960885874}
+  - {fileID: 114928892973767548}
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
+--- !u!114 &114612499317802678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Fnyser
+  guid: edf5f9fd9294bd489d002a879705f338
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1004
 --- !u!114 &114613918308127816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2369,6 +3613,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
+--- !u!114 &114631567982544486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/3D/Failstate/Failstate_2D
+  guid: 50cf7b57f60c384091f994c7fcb2c42a
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 64052
 --- !u!114 &114635182999235044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2518,6 +3784,90 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114670996574654564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Hostess/Hostess_Skratt_Glatt
+  guid: e0360ce839bcaf4bafed4b6f0bed20c3
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1671
+--- !u!114 &114675510578544972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\E\Documents\GitHub\TheMurderRoom\TheMurderRoom\Assets\Audio\Desktop\Murder
+    Room.bank
+  lastModified: 636940673060240944
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 13440832
+  Exists: 1
+--- !u!114 &114675575534644632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_laugh
+  guid: 3a1f126022238044bc24dd37eb357781
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &114680126557588058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_pen
+  guid: 0e8131f2ba972246aca71e44c2897d55
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 545
 --- !u!114 &114681143285502782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,14 +3882,36 @@ MonoBehaviour:
   Path: event:/2D/Events/Rewind_v3
   guid: 85f64a8e452fac42954675a504ea7461
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 3000
+  Length: 6500
+--- !u!114 &114687690775643992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Fnyser
+  guid: 5bfb2ac7b9e8ab459198437a0cb53482
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 375
 --- !u!114 &114690366669630924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2597,7 +3969,7 @@ MonoBehaviour:
   Path: event:/2D/Events/death
   guid: 9321d0cae48d054bac606f6baec0d972
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2638,7 +4010,7 @@ MonoBehaviour:
   Path: event:/2D/Events/Event_Hostess
   guid: 343d49aec0c3814c9aedfb826094492c
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2681,8 +4053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/3D/Failstate/Failstate_2D
   guid: 50cf7b57f60c384091f994c7fcb2c42a
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2730,7 +4101,7 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 13440832
-  Exists: 1
+  Exists: 0
 --- !u!114 &114711060687869246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2775,6 +4146,93 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 6000
+--- !u!114 &114721762581024684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_laugh
+  guid: 3a1f126022238044bc24dd37eb357781
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &114731645713911290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Hostess/Hostess_Skratt_Elak
+  guid: 1e9dabcc8b96814fa56e8a0a3d258816
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1671
+--- !u!114 &114734350163157324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/AMB/AMB_Rain_NEW_2D (2)
+  guid: 92f27a3b0014504984210af1421987c3
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72890
+--- !u!114 &114734714785631440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Hostess/Hostess_laugh
+  guid: 1e9dabcc8b96814fa56e8a0a3d258816
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1671
 --- !u!114 &114735374009278048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2807,7 +4265,7 @@ MonoBehaviour:
   Path: event:/2D/AMB/AMB_Rain_v2
   guid: 2a1836d2a3270245813914f7e3b08a4e
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2828,8 +4286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/VO/Professor/Professor_laugh
   guid: 3a1f126022238044bc24dd37eb357781
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2851,7 +4308,7 @@ MonoBehaviour:
   Path: snapshot:/EQ
   guid: 0c1e28a2eaf85a4fb9f62f2304c6abff
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2881,6 +4338,49 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 86000
+--- !u!114 &114761539773971306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/AMB/AMB_Rain_NEW_Normlize
+  guid: dcbb7dfcd4642e4da5c23dbdab0100c4
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 72890
+--- !u!114 &114767005694116172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Captain/Kapten_Harklar
+  guid: 4b5b301a05507b46bc44d6474009e0ac
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &114776232708702864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2903,6 +4403,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 550
+--- !u!114 &114779857317396642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Suckar_kort
+  guid: f7bb4dbee2236148aa0352080eac40ec
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1004
+--- !u!114 &114786687918447548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Hostess/Hostess_Skratt_Elak
+  guid: 1e9dabcc8b96814fa56e8a0a3d258816
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1671
 --- !u!114 &114788454211832376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2938,8 +4482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/2D/UI/UI_Clue
   guid: 0ab12e6c0528e047818228a6cf1cdba5
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2969,6 +4512,27 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1671
+--- !u!114 &114790573723446770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Suckar
+  guid: cd3c1e641f4b2344b55f3584d343c318
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1004
 --- !u!114 &114791059229518462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2991,6 +4555,70 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56496
+--- !u!114 &114796084919276942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Suckar_kort
+  guid: f7bb4dbee2236148aa0352080eac40ec
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1004
+--- !u!114 &114796527816014078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Failstate/Failstate_2D
+  guid: 50cf7b57f60c384091f994c7fcb2c42a
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 24000
+--- !u!114 &114798759120161152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Clue_v3
+  guid: bed17f513132d342bf8f6d4164b1994d
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3900
 --- !u!114 &114802812169238338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,7 +4633,7 @@ MonoBehaviour:
   Path: snapshot:/Rewind
   guid: 9cb985ad3f20f04fa7a6ef346e6d1e9c
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3013,6 +4641,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114804104106858494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: E:\The murder room\TMR clone\TheMurderRoom\TheMurderRoom\Assets\Audio\Desktop\Murder
+    Room.bank
+  lastModified: 636948275872458202
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 14458624
+  Exists: 0
 --- !u!114 &114804999330422178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3078,6 +4725,72 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56494
+--- !u!114 &114815839100442484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_sigh
+  guid: cd3c1e641f4b2344b55f3584d343c318
+  Banks:
+  - {fileID: 114355722319452016}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1149
+--- !u!114 &114817111083346400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Player_Footstep_v2 (2)
+  guid: 3d2ed2e46814ed45b1a9d62698d63b3b
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2549
+--- !u!114 &114820596838078178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: snapshot:/failstate
+  guid: 0b478069544ec048a43690a1d2940cd8
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &114827843836233338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3121,6 +4834,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1671
+--- !u!114 &114834624474867990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Player_Footstep_v2 (2)
+  guid: 3d2ed2e46814ed45b1a9d62698d63b3b
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2549
+--- !u!114 &114835603502467588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Captain/Kapten_Suckar
+  guid: 739c9e030b7d194882ef5e307fe9457b
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1312
 --- !u!114 &114843269694794376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3143,6 +4899,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1017
+--- !u!114 &114849208896207278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Rewind
+  guid: 9cb985ad3f20f04fa7a6ef346e6d1e9c
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &114849373514600902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3228,6 +5006,27 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3800
+--- !u!114 &114864379870426378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Professor/Professor_Fnyser
+  guid: edf5f9fd9294bd489d002a879705f338
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1004
 --- !u!114 &114870563118900322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3344,6 +5143,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114885331953624914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Harklar
+  guid: e75d96da6064384ca496de0764267210
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 812
 --- !u!114 &114887704731483426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3431,6 +5252,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 56494
+--- !u!114 &114896712234890566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/UI/UI_Good
+  guid: dc427240fdd9c142bcfe88b906b1b68f
+  Banks:
+  - {fileID: 114413369037471772}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5952
 --- !u!114 &114902062426002084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3563,6 +5406,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 496
+--- !u!114 &114928892973767548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Conversation
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114929211887032696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3622,6 +5480,27 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 550
+--- !u!114 &114935830123689104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Philosopher/Suckar
+  guid: 11d14fbb6e6dbb4c999e241f2412ecca
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1593
 --- !u!114 &114939661804176832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3758,8 +5637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/2D/UI/UI_Clue_v2
   guid: 8cdfd27f28c444408795ecf13ac45bab
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3767,6 +5645,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &114976511325604430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/2D/Events/Rewind
+  guid: aa7e006617fcbe4e908adb0aaab5e3ca
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6000
 --- !u!114 &114976616267536426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3781,7 +5681,7 @@ MonoBehaviour:
   Path: snapshot:/failstate
   guid: 0b478069544ec048a43690a1d2940cd8
   Banks:
-  - {fileID: 114706612036629232}
+  - {fileID: 114413369037471772}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3832,8 +5732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/2D/Player_Footstep_v2
   guid: a944a4e6f06b42439f6300bcb1962a8c
-  Banks:
-  - {fileID: 114706612036629232}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3841,3 +5740,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 550
+--- !u!114 &114997554064629820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Musik/Gramophone 2
+  guid: 4fe8e45ad8fce945b44ca01bbf872d5b
+  Banks:
+  - {fileID: 114675510578544972}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 16800
