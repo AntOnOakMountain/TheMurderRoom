@@ -139,9 +139,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 114391267055280492}
-  selectedCommands:
-  - {fileID: 114046848767881480}
+  - {fileID: 114098505378832382}
+  selectedCommands: []
   variables:
   - {fileID: 114021658469332758}
   - {fileID: 114725057002740906}
@@ -401,7 +400,7 @@ MonoBehaviour:
   itemId: 54
   indentLevel: 0
   effect: 5
-  loops: 2
+  loops: -1
 --- !u!114 &114374113124625962
 MonoBehaviour:
   m_ObjectHideFlags: 1

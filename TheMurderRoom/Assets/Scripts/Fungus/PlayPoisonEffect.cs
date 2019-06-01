@@ -15,19 +15,17 @@ namespace Fungus {
         [Tooltip("What effect")]
         [SerializeField] protected PoisonEffectsManager.Effect effect;
 
-        [Tooltip("How many loops the effect will last for")]
-        [Range(1, 20)]
+        [Tooltip("How many loops the effect will last for (-1 is infinite)")]
+        [Range(-1, 20)]
         [SerializeField] protected int loops = 1;
-
-        
-       
 
         protected virtual void CallTheMethod() {
             PoisonEffectsManager.instance.PlayEffect(effect, loops);
         }
 
         public override void OnEnter() {
-            if (loops <= 0) {
+            // -1 is infinite so is allowed
+            if (loops <= -2) {
                 Debug.Log("Needs at least one loop for poison effect", this);
             }
             else {
