@@ -26,8 +26,19 @@ public class Lightning : MonoBehaviour {
 
     private bool lightOn = false;
 
+    public float maxYOffset = 2f;
+    public float maxXOffset = 5f;
+
+    private Vector3 originalPosition;
+    private Vector3 right;
+    private Vector3 up;
+
     // Use this for initialization
     void Start() {
+        originalPosition = transform.position;
+        right = transform.right;
+        up = transform.up;
+
         light = GetComponent<Light>();
         defaultRange = light.range;
         defaultIntensity = light.intensity;
@@ -39,7 +50,7 @@ public class Lightning : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (timer.IsDone()) {
-            // turn of light
+            // turn off light
             if (lightOn) {
                 light.intensity = 0;
                 light.range = 0;
@@ -51,6 +62,12 @@ public class Lightning : MonoBehaviour {
             }
             // turn on light
             else {
+                float xOffset = Random.Range(-maxXOffset, maxXOffset);
+                float yOffset = Random.Range(-maxYOffset, maxYOffset);
+                Vector3 newPosition = originalPosition;
+                newPosition += up * yOffset;
+                newPosition += right * xOffset;
+                transform.position = newPosition;
                 lightOn = true;
                 light.intensity = lightningIntensity;
                 light.range = lightningRange;
@@ -63,6 +80,7 @@ public class Lightning : MonoBehaviour {
         if (lightOn) {
             // fade out light
             light.intensity = Mathf.Lerp(lightningIntensity, 0, timer.TimePercentagePassed());
+            //light.range = Mathf.Lerp(lightningRange, 0, timer.TimePercentagePassed());
         }
     }
 }
