@@ -57,8 +57,8 @@ GameObject:
   - component: {fileID: 224755875694928962}
   - component: {fileID: 223843420536227822}
   - component: {fileID: 114881572708636054}
-  - component: {fileID: 114121007965355888}
   - component: {fileID: 114060612034754978}
+  - component: {fileID: 114121007965355888}
   - component: {fileID: 328827094422515300}
   - component: {fileID: 82339719635787330}
   m_Layer: 0
@@ -131,12 +131,12 @@ GameObject:
   - component: {fileID: 222618863519077448}
   - component: {fileID: 114775084671719562}
   m_Layer: 0
-  m_Name: Background
+  m_Name: VideoScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &82339719635787330
 AudioSource:
   m_ObjectHideFlags: 1
@@ -425,15 +425,15 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Material: {fileID: 2100000, guid: c976fd0519f32c5439903a864eb6538f, type: 2}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 789e6b82d54d3744ebbe98909fcfc884, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -753,15 +753,15 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1689583122574380}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 920581c00e9acdd428d87f4739c0ec0b, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: eff4c300da7e5304ebb19b5bbc1daa3b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: c169a16e264f60d41bcc080c2484e1b9, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
