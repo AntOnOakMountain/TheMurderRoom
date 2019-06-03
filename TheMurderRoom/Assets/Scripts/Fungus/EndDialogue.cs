@@ -23,7 +23,7 @@ namespace Fungus {
                 npc.EndDialogue();
             }
 
-            PoisonEffectsManager.instance.PlayRandomEffect();
+            //PoisonEffectsManager.instance.PlayRandomEffect();
         }
 
         public override void OnEnter() {

@@ -87,7 +87,10 @@ public class PoisonEffectsManager : MonoBehaviour {
     }
 
     private void TimeLeftChanged() {
-        timer.InstantFinish();
+        //timer.InstantFinish();
+        if(Game.instance.timeLeft == 1) {
+            PlayEffect(Effect.ChromaticAberration, -1);
+        } 
     }
 
     public void PlayRandomEffect() {
