@@ -26,7 +26,7 @@ public class NpcIKController : MonoBehaviour {
     [Tooltip("Maximum angle at which the npc will follow the player with its head and chest ")]
     public float lookAtMaxAngle = 70;
 
-    public bool dontMoveHands = false;
+    //public bool dontMoveLeftHand = true;
 
 
     // Use this for initialization
@@ -63,15 +63,12 @@ public class NpcIKController : MonoBehaviour {
     }
 
     void OnAnimatorIK(int layerIndex) {
-        if (dontMoveHands) {
+        /*
+        if (dontMoveLeftHand) {
             animator.SetIKPosition(AvatarIKGoal.LeftHand, animator.GetBoneTransform(HumanBodyBones.LeftHand).position);
-            animator.SetIKRotation(AvatarIKGoal.LeftHand, animator.GetBoneTransform(HumanBodyBones.LeftHand).rotation);
             animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1);
-
-            animator.SetIKPosition(AvatarIKGoal.RightHand, animator.GetBoneTransform(HumanBodyBones.RightHand).position);
-            animator.SetIKRotation(AvatarIKGoal.RightHand, animator.GetBoneTransform(HumanBodyBones.RightHand).rotation);
-            animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
         }
+        */
 
         Vector3 headToPlayerV = Player.instance.fpCamera.transform.position - head.position;
 
