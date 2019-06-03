@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using Fungus;
 
 public class VideoToScene : MonoBehaviour {
 
@@ -20,6 +21,12 @@ public class VideoToScene : MonoBehaviour {
 
         videoPlayer.loopPointReached += EndReached;
         SkipVideo.skipVideo.AddListener(SkipIntro);
+
+        // ugly solution to fix fungus faded camera still persisting after scene load
+        CameraManager cm = FindObjectOfType<CameraManager>();
+        if(cm != null) {
+            cm.Fade(0, 1, null);
+        }
     }
 
 
