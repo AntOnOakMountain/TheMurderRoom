@@ -22,7 +22,13 @@ public class Lightning : MonoBehaviour {
     [Tooltip("how long  range the light will have when lightning strikes")]
     public float lightningRange = 100;
 
+    public float timeTillSound = 2f;
+
+    [FMODUnity.EventRef]
+    public string lightningSound;
+
     private Timer timer;
+    private Timer soundTimer;
 
     private bool lightOn = false;
 
@@ -45,6 +51,7 @@ public class Lightning : MonoBehaviour {
 
         timer = new Timer(Random.Range(howOftenMin, howOftenMax));
         timer.Start();
+        soundTimer = new Timer(timeTillSound);
     }
 
     // Update is called once per frame
@@ -74,7 +81,13 @@ public class Lightning : MonoBehaviour {
 
                 timer = new Timer(duration);
                 timer.Start();// restart timer
+                soundTimer.Start();
             }
+        }
+
+        if(soundTimer.IsActive() && soundTimer.IsDone() && lightningSound != null && lightningSound != "") {
+            soundTimer.Pause();
+            FMODUnity.RuntimeManager.PlayOneShot(lightningSound, this.transform.position);
         }
 
         if (lightOn) {
