@@ -234,9 +234,59 @@ GameObject:
   - component: {fileID: 114175887226642620}
   - component: {fileID: 114800616419247934}
   - component: {fileID: 114680315578015604}
-  - component: {fileID: 114021767248768688}
-  - component: {fileID: 114748374261443826}
-  - component: {fileID: 114233443691539836}
+  - component: {fileID: 114677925465011440}
+  - component: {fileID: 114662523212692062}
+  - component: {fileID: 114907973367668588}
+  - component: {fileID: 114280283488022176}
+  - component: {fileID: 114354385684568298}
+  - component: {fileID: 114448359212680226}
+  - component: {fileID: 114153304838719914}
+  - component: {fileID: 114207275946974926}
+  - component: {fileID: 114411758766509920}
+  - component: {fileID: 114833707701285782}
+  - component: {fileID: 114770493183254794}
+  - component: {fileID: 114785345755587912}
+  - component: {fileID: 114883633094132720}
+  - component: {fileID: 114161844937105480}
+  - component: {fileID: 114420623253102592}
+  - component: {fileID: 114747667507948724}
+  - component: {fileID: 114663539592176306}
+  - component: {fileID: 114699010505368206}
+  - component: {fileID: 114752093873408748}
+  - component: {fileID: 114135286976557484}
+  - component: {fileID: 114318106164165936}
+  - component: {fileID: 114497055057660708}
+  - component: {fileID: 114923172882666464}
+  - component: {fileID: 114889300313039314}
+  - component: {fileID: 114739267098334228}
+  - component: {fileID: 114618960296095700}
+  - component: {fileID: 114154437868194900}
+  - component: {fileID: 114353004963040444}
+  - component: {fileID: 114783564792515682}
+  - component: {fileID: 114279088095487412}
+  - component: {fileID: 114077228917635198}
+  - component: {fileID: 114488252367912774}
+  - component: {fileID: 114414860034315132}
+  - component: {fileID: 114886356828083106}
+  - component: {fileID: 114743207584396880}
+  - component: {fileID: 114667402914689684}
+  - component: {fileID: 114725317866807614}
+  - component: {fileID: 114329767802456636}
+  - component: {fileID: 114709919552135170}
+  - component: {fileID: 114015535679056772}
+  - component: {fileID: 114355969354627692}
+  - component: {fileID: 114389782372100624}
+  - component: {fileID: 114875571552407952}
+  - component: {fileID: 114733595615420148}
+  - component: {fileID: 114509143874559594}
+  - component: {fileID: 114312241751142446}
+  - component: {fileID: 114917311196933158}
+  - component: {fileID: 114406293241183042}
+  - component: {fileID: 114397751993700662}
+  - component: {fileID: 114298110408376572}
+  - component: {fileID: 114637682360753874}
+  - component: {fileID: 114678473184642542}
+  - component: {fileID: 114750783897987696}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -299,7 +349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -720.8473
     y: 201.0512
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -310,10 +360,12 @@ MonoBehaviour:
   commandList:
   - {fileID: 114229233617711878}
   - {fileID: 114139785511663890}
+  - {fileID: 114709919552135170}
   - {fileID: 114649178236603010}
   - {fileID: 114259699362235906}
   - {fileID: 114036562122215482}
   - {fileID: 114839885011047334}
+  - {fileID: 114329767802456636}
   - {fileID: 114336986797391904}
 --- !u!114 &114009432812738312
 MonoBehaviour:
@@ -335,6 +387,30 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114015535679056772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 736
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114015848982861660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -418,22 +494,6 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &114021767248768688
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 717
-  indentLevel: 0
-  text: "Dialog uppl\xE5st"
-  duration: 3
-  fadeDuration: 1
 --- !u!114 &114023681045801918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -728,7 +788,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1707.8639
     y: 753.29376
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -738,11 +798,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114095510742516864}
+  - {fileID: 114752093873408748}
   - {fileID: 114388003286782576}
   - {fileID: 114983163839796282}
-  - {fileID: 114233443691539836}
+  - {fileID: 114907973367668588}
   - {fileID: 114284712271856068}
   - {fileID: 114063566729759996}
+  - {fileID: 114699010505368206}
   - {fileID: 114055678576694548}
 --- !u!114 &114069829608794510
 MonoBehaviour:
@@ -826,6 +888,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114077228917635198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 745
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114085351611342210
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -937,7 +1023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1310.2454
     y: 268.22772
-    width: 135.45453
+    width: 137.05887
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -948,9 +1034,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114628699759395562}
   - {fileID: 114203023369992282}
+  - {fileID: 114917311196933158}
   - {fileID: 114937561435775424}
-  - {fileID: 114021767248768688}
+  - {fileID: 114677925465011440}
   - {fileID: 114675060728959154}
+  - {fileID: 114312241751142446}
   - {fileID: 114573015639270368}
 --- !u!114 &114115176727738618
 MonoBehaviour:
@@ -1020,6 +1108,30 @@ MonoBehaviour:
   itemId: 349
   indentLevel: 0
   delay: 0
+--- !u!114 &114135286976557484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 756
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114139785511663890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1074,6 +1186,78 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114153304838719914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 769
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114154437868194900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 749
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114161844937105480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 762
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114167321225481606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1339,6 +1523,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114207275946974926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 768
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114216194940188130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1587,22 +1795,6 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
---- !u!114 &114233443691539836
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 719
-  indentLevel: 0
-  text: "Dialog uppl\xE5st"
-  duration: 3
-  fadeDuration: 1
 --- !u!114 &114233985473148712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1648,7 +1840,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2024.9498
     y: 235.23094
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -1659,9 +1851,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 114241978717757820}
   - {fileID: 114844003411366358}
+  - {fileID: 114770493183254794}
   - {fileID: 114502052733081220}
   - {fileID: 114866933287018572}
   - {fileID: 114562332135320054}
+  - {fileID: 114833707701285782}
   - {fileID: 114554772058841992}
 --- !u!114 &114240659255673772
 MonoBehaviour:
@@ -1678,7 +1872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -925.5754
     y: 274.1032
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -1688,8 +1882,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114492762869948390}
+  - {fileID: 114875571552407952}
   - {fileID: 114796187024915824}
   - {fileID: 114365876041301922}
+  - {fileID: 114389782372100624}
   - {fileID: 114652863607550000}
   - {fileID: 114094327708784044}
   - {fileID: 114790376242823446}
@@ -1755,7 +1951,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1530.8163
     y: 764.8138
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1764,7 +1960,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114747667507948724}
   - {fileID: 114877421075292174}
+  - {fileID: 114663539592176306}
   - {fileID: 114679522154656776}
 --- !u!114 &114259699362235906
 MonoBehaviour:
@@ -1823,7 +2021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2369.521
     y: 155.48825
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -1832,10 +2030,60 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114354385684568298}
   - {fileID: 114783880063604694}
   - {fileID: 114085351611342210}
   - {fileID: 114760233438737908}
+  - {fileID: 114280283488022176}
   - {fileID: 114365718797425714}
+--- !u!114 &114279088095487412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 746
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114280283488022176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 772
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114284712271856068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1878,7 +2126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1003.9662
     y: 78.001335
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -1888,9 +2136,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114411778499214754}
+  - {fileID: 114414860034315132}
   - {fileID: 114421085414569698}
   - {fileID: 114437449420711400}
   - {fileID: 114450588018053420}
+  - {fileID: 114488252367912774}
   - {fileID: 114749534605178604}
 --- !u!114 &114295041879255262
 MonoBehaviour:
@@ -1907,7 +2157,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2023.5784
     y: 93.92989
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -1917,8 +2167,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114785362406638366}
+  - {fileID: 114411758766509920}
   - {fileID: 114661143112830108}
   - {fileID: 114855839289394754}
+  - {fileID: 114207275946974926}
   - {fileID: 114250554977897438}
 --- !u!114 &114297673658224238
 MonoBehaviour:
@@ -1944,8 +2196,34 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114637682360753874}
   - {fileID: 114167321225481606}
+  - {fileID: 114298110408376572}
   - {fileID: 114805736634501642}
+--- !u!114 &114298110408376572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 726
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114301813492325522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2000,6 +2278,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114312241751142446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 730
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114314070877714670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2054,6 +2356,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114318106164165936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 755
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114320835955027820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2130,6 +2456,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 399
   indentLevel: 0
+--- !u!114 &114329767802456636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 738
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114336986797391904
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2239,6 +2589,54 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114353004963040444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 748
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114354385684568298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 771
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114354462968730240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2265,11 +2663,37 @@ MonoBehaviour:
   commandList:
   - {fileID: 114372165182236868}
   - {fileID: 114229225718088986}
+  - {fileID: 114923172882666464}
   - {fileID: 114228908902604820}
   - {fileID: 114063330358320418}
   - {fileID: 114070639660875720}
   - {fileID: 114771691143597426}
+  - {fileID: 114497055057660708}
   - {fileID: 114096506085084390}
+--- !u!114 &114355969354627692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 735
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114359617154948474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2442,7 +2866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1339.4863
     y: 773.9541
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2451,8 +2875,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114420623253102592}
   - {fileID: 114059778178441978}
   - {fileID: 114546919090006902}
+  - {fileID: 114161844937105480}
   - {fileID: 114009432812738312}
 --- !u!114 &114388003286782576
 MonoBehaviour:
@@ -2481,6 +2907,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114389782372100624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 734
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114389842678604936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2543,6 +2993,30 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &114397751993700662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 727
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114400967509699668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2570,6 +3044,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114406293241183042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 728
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114406609464542002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2610,6 +3108,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 408
   indentLevel: 0
+--- !u!114 &114411758766509920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 767
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114411778499214754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2637,6 +3159,54 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114414860034315132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 743
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114420623253102592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114421085414569698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2691,6 +3261,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114448359212680226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 770
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114450045281260702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2788,6 +3382,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114488252367912774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 744
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114492762869948390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2815,6 +3433,30 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114497055057660708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114497677581591986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2830,7 +3472,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1206.2385
     y: 74.59228
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -2840,8 +3482,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114477755608187932}
+  - {fileID: 114743207584396880}
   - {fileID: 114987462398293950}
   - {fileID: 114233285090552268}
+  - {fileID: 114886356828083106}
   - {fileID: 114882579609038022}
 --- !u!114 &114499384361674900
 MonoBehaviour:
@@ -2885,6 +3529,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114509143874559594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 731
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114517906865290884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3069,7 +3737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1757.7214
+    x: -1758.898
     y: 214.23547
     width: 120
     height: 40
@@ -3081,9 +3749,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114537430244612714}
+  - {fileID: 114883633094132720}
   - {fileID: 114624879539872646}
   - {fileID: 114450954830423002}
   - {fileID: 114146090609536906}
+  - {fileID: 114785345755587912}
   - {fileID: 114866142216699388}
   - {fileID: 114385588399693550}
   - {fileID: 114882332194826164}
@@ -3111,8 +3781,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114750783897987696}
   - {fileID: 114347710852328608}
   - {fileID: 114769198684020334}
+  - {fileID: 114678473184642542}
   - {fileID: 114337508590629952}
 --- !u!114 &114573015639270368
 MonoBehaviour:
@@ -3149,7 +3821,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2374.2266
     y: 26.076447
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -3159,10 +3831,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114801683033137442}
+  - {fileID: 114153304838719914}
   - {fileID: 114015848982861660}
   - {fileID: 114325161537434888}
-  - {fileID: 114748374261443826}
+  - {fileID: 114662523212692062}
   - {fileID: 114764280402983288}
+  - {fileID: 114448359212680226}
   - {fileID: 114397700306731334}
 --- !u!114 &114585482830829308
 MonoBehaviour:
@@ -3206,7 +3880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -525.55634
     y: 292.0928
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -3216,10 +3890,36 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114023681045801918}
+  - {fileID: 114077228917635198}
   - {fileID: 114830920685489650}
   - {fileID: 114699945573687096}
   - {fileID: 114899709555390798}
+  - {fileID: 114279088095487412}
   - {fileID: 114938025950901102}
+--- !u!114 &114618960296095700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 750
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114624879539872646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3328,6 +4028,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114637682360753874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 725
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114645237022767984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3467,6 +4191,46 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114662523212692062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 721
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 5
+  fadeDuration: 1
+--- !u!114 &114663539592176306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 759
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114666679647474822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3480,6 +4244,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 703
   indentLevel: 0
+--- !u!114 &114667402914689684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 740
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114671574314152450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3616,6 +4404,46 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114677925465011440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 720
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 3
+  fadeDuration: 1
+--- !u!114 &114678473184642542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 724
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114679522154656776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3745,6 +4573,30 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &114699010505368206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114699945573687096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3772,6 +4624,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114709919552135170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 737
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114717813918307802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3839,10 +4715,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114364698526510246}
+  - {fileID: 114739267098334228}
   - {fileID: 114677751410395000}
   - {fileID: 114671574314152450}
   - {fileID: 114350768329854886}
   - {fileID: 114051735732553730}
+  - {fileID: 114889300313039314}
   - {fileID: 114655197967254662}
 --- !u!114 &114720567085879324
 MonoBehaviour:
@@ -3859,7 +4737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1120.6708
     y: 365.00638
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -3870,10 +4748,60 @@ MonoBehaviour:
   commandList:
   - {fileID: 114184201374655618}
   - {fileID: 114921949444921114}
+  - {fileID: 114509143874559594}
   - {fileID: 114808271842706222}
   - {fileID: 114406609464542002}
   - {fileID: 114687340912477440}
+  - {fileID: 114733595615420148}
   - {fileID: 114120937578665398}
+--- !u!114 &114725317866807614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 739
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114733595615420148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 732
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114733952144231236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3901,6 +4829,78 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114739267098334228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 751
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114743207584396880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 741
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114747667507948724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114748193054808164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3928,22 +4928,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &114748374261443826
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004049383744126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 718
-  indentLevel: 0
-  text: "Dialog uppl\xE5st"
-  duration: 5
-  fadeDuration: 1
 --- !u!114 &114749534605178604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3983,12 +4967,62 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114947643710263752}
+  - {fileID: 114154437868194900}
   - {fileID: 114203231825708922}
   - {fileID: 114069829608794510}
   - {fileID: 114903387551059736}
+  - {fileID: 114618960296095700}
   - {fileID: 114397307869230452}
   - {fileID: 114194655068260980}
   - {fileID: 114761861777275000}
+--- !u!114 &114750783897987696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 723
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114752093873408748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 757
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114760233438737908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4152,6 +5186,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114770493183254794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 765
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114770849535164744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4253,6 +5311,30 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &114783564792515682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 747
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114783880063604694
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4280,6 +5362,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114785345755587912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 764
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114785362406638366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4513,7 +5619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2202.9985
     y: 97.84112
-    width: 120
+    width: 120.588264
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -4690,6 +5796,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114833707701285782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 766
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114835350534487524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4825,10 +5955,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114897227778830194}
+  - {fileID: 114318106164165936}
   - {fileID: 114631742549917510}
   - {fileID: 114880696506890024}
   - {fileID: 114719643518386762}
   - {fileID: 114792581390568628}
+  - {fileID: 114135286976557484}
   - {fileID: 114940736050637480}
 --- !u!114 &114852837549733542
 MonoBehaviour:
@@ -4845,7 +5977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -530.06165
     y: 360.2747
-    width: 157.2727
+    width: 160.58829
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -4855,11 +5987,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114796099030921018}
+  - {fileID: 114783564792515682}
   - {fileID: 114517906865290884}
   - {fileID: 114359617154948474}
   - {fileID: 114981717496267688}
   - {fileID: 114776176357055718}
   - {fileID: 114835350534487524}
+  - {fileID: 114353004963040444}
   - {fileID: 114969174987527402}
 --- !u!114 &114855839289394754
 MonoBehaviour:
@@ -4931,6 +6065,30 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114875571552407952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 733
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114876306428364444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4955,10 +6113,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 114583523650949916}
-  selectedCommands:
-  - {fileID: 114748374261443826}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
   - {fileID: 114260736186146498}
@@ -5048,7 +6204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -722.7732
     y: 314.3856
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -5058,9 +6214,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 114073118599174298}
+  - {fileID: 114355969354627692}
   - {fileID: 114812564773969802}
   - {fileID: 114043259252184090}
   - {fileID: 114226729970721138}
+  - {fileID: 114015535679056772}
   - {fileID: 114937787901100716}
   - {fileID: 114220832219973910}
   - {fileID: 114983057929608808}
@@ -5105,6 +6263,78 @@ MonoBehaviour:
   itemId: 460
   indentLevel: 0
   delay: 0
+--- !u!114 &114883633094132720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 763
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114886356828083106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 742
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
+--- !u!114 &114889300313039314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 752
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114894136982866256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5214,6 +6444,46 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114907973367668588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a414ea0f2443748b30b64d0f8ff676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 722
+  indentLevel: 0
+  text: "Dialog uppl\xE5st"
+  duration: 3
+  fadeDuration: 1
+--- !u!114 &114917311196933158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 729
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114921949444921114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5254,6 +6524,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 379
   indentLevel: 0
+--- !u!114 &114923172882666464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76641c2c16481448eb6c0c1184fcdebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 753
+  indentLevel: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: Philosopher_State
+  value:
+    integerRef: {fileID: 0}
+    integerVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &114924337996224954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5293,6 +6587,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114397751993700662}
   - {fileID: 114894136982866256}
   - {fileID: 114303692552321652}
   - {fileID: 114301813492325522}
@@ -5302,6 +6597,7 @@ MonoBehaviour:
   - {fileID: 114825992679182736}
   - {fileID: 114770291419248704}
   - {fileID: 114843413807658608}
+  - {fileID: 114406293241183042}
   - {fileID: 114171839694371950}
 --- !u!114 &114937561435775424
 MonoBehaviour:
@@ -5464,7 +6760,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1108.7317
     y: 169.23201
-    width: 149.99998
+    width: 152.35298
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -5473,9 +6769,11 @@ MonoBehaviour:
   description: neutral
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 114725317866807614}
   - {fileID: 114204370784923872}
   - {fileID: 114825823665387106}
   - {fileID: 114793644245573804}
+  - {fileID: 114667402914689684}
   - {fileID: 114677605834445622}
   - {fileID: 114224563032889906}
   - {fileID: 114627579474226218}
