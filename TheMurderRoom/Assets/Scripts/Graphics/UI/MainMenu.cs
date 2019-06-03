@@ -7,28 +7,31 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
     public Button startButton;
+    public Button creditsButton;
     public Button quitButton;
 
-    private AsyncOperation loadScene;
     // Use this for initialization
     void Start () {
         startButton.onClick.AddListener(StartButtonPressed);
+        creditsButton.onClick.AddListener(CreditsButtonPressed);
         quitButton.onClick.AddListener(QuitButtonPressed);
-
-        loadScene = SceneManager.LoadSceneAsync("IntroScene");
-        loadScene.allowSceneActivation = false;
-        StartCoroutine(AsyncLoadScene());
     }
 
     void StartButtonPressed() {
-        loadScene.allowSceneActivation = true;
+        AsyncOperation loadScene = SceneManager.LoadSceneAsync("IntroScene");
+        StartCoroutine(AsyncLoadScene(loadScene));
     }
 
     void QuitButtonPressed() {
         Application.Quit();
     }
 
-    IEnumerator AsyncLoadScene() {
+    void CreditsButtonPressed() {
+        AsyncOperation loadScene = SceneManager.LoadSceneAsync("OutroScene");
+        StartCoroutine(AsyncLoadScene(loadScene));
+    }
+
+    IEnumerator AsyncLoadScene(AsyncOperation loadScene) {
         while (!loadScene.isDone) {
             yield return null;
         }
