@@ -130,7 +130,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*Stuff 3'
+  m_Text: "\n\n\n\n\nTryck 'F1' f\xF6r att st\xE4nga hj\xE4lprutan."
 --- !u!114 &114419700811192748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,7 +201,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5e3a8912f7933b14f85c20692138c16c, type: 3}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -212,7 +212,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*Stuff'
+  m_Text: "\nR\xF6r dig i rummet genom att anv\xE4nda pilarna eller 'W' 'A' 'S' 'D'.
+    \r\n\nInteragera med karakt\xE4rerna genom att anv\xE4nda 'v\xE4nster musknapp'.\r\n\nVrid
+    tillbaka tiden genom att trycka p\xE5 'T'. \r\n\nAvsluta spelet genom att trycka
+    p\xE5 'Esc'."
 --- !u!114 &114739914810329320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -271,7 +274,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5e3a8912f7933b14f85c20692138c16c, type: 3}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -282,7 +285,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*Stuff 2'
+  m_Text: "\n\n\n\nPrata med karakt\xE4rerna f\xF6r att l\xE5sa upp olika samtals\xE4mnen
+    och ledtr\xE5dar.\r All information sparas som minnen som kan anv\xE4ndas i nya
+    tidsloopar.\n\nOm en karakt\xE4r v\xE4grar att prata med dig kan det vara till
+    hj\xE4lp att vrida tillbaka tiden.\r\n\nGenom vissa dialogval f\xE5r du relationspo\xE4ng
+    som kr\xE4vs f\xF6r att klara ut spelet.\r\n"
 --- !u!222 &222080594008036600
 CanvasRenderer:
   m_ObjectHideFlags: 1
