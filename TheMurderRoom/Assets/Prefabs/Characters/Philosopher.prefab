@@ -2079,7 +2079,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1455349957409008}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1cb92f018b467944f8880a3db47c06a5, type: 3}
+  m_Avatar: {fileID: 9000000, guid: a02b4339e9d49a8488b4df19066eb770, type: 3}
   m_Controller: {fileID: 9100000, guid: 45bdb369f0d2010488da0050c927743b, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -2104,9 +2104,10 @@ MonoBehaviour:
   npc: {fileID: 0}
   rotationSpeed: 1
   headRotationAmount: 0.45
-  chestRotationAmount: 0
+  chestRotationAmount: 0.45
   lookAtDistance: 3
   lookAtMaxAngle: 70
+  dontMoveHands: 1
 --- !u!114 &114348976544025544
 MonoBehaviour:
   m_ObjectHideFlags: 1
