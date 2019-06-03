@@ -212,10 +212,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\nR\xF6r dig i rummet genom att anv\xE4nda pilarna eller 'W' 'A' 'S' 'D'.
-    \r\n\nInteragera med karakt\xE4rerna genom att anv\xE4nda 'v\xE4nster musknapp'.\r\n\nVrid
-    tillbaka tiden genom att trycka p\xE5 'T'. \r\n\nAvsluta spelet genom att trycka
-    p\xE5 'Esc'."
+  m_Text: "\r\nR\xF6r dig i rummet genom att anv\xE4nda 'pilarna' eller 'W' 'A' 'S'
+    'D'. \r\n\r\nInteragera med karakt\xE4rerna genom att anv\xE4nda v\xE4nster musknapp.\r\n\r\nVrid
+    tillbaka tiden genom att trycka p\xE5 'T'. \r\n\r\nAvsluta spelet genom att trycka
+    p\xE5 'Esc'.\r"
 --- !u!114 &114739914810329320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -289,7 +289,8 @@ MonoBehaviour:
     och ledtr\xE5dar.\r All information sparas som minnen som kan anv\xE4ndas i nya
     tidsloopar.\n\nOm en karakt\xE4r v\xE4grar att prata med dig kan det vara till
     hj\xE4lp att vrida tillbaka tiden.\r\n\nGenom vissa dialogval f\xE5r du relationspo\xE4ng
-    som kr\xE4vs f\xF6r att klara ut spelet.\r\n"
+    som kr\xE4vs f\xF6r att klara ut spelet, men var uppm\xE4rksam! Varje g\xE5ng
+    du vrider tillbaka tiden s\xE5 nollst\xE4lls de relationspo\xE4ng du samlat.\n"
 --- !u!222 &222080594008036600
 CanvasRenderer:
   m_ObjectHideFlags: 1
