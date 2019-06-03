@@ -358,7 +358,6 @@ GameObject:
   - component: {fileID: 114665081064466770}
   - component: {fileID: 114535991983911964}
   - component: {fileID: 114665380097060984}
-  - component: {fileID: 114445928833120304}
   - component: {fileID: 114874914070408862}
   - component: {fileID: 114890407016769940}
   - component: {fileID: 114226319388101950}
@@ -376,7 +375,6 @@ GameObject:
   - component: {fileID: 114867674890512054}
   - component: {fileID: 114580405656831856}
   - component: {fileID: 114582064045711580}
-  - component: {fileID: 114533537575836264}
   - component: {fileID: 114705620642873914}
   - component: {fileID: 114847830138316904}
   - component: {fileID: 114752130096326408}
@@ -497,6 +495,8 @@ GameObject:
   - component: {fileID: 114815899857694976}
   - component: {fileID: 114991651016614768}
   - component: {fileID: 114589477789503206}
+  - component: {fileID: 114069396033266546}
+  - component: {fileID: 114862939158441906}
   m_Layer: 0
   m_Name: CaptainFungus
   m_TagString: Untagged
@@ -1312,6 +1312,19 @@ MonoBehaviour:
   - {fileID: 114512310877584378}
   - {fileID: 114596088584009508}
   - {fileID: 114437746292762564}
+--- !u!114 &114069396033266546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c154652c0e6dd469655ee3c9c4539b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 735
+  indentLevel: 0
 --- !u!114 &114071004790923098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3902,8 +3915,8 @@ MonoBehaviour:
   - {fileID: 114371792504217798}
   - {fileID: 114665380097060984}
   - {fileID: 114847830138316904}
-  - {fileID: 114445928833120304}
-  - {fileID: 114533537575836264}
+  - {fileID: 114862939158441906}
+  - {fileID: 114069396033266546}
 --- !u!114 &114286493767306100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6060,21 +6073,6 @@ MonoBehaviour:
   - {fileID: 114391054404173686}
   - {fileID: 114385655769898000}
   - {fileID: 114847028722998680}
---- !u!114 &114445928833120304
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 576
-  indentLevel: 0
-  commenterName: 
-  commentText: "trigga slutscen d\xE4r kaptenen r\xE4cker dig motgiftet"
 --- !u!114 &114446126613723206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6962,20 +6960,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 705
   indentLevel: 0
---- !u!114 &114533537575836264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031038642531228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c784b19efbe8424fa879e0d6d883281, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 594
-  indentLevel: 0
-  loadingImage: {fileID: 0}
 --- !u!114 &114535991983911964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8512,7 +8496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 575
   indentLevel: 0
-  storyText: "H\xE4r. [slut]"
+  storyText: "H\xE4r."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10797,6 +10781,24 @@ MonoBehaviour:
   itemId: 158
   indentLevel: 0
   delay: 0
+--- !u!114 &114862939158441906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031038642531228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 732
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &114866166630117368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11751,7 +11753,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 114283200005852140}
   selectedCommands: []
   variables:
   - {fileID: 114147512082380746}
