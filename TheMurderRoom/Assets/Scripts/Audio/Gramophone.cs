@@ -11,6 +11,11 @@ public class Gramophone : MonoBehaviour {
     public FMODUnity.StudioEventEmitter part1;
     public float part2Duration = 3;
     public FMODUnity.StudioEventEmitter part2;
+    public FMODUnity.StudioEventEmitter failstate;
+
+    //[FMODUnity.EventRef]
+    //public string Failstate;
+
 
     private Timer timer;
     bool part1Active = true;
@@ -22,6 +27,9 @@ public class Gramophone : MonoBehaviour {
         part1.Play();
         timer = new Timer(part1Duration);
         timer.Start();
+        
+        failstate.Stop();
+        StartCoroutine(WaitOneFrameAfterStart());
     }
 	
 	// Update is called once per frame
@@ -45,5 +53,17 @@ public class Gramophone : MonoBehaviour {
     public void SetParameter(float p) {
         part1.SetParameter("Conversation", p);
         part2.SetParameter("Conversation", p);
+    }
+
+    IEnumerator WaitOneFrameAfterStart()
+    {
+        yield return new WaitForEndOfFrame();
+        Game.instance.timeLeftChanged.AddListener(OneTickLeft);
+    }
+
+    public void OneTickLeft(){
+        if (Game.instance.timeLeft == 1){
+            failstate.Play();
+        }
     }
 }
