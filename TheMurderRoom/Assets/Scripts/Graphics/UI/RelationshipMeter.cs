@@ -73,7 +73,7 @@ public class RelationshipMeter : MonoBehaviour {
         value =  Mathf.Clamp(value, -halfNumberOfValues, halfNumberOfValues);
        
         if (value != currentValue) {
-            if(soundEmitter.Event != null && soundEmitter.Event != "") {
+            if(soundEmitter != null && soundEmitter.Event != null && soundEmitter.Event != "") {
                 soundEmitter.Play();
             }
             lastValue = currentValue;
