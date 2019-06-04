@@ -7,9 +7,9 @@ public class Gramophone : MonoBehaviour {
 
     public static Gramophone instance;
 
-    public float part1Duration = 3;
+    public float part1Duration = 108;
     public FMODUnity.StudioEventEmitter part1;
-    public float part2Duration = 3;
+    public float part2Duration = 178;
     public FMODUnity.StudioEventEmitter part2;
     public FMODUnity.StudioEventEmitter failstate;
 

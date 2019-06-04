@@ -23,7 +23,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
 
     private Timer waitForParticleSystem;
 
-    private FMODUnity.StudioEventEmitter soundEmitter;
+    //private FMODUnity.StudioEventEmitter soundEmitter;
 
     private AsyncOperation loadScene;
 
@@ -37,7 +37,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
 
         waitForParticleSystem = new Timer(2f);
         timer = new Timer(duration);
-        soundEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
+        //soundEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
     }
 
     public void Activate(bool reverse) {
@@ -65,7 +65,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
             StartCoroutine(AsyncLoadScene());
         }
         light.range = start;
-        soundEmitter.Play();
+        //soundEmitter.Play();
     }
 
     public void Update() {
@@ -92,7 +92,7 @@ public class TimeTravelLightEffect : MonoBehaviour {
                 reverseMagicCircle.gameObject.SetActive(false);
                 magicCircle.gameObject.SetActive(false);
                 Game.instance.SetState(Game.State.Play);
-                soundEmitter.Stop();
+                //soundEmitter.Stop();
             }          
         }
     }
