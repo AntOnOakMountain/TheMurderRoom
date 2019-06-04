@@ -101,6 +101,7 @@ public class Game : MonoBehaviour {
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
                 UIManager.Instance.helpButton.gameObject.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 break;
             case State.Play:
                 Gramophone.instance.SetParameter(0f);
@@ -117,6 +118,7 @@ public class Game : MonoBehaviour {
                 UIManager.Instance.quitButton.gameObject.SetActive(true);
                 UIManager.Instance.helpButton.gameObject.SetActive(true);
                 Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
                 break;
             case State.Menu:
                 Gramophone.instance.SetParameter(0f);
@@ -125,6 +127,7 @@ public class Game : MonoBehaviour {
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
                 UIManager.Instance.helpButton.gameObject.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 break;
             case State.Cutscene:
                 Gramophone.instance.SetParameter(0f);
@@ -133,6 +136,7 @@ public class Game : MonoBehaviour {
                 UIManager.Instance.quitButton.gameObject.SetActive(false);
                 UIManager.Instance.helpButton.gameObject.SetActive(false);
                 Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
                 break;
         }
     }
