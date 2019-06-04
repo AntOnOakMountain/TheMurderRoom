@@ -400,6 +400,8 @@ MonoBehaviour:
   duration: 1
   lightningIntensity: 4
   lightningRange: 80
+  timeTillSound: 2
+  lightningSound: event:/3D/AMB_Room/AMB_Lightning
   maxYOffset: 2
   maxXOffset: 10
 --- !u!114 &114281029448247658
@@ -418,6 +420,8 @@ MonoBehaviour:
   duration: 1
   lightningIntensity: 4
   lightningRange: 80
+  timeTillSound: 2
+  lightningSound: event:/3D/AMB_Room/AMB_Lightning
   maxYOffset: 2
   maxXOffset: 10
 --- !u!114 &114895890776884606
@@ -436,5 +440,7 @@ MonoBehaviour:
   duration: 1
   lightningIntensity: 4
   lightningRange: 80
+  timeTillSound: 2
+  lightningSound: event:/3D/AMB_Room/AMB_Lightning
   maxYOffset: 2
   maxXOffset: 10

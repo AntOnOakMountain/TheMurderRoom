@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour {
     }
 
     void CreditsButtonPressed() {
-        AsyncOperation loadScene = SceneManager.LoadSceneAsync("OutroScene");
+        AsyncOperation loadScene = SceneManager.LoadSceneAsync("CreditsScene");
         StartCoroutine(AsyncLoadScene(loadScene));
     }
 
