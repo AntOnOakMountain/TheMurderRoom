@@ -15,6 +15,8 @@ public class MainMenu : MonoBehaviour {
         startButton.onClick.AddListener(StartButtonPressed);
         creditsButton.onClick.AddListener(CreditsButtonPressed);
         quitButton.onClick.AddListener(QuitButtonPressed);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     void StartButtonPressed() {
