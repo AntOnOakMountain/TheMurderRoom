@@ -38,6 +38,7 @@ public class Gramophone : MonoBehaviour {
             if (part1Active) {
                 part1Active = false;
                 part2.Play();
+                part1.Stop();
                 timer = new Timer(part2Duration);
                 timer.Start();
             }
