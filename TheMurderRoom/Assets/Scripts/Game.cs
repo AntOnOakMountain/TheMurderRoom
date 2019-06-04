@@ -51,14 +51,14 @@ public class Game : MonoBehaviour {
         previousTimeLeft = timeLeft;
 
         if (!timeUp) {
-            #if (!UNITY_EDITOR)
-                if (Input.GetKey("escape")) {
-                    ExitMenu.instance.gameObject.SetActive(true);
-                    SetState(State.Menu);
-                }
-            #endif
-
             if (state == State.Play) {
+                 #if (!UNITY_EDITOR)
+                    if (Input.GetKey("escape")) {
+                        ExitMenu.instance.gameObject.SetActive(true);
+                        SetState(State.Menu);
+                    }
+                 #endif
+
                 if (Input.GetButtonDown("RewindTime")) {
                     RewindTime(false);
                 }
