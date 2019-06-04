@@ -47,6 +47,7 @@ public class RelationshipMeter : MonoBehaviour {
         interpolation = 0;
 
         blinkNoAlphaColor = new Color(blink.color.r, blink.color.g, blink.color.b, 0);
+        blink.color = blinkNoAlphaColor;
 
         soundEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
     }

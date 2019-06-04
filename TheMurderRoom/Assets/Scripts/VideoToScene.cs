@@ -27,6 +27,8 @@ public class VideoToScene : MonoBehaviour {
         if(cm != null) {
             cm.Fade(0, 1, null);
         }
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
 
