@@ -25,6 +25,8 @@ public class TimeTravelLightEffect : MonoBehaviour {
 
     private FMODUnity.StudioEventEmitter soundEmitter;
 
+    private AsyncOperation loadScene;
+
     public void Start() {
         instance = this;
         light = GetComponent<Light>();
@@ -41,6 +43,9 @@ public class TimeTravelLightEffect : MonoBehaviour {
     public void Activate(bool reverse) {
         Game.instance.SetState(Game.State.Cutscene);
         this.reverse = reverse;
+
+        gameObject.SetActive(true);
+
         if (reverse) {
             reverseMagicCircle.gameObject.SetActive(true);
             start = goalRange;
@@ -54,10 +59,13 @@ public class TimeTravelLightEffect : MonoBehaviour {
             end = goalRange;
             waitForParticleSystem.Start();
             timer = new Timer(duration);
+
+            loadScene = SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            loadScene.allowSceneActivation = false;
+            StartCoroutine(AsyncLoadScene());
         }
         light.range = start;
         soundEmitter.Play();
-        gameObject.SetActive(true);
     }
 
     public void Update() {
@@ -75,7 +83,8 @@ public class TimeTravelLightEffect : MonoBehaviour {
         }
         if (timer.IsDone()) {
             if (!reverse) {
-                SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+                loadScene.allowSceneActivation = true;
+                //SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
             }
             else {
                 timer.Pause();
@@ -85,6 +94,12 @@ public class TimeTravelLightEffect : MonoBehaviour {
                 Game.instance.SetState(Game.State.Play);
                 soundEmitter.Stop();
             }          
+        }
+    }
+
+    IEnumerator AsyncLoadScene() {
+        while (!loadScene.isDone) {
+            yield return null;
         }
     }
 }
