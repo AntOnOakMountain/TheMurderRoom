@@ -41,6 +41,10 @@ public class Game : MonoBehaviour {
         timeLeft = globalFlowchart.GetIntegerVariable("time_left");
         previousTimeLeft = timeLeft;
         SetState(State.Play);
+
+        if(globalFlowchart.GetBooleanVariable("FirstTime")) {
+            UIManager.Instance.ToggleHelpMenu();
+        }
     }
 
     void Update() {
