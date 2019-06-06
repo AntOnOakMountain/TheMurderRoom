@@ -287,6 +287,15 @@ GameObject:
   - component: {fileID: 114637682360753874}
   - component: {fileID: 114678473184642542}
   - component: {fileID: 114750783897987696}
+  - component: {fileID: 114909164914740820}
+  - component: {fileID: 114116791217159120}
+  - component: {fileID: 114391697152535806}
+  - component: {fileID: 114092254156791558}
+  - component: {fileID: 114903086489343356}
+  - component: {fileID: 114387379524544828}
+  - component: {fileID: 114123848775605894}
+  - component: {fileID: 114318567498378090}
+  - component: {fileID: 114143908951960516}
   m_Layer: 0
   m_Name: PhilosopherFungus
   m_TagString: Untagged
@@ -349,7 +358,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -720.8473
     y: 201.0512
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -630,7 +639,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1122.3477
     y: 272.62363
-    width: 149.99998
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -656,7 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 534
   indentLevel: 0
-  storyText: (dricker av vinet)
+  storyText: '...'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -788,7 +797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1707.8639
     y: 753.29376
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -799,6 +808,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 114095510742516864}
   - {fileID: 114752093873408748}
+  - {fileID: 114387379524544828}
   - {fileID: 114388003286782576}
   - {fileID: 114983163839796282}
   - {fileID: 114907973367668588}
@@ -940,6 +950,22 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114092254156791558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 777
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Harklar
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114094327708784044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1023,7 +1049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1310.2454
     y: 268.22772
-    width: 137.05887
+    width: 124.62687
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -1038,6 +1064,7 @@ MonoBehaviour:
   - {fileID: 114937561435775424}
   - {fileID: 114677925465011440}
   - {fileID: 114675060728959154}
+  - {fileID: 114143908951960516}
   - {fileID: 114312241751142446}
   - {fileID: 114573015639270368}
 --- !u!114 &114115176727738618
@@ -1067,6 +1094,22 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114116791217159120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 779
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Fnyser
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114120238887963318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1108,6 +1151,22 @@ MonoBehaviour:
   itemId: 349
   indentLevel: 0
   delay: 0
+--- !u!114 &114123848775605894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 774
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Suckar
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114135286976557484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1159,6 +1218,33 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &114143908951960516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 781
+  indentLevel: 0
+  storyText: '...'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  addToJournal: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &114146090609536906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1172,7 +1258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 496
   indentLevel: 0
-  storyText: (dricker av vinet)
+  storyText: '...'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1840,7 +1926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2024.9498
     y: 235.23094
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -1852,6 +1938,7 @@ MonoBehaviour:
   - {fileID: 114241978717757820}
   - {fileID: 114844003411366358}
   - {fileID: 114770493183254794}
+  - {fileID: 114903086489343356}
   - {fileID: 114502052733081220}
   - {fileID: 114866933287018572}
   - {fileID: 114562332135320054}
@@ -1872,7 +1959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -925.5754
     y: 274.1032
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -1883,6 +1970,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 114492762869948390}
   - {fileID: 114875571552407952}
+  - {fileID: 114116791217159120}
   - {fileID: 114796187024915824}
   - {fileID: 114365876041301922}
   - {fileID: 114389782372100624}
@@ -1951,7 +2039,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1530.8163
     y: 764.8138
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1977,7 +2065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 353
   indentLevel: 0
-  storyText: (dricker av vinet)
+  storyText: '...'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2021,7 +2109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2369.521
     y: 155.48825
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -2124,9 +2212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1003.9662
+    x: -1001.6406
     y: 78.001335
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -2157,7 +2245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2023.5784
     y: 93.92989
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -2380,6 +2468,22 @@ MonoBehaviour:
     integerVal: 1
   animatorOLD: {fileID: 0}
   parameterNameOLD: 
+--- !u!114 &114318567498378090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 773
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Fnyser
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114320835955027820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2851,6 +2955,22 @@ MonoBehaviour:
   isAMemory:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &114387379524544828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 775
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Suckar
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114387519348793388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2866,7 +2986,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1339.4863
     y: 773.9541
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2944,6 +3064,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 377
   indentLevel: 0
+--- !u!114 &114391697152535806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 778
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Harklar
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114394999410059406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3472,7 +3608,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1206.2385
     y: 74.59228
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -3821,7 +3957,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2374.2266
     y: 26.076447
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -3880,7 +4016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -525.55634
     y: 292.0928
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -3892,6 +4028,7 @@ MonoBehaviour:
   - {fileID: 114023681045801918}
   - {fileID: 114077228917635198}
   - {fileID: 114830920685489650}
+  - {fileID: 114909164914740820}
   - {fileID: 114699945573687096}
   - {fileID: 114899709555390798}
   - {fileID: 114279088095487412}
@@ -4348,7 +4485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 322
   indentLevel: 0
-  storyText: "Och jag \xE4r till er tj\xE4nst, ministern. Sk\xE5l."
+  storyText: "Och jag \xE4r till er tj\xE4nst, ministern."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4716,6 +4853,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 114364698526510246}
   - {fileID: 114739267098334228}
+  - {fileID: 114318567498378090}
   - {fileID: 114677751410395000}
   - {fileID: 114671574314152450}
   - {fileID: 114350768329854886}
@@ -4737,7 +4875,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1120.6708
     y: 365.00638
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -4750,6 +4888,7 @@ MonoBehaviour:
   - {fileID: 114921949444921114}
   - {fileID: 114509143874559594}
   - {fileID: 114808271842706222}
+  - {fileID: 114092254156791558}
   - {fileID: 114406609464542002}
   - {fileID: 114687340912477440}
   - {fileID: 114733595615420148}
@@ -5145,7 +5284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 479
   indentLevel: 0
-  storyText: (dricker av vinet)
+  storyText: '...'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5466,7 +5605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 425
   indentLevel: 0
-  storyText: (dricker ur vinglaset)
+  storyText: '...'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5619,7 +5758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2202.9985
     y: 97.84112
-    width: 120.588264
+    width: 120
     height: 40
   tint: {r: 0.53622407, g: 0.5369377, b: 0.6397059, a: 1}
   useCustomTint: 1
@@ -5956,6 +6095,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 114897227778830194}
   - {fileID: 114318106164165936}
+  - {fileID: 114123848775605894}
   - {fileID: 114631742549917510}
   - {fileID: 114880696506890024}
   - {fileID: 114719643518386762}
@@ -5977,7 +6117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -530.06165
     y: 360.2747
-    width: 160.58829
+    width: 142.53732
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -6102,18 +6242,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc: {fileID: 0}
   version: 1
-  scrollPos: {x: 2562.1348, y: 246.63828}
+  scrollPos: {x: 2554.6338, y: 244.08759}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 406
-  zoom: 0.5500001
+  zoom: 0.66999996
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 114583523650949916}
   selectedCommands: []
   variables:
   - {fileID: 114499384361674900}
@@ -6204,7 +6345,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -722.7732
     y: 314.3856
-    width: 152.35298
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -6417,6 +6558,22 @@ MonoBehaviour:
   waitForVO: 0
   addToJournal: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &114903086489343356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 776
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Skratta_kort
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114903387551059736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6460,6 +6617,22 @@ MonoBehaviour:
   text: "Dialog uppl\xE5st"
   duration: 3
   fadeDuration: 1
+--- !u!114 &114909164914740820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1004049383744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 780
+  indentLevel: 0
+  soundClip: event:/VO/Philosopher/Harklar
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &114917311196933158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6759,8 +6932,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -1108.7317
-    y: 169.23201
-    width: 152.35298
+    y: 167.73947
+    width: 136.56717
     height: 40
   tint: {r: 0.7185531, g: 0.8308824, b: 0.64149004, a: 1}
   useCustomTint: 1
@@ -6771,6 +6944,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 114725317866807614}
   - {fileID: 114204370784923872}
+  - {fileID: 114391697152535806}
   - {fileID: 114825823665387106}
   - {fileID: 114793644245573804}
   - {fileID: 114667402914689684}
